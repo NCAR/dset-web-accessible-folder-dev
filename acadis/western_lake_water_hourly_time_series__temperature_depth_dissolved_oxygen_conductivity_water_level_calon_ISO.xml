@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd
+                        http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd
+                        http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
+
+    <gmd:fileIdentifier>
+        <gco:CharacterString>urn:x-wmo:md:org.aoncadis.www::91f99167-64e0-11e2-9046-00c0f03d5b7c</gco:CharacterString>
+    </gmd:fileIdentifier>
+
+    <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </gmd:language>
+
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+
+    <gmd:parentIdentifier>
+        <gco:CharacterString>urn:x-wmo:md:org.aoncadis.www::f241358e-2441-11e2-9785-00c0f03d5b7c</gco:CharacterString>
+    </gmd:parentIdentifier>
+
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+                <gco:CharacterString>UCAR/NCAR - CISL - ACADIS</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+
+    <gmd:dateStamp>
+        <gco:DateTime>2013-01-22T15:10:45Z</gco:DateTime>
+    </gmd:dateStamp>
+
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115 Geographic information - Metadata</gco:CharacterString>
+    </gmd:metadataStandardName>
+
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115:2003(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://www.aoncadis.org/dataset/id/91f99167-64e0-11e2-9046-00c0f03d5b7c.iso19139</gco:CharacterString>
+    </gmd:dataSetURI>
+
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Western Lake water hourly time series - Temperature, depth, dissolved oxygen, conductivity, water level (CALON)</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2013-01-22</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-02-05</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Water quality time series files for ~30 lakes on the North Slope of Alaska in the western transect of our project. Separate research teams work on two transects (Eastern and Western), and the lakes are subdivided by these regional groupings. This dataset contains lake code names, field notes, and subdirectories of the data separated by year collected. These include time series of water temperature and lake depth, and dissolved oxygen and conductivity for a select group of lakes (&quot;focus lakes&quot;). ReadMe files provide the instrumentation and logging details, and there are files that contain the location of each site.
+
+Details:
+These folders contain .csv files of lake water temperature time series collected during the period April to August.  Data collected at the same locations using the same configuration will be found in the yearly files, where the year is defined as that year when the data were downloaded.
+At the first subfolder level, the lakes are differentiated by the Eastern and Western Transects; see accompanying jpg image (CALON_sites_overview.jpg) and list of Lake Float Locations.  The instrumentation configuration is identical in most cases.  Generally, a rope is attached to an anchor.  The other end of the rope is attached to a float.  An Onset computer U12-015 water temperature data logger is affixed to the rope 30 cm below the float.  Another data logger (U20) is attached to the rope just above the anchor.  The U20 is a water level/water temperature logger, so records the change in the water depth over the period of record.   The water level is calibrated and corrected using the barometric pressure record from the nearest terrestrial met station.  This is done in the Onset Hoboware software.  All sensor specifications are shown below. 
+In April, a 10 diameter hole is augured through the ice and the instrument string is lowered to the lake bottom.  A pole is used to push the float down the hole and beneath the ice, where it remains until the ice cover melts in spring.  Thus, the upper logger is measuring the temperature near the base of the ice slab, which moves toward the surface as the flow melts and thins.  The loggers are retrieved in August, and a new instrument package is deployed.  The floats are redeployed in the original location the following April.  It should be noted that there is often some movement of the floats that get entrained by the moving ice slab in spring or by strong wave activity in summer. 
+All loggers record hourly measurements on the hour using Alaska Daylight Time (ADT).  In each data file, column headings are Date, Time, ADT, TempC(deployment depth of upper logger), TempC (deployment depth of lower logger), Water Level, m.
+In a few cases, additional sensor strings were deployed at a different location in the same lake.  This typically occurred when the lake was especially deep (&gt;4 m), and was designed to obtain measurements of the entire water column.  In these cases, an Onset Computer U23 water temperature logger was used.  These data are shown as additional columns in the .csv files.
+Finally, there are also some stand alone files for a few select lakes (focus lakes) that report time series of water quality including dissolved oxygen and conductivity.  Loggers were manufactured by Onset Computer; Hobo U24-001 for conductivity and U26-001 for the dissolved oxygen (see specs below).  These loggers were attached to the base of the instrument string described below for a few lakes.  Loggers are deployed in August, recovered the following August, serviced, and redeployed.  Measurements are collected hourly.
+
+
+
+
+Pressure and Water Level Measurements U20-001-01 andU20-001-01-Ti
+ 	Operation Range 	0 to 207 kPa (0 to 30 psia); approximately 0 to 9 m (0 to 30 ft) of water depth at sea level, or 0 to 12 m (0 to 40 ft) of water at 3,000 m (10,000 ft) of altitude
+ 	Factory Calibrated Range 	69 to 207 kPa (10 to 30 psia), 0° to 40°C (32° to 104°F)
+ 	Burst Pressure 	310 kPa (45 psia) or 18 m (60 ft) depth
+ 	Water Level Accuracy* 	Typical error: ±0.05% FS, 0.5 cm (0.015 ft) water 
+Maximum error: ±0.1% FS, 1.0 cm (0.03 ft) water
+ 	Raw Pressure Accuracy**	±0.3% FS, 0.62 kPa (0.09 psi) maximum error
+ 	Resolution 	&lt; 0.02 kPa (0.003 psi), 0.21 cm (0.007 ft) water
+ 	Pressure Response Time (90%)	&lt; 1 second
+ 	Thermal Response Time (90%)***	Approximately 10 minutes in water to achieve full temperature compensation of the pressure sensor
+
+Temperature Measurements (All Models)
+ 	Operation Range 	-20° to 50°C (-4° to 122°F) 
+ 	Accuracy	±0.44°C from 0° to 50°C (±0.79°F from 32° to 122°F), see Plot A 
+ 	Resolution	0.10°C at 25°C (0.18°F at 77°F), see Plot A 
+ 	Response Time (90%)	3.5 minutes in water (typical) 
+ 	Stability (Drift)	0.1°C (0.18°F) per year 
+
+
+HOBO U12 Stainless Temperature Data Logger - U12-015
+Measurement range: -40° to 125°C (-40° to 257°F)
+Accuracy: ± 0.25°C from 0° to 50°C (± 0.45°F from 32° to 122°F), see Plot A
+Resolution: 0.03°C at 25°C (0.05°F at 77°F), see Plot A
+Drift: 0.05°C/year + 0.1°C/1000 hrs above 100°C (0.09°F/year + 0.2°F/1000 hrs above 212°F)
+Response time in 1 m/s (2.2 mph) airflow:
+U12-015: &lt; 10 minutes, typical to 90% 
+U12-015-02: 2.25 minutes, typical to 90%
+Response time in water:
+U12-015: &lt; 3.5 minutes, typical to 90% 
+U12-015-02: 20 seconds, typical to 90%
+Time accuracy: ± 2 minute per month at 25°C (77°F), see Plot B
+Operating environment: Air, water, steam, 0 to 100% RH
+Operating temperature:
+Logging: -40° to 125°C (-40° to 257°F)
+Launch/readout: 0° to 50°C (32° to 122°F), per USB specification
+
+
+HOBO Water Temperature Pro v2 Data Logger - U22-001
+
+Operation range: -40° to 70°C (-40° to 158°F) in air; maximum sustained temperature of 50°C (122°F) in water
+Accuracy: ±0.21°C from 0° to 50°C (±0.38°F from 32° to 122°F)
+
+Resolution: 0.02°C at 25°C (0.04°F at 77°F)
+
+Response time: (90%) 5 minutes in water; 12 minutes in air moving 2 m/sec (typical)
+
+Stability (drift): 0.1°C (0.18°F) per year
+HOBO Conductivity Data Logger - U24-001
+
+Memory - 18,500 temperature and conductivity measurements when using one conductivity range; 14,400 sets of measurements when using both conductivity ranges (64kbytes)
+Sample rate - 1 second to 18 hrs, fixed or multiple-rate sampling with up to 8 user-defined sampling intervals
+Battery life - 3 years (@ 1 min logging)
+Maximum Depth - 70 m (225&apos;)
+Operating Range - -2 to 36°C (28° to 97°F) - non freezing
+Weight - 193 gm (6.82 ounces), buoyancy in freshwater: -59.8 gm (-2.11 ounces)
+Size - 3.18 cm diameter x 16.5 cm, with 6.3 mm mounting hole (1.25&quot; diameter x 6.5&quot;, ¼&quot; hole)
+Calibrated Range - Conductivity: Low Range: 0 to 1,000 µS/cm; Full Range: 0 to 10,000 µS/cm - Temperature: 5 to 35C (41 to 95F)
+Accuracy - Conductivity: 3% of reading, or 5 µS/cm, whichever is greater / Temperature: 0.1C (0.2F)
+Resolution -Conductivity: 1 uS/cm - Temperature: 0.01°C (0.02°F)
+Response time - 1 second to 90% of change
+HOBO Dissolved Oxygen Logger - U26-001
+Dissolved Oxygen	 
+ 	Sensor Type	Optical
+ 	Measurement Range	0 to 30 mg/L
+ 	Calibrated Range	0 to 20 mg/L; 0 to 35°C (32 to 95°F) 
+ 	Accuracy 	0.2 mg/L up to 8 mg/L; 0.5 mg/L from 8 to 20 mg/L 
+ 	Resolution 	0.02 mg/L 
+ 	Response Time	To 90% in less than 2 minutes
+ 	DO Sensor Cap Life	6 months, cap expires 7 months after initialization
+Temperature	 
+ 	Temperature Measurement/Operating Range	-5 to 40°C (23 to 104°F); non-Freezing
+ 	Temperature Accuracy 	0.2°C (0.36°F) 
+ 	Temperature Resolution 	0.02°C (0.04°F) 
+ 	Response Time 	To 90% in less than 30 minutes 
+Logger	 
+ 	Memory	21,700 sets of DO and temperature measurements (64 KB total memory)
+ 	Logging Rate	1 minute to 18 hours
+ 	Time Accuracy	±1 minute per month at 0 to 50°C (32 to 122°F)
+ 	Battery	3.6 V lithium battery; factory replaceable
+ 	Battery Life	3 years (at 5 minute logging)
+ 	Download Type	Optical
+ 	Depth Rating	100 m (328 ft)
+ 	Wetted Materials	Black Delrin®, PVC, EPDM o-rings, silicone bronze screws; rated for saltwater use 
+ 	Size	39.6 mm diameter x 266.7 mm length (1.56 x 10.5 inches)
+ 	Weight	464 g (16.37 oz)</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>Other ASCII</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="unknown"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; WATER QUALITY/WATER CHEMISTRY &gt; WATER TEMPERATURE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; LAKES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; WATER DEPTH</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Science and Services Keywords</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-05-21</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:collectiveTitle>
+                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                            </gmd:collectiveTitle>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>IN SITU/LABORATORY INSTRUMENTS &gt; RECORDERS/LOGGERS &gt; TEMPERATURE LOGGERS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>IN SITU/LABORATORY INSTRUMENTS &gt; TEMPERATURE/HUMIDITY SENSORS &gt; THERMISTORS &gt; THERMISTORS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>IN SITU/LABORATORY INSTRUMENTS &gt; GAUGES &gt; WATER LEVEL GAUGES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Instruments</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-08-28</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:collectiveTitle>
+                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                            </gmd:collectiveTitle>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>AUTOMATED SURFACE OBSERVING SYSTEM</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>MOORING</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>ACADIS Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Platforms</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-10-07</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>VERTICAL PROFILE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>ACADIS Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Spatial Data Type</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-10-07</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>POINT</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Horizontal Data Resolution</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-05-21</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:collectiveTitle>
+                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                            </gmd:collectiveTitle>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>HOURLY TO DAILY</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:alternateTitle>
+                                <gco:CharacterString>Temporal Data Resolution</gco:CharacterString>
+                            </gmd:alternateTitle>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2014-05-21</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:collectiveTitle>
+                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                            </gmd:collectiveTitle>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Access Constraints: No Access Constraints. Use Constraints: No Use Constraints.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicDescription>
+                            <gmd:geographicIdentifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:authority>
+                                        <gmd:CI_Citation>
+                                            <gmd:title>
+                                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                                            </gmd:title>
+                                            <gmd:alternateTitle>
+                                                <gco:CharacterString>Locations</gco:CharacterString>
+                                            </gmd:alternateTitle>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date>
+                                                        <gco:Date>2014-08-28</gco:Date>
+                                                    </gmd:date>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                            <gmd:collectiveTitle>
+                                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                                            </gmd:collectiveTitle>
+                                        </gmd:CI_Citation>
+                                    </gmd:authority>
+                                    <gmd:code>
+                                        <gco:CharacterString>GEOGRAPHIC REGION &gt; POLAR</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:geographicIdentifier>
+                        </gmd:EX_GeographicDescription>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicDescription>
+                            <gmd:geographicIdentifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:authority>
+                                        <gmd:CI_Citation>
+                                            <gmd:title>
+                                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                                            </gmd:title>
+                                            <gmd:alternateTitle>
+                                                <gco:CharacterString>Locations</gco:CharacterString>
+                                            </gmd:alternateTitle>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date>
+                                                        <gco:Date>2014-08-28</gco:Date>
+                                                    </gmd:date>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                            <gmd:collectiveTitle>
+                                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                                            </gmd:collectiveTitle>
+                                        </gmd:CI_Citation>
+                                    </gmd:authority>
+                                    <gmd:code>
+                                        <gco:CharacterString>GEOGRAPHIC REGION &gt; ARCTIC</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:geographicIdentifier>
+                        </gmd:EX_GeographicDescription>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicDescription>
+                            <gmd:geographicIdentifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:authority>
+                                        <gmd:CI_Citation>
+                                            <gmd:title>
+                                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                                            </gmd:title>
+                                            <gmd:alternateTitle>
+                                                <gco:CharacterString>Locations</gco:CharacterString>
+                                            </gmd:alternateTitle>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date>
+                                                        <gco:Date>2014-08-28</gco:Date>
+                                                    </gmd:date>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                            <gmd:collectiveTitle>
+                                                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                                            </gmd:collectiveTitle>
+                                        </gmd:CI_Citation>
+                                    </gmd:authority>
+                                    <gmd:code>
+                                        <gco:CharacterString>UNITED STATES OF AMERICA &gt; ALASKA</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:geographicIdentifier>
+                        </gmd:EX_GeographicDescription>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-157</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-149</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>68.5</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>71.5</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>Other ASCII</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="unknown"/>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - CISL - ACADIS</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>https://www.aoncadis.org/dataset/id/91f99167-64e0-11e2-9046-00c0f03d5b7c.html</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>https</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:applicationProfile>
+                                <gco:CharacterString>browser</gco:CharacterString>
+                            </gmd:applicationProfile>
+                            <gmd:name>
+                                <gco:CharacterString>Western Lake water hourly time series - Temperature, depth, dissolved oxygen, conductivity, water level (CALON)</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString>Metadata Link</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:function>
+                                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                            </gmd:function>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+
+</gmd:MD_Metadata>
+
