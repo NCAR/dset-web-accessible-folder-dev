@@ -8,10 +8,15 @@
                  xsi:schemaLocation="http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd
                         http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd
                         http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
-
+    <!-- DataCite: Identifier -->
     <gmd:fileIdentifier>
         <gco:CharacterString>DataCite - IDENTIFIER</gco:CharacterString>
     </gmd:fileIdentifier>
+    
+    <!-- Required ISO 19139 fields:  gmd:language, gmd:characterSet, gmd:contact, gmd:dateStamp -->
+    <gmd:dateStamp>
+        <gco:DateTime>2015-01-14T14:45:07Z</gco:DateTime>
+    </gmd:dateStamp>
 
     <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
@@ -37,21 +42,21 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
 
-    <gmd:dateStamp>
-        <gco:DateTime>2015-01-13T14:45:07Z</gco:DateTime>
-    </gmd:dateStamp>
-
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
             <gmd:citation>
                 <gmd:CI_Citation>
+                  
+                    <!-- DataCite: Title -->
                     <gmd:title>
                         <gco:CharacterString>DataCite - TITLE</gco:CharacterString>
                     </gmd:title>
+                    
+                    <!-- DataCite: Publication Year -->
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2015-01-06</gco:Date>
+                                <gco:Date>2015</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                <CI_DateTypeCode xmlns="http://www.isotc211.org/2005/gmd"
@@ -60,77 +65,25 @@
                          </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-                    <gmd:date>
-                        <gmd:CI_Date>
-                            <gmd:date>
-                                <gco:Date>2015-02-05</gco:Date>
-                            </gmd:date>
-                            <gmd:dateType>
-                                <gmd:CI_DateTypeCode 
-                                      codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" 
-                                      codeListValue="modified"/>
-                            </gmd:dateType>
-                        </gmd:CI_Date>
-                    </gmd:date>
+                    
+                    <!-- DataCite: Author -->
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>DataCite - AUTHOR 1</gco:CharacterString>
+                                <gco:CharacterString>DataCite - AUTHOR</gco:CharacterString>
                             </gmd:individualName>
-                            <gmd:contactInfo>
-                                <gmd:CI_Contact>
-                                    <gmd:address>
-                                        <gmd:CI_Address>
-                                            <gmd:electronicMailAddress>
-                                                <gco:CharacterString>author1@university.edu</gco:CharacterString>
-                                            </gmd:electronicMailAddress>
-                                        </gmd:CI_Address>
-                                    </gmd:address>
-                                </gmd:CI_Contact>
-                            </gmd:contactInfo>
                             <gmd:role>
                                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-                    <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>DataCite - AUTHOR 2</gco:CharacterString>
-                            </gmd:individualName>
-                            <gmd:contactInfo>
-                                <gmd:CI_Contact>
-                                    <gmd:address>
-                                        <gmd:CI_Address>
-                                            <gmd:electronicMailAddress>
-                                                <gco:CharacterString>author2@university.edu</gco:CharacterString>
-                                            </gmd:electronicMailAddress>
-                                        </gmd:CI_Address>
-                                    </gmd:address>
-                                </gmd:CI_Contact>
-                            </gmd:contactInfo>
-                            <gmd:role>
-                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" 
-                                                 codeListValue="author"/>
-                            </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                    </gmd:citedResponsibleParty>
+                    
+                    <!-- DataCite: Publisher -->
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:organisationName>
                                 <gco:CharacterString>DataCite - PUBLISHER</gco:CharacterString>
                             </gmd:organisationName>
-                            <gmd:contactInfo>
-                                <gmd:CI_Contact>
-                                    <gmd:address>
-                                        <gmd:CI_Address>
-                                            <gmd:electronicMailAddress>
-                                                <gco:CharacterString>publisher@university.edu</gco:CharacterString>
-                                            </gmd:electronicMailAddress>
-                                        </gmd:CI_Address>
-                                    </gmd:address>
-                                </gmd:CI_Contact>
-                            </gmd:contactInfo>
                             <gmd:role>
                                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
                                                  codeListValue="publisher"/>
@@ -140,14 +93,19 @@
                 </gmd:CI_Citation>
             </gmd:citation>
 
+            <!-- Required ISO 19139 field:  gmd:abstract -->
             <gmd:abstract>
                <gco:CharacterString>DataCite - DESCRIPTION (ISO Required)</gco:CharacterString>
             </gmd:abstract>
 
+            <!-- DataCite:  Resource Type
+                (AudioVisual, Collection, Dataset, Event, Image, InteractiveResource, Model,
+                 PhysicalObject, Service, Software, Sound, Text, Workflow, Other)
+            -->
             <gmd:descriptiveKeywords>
               <gmd:MD_Keywords>
                 <gmd:keyword>
-                  <gco:CharacterString>DataCite - RESOURCE TYPE GENERAL</gco:CharacterString>
+                  <gco:CharacterString>DataCite - RESOURCE TYPE KEYWORD</gco:CharacterString>
                 </gmd:keyword>
                 <gmd:type>
                     <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" 
@@ -186,8 +144,10 @@
                 <gmd:MD_DigitalTransferOptions>
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
+                          
+                            <!-- DataCite:  Web Location:  URL -->
                             <gmd:linkage>
-                                <gmd:URL>https://cadis.prototype.ucar.edu/dataset/id/47f650c5-95ed-11e4-99b4-00c0f03d5b7c.html</gmd:URL>
+                                <gmd:URL>https://www.google.com</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>
@@ -195,15 +155,19 @@
                             <gmd:applicationProfile>
                                 <gco:CharacterString>browser</gco:CharacterString>
                             </gmd:applicationProfile>
+                            
+                            <!-- DataCite:  Web Location:  Title Name -->
                             <gmd:name>
                                 <gco:CharacterString>DataCite - URL NAME</gco:CharacterString>
                             </gmd:name>
+                            
+                            <!-- DataCite:  Web Location:  Short Description -->
                             <gmd:description>
                                 <gco:CharacterString>DataCite - URL DESCRIPTION</gco:CharacterString>
                             </gmd:description>
                             <gmd:function>
                                 <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" 
-                                                           codeListValue="download"/>
+                                                           codeListValue="information"/>
                             </gmd:function>
                         </gmd:CI_OnlineResource>
                     </gmd:onLine>
