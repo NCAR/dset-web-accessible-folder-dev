@@ -76,10 +76,6 @@
                        <gco:CharacterString>Fake Author2</gco:CharacterString>
                    </gmd:individualName>
 
-                   <gmd:role>
-                       <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
-                   </gmd:role>
-
  <!-- ***** CKAN: author_email ***** -->
                    <gmd:contactInfo>
                        <gmd:CI_Contact>
@@ -92,6 +88,11 @@
                            </gmd:address>
                        </gmd:CI_Contact>
                    </gmd:contactInfo>
+
+                   <gmd:role>
+                       <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+                   </gmd:role>
+
                </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
 
