@@ -61,40 +61,34 @@
                     </gmd:title>
                     <gmd:date gco:nilReason="missing">
                     </gmd:date>
-                </gmd:CI_Citation>
-            </gmd:citation>
-
- <!-- ***** CKAN: notes ***** -->
-            <gmd:abstract gco:nilReason="missing">
-                <gco:CharacterString></gco:CharacterString>
-            </gmd:abstract>
 
  <!-- ***** CKAN: author ***** -->
-            <gmd:pointOfContact>
-               <gmd:CI_ResponsibleParty>
-                   <gmd:individualName gco:nilReason="missing">
-                       <gco:CharacterString>Fake Author2</gco:CharacterString>
-                   </gmd:individualName>
+                    <gmd:citedResponsibleParty>
+                       <gmd:CI_ResponsibleParty>
+                           <gmd:individualName gco:nilReason="missing">
+                               <gco:CharacterString>Fake Author2</gco:CharacterString>
+                           </gmd:individualName>
 
  <!-- ***** CKAN: author_email ***** -->
-                   <gmd:contactInfo>
-                       <gmd:CI_Contact>
-                           <gmd:address>
-                               <gmd:CI_Address>
-                                   <gmd:electronicMailAddress gco:nilReason="missing">
-                                       <gco:CharacterString>fake@email.com</gco:CharacterString>
-                                   </gmd:electronicMailAddress>
-                               </gmd:CI_Address>
-                           </gmd:address>
-                       </gmd:CI_Contact>
-                   </gmd:contactInfo>
+                           <gmd:contactInfo>
+                               <gmd:CI_Contact>
+                                   <gmd:address>
+                                       <gmd:CI_Address>
+                                           <gmd:electronicMailAddress gco:nilReason="missing">
+                                               <gco:CharacterString>fake@email.com</gco:CharacterString>
+                                           </gmd:electronicMailAddress>
+                                       </gmd:CI_Address>
+                                   </gmd:address>
+                               </gmd:CI_Contact>
+                           </gmd:contactInfo>
 
-                   <gmd:role>
-                       <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
-                   </gmd:role>
-
-               </gmd:CI_ResponsibleParty>
-            </gmd:pointOfContact>
+                           <gmd:role>
+                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+                           </gmd:role>
+                       </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
 
             <gmd:language>
                 <gco:CharacterString>en</gco:CharacterString>
@@ -106,6 +100,12 @@
       <gmd:MD_Distribution>
         <gmd:transferOptions>
           <gmd:MD_DigitalTransferOptions>
+
+ <!-- ***** CKAN: notes ***** -->
+            <gmd:abstract gco:nilReason="missing">
+                <gco:CharacterString></gco:CharacterString>
+            </gmd:abstract>
+
             <gmd:onLine>
               <gmd:CI_OnlineResource>
 

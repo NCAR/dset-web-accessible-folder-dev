@@ -61,6 +61,32 @@
                     </gmd:title>
                     <gmd:date gco:nilReason="missing">
                     </gmd:date>
+
+ <!-- ***** CKAN: author ***** -->
+                    <gmd:citedResponsibleParty>
+                       <gmd:CI_ResponsibleParty>
+                           <gmd:individualName gco:nilReason="missing">
+                               <gco:CharacterString>Author Name</gco:CharacterString>
+                           </gmd:individualName>
+
+ <!-- ***** CKAN: author_email ***** -->
+                           <gmd:contactInfo>
+                               <gmd:CI_Contact>
+                                   <gmd:address>
+                                       <gmd:CI_Address>
+                                           <gmd:electronicMailAddress gco:nilReason="missing">
+                                               <gco:CharacterString>author_email@ucar.edu</gco:CharacterString>
+                                           </gmd:electronicMailAddress>
+                                       </gmd:CI_Address>
+                                   </gmd:address>
+                               </gmd:CI_Contact>
+                           </gmd:contactInfo>
+
+                           <gmd:role>
+                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+                           </gmd:role>
+                       </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
 
@@ -68,32 +94,6 @@
             <gmd:abstract gco:nilReason="missing">
                 <gco:CharacterString>test dataset Description 13</gco:CharacterString>
             </gmd:abstract>
-
- <!-- ***** CKAN: author ***** -->
-            <gmd:pointOfContact>
-               <gmd:CI_ResponsibleParty>
-                   <gmd:individualName gco:nilReason="missing">
-                       <gco:CharacterString>Author Name</gco:CharacterString>
-                   </gmd:individualName>
-
- <!-- ***** CKAN: author_email ***** -->
-                   <gmd:contactInfo>
-                       <gmd:CI_Contact>
-                           <gmd:address>
-                               <gmd:CI_Address>
-                                   <gmd:electronicMailAddress gco:nilReason="missing">
-                                       <gco:CharacterString>author_email@ucar.edu</gco:CharacterString>
-                                   </gmd:electronicMailAddress>
-                               </gmd:CI_Address>
-                           </gmd:address>
-                       </gmd:CI_Contact>
-                   </gmd:contactInfo>
-
-                   <gmd:role>
-                       <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
-                   </gmd:role>
-               </gmd:CI_ResponsibleParty>
-            </gmd:pointOfContact>
 
             <gmd:language>
                 <gco:CharacterString>en</gco:CharacterString>
