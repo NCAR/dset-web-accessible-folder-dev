@@ -41,7 +41,7 @@
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:contact>
-          <gmd:dateStamp><gco:Date>2017-01-18-07:00</gco:Date></gmd:dateStamp>
+          <gmd:dateStamp><gco:Date>2017-01-19-07:00</gco:Date></gmd:dateStamp>
           <gmd:metadataStandardName><gco:CharacterString>19115</gco:CharacterString></gmd:metadataStandardName>
           <gmd:metadataStandardVersion><gco:CharacterString>2003</gco:CharacterString></gmd:metadataStandardVersion>
           <gmd:dataSetURI><gco:CharacterString>http://rda.ucar.edu/datasets/ds280.0/</gco:CharacterString></gmd:dataSetURI>
@@ -49,29 +49,13 @@
             <gmd:MD_DataIdentification>
               <gmd:citation>
                 <gmd:CI_Citation>
-                  <gmd:title><gco:CharacterString>Global Ocean Surface Currents, seasonal climatology, by Noo</gco:CharacterString></gmd:title>
+                  <gmd:title><gco:CharacterString>A Seasonal Climatology of Global Ocean Surface Currents</gco:CharacterString></gmd:title>
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date><gco:Date>1981-05-11</gco:Date></gmd:date>
                       <gmd:dateType><gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode></gmd:dateType>
                     </gmd:CI_Date>
                   </gmd:date>
-                  <gmd:citedResponsibleParty>
-                    <gmd:CI_ResponsibleParty>
-                      <gmd:individualName><gco:CharacterString>Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research</gco:CharacterString></gmd:individualName>
-                      <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                      </gmd:role>
-                    </gmd:CI_ResponsibleParty>
-                  </gmd:citedResponsibleParty>
-                  <gmd:citedResponsibleParty>
-                    <gmd:CI_ResponsibleParty>
-                      <gmd:individualName><gco:CharacterString>Naval Oceanographic Office, U.S. Navy, U. S. Department of Defense</gco:CharacterString></gmd:individualName>
-                      <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                      </gmd:role>
-                    </gmd:CI_ResponsibleParty>
-                  </gmd:citedResponsibleParty>
                   <gmd:citedResponsibleParty>
                     <gmd:CI_ResponsibleParty>
                       <gmd:organisationName><gco:CharacterString>Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory</gco:CharacterString></gmd:organisationName>
@@ -82,10 +66,7 @@
                   </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
               </gmd:citation>
-              <gmd:abstract><gco:CharacterString><![CDATA[
-    <p>Derived from pilot charts from Noo, of the US Naval
-    Oceanographic Office. Based on data from 1901-1978.</p>
-  ]]></gco:CharacterString></gmd:abstract>
+              <gmd:abstract><gco:CharacterString><![CDATA[<p>Derived from pilot charts from the US Naval Oceanographic Office. Based on data from 1901-1978.</p>]]></gco:CharacterString></gmd:abstract>
               <gmd:status>
                 <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
               </gmd:status>
@@ -193,7 +174,7 @@
                       <gmd:westBoundLongitude><gco:Decimal>-180</gco:Decimal></gmd:westBoundLongitude>
                       <gmd:eastBoundLongitude><gco:Decimal>180</gco:Decimal></gmd:eastBoundLongitude>
                       <gmd:southBoundLatitude><gco:Decimal>-90</gco:Decimal></gmd:southBoundLatitude>
-                      <gmd:northBoundLatitude><gco:Decimal>-90</gco:Decimal></gmd:northBoundLatitude>
+                      <gmd:northBoundLatitude><gco:Decimal>90</gco:Decimal></gmd:northBoundLatitude>
                     </gmd:EX_GeographicBoundingBox>
                   </gmd:geographicElement>
                   <gmd:temporalElement>
