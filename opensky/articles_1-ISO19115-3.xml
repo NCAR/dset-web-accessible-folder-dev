@@ -49,7 +49,7 @@
                         <gco:CharacterString>80307-3000</gco:CharacterString>
                      </gmd:postalCode>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>openskysupport@ucar.edu</gco:CharacterString>
+                        <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -90,7 +90,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>1967-07-01T00:00:00Z</gco:DateTime>
+                        <gco:DateTime>1967-07-01T00:00:000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -129,6 +129,23 @@
          <gmd:abstract>
             <gco:CharacterString>This paper describes a model of the general circulation of the earth's atmosphere which has been developed and experimented with, since 1964, at the National Center for Atmospheric Research (NCAR), Boulder, Colo. A distinguishing feature of the NCAR model is that the vertical coordinate is height rather than pressure, though hydrostatic equilibrium is maintained in the system. In fact, the dynamical framework of the model is very similar to the one proposed by L. F. Richardson in 1922. Various physical processes in the atmosphere, such as energy transfer due to solar and terrestrial radiation, small-scale turbulence and convection, etc., are incorporated in the model. An explicit prediction of the moisture field is avoided. Instead, it is assumed that the atmosphere is completely saturated by water vapor. Thus, the release of latent heat of condensation can be computed. In addition to a description of the model, the equations for the zonal mean and eddy energy are presented. Finally, a baroclinic stability analysis of the model is made in order to gain an insight into the finite-difference formulation of the present model. Long term (over 100 days) numerical integrations are being performed successfully with a two-layer version of the present model. Details of finite-difference schemes and the results of numerical calculations will be described in a separate article.</gco:CharacterString>
          </gmd:abstract>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Text</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Resource Type</gco:CharacterString>
+                     </gmd:title>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
          <gmd:language>
             <gmd:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
          </gmd:language>
