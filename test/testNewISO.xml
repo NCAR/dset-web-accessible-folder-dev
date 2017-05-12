@@ -64,7 +64,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-03-30T00:00:13</gco:DateTime>
+      <gco:DateTime>2016-03-30T00:00:14</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-1</gco:CharacterString>
@@ -296,21 +296,17 @@
          <gmd:resourceConstraints>
             <gmd:MD_Constraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>Description of how the resource should be used, such as the appropriate scientific usages for model output.  Non-legal constraints on usage.</gco:CharacterString>
+                  <gco:CharacterString>Optional description of how the resource should be used, such as the appropriate scientific usages for model output.  Non-legal constraints on usage.</gco:CharacterString>
                </gmd:useLimitation>
             </gmd:MD_Constraints>
          </gmd:resourceConstraints>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
-               <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeList="007" codeListValue="restricted">Legal restrictions on accessing the resource.</gmd:MD_RestrictionCode>
-               </gmd:accessConstraints>
-               <gmd:accessConstraints>Legal restrictions on using the resource.</gmd:accessConstraints>
                <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeList="005" codeListValue="license">License text.</gmd:MD_RestrictionCode>
+                  <gmd:MD_RestrictionCode codeList="005" codeListValue="license">Optional license text.</gmd:MD_RestrictionCode>
                </gmd:useConstraints>
                <gmd:otherConstraints>
-                  <gco:CharacterString>Description of other legal constraint</gco:CharacterString>
+                  <gco:CharacterString>Optional description of other legal constraints.</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
