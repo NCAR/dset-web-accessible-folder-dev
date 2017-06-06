@@ -17,9 +17,6 @@
       <gmd:individualName>
         <gco:CharacterString>Andrew Turnipseed</gco:CharacterString>
       </gmd:individualName>
-      <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
-      </gmd:role>
       <gmd:organisationName>
         <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
       </gmd:organisationName>
@@ -50,14 +47,16 @@
           </gmd:onlineResource>
         </gmd:CI_Contact>
       </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+      </gmd:role>
     </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName>
         <gco:CharacterString>John Ortega</gco:CharacterString>
       </gmd:individualName>
-      <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-      </gmd:role>
       <gmd:organisationName>
         <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
       </gmd:organisationName>
@@ -91,14 +90,16 @@
           </gmd:onlineResource>
         </gmd:CI_Contact>
       </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
     </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName>
         <gco:CharacterString>Daniel Ziskin</gco:CharacterString>
       </gmd:individualName>
-      <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
-      </gmd:role>
       <gmd:organisationName>
         <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
       </gmd:organisationName>
@@ -132,10 +133,13 @@
           </gmd:onlineResource>
         </gmd:CI_Contact>
       </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+      </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-06-06T14:23:17</gco:DateTime>
+    <gco:DateTime>2017-06-06T17:13:31</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -150,11 +154,21 @@
           <gmd:title>
             <gco:CharacterString>MetProfile_NCAR_Beachon_ROCS_2010</gco:CharacterString>
           </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-08-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
           <gmd:edition>
             <gco:CharacterString>1.0</gco:CharacterString>
           </gmd:edition>
           <gmd:editionDate>
-            <gco:DateTime>2017-06-06T14:23:17</gco:DateTime>
+            <gco:DateTime>2017-06-06T17:13:31</gco:DateTime>
           </gmd:editionDate>
           <gmd:identifier>
             <gmd:MD_Identifier>
@@ -187,7 +201,7 @@
             <gco:CharacterString>Dataset</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
-            <gmd:MD_KeywordTypeCode codeListValue="DataCite Resource Type" codelist="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode">DataCite Resource Type</gmd:MD_KeywordTypeCode>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="DataCite Resource Type">DataCite Resource Type</gmd:MD_KeywordTypeCode>
           </gmd:type>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -208,7 +222,7 @@
                 <gco:CharacterString>4.0</gco:CharacterString>
               </gmd:edition>
               <gmd:editionDate>
-                <gco:Date>2017</gco:Date>
+                <gco:Date>2016</gco:Date>
               </gmd:editionDate>
             </gmd:CI_Citation>
           </gmd:thesaurusName>
@@ -262,6 +276,9 @@
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
+  <gmd:language>
+    <gco:CharacterString>eng; USA</gco:CharacterString>
+  </gmd:language>
   <gmd:distributionInfo>
     <gmd:MD_Distribution>
       <gmd:distributor>
@@ -271,10 +288,6 @@
               <gmd:individualName>
                 <gco:CharacterString>Daniel Ziskin</gco:CharacterString>
               </gmd:individualName>
-              <gmd:role/>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
-              </gmd:role>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
@@ -305,6 +318,9 @@
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
               </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
         </gmd:MD_Distributor>
