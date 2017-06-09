@@ -236,21 +236,26 @@
               </gmd:extentTypeCode>
               <gmd:polygon>
                 <gml:Point gml:id="boundingPoint">
-                  <gml:pos srsName="http://www.opengis.net/def/crs/EPSG/0/4326">39.1006N 105.0942W</gml:pos>
+                  <gml:pos srsName="http://www.opengis.net/def/crs/EPSG/0/4326">39.1006 105.0942</gml:pos>
                 </gml:Point>
               </gmd:polygon>
             </gmd:EX_BoundingPolygon>
           </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
-              <gml:TimePeriod gml:id="timePeriodDate">
-                <gml:beginPosition>2011-07-21</gml:beginPosition>
-                <gml:endPosition>2011-08-30</gml:endPosition>
-              </gml:TimePeriod>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="timePeriodDate">
+                  <gml:beginPosition>2011-07-21</gml:beginPosition>
+                  <gml:endPosition>2011-08-30</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
             </gmd:EX_TemporalExtent>
           </gmd:temporalElement>
         </gmd:EX_Extent>
       </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>http://manitou.acom.ucar.edu/readme/archive_project/2011/2011_all_working/G15_NCAR_Cantrell_HO2_RO2/final/ReadMe_HO2RO2_MEF_BEACHON-RoMBAS.txt</gco:CharacterString>
+      </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo>
