@@ -64,7 +64,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-05-31T00:00:23</gco:DateTime>
+      <gco:DateTime>2017-05-31T00:00:24</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-1</gco:CharacterString>
@@ -101,11 +101,8 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>UCAR/NCAR - CISL-SAGE2</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - CISL</gco:CharacterString>
                      </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>EOL Data Support (not harvested)</gco:CharacterString>
-                     </gmd:positionName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
@@ -127,18 +124,18 @@
                                  </gmd:country>
                               </gmd:CI_Address>
                            </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>http://unharvested1.resource.edu</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:name>
-                                    <gco:CharacterString>Ignored by CKAN Harvester 1</gco:CharacterString>
-                                 </gmd:name>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
                         </gmd:CI_Contact>
                      </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - SAGE</gco:CharacterString>
+                     </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
                      </gmd:role>
@@ -383,16 +380,16 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-130.00000</gco:Decimal>
+                        <gco:Decimal>-128.00000</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-120.00000</gco:Decimal>
+                        <gco:Decimal>-123.00000</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>48.00000</gco:Decimal>
+                        <gco:Decimal>47.00000</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>53.00000</gco:Decimal>
+                        <gco:Decimal>50.00000</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
