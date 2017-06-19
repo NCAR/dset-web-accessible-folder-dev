@@ -26,6 +26,17 @@
                 <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
             </gmd:organisationName>
             <gmd:positionName gco:nilReason="missing"/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ncarref@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
                     codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
@@ -51,6 +62,9 @@
                     <gmd:title>
                         <gco:CharacterString>Round Hill Turbulence Measurements</gco:CharacterString>
                     </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>Technical Report ECOM-65-G10</gco:CharacterString>
+                    </gmd:alternateTitle>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
@@ -108,6 +122,19 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>United States Army Electronics Command, Atmospheric Sciences Laboratory, Research Division</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:presentationForm>
                         <gmd:CI_PresentationFormCode
                             codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="documentHardcopy">documentHardcopy</gmd:CI_PresentationFormCode>
@@ -115,18 +142,18 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Resource with the following features:
-                - Formatted contents note: Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
-                Vol II: Data tabulations for runs 96A through 104
-                Vol III: Data tabulations for runs 32 through 66D
-                Vol IV: Data tabulations for runs 66E through 76B
-                Vol V: Data tabulations for runs 78A through 85C</gco:CharacterString>
+                <gco:CharacterString>This set of resources includes five volumes of turbulence measurements from United States Army in the 1960s: 
+        Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
+        Vol II: Data tabulations for runs 96A through 104.
+        Vol III: Data tabulations for runs 32 through 66D.
+        Vol IV: Data tabulations for runs 66E through 76B.
+        Vol V: Data tabulations for runs 78A through 85C.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName gco:nilReason="missing"/>
                     <gmd:organisationName>
-                        <gco:CharacterString>United States Army Electronics Command, Atmospheric Sciences Laboratory, Research Division</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
@@ -142,7 +169,7 @@
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -176,11 +203,12 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>This resource is available as a physical item in the Library of the NCAR Mesa Laboratory in Boulder, CO. Any further access limitations, such as copyright restrictions, are described on the resources themselves. </gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                    <gmd:otherConstraints gco:nilReason="missing"/>
+                </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
                 <gmd:LanguageCode
@@ -193,11 +221,11 @@
             <gmd:extent gco:nilReason="missing"/>
             <gmd:supplementalInformation>
                 <gco:CharacterString>- Remainder of title: Technical Report ECOM-65-G10
-                - Language note: English
-                - Relator code: aut
-                - Personal name: Record, F. A.
-                - Personal name: Tillman, J. E.
-                </gco:CharacterString>
+                                - Language note: English
+                                - Relator code: aut
+                                - Personal name: Record, F. A.
+                                - Personal name: Tillman, J. E.
+                                </gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
