@@ -17,7 +17,10 @@
             codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
     </gmd:characterSet>
     <gmd:parentIdentifier gco:nilReason="inapplicable"/>
-    <gmd:hierarchyLevel gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
@@ -26,6 +29,17 @@
                 <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
             </gmd:organisationName>
             <gmd:positionName gco:nilReason="missing"/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ncarref@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
                     codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
@@ -149,7 +163,16 @@
             <gmd:topicCategory>
                 <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
             </gmd:topicCategory>
-            <gmd:extent gco:nilReason="missing"/>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description>
+                        <gco:CharacterString>Venezuela</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement gco:nilReason="missing"/>
+                    <gmd:temporalElement gco:nilReason="missing"/>
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
 </gmd:MD_Metadata>
