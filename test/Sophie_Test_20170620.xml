@@ -131,12 +131,12 @@
             </gmd:checkPointAvailability>
             <gmd:checkPointDescription gco:nilReason="missing"/>
             <gmd:cornerPoints>
-                <gml:Point>
+                <gml:Point gml:id="cornerPoint">
                     <gml:pos>-180 -90</gml:pos>
                 </gml:Point>
             </gmd:cornerPoints>
             <gmd:centerPoint>
-                <gml:Point>
+                <gml:Point gml:id="centerPoint">
                     <gml:pos>-180 -90</gml:pos>
                 </gml:Point>
             </gmd:centerPoint>
@@ -649,6 +649,7 @@
                                     <gml:scope>water</gml:scope>
                                     <gml:verticalCS>
                                     <gml:VerticalCS gml:id="verticalCSforSamples">
+                                    <gml:identifier codeSpace="NGDC">verticalCSforSamples</gml:identifier>
                                     <gml:axis>
 
                                     <gml:CoordinateSystemAxis
