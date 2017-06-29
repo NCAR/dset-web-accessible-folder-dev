@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:gts="http://www.isotc211.org/2005/gts/"
+    xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>923d1633-5d16-11e7-acc9-34e6d74c4412</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet gco:nilReason="missing"/>
+    <gmd:parentIdentifier gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName gco:nilReason="missing"/>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Joe Bland</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>EOL</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Manager</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>303-497-8154</gco:CharacterString>
+                            </gmd:voice>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>stott@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Matthew Mayernik</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>NCAR Library</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Project Scientist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>303-497-1183</gco:CharacterString>
+                            </gmd:voice>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>mayernik@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateTime>
+        <gco:DateTime>2017-06-29T17:08:01</gco:DateTime>
+    </gmd:dateTime>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://doi.org/10.5065/D6M32STK</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:spatialRepresentationInfo>
+        <gmd:MD_Georectified>
+            <gmd:numberOfDimensions>
+                <gco:Integer>3</gco:Integer>
+            </gmd:numberOfDimensions>
+            <gmd:axisDimensionProperties>
+                <gmd:MD_Dimension>
+                    <gmd:dimensionName>
+                        <gmd:MD_DimensionNameTypeCode
+                            codeList="./resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="vertical">vertical</gmd:MD_DimensionNameTypeCode>
+                    </gmd:dimensionName>
+                    <gmd:dimensionSize>
+                        <gco:Integer>26</gco:Integer>
+                    </gmd:dimensionSize>
+                    <gmd:resolution>
+                        <gco:Angle uom="degrees">90</gco:Angle>
+                    </gmd:resolution>
+                </gmd:MD_Dimension>
+            </gmd:axisDimensionProperties>
+            <gmd:cellGeometry>
+                <gmd:MD_CellGeometryCode
+                    codeList="./resources/codeList.xml#MD_CellGeometryCode" codeListValue="area">area</gmd:MD_CellGeometryCode>
+            </gmd:cellGeometry>
+            <gmd:transformationParameterAvailability>
+                <gco:Boolean>true</gco:Boolean>
+            </gmd:transformationParameterAvailability>
+            <gmd:checkPointAvailability>
+                <gco:Boolean>true</gco:Boolean>
+            </gmd:checkPointAvailability>
+            <gmd:checkPointDescription gco:nilReason="missing"/>
+            <gmd:cornerPoints>
+                <gml:Point>
+                    <gml:pos>-180 -90</gml:pos>
+                </gml:Point>
+            </gmd:cornerPoints>
+            <gmd:centerPoint>
+                <gml:Point>
+                    <gml:pos>-180 -90</gml:pos>
+                </gml:Point>
+            </gmd:centerPoint>
+            <gmd:pointInPixel>
+                <gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+            </gmd:pointInPixel>
+        </gmd:MD_Georectified>
+    </gmd:spatialRepresentationInfo>
+    <gmd:spatialRepresentationInfo>
+        <gmd:MD_Georeferenceable>
+            <gmd:numberOfDimensions>
+                <gco:Integer>2</gco:Integer>
+            </gmd:numberOfDimensions>
+            <gmd:axisDimensionProperties>
+                <gmd:MD_Dimension>
+                    <gmd:dimensionName>
+                        <gmd:MD_DimensionNameTypeCode
+                            codeList="./resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="time">time</gmd:MD_DimensionNameTypeCode>
+                    </gmd:dimensionName>
+                    <gmd:dimensionSize>
+                        <gco:Integer>5</gco:Integer>
+                    </gmd:dimensionSize>
+                    <gmd:resolution>
+                        <gco:Measure uom="second">10</gco:Measure>
+                    </gmd:resolution>
+                </gmd:MD_Dimension>
+            </gmd:axisDimensionProperties>
+            <gmd:cellGeometry>
+                <gmd:MD_CellGeometryCode
+                    codeList="./resources/codeList.xml#MD_CellGeometryCode" codeListValue="point">point</gmd:MD_CellGeometryCode>
+            </gmd:cellGeometry>
+            <gmd:transformationParameterAvailability>
+                <gco:Boolean>true</gco:Boolean>
+            </gmd:transformationParameterAvailability>
+            <gmd:controlPointAvailability>
+                <gco:Boolean>false</gco:Boolean>
+            </gmd:controlPointAvailability>
+            <gmd:orientationParameterAvailability>
+                <gco:Boolean>true</gco:Boolean>
+            </gmd:orientationParameterAvailability>
+            <gmd:georeferencedParameters>
+                <gco:Record>This is a sample text.</gco:Record>
+            </gmd:georeferencedParameters>
+        </gmd:MD_Georeferenceable>
+    </gmd:spatialRepresentationInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://www.ncl.ucar.edu/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>NCAR Command Language</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>Recommended tool for visualizing CFDDA reanalysis dataset.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://nco.sourceforge.net/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>netCDF Operator (NCO) </gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>The NCO toolkit manipulates and analyzes data stored in netCDF-accessible formats, including DAP, HDF4, and HDF5.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Test Record - 20170629</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>CFDDA (Climate Four-Dimensional Data Assimilation)</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>DS604.0</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2014-08-18</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                        <gco:CharacterString>2.1.1</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Joan Doe</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>ACOM</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Scientist</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-2913</gco:CharacterString>
+                                    </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ziskin@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Jill Smith</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>MMM/RCR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Software Engineer</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-8936</gco:CharacterString>
+                                    </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jaye@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Unidata</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Computational and Information Systems Laboratory </gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>NSF</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Jim Kurt</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>RAL/RALAO</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>System Administrator</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-2867</gco:CharacterString>
+                                    </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>tor@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This is a test recording for validating how all the NCAR Dialect elements will be displayed in CKAN.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:credit>
+                <gco:CharacterString>We would like to acknowledge the use of computational resources (doi:10.5065/D6RX99HX) at the NCAR-Wyoming Supercomputing Center provided by the National Science Foundation and the State of Wyoming, and supported by NCAR's Computational and Information Systems Laboratory.</gco:CharacterString>
+            </gmd:credit>
+            <gmd:status>
+                <gmd:MD_ProgressCode
+                    codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="underDevelopment">underDevelopment</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>John Plain</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>CISL</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Associate Scientist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-2474</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ejn@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Eric Nienhouse</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>CISL/SAGE</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Software Engineer/Programmer</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-2474</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ejn@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Tonya Stark</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>CGD/CAS</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Project Scientist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-1733</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>dschneid@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>HDF - Hierarchical Data Format</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>NETCDF</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Model</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-06-20</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; OXYGEN COMPOUNDS &gt; OZONE 
+               </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-05-24</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString> EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; NITROGEN COMPOUNDS &gt; NITROGEN DIOXIDE
+    </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-05-24</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>This is the test statement for the Legal Constraints.</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>This is the second test statement for the Legal Constraints.</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>This is the test statement for the Access Constraints.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>This is the second test statement for the Access Constraints.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                    codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                    codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="textTable">textTable</gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="km">10</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>4</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="m">5	</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language gco:nilReason="missing"/>
+            <gmd:characterSet gco:nilReason="missing"/>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:environmentDescription>
+                <gco:CharacterString>Fortran</gco:CharacterString>
+            </gmd:environmentDescription>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description>
+                        <gco:CharacterString>Temporal Resolution: Hourly</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-179.716</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>179.883</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-65.616</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>56.166</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-0.5103751</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>0.3340155</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-51.6918741</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>51.2867602</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="TemporalRange">
+                                    <gml:beginPosition>1995-08-18T16:09</gml:beginPosition>
+                                    <gml:endPosition>2005-09-20T16:09</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="TemporalRange">
+                                    <gml:beginPosition>1990-08-11T15:20</gml:beginPosition>
+                                    <gml:endPosition gml:indeterminatePosition="Now"/>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:verticalElement>
+                        <gmd:EX_VerticalExtent>
+                            <gmd:minimumValue>
+                                <gco:Real>3600</gco:Real>
+                            </gmd:minimumValue>
+                            <gmd:maximumValue>
+                                <gco:Real>3100</gco:Real>
+                            </gmd:maximumValue>
+                            <gmd:verticalCRS>
+                                <gml:VerticalCRS gml:id="verticalCRSforSamples">
+                                    <gml:identifier codeSpace="NGDC">verticalCRSforSamples</gml:identifier>
+                                    <gml:scope>water</gml:scope>
+                                    <gml:verticalCS>
+                                    <gml:VerticalCS gml:id="verticalCSforSamples">
+                                    <gml:axis>
+
+                                    <gml:CoordinateSystemAxis
+                                    gml:id="coordinateSystemAxisforSamples" gml:uom="meters">
+                                    <gml:identifier codeSpace="NGDC">coordinateSystemAxisforSamples</gml:identifier>
+                                    <gml:axisAbbrev>Water Depth</gml:axisAbbrev>
+                                    <gml:axisDirection codeSpace="NGDC">down</gml:axisDirection>
+                                    </gml:CoordinateSystemAxis>
+                                    </gml:axis>
+                                    <gml:identifier codeSpace="NGDC">verticalCSforSamples</gml:identifier>
+                                    </gml:VerticalCS>
+                                    </gml:verticalCS>
+                                    <gml:verticalDatum>
+                                    <gml:VerticalDatum gml:id="verticalDatumforSamples">
+                                    <gml:identifier codeSpace="NGDC">verticalDatumforSamples</gml:identifier>
+                                    <gml:name>water surface</gml:name>
+                                    <gml:scope>water</gml:scope>
+                                    </gml:VerticalDatum>
+                                    </gml:verticalDatum>
+                                </gml:VerticalCRS>
+                            </gmd:verticalCRS>
+                        </gmd:EX_VerticalExtent>
+                    </gmd:verticalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>CFDDA_User_Documentation_Rev3.pdf (https://rda.ucar.edu/datasets/ds604.0/docs/CFDDA_User_Documentation_Rev3.pdf)</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>CDF - Common Data Format</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>DIF</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Atmospheric Chemistry Observations &amp; Modeling</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat gco:nilReason="missing"/>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>NASA</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat gco:nilReason="missing"/>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>500</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>100</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+</gmd:MD_Metadata>
+<!--Metadata generated with CatMDEdit version 5.0-->
