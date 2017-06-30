@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
     xmlns:gmd="http://www.isotc211.org/2005/gmd"
-    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:gml="http://www.opengis.net/gml"
     xmlns:gts="http://www.isotc211.org/2005/gts/"
     xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
@@ -88,9 +88,9 @@
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
-    <gmd:dateTime>
+    <gmd:dateStamp>
         <gco:DateTime>2017-06-29T17:08:01</gco:DateTime>
-    </gmd:dateTime>
+    </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
     </gmd:metadataStandardName>
@@ -131,12 +131,12 @@
             </gmd:checkPointAvailability>
             <gmd:checkPointDescription gco:nilReason="missing"/>
             <gmd:cornerPoints>
-                <gml:Point>
+                <gml:Point gml:id="cornerPoint">
                     <gml:pos>-180 -90</gml:pos>
                 </gml:Point>
             </gmd:cornerPoints>
             <gmd:centerPoint>
-                <gml:Point>
+                <gml:Point gml:id="centerPoint">
                     <gml:pos>-180 -90</gml:pos>
                 </gml:Point>
             </gmd:centerPoint>
@@ -760,8 +760,8 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="TemporalRange">
-                                    <gml:beginPosition>1995-08-18T16:09</gml:beginPosition>
-                                    <gml:endPosition>2005-09-20T16:09</gml:endPosition>
+                                    <gml:beginPosition>1995-08-18T16:09:00</gml:beginPosition>
+                                    <gml:endPosition>2005-09-20T16:09:00</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -790,6 +790,7 @@
                                     <gml:scope>water</gml:scope>
                                     <gml:verticalCS>
                                     <gml:VerticalCS gml:id="verticalCSforSamples">
+                                    <gml:identifier codeSpace="NGDC">verticalCSforSamples</gml:identifier>
                                     <gml:axis>
 
                                     <gml:CoordinateSystemAxis
@@ -799,7 +800,6 @@
                                     <gml:axisDirection codeSpace="NGDC">down</gml:axisDirection>
                                     </gml:CoordinateSystemAxis>
                                     </gml:axis>
-                                    <gml:identifier codeSpace="NGDC">verticalCSforSamples</gml:identifier>
                                     </gml:VerticalCS>
                                     </gml:verticalCS>
                                     <gml:verticalDatum>
