@@ -47,7 +47,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:Date>2017-07-06</gco:Date>
+        <gco:Date>2017-07-07</gco:Date>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -63,7 +63,7 @@
             <gmd:citation>
                 <gmd:CI_Citation uuid="Climatological data for Arctic stations. - 1958:title:245$a0-40;008(p07-p10)43-47#documentHardcopy:presentationForm:LDR(p06)0-16">
                     <gmd:title>
-                        <gco:CharacterString>Climatological data for Arctic stations, 1957/58</gco:CharacterString>
+                        <gco:CharacterString>Climatological data for Arctic stations, 1957-1958</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date uuid="1958-01-01:creationDate:008(p07-p10)0-10">
@@ -120,6 +120,19 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>U.S. Dept. of Commerce, Weather Bureau</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:presentationForm>
                         <gmd:CI_PresentationFormCode
                             codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="documentHardcopy">documentHardcopy</gmd:CI_PresentationFormCode>
@@ -131,9 +144,9 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>This resource is a booklet summarizing polar meteorological observations from the International Geophysical Year, July 1957-Dec. 1958. Information provided includes measurements from two drifting stations, and radiation data. 
-      DRIFTING STATION A: Introduction; Map of track and area traversed; Surface data - Average and extreme of maximum and minimum daily temperature (F); Average air temperature (F); Frequency of pressure by 10 MB intervals; Station pressure (Mbs); Number of observations with occurrences of weather; Days with rain, days with snow, rain amount (in), and snowfall (in); Temperature and wind speed (F and Knots); Ceiling - visibility (ft and mi); Total cloud amount (tenths); Rawinsode data; Instrumentation; Table of positions. 
-      DRIFTING STATION B: Introduction; Map of track and area traversed; Surface data - Average and extreme of maximum and minimum daily temperature (F); Average air temperature (F); Frequency of pressure by 10 MB intervals; Station pressure (Mbs); Number of observations with occurrences of weather; Days with rain, days with snow, rain amount (in), and snowfall (in); Temperature and wind speed (F and Knots); Ceiling - visibility (ft and mi); Total cloud amount (tenths); Rawinsode data; Instrumentation; Table of positions. 
-      RADIATION DATA: Daily and hourly means of total radiation (solar and sky) (T) on a horizontal surface (cal/cm2/hr); Daily and hourly means of total radiations (solar and sky) (R) reflected from the surface (cal/cm2/hr); Daily and hourly means of total radiation balance (Q) (cal/cm2/hr); Daily and hourly means of total incoming radiation (short-wave and long-wave) (Q1) on a horizontal surface (cal/cm2/hr)</gco:CharacterString>
+              DRIFTING STATION A: Introduction; Map of track and area traversed; Surface data - Average and extreme of maximum and minimum daily temperature (F); Average air temperature (F); Frequency of pressure by 10 MB intervals; Station pressure (Mbs); Number of observations with occurrences of weather; Days with rain, days with snow, rain amount (in), and snowfall (in); Temperature and wind speed (F and Knots); Ceiling - visibility (ft and mi); Total cloud amount (tenths); Rawinsode data; Instrumentation; Table of positions. 
+              DRIFTING STATION B: Introduction; Map of track and area traversed; Surface data - Average and extreme of maximum and minimum daily temperature (F); Average air temperature (F); Frequency of pressure by 10 MB intervals; Station pressure (Mbs); Number of observations with occurrences of weather; Days with rain, days with snow, rain amount (in), and snowfall (in); Temperature and wind speed (F and Knots); Ceiling - visibility (ft and mi); Total cloud amount (tenths); Rawinsode data; Instrumentation; Table of positions. 
+              RADIATION DATA: Daily and hourly means of total radiation (solar and sky) (T) on a horizontal surface (cal/cm2/hr); Daily and hourly means of total radiations (solar and sky) (R) reflected from the surface (cal/cm2/hr); Daily and hourly means of total radiation balance (Q) (cal/cm2/hr); Daily and hourly means of total incoming radiation (short-wave and long-wave) (Q1) on a horizontal surface (cal/cm2/hr)</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
