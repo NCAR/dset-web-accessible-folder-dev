@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2017-05-03-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:22:46-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds999.9/</gco:CharacterString>
@@ -122,9 +122,9 @@
           </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Research Data Archive, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -223,15 +223,7 @@ THis is ParaGraph #6</gco:CharacterString>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NCEP CPC CMORPH8km</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>NetCDF4</gco:CharacterString>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -285,7 +277,7 @@ THis is ParaGraph #6</gco:CharacterString>
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -318,7 +310,7 @@ THis is ParaGraph #6</gco:CharacterString>
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-02</gco:Date>
+                    <gco:Date>2017-07-17</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -465,7 +457,7 @@ THis is ParaGraph #6</gco:CharacterString>
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -482,9 +474,10 @@ THis is ParaGraph #6</gco:CharacterString>
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -496,16 +489,16 @@ THis is ParaGraph #6</gco:CharacterString>
           <gmd:geographicElement>
             <gmd:EX_GeographicBoundingBox>
               <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
+                <gco:Decimal>-16.3199996948</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
+                <gco:Decimal>-6.2199997902</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
+                <gco:Decimal>41.7999992371</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>90</gco:Decimal>
+                <gco:Decimal>49.6199989319</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -513,8 +506,8 @@ THis is ParaGraph #6</gco:CharacterString>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds999.9_time_period">
-                  <gml:beginPosition>1985-02-25T05:00:00Z</gml:beginPosition>
-                  <gml:endPosition>1999-02-01T06:00:00Z</gml:endPosition>
+                  <gml:beginPosition>1985-02-25T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2017-05-29T06:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -625,4 +618,5 @@ THis is ParaGraph #6</gco:CharacterString>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
+
 

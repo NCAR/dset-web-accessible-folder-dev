@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2014-09-11-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:22:47-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds629.1/</gco:CharacterString>
@@ -122,9 +122,9 @@
           </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -266,7 +266,7 @@ It is recommended that potential users of YOTC peruse the Related RDA Datasets d
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -419,7 +419,7 @@ It is recommended that potential users of YOTC peruse the Related RDA Datasets d
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -436,6 +436,13 @@ It is recommended that potential users of YOTC peruse the Related RDA Datasets d
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -578,15 +585,6 @@ It is recommended that potential users of YOTC peruse the Related RDA Datasets d
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:accessConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:accessConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
 </gmd:MD_Metadata>
+
 

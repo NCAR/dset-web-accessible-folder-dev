@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2017-04-09-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:22:14-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds627.0/</gco:CharacterString>
@@ -122,9 +122,9 @@
           </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -268,7 +268,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -301,7 +301,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-03-08</gco:Date>
+                    <gco:Date>2017-06-19</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -309,7 +309,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.4.1</gco:CharacterString>
+                <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Projects</gco:CharacterString>
@@ -484,7 +484,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -501,6 +501,13 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -533,7 +540,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds627.0_time_period">
                   <gml:beginPosition>1979-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2017-02-10T18:00:00Z</gml:endPosition>
+                  <gml:endPosition>2017-05-10T18:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -643,15 +650,6 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:accessConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:accessConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
 </gmd:MD_Metadata>
+
 

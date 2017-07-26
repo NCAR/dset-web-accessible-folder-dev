@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2017-01-20-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:21:03-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds621.0/</gco:CharacterString>
@@ -84,9 +84,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>Environmental Modeling Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -94,9 +94,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -234,7 +234,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -324,7 +324,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -341,6 +341,13 @@
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>__ACCESS_RESTRICTIONS__</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -483,17 +490,6 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[ This data must not be used for commercial purposes and redistribution rights are not given. ECMWF and Joint OSSEs must be given credit in any publications in which this data is used. NCAR will track users and informed to ECMWF and Joint OSSE. If you are interested in using the data set it is necessary to send email with the statement below, and your name and affiliation to to Michiko Masutani (michiko.masutani@noaa.gov). Your name will be added to the user list and sent to ECMWF.
-
- "I agree not to copy the ECMWF data or software provided by NCAR for the use of other people, and I agree not to use these data and/or software for commercial purposes. ECMWF will be given credit in any publications in which these data and/or software are used. I understand that if other people in the same organization wish to use these data and/or software, they must also sign a copy of this agreement. "]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:useConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:useConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
 </gmd:MD_Metadata>
+
 

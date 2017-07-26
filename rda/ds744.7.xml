@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2015-02-11-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:21:07-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds744.7/</gco:CharacterString>
@@ -84,9 +84,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -237,7 +237,7 @@ JPL PO.DAAC [http://podaac.jpl.nasa.gov/] has initiated reprocessing of all ADEO
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -270,7 +270,7 @@ JPL PO.DAAC [http://podaac.jpl.nasa.gov/] has initiated reprocessing of all ADEO
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -287,6 +287,13 @@ JPL PO.DAAC [http://podaac.jpl.nasa.gov/] has initiated reprocessing of all ADEO
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>This dataset is subject to limited distribution. Please contact us for further information.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -410,15 +417,6 @@ JPL PO.DAAC [http://podaac.jpl.nasa.gov/] has initiated reprocessing of all ADEO
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[This dataset is subject to limited distribution. Please contact us for further information.]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:accessConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:accessConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
 </gmd:MD_Metadata>
+
 

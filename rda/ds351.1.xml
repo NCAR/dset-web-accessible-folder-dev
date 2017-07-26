@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2017-05-01-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:21:52-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds351.1/</gco:CharacterString>
@@ -72,7 +72,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NCEP ADP ETA / NAM Upper Air Observation Subsets, October 2000 - continuing</gco:CharacterString>
+            <gco:CharacterString>NCEP ADP ETA / NAM Upper Air Observation Subsets, October 2000 - March 2017</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -84,9 +84,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Satellite Services Division, Office of Satellite Data Processing and Distribution, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -94,9 +94,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Satellite Services Division, Office of Satellite Data Processing and Distribution, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -262,7 +262,7 @@ If you have a need for North American data that is not met by DS351.0 NCEP ADP G
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -310,7 +310,7 @@ If you have a need for North American data that is not met by DS351.0 NCEP ADP G
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -327,6 +327,10 @@ If you have a need for North American data that is not met by DS351.0 NCEP ADP G
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -356,7 +360,7 @@ If you have a need for North American data that is not met by DS351.0 NCEP ADP G
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds351.1_time_period">
                   <gml:beginPosition>2000-10-23</gml:beginPosition>
-                  <gml:endPosition>2019-04-12</gml:endPosition>
+                  <gml:endPosition>2017-03-19</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -467,4 +471,5 @@ If you have a need for North American data that is not met by DS351.0 NCEP ADP G
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
+
 

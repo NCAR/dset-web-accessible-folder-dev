@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2017-04-14-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:21:20-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds507.5/</gco:CharacterString>
@@ -84,9 +84,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -94,9 +94,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Joint Office for Science Support, University Corporation for Atmospheric Research</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Cooperative Distributed Interactive Atmospheric Catalog System, Earth Observing Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -115,7 +115,7 @@
       <gmd:abstract>
         <gco:CharacterString>A prototype, real-time, hourly, multi-sensor National Precipitation Analysis has been developed at the National Centers for Environmental Prediction (NCEP) in cooperation with the Office of Hydrology (OH). This analysis merges two data sources that are currently being collected in real-time by OH and NCEP. Approximately 3000 automated, hourly rain gauge observations are available over the contiguous 48 states via the GOES Data Collection Platform, and ASOS. In addition, hourly digital precipitation (HDP) radar estimates are obtained as compressed digital files via the AWIPS network. The HDP estimates are created by the WSR-88D Radar Product Generator on a 131 by 131 4 km grid centered over each radar site. The data analysis routines, including a bias correction of the radar estimates using the gage data, have been adapted by NCEP on a national 4 km grid from algorithms developed by OH ("Stage II") and executed regionally at NWS River Forecast Centers.
 
-The precipitation data in this dataset are received through UCAR/JOSS.</gco:CharacterString>
+Since January 1, 2002, the Stage IV analysis data became available and are added to the archive. This precipitation data are received through UCAR/EOL.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -236,7 +236,7 @@ The precipitation data in this dataset are received through UCAR/JOSS.</gco:Char
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -269,7 +269,7 @@ The precipitation data in this dataset are received through UCAR/JOSS.</gco:Char
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -286,6 +286,10 @@ The precipitation data in this dataset are received through UCAR/JOSS.</gco:Char
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -429,4 +433,5 @@ The precipitation data in this dataset are received through UCAR/JOSS.</gco:Char
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
+
 

@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2015-12-16-07:00</gco:Date>
+    <gco:DateTime>2017-07-26T14:22:52-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds628.4/</gco:CharacterString>
@@ -122,9 +122,9 @@
           </gmd:identifier>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
+              <gmd:organisationName>
                 <gco:CharacterString>Meteorological Research Institute, Japan Meteorological Agency, Japan</gco:CharacterString>
-              </gmd:individualName>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -269,7 +269,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-04-25</gco:Date>
+                    <gco:Date>2017-07-18</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -302,7 +302,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-03-08</gco:Date>
+                    <gco:Date>2017-06-19</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -310,7 +310,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.4.1</gco:CharacterString>
+                <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Projects</gco:CharacterString>
@@ -428,7 +428,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-05-03</gco:Date>
+                    <gco:Date>2017-07-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -445,6 +445,13 @@
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Must be a registered user of RDA JRA-55. Please update your current RDA user profile by clicking on the "JRA-55" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "JRA-55" terms of acceptance during the registration process).</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -587,41 +594,6 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[Must be a registered user of RDA JRA-55. Please update your current RDA user profile by clicking on the "JRA-55" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "JRA-55" terms of acceptance during the registration process).]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:accessConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:accessConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
-  <gmd:metadataConstraints>
-    <gmd:MD_LegalConstraints>
-      <gmd:useLimitation>
-        <gco:CharacterString><![CDATA[JMA provides the datasets under the following terms and conditions:
-
-a. Conditions of use
-
-       * Individual users must register their name, affiliation and email address with NCAR before access to datasets will be permitted.
-       * The source of the datasets should be duly acknowledged in scientific and technical papers, publications, press releases and other communications regarding the datasets. Example: The dataset used for this study is from the The Japanese 55-year Reanalysis AMIP-type Simulation (JRA-55AMIP) project carried out by the Japan Meteorological Agency (JMA).
-       * Individual users should provide JMA (jra@met.kishou.go.jp) with a copy of their scientific or technical papers, publications, press releases or other communications regarding these datasets.
-
-b. Disclaimer
-
-       * Although JMA has taken the utmost care in creating the datasets, it assumes no responsibility regarding their reliability. JMA is not responsible for any damage that may result from their use.
-
-c. Intellectual property
-
-       * The intellectual property rights of the datasets belong exclusively to JMA.
-
-The complete JMA and NCAR agreement for JRA-55 (and JRA-55AMIP) may be viewed via the Documentation tab.]]></gco:CharacterString>
-      </gmd:useLimitation>
-      <gmd:useConstraints>
-        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
-      </gmd:useConstraints>
-    </gmd:MD_LegalConstraints>
-  </gmd:metadataConstraints>
 </gmd:MD_Metadata>
+
 
