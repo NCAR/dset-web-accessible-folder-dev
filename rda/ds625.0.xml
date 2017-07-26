@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-07-26T11:34:11-07:00</gco:DateTime>
+    <gco:DateTime>2017-07-26T14:00:17-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds625.0/</gco:CharacterString>
@@ -494,10 +494,8 @@ In 2006, JMA started real-time operation of the JMA Climate Data Assimilation Sy
       </gmd:descriptiveKeywords>
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
-          <gmd:otherConstraints>
-            <gco:CharacterString>Must be a registered user of JRA-25. If you are not a registered user of JRA-25, you will be given the opportunity to do so when you click the data access tab. Please also note that the read password has been dropped for all MSS (Mass Storage System) files as of 2008-01-08.
-
-(1) The datasets are to be used only for research purposes.
+          <gmd:useLimitation>
+            <gco:CharacterString>(1) The datasets are to be used only for research purposes.
 
 (2) Users cannot edit the JRA-25 datasets and then claim they are official products.
 
@@ -509,7 +507,10 @@ In 2006, JMA started real-time operation of the JMA Climate Data Assimilation Sy
 
 (6) Users are obligated to provide the JMA with a copy of their scientific or technical papers, publications, press releases or other communications regarding the datasets.
 
-The recommended acknowledgement statement for publication is, "The datasets used for this study are provided from the cooperative research project of the JRA-25 long-term reanalysis by the Japan Meteorological Agency (JMA) and the Central Research Institute of Electric Power Industry (CRIEPI)."></gco:CharacterString>
+The recommended acknowledgement statement for publication is, "The datasets used for this study are provided from the cooperative research project of the JRA-25 long-term reanalysis by the Japan Meteorological Agency (JMA) and the Central Research Institute of Electric Power Industry (CRIEPI)."</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Must be a registered user of JRA-25. If you are not a registered user of JRA-25, you will be given the opportunity to do so when you click the data access tab. Please also note that the read password has been dropped for all MSS (Mass Storage System) files as of 2008-01-08.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
