@@ -81,9 +81,7 @@
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
-    <gmd:dateStamp>
-        <gco:DateTime>2017-07-31T09:26:53</gco:DateTime>
-    </gmd:dateStamp>
+    <gmd:dateStamp gco:nilReason="missing"/>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
     </gmd:metadataStandardName>
@@ -558,7 +556,7 @@
                 <gmd:EX_Extent>
                     <gmd:description>
                         <gco:CharacterString>Temporal Resolution #1: hourly Temporal Resolution #2: monthly
-    </gco:CharacterString>
+              </gco:CharacterString>
                     </gmd:description>
                     <gmd:geographicElement>
                         <gmd:EX_GeographicBoundingBox>
@@ -596,9 +594,6 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate1">
-                                    <gml:timeInterval unit="hour">
-                                    <gco:CharacterString>1</gco:CharacterString>
-                                    </gml:timeInterval>
                                     <gml:beginPosition>1995-08-18T16:31:05</gml:beginPosition>
                                     <gml:endPosition>2005-09-20T16:31:05</gml:endPosition>
                                 </gml:TimePeriod>
@@ -609,9 +604,6 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate2">
-                                    <gml:timeInterval unit="month">
-                                    <gco:CharacterString>2</gco:CharacterString>
-                                    </gml:timeInterval>
                                     <gml:beginPosition>2016-07-29T11:33:30</gml:beginPosition>
                                     <gml:endPosition indeterminatePosition="now"/>
                                 </gml:TimePeriod>
@@ -623,7 +615,7 @@
             </gmd:extent>
             <gmd:supplementalInformation>
                 <gco:CharacterString>CFDDA_User_Documentation_Rev3 (https://rda.ucar.edu/datasets/ds604.0/docs/CFDDA_User_Documentation_Rev3.pdf) 
-  Initial_Input_Conditions_and_Data_Processing_Info (https://rda.ucar.edu/datasets/ds604.0/docs/Initial_Input_Conditions_and_Data_Processing_Info.pdf)</gco:CharacterString>
+          Initial_Input_Conditions_and_Data_Processing_Info (https://rda.ucar.edu/datasets/ds604.0/docs/Initial_Input_Conditions_and_Data_Processing_Info.pdf)</gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
