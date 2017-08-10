@@ -57,12 +57,12 @@
         </gmd:CI_Contact>
       </gmd:contactInfo>
       <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-07-26T14:43:06-07:00</gco:DateTime>
+    <gco:DateTime>2017-08-10T11:15:08-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds090.0/</gco:CharacterString>
@@ -74,6 +74,9 @@
           <gmd:title>
             <gco:CharacterString>NCEP/NCAR Global Reanalysis Products, 1948-continuing</gco:CharacterString>
           </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>ds090.0</gco:CharacterString>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date><gco:Date>1994-11-21</gco:Date></gmd:date>
@@ -192,6 +195,14 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
       </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>WMO GRIB1</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
@@ -215,6 +226,16 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:edition>
                 <gco:CharacterString>3.1</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>resourceTypeGeneral</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -254,6 +275,16 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Platforms</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -280,7 +311,7 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-06-19</gco:Date>
+                    <gco:Date>2017-07-25</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -290,6 +321,16 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Projects</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -452,6 +493,16 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Science and Services Keywords</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -464,6 +515,9 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
           <gmd:useLimitation>
             <gco:CharacterString>Use of this dataset is subject to UCAR's Terms of Use, except that commercial use is generally not prohibited.</gco:CharacterString>
           </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Registration on the RDA web site is a requirement for access to the data.</gco:CharacterString>
+          </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
@@ -498,7 +552,7 @@ For details and problems, see NCEP/NCAR Reanalysis TOGA COARE [https://rda.ucar.
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds090.0_time_period">
                   <gml:beginPosition>1948-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2017-07-01T23:59:00Z</gml:endPosition>
+                  <gml:endPosition>2017-07-31T23:59:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>

@@ -57,12 +57,12 @@
         </gmd:CI_Contact>
       </gmd:contactInfo>
       <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-07-26T14:44:13-07:00</gco:DateTime>
+    <gco:DateTime>2017-08-10T11:16:29-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds335.0/</gco:CharacterString>
@@ -74,6 +74,9 @@
           <gmd:title>
             <gco:CharacterString>Historical Unidata Internet Data Distribution (IDD) Gridded Model Data</gco:CharacterString>
           </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>ds335.0</gco:CharacterString>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date><gco:Date>2003-10-31</gco:Date></gmd:date>
@@ -85,7 +88,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Unidata, University Corporation for Atmospheric Research</gco:CharacterString>
+                <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -95,7 +98,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
+                <gco:CharacterString>Unidata, University Corporation for Atmospheric Research</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -215,6 +218,14 @@ Online archives include 1 year of data, and are populated daily with model outpu
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
       </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>WMO GRIB2</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
@@ -238,6 +249,16 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:edition>
                 <gco:CharacterString>3.1</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>resourceTypeGeneral</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -280,6 +301,16 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Platforms</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -303,7 +334,7 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-06-19</gco:Date>
+                    <gco:Date>2017-07-25</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -313,6 +344,16 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Projects</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -499,6 +540,16 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:edition>
                 <gco:CharacterString>8.5</gco:CharacterString>
               </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
               <gmd:otherCitationDetails>
                 <gco:CharacterString>Valids List: Science and Services Keywords</gco:CharacterString>
               </gmd:otherCitationDetails>
@@ -511,6 +562,9 @@ Online archives include 1 year of data, and are populated daily with model outpu
           <gmd:useLimitation>
             <gco:CharacterString>Use of this dataset is subject to UCAR's Terms of Use, except that commercial use is generally not prohibited.</gco:CharacterString>
           </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Registration on the RDA web site is a requirement for access to the data.</gco:CharacterString>
+          </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
@@ -545,7 +599,7 @@ Online archives include 1 year of data, and are populated daily with model outpu
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds335.0_time_period">
                   <gml:beginPosition>2002-12-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2017-08-11T21:00:00Z</gml:endPosition>
+                  <gml:endPosition>2017-08-25T21:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
