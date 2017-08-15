@@ -57,7 +57,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-15T14:04:45</gco:DateTime>
+        <gco:DateTime>2017-08-15T14:20:45</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -275,7 +275,7 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>MetPy is a collection of tools in Python for reading, visualizing, and performing calculations with weather data.
-                        
+  
   The space MetPy aims for is GEMPAK (and maybe NCL)-like functionality, in a way that plugs easily into the existing scientific Python
   ecosystem (numpy, scipy, matplotlib). So, if you take the average GEMPAK script for a weather map, you need to:
   
@@ -417,14 +417,10 @@
                       https://raw.githubusercontent.com/Unidata/MetPy/master/LICENSE</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
-                        <gco:CharacterString>None.</gco:CharacterString>
+                        <gco:CharacterString>None</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
-            <gmd:spatialRepresentationType>
-                <gmd:MD_SpatialRepresentationTypeCode
-                    codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-            </gmd:spatialRepresentationType>
             <gmd:language>
                 <gmd:LanguageCode
                     codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -439,29 +435,7 @@
             <gmd:environmentDescription>
                 <gco:CharacterString>Python</gco:CharacterString>
             </gmd:environmentDescription>
-            <gmd:extent>
-                <gmd:EX_Extent>
-                    <gmd:description gco:nilReason="missing"/>
-                    <gmd:geographicElement>
-                        <gmd:EX_GeographicBoundingBox>
-                            <gmd:westBoundLongitude>
-                                <gco:Decimal>-180.00</gco:Decimal>
-                            </gmd:westBoundLongitude>
-                            <gmd:eastBoundLongitude>
-                                <gco:Decimal>180.00</gco:Decimal>
-                            </gmd:eastBoundLongitude>
-                            <gmd:southBoundLatitude>
-                                <gco:Decimal>-90.00</gco:Decimal>
-                            </gmd:southBoundLatitude>
-                            <gmd:northBoundLatitude>
-                                <gco:Decimal>90.00</gco:Decimal>
-                            </gmd:northBoundLatitude>
-                        </gmd:EX_GeographicBoundingBox>
-                    </gmd:geographicElement>
-                    <gmd:temporalElement gco:nilReason="missing"/>
-                    <gmd:verticalElement gco:nilReason="missing"/>
-                </gmd:EX_Extent>
-            </gmd:extent>
+            <gmd:extent gco:nilReason="missing"/>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
@@ -474,6 +448,57 @@
                     <gmd:version gco:nilReason="missing"/>
                 </gmd:MD_Format>
             </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/UCP - Unidata</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>CO</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>80307</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>rmay@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://www.unidata.ucar.edu</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat gco:nilReason="missing"/>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
             <gmd:transferOptions>
                 <gmd:MD_DigitalTransferOptions>
                     <gmd:transferSize>
