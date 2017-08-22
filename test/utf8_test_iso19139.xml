@@ -16,7 +16,10 @@
             codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
     </gmd:characterSet>
     <gmd:parentIdentifier gco:nilReason="inapplicable"/>
-    <gmd:hierarchyLevel gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
@@ -169,7 +172,7 @@
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
