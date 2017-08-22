@@ -64,7 +64,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-03-30T00:00:23</gco:DateTime>
+      <gco:DateTime>2016-03-30T00:00:24</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-1</gco:CharacterString>
@@ -297,19 +297,18 @@
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
-            <gmd:MD_Constraints>
-               <gmd:useLimitation>
-                  <gco:CharacterString>Optional description of how the resource should be used, such as the appropriate scientific usages for model output.  Non-legal constraints on usage.</gco:CharacterString>
-               </gmd:useLimitation>
-            </gmd:MD_Constraints>
+            <gmd:MD_Constraints/>
          </gmd:resourceConstraints>
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:accessConstraints>
                   <gmd:MD_RestrictionCode codeList="005" codeListValue="license"/>
                </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gco:CharacterString>Mapped to "mco:useConstraints".</gco:CharacterString>
+               </gmd:useConstraints>
                <gmd:otherConstraints>
-                  <gco:CharacterString>Optional description of legal and/or license constraints.</gco:CharacterString>
+                  <gco:CharacterString>Mapped to "mco:otherConstraints".</gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
