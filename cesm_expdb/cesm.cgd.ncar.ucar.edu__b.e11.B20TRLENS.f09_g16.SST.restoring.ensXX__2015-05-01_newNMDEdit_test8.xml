@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-24T15:38:26</gco:DateTime>
+        <gco:DateTime>2017-08-24T16:28:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -310,7 +310,7 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>This is a test metadata record.  The information given in this record does not characterize an actual case.  The values are placeholders only.  This experiment uses the CESM 1.1 coupled model.  transient Pacific Pacemaker 10-member ensemble 1920-2013 0.9x1.25. SST anomalies (8N-8S,180-180W) nudged to ERSSTv3b observations + radiative forcing.  
-        </gco:CharacterString>
+            </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>sponsored by U.S. National Science Foundation</gco:CharacterString>
@@ -489,8 +489,9 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="TimePeriod">
-                                    <gml:beginPosition gml:calendarEraName="start date of experiment">1920-01-01</gml:beginPosition>
-                                    <gml:endPosition>2013-12-31</gml:endPosition>
+                                    <gml:beginPosition
+                                    calendarEraName="start date of experiment" gml:calendarEraName="start date of experiment">1920-01-01</gml:beginPosition>
+                                    <gml:endPosition gml:calendarEraName="end date of experiment">2013-12-31</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -500,14 +501,14 @@
             </gmd:extent>
             <gmd:supplementalInformation>
                 <gco:CharacterString>Diagnostics Package(s) link(s);
-                                                                    Atmosphere / AMWG: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/atm_1981-2005-obs/
-                                                                    ;Ocean: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnsotics/ens001/ocean_1981-2005-obs/popdiag.html
-                                                                    ;Ocean timeseries:
-                                                                    ;Land: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/lnd_2056-2080-1981-2005/setsIndex.html
-                                                                    ;Sea ice / polar climate:
-                                                                    ;Land ice:
-                                                                    ;Climate variability:
-                                                                    ;Climate change/ CCR: </gco:CharacterString>
+                                                                        Atmosphere / AMWG: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/atm_1981-2005-obs/
+                                                                        ;Ocean: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnsotics/ens001/ocean_1981-2005-obs/popdiag.html
+                                                                        ;Ocean timeseries:
+                                                                        ;Land: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/lnd_2056-2080-1981-2005/setsIndex.html
+                                                                        ;Sea ice / polar climate:
+                                                                        ;Land ice:
+                                                                        ;Climate variability:
+                                                                        ;Climate change/ CCR: </gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
@@ -540,4 +541,4 @@
         </gmd:MD_MaintenanceInformation>
     </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-
+<!--Metadata generated with CatMDEdit version 5.0-->
