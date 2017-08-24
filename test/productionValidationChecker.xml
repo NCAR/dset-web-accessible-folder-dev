@@ -10,7 +10,9 @@
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <gmd:fileIdentifier gco:nilReason="unknown"/>
-   <gmd:language>eng; USA</gmd:language>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
    <gmd:characterSet>
       <gmd:MD_CharacterSetCode codeListValue="utf8"
                                codeList="http://www.isotc211.org/namespace/resources/codeList.xml#MD_CharacterSetCode"/>
@@ -230,9 +232,7 @@
                </gmd:citedResponsibleParty>
             </gmd:CI_Citation>
          </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>This is a test record.   It is used to test production validation rules, and it should fail as many rules as possible. </gco:CharacterString>
-         </gmd:abstract>
+         <gmd:abstract gco:nilReason="missing"/>
          <gmd:status>
             <gmd:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="ongoing">ongoing</gmd:MD_ProgressCode>
          </gmd:status>
