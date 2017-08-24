@@ -234,7 +234,7 @@
          </gmd:citation>
          <gmd:abstract gco:nilReason="missing"/>
          <gmd:status>
-            <gmd:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="ongoing">ongoing</gmd:MD_ProgressCode>
+            <gmd:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="ongoing1">ongoing1</gmd:MD_ProgressCode>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -308,6 +308,9 @@
                <gmd:keyword>
                   <gco:CharacterString>Text</gco:CharacterString>
                </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Software1</gco:CharacterString>
+               </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                </gmd:type>
@@ -322,7 +325,7 @@
                               <gco:Date>2016</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                              <gmd:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
@@ -341,9 +344,9 @@
                <gmd:useLimitation>
                   <gco:CharacterString>Please use "Legal Constraints" for standard UCAR/NCAR policies.  Examples include Terms of Use, Copyright policy, Privacy policy, Publication and Information Dissemination, and Public Access policy.</gco:CharacterString>
                </gmd:useLimitation>
-               <gmd:otherConstraints>
-                  <gco:CharacterString>Please use "Access Constraints" for additional access/use conditions, such as restricted access via password.</gco:CharacterString>
-               </gmd:otherConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Second disallowed legal constraint.</gco:CharacterString>
+               </gmd:useLimitation>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
          <gmd:resourceConstraints>
