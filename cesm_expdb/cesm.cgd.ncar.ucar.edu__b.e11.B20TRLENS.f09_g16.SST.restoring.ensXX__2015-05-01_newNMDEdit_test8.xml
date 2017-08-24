@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-24T16:50:28</gco:DateTime>
+        <gco:DateTime>2017-08-24T17:22:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -122,7 +122,7 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>N/A</gmd:URL>
+                        <gmd:URL>https://www.earthsystemgrid.org/</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>Earth System Grid location (CMIP)</gco:CharacterString>
@@ -143,13 +143,13 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>/CCSM/csm/PAC-PACEMAKER</gmd:URL>
+                        <gmd:URL>/</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>HPSS path</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>Access the experiment output from the HPSS. Available to users with NCAR supercomputing access.</gco:CharacterString>
+                        <gco:CharacterString> /CCSM/csm/PAC-PACEMAKER Access the experiment output from the HPSS. Available to users with NCAR supercomputing access.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -164,10 +164,10 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>/CCSM/csm/...</gmd:URL>
+                        <gmd:URL>/</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
-                        <gco:CharacterString>GLADE file access</gco:CharacterString>
+                        <gco:CharacterString>/CCSM/csm/... GLADE file access</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
                         <gco:CharacterString>Access the processed experiment data on the GLADE file system.  Available to users with NCAR supercomputing access.</gco:CharacterString>
@@ -191,7 +191,7 @@
                         <gco:CharacterString>DOI link of parent model.</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>If the model version associated with this experiment has a DOI, that will be placed here.</gco:CharacterString>
+                        <gco:CharacterString>If the model version associated with this experiment has a DOI, that will be linked here.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -489,7 +489,7 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="TimePeriod">
-                                    <gml:beginPosition>1920-01-01</gml:beginPosition>
+                                    <gml:beginPosition gml:calendarEraName="start date of experiment">1920-01-01</gml:beginPosition>
                                     <gml:endPosition>2013-12-31</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
@@ -498,17 +498,6 @@
                     <gmd:verticalElement gco:nilReason="missing"/>
                 </gmd:EX_Extent>
             </gmd:extent>
-            <gmd:supplementalInformation>
-                <gco:CharacterString>Diagnostics Package(s) link(s);
-                                                                        Atmosphere / AMWG: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/atm_1981-2005-obs/
-                                                                        ;Ocean: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnsotics/ens001/ocean_1981-2005-obs/popdiag.html
-                                                                        ;Ocean timeseries:
-                                                                        ;Land: www.cesm.ucar.edu/experiments/cesm1.1/LE/diagnostics/ens001/lnd_2056-2080-1981-2005/setsIndex.html
-                                                                        ;Sea ice / polar climate:
-                                                                        ;Land ice:
-                                                                        ;Climate variability:
-                                                                        ;Climate change/ CCR: </gco:CharacterString>
-            </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
