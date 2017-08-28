@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-28T11:38:28</gco:DateTime>
+        <gco:DateTime>2017-08-28T11:50:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -232,7 +232,7 @@
                         </gmd:CI_Date>
                     </gmd:date>
                     <gmd:edition>
-                        <gco:CharacterString>cesm_2_0_alpha06g</gco:CharacterString>
+                        <gco:CharacterString>cesm_1_1_beta95</gco:CharacterString>
                     </gmd:edition>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
@@ -306,7 +306,9 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This is a test metadata record.  The information given in this record does not characterize an actual case.  The values are placeholders only.  This experiment uses the CESM 1.1 coupled model.  transient Pacific Pacemaker 10-member ensemble 1920-2013 0.9x1.25. SST anomalies (8N-8S,180-180W) nudged to ERSSTv3b observations + radiative forcing.  
+                <gco:CharacterString>This is a test metadata record.  The information given in this record does not characterize an actual case.  The values are placeholders only.  This experiment uses the CESM 1.1 coupled model.  transient Pacific Pacemaker 10-member ensemble 1920-2013 0.9x1.25. SST anomalies (8N-8S,180-180W) nudged to ERSSTv3b observations + radiative forcing.
+                    
+                    This record represents member ALL of a 10-member ensemble.
             </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
@@ -509,17 +511,7 @@
                     <gmd:verticalElement gco:nilReason="missing"/>
                 </gmd:EX_Extent>
             </gmd:extent>
-            <gmd:extent>
-                <gmd:EX_Extent>
-                    <gmd:description>
-                        <gco:CharacterString>This recored represents member ALL of a 10-member ensemble.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:geographicElement gco:nilReason="missing"/>
-                    <gmd:temporalElement gco:nilReason="missing"/>
-                    <gmd:verticalElement gco:nilReason="missing"/>
-                </gmd:EX_Extent>
-            </gmd:extent>
-        </gmd:MD_DataIdentification>
+                    </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
         <gmd:MD_Distribution>
