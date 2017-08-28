@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-27T11:22:28</gco:DateTime>
+        <gco:DateTime>2017-08-28T11:38:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -209,16 +209,13 @@
                         <gco:CharacterString>Test8 CESM 1.1 coupled model transient Pacific Pacemaker 10-member ensemble 1920-01_2013-12 0.9x1.25_0.9x1.25</gco:CharacterString>
                     </gmd:title>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (CMIP6 realization identifier (e.g. r4i1p1))</gco:CharacterString>
+                        <gco:CharacterString>b.e11.B20TRLENS.f09_g16.SST.restoring.ENS (CESM Case Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
                         <gco:CharacterString>CMIP6 1pctCO2 Experiment (CMIP6 Experiment Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>coupled experiment (model configuration type: "coupled," "atmosphere only," "ocean only," etc.)</gco:CharacterString>
-                    </gmd:alternateTitle>
-                    <gmd:alternateTitle>
-                        <gco:CharacterString>b.e11.B20TRLENS.f09_g16.SST.restoring.ensXX (CESM Case Name)</gco:CharacterString>
+                        <gco:CharacterString>N/A (CMIP6 realization identifier (e.g. r4i1p1))</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
                         <gco:CharacterString>ScenarioMIP (MIP identifier)</gco:CharacterString>
@@ -320,9 +317,11 @@
             </gmd:credit>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
-                    <gmd:individualName gco:nilReason="missing"/>
-                    <gmd:organisationName>
+                    <gmd:individualName>
                         <gco:CharacterString>DiscussCESMForums (http://bb.cgd.ucar.edu)</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
@@ -330,7 +329,7 @@
                             <gmd:address>
                                 <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>http://bb.cgd.ucar.edu</gco:CharacterString>
+                                        <gco:CharacterString>http://bb.cgd.ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
@@ -342,7 +341,7 @@
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-            <gmd:descriptiveKeywords>
+           <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
                         <gco:CharacterString>Dataset</gco:CharacterString>
@@ -459,7 +458,7 @@
                 <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
             </gmd:topicCategory>
             <gmd:environmentDescription>
-                <gco:CharacterString>model version: CESM1.1 ; compset(s):  B20TRLENS; BRCP85LENS ; tag:  ccsm1_1_beta95 ; machine: NCAR:yellowstone ; grid_identifier: 0.9x1.25_gx1v6 ;  SVN caseroot:  https://svn-ccsm-rundb.cgd.ucar.edu/b40.20th.track1.1deg.006/trunk/ </gco:CharacterString>
+                <gco:CharacterString>model version: CESM1.1 ; compset(s):  B20TRLENS; BRCP85LENS ; tag:  ccsm1_1_beta95 ; machine: NCAR:yellowstone ; grid_identifier: 0.9x1.25_gx1v6 ;  Caseroot:  https://svn-ccsm-rundb.cgd.ucar.edu/b40.20th.track1.1deg.006/trunk/ </gco:CharacterString>
             </gmd:environmentDescription>
             <gmd:extent>
                 <gmd:EX_Extent>
@@ -507,7 +506,16 @@
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
                     </gmd:temporalElement>
-
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description>
+                        <gco:CharacterString>This recored represents member ALL of a 10-member ensemble.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement gco:nilReason="missing"/>
+                    <gmd:temporalElement gco:nilReason="missing"/>
                     <gmd:verticalElement gco:nilReason="missing"/>
                 </gmd:EX_Extent>
             </gmd:extent>
