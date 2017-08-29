@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-28T16:27:28</gco:DateTime>
+        <gco:DateTime>2017-08-29T11:36:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -185,13 +185,34 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>http://dx.doi.org/</gmd:URL>
+                        <gmd:URL>#</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>DOI link of parent model.</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>If the model version associated with this experiment has a DOI, that will be linked here.</gco:CharacterString>
+                        <gco:CharacterString>Not available</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>#</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>ESG - Run Database Identifier</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>Not available</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -293,7 +314,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This is a test metadata record.  The information given in this record has been taken from one the CESM experiments webpages.  This experiment uses the CESM 1.1.1 coupled model. This is the CESM 1.1.1 CAM5.2 2-degree Pre-Industrial Control experiment.
+                <gco:CharacterString>This is a test metadata record.  The information given in this record has been taken from one of the CESM experiments webpages.  This experiment uses the CESM 1.1.1 coupled model. This is the CESM 1.1.1 CAM5.2 2-degree Pre-Industrial Control experiment.  It is 70 years long.
                     This record represents member ALL of a 1-member ensemble.
             </gco:CharacterString>
             </gmd:abstract>
@@ -446,7 +467,12 @@
                 <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
             </gmd:topicCategory>
             <gmd:environmentDescription>
-                <gco:CharacterString>model version: CESM1.1.1 ; compset(s):  B_1850_C5_CN ; tag:  ccsm1_1_xxx ; machine: NCAR:yellowstone ; grid_identifier: 1.9x2.5_gx1v6 ;  Caseroot repository:  unknown </gco:CharacterString>
+                <gco:CharacterString>model version: CESM1.1.1 ;
+                    compset(s):  B_1850_C5_CN ;
+                    tag:  ccsm1_1_xxx ;
+                    machine: NCAR:yellowstone ;
+                    grid_identifier: 1.9x2.5_gx1v6 ;
+                    Caseroot repository:  unknown </gco:CharacterString>
             </gmd:environmentDescription>
             <gmd:extent>
                 <gmd:EX_Extent>
@@ -476,8 +502,8 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="TimePeriod">
-                                    <gml:beginPosition>0001-01-01</gml:beginPosition>
-                                    <gml:endPosition>0070-12-31</gml:endPosition>
+                                    <gml:beginPosition>0000-01-01</gml:beginPosition>
+                                    <gml:endPosition>0069-12-31</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -488,7 +514,7 @@
                                 <gml:TimePeriod gml:id="TemporalRange">
                                     <gml:description>This is a 70-year model run.</gml:description>
                                     <gml:beginPosition>0000-01-01</gml:beginPosition>
-                                    <gml:endPosition>0070-12-31</gml:endPosition>
+                                    <gml:endPosition>0069-12-31</gml:endPosition>
                                     <gml:duration>P70Y</gml:duration>
                                 </gml:TimePeriod>
                             </gmd:extent>
@@ -528,4 +554,3 @@
         </gmd:MD_MaintenanceInformation>
     </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-<!--Metadata generated with CatMDEdit version 5.0-->
