@@ -5,7 +5,7 @@
     xmlns:gts="http://www.isotc211.org/2005/gts/"
     xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>cesm.cgd.ncar.ucar.edu::b.e11.B20TRLENS.f09_g16.SST.restoring.ensXX::2015-05-01:newNMDEdit:test8</gco:CharacterString>
+        <gco:CharacterString>cesm.cgd.ncar.ucar.edu::b.e11.B20TRLENS.f09_g16.SST.restoring.ENS::2015-05-01</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode
@@ -43,7 +43,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-08-28T15:19:28</gco:DateTime>
+        <gco:DateTime>2017-08-29T13:16:28</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -128,7 +128,7 @@
                         <gco:CharacterString>Earth System Grid location (CMIP)</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>Access the experiment output from ESG, formatted per CMIP 5/6 specifications.</gco:CharacterString>
+                        <gco:CharacterString>Not available</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -167,10 +167,10 @@
                         <gmd:URL>#</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
-                        <gco:CharacterString>GLADE file access</gco:CharacterString>
+                        <gco:CharacterString>GLADE path</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>/CCSM/csm/...   Access the processed experiment data on the GLADE file system.  Available to users with NCAR supercomputing access.</gco:CharacterString>
+                        <gco:CharacterString>/glade/p/cesmLE/CESM-CAM5-BGC-LE   Access the processed experiment data on the GLADE file system.  Available to users with NCAR supercomputing access.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -185,13 +185,13 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>http://dx.doi.org/</gmd:URL>
+                        <gmd:URL>#</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>DOI link of parent model.</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>If the model version associated with this experiment has a DOI, that will be linked here.</gco:CharacterString>
+                        <gco:CharacterString>Not available</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode
@@ -206,19 +206,22 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Test8 CESM 1.1 Pacific Pacemaker 10-member ensemble 1920-01_2013-12 0.9x1.25_0.9x1.25</gco:CharacterString>
+                        <gco:CharacterString>CESM 1.1 Pacific Pacemaker Historical Transient 10-member ensemble</gco:CharacterString>
                     </gmd:title>
                     <gmd:alternateTitle>
                         <gco:CharacterString>b.e11.B20TRLENS.f09_g16.SST.restoring.ENS (CESM Case Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>CMIP6 1pctCO2 Experiment (CMIP6 Experiment Name)</gco:CharacterString>
+                        <gco:CharacterString>N/A (CMIP Experiment Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (CMIP6 realization identifier (e.g. r4i1p1))</gco:CharacterString>
+                        <gco:CharacterString>N/A (CMIP Realization Identifier (e.g. r4i1p1))</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>ScenarioMIP (MIP identifier)</gco:CharacterString>
+                        <gco:CharacterString>N/A (MIP name)</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>N/A (ESG - Run Database  identifier)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -232,7 +235,7 @@
                         </gmd:CI_Date>
                     </gmd:date>
                     <gmd:edition>
-                        <gco:CharacterString>cesm_1_1_beta95</gco:CharacterString>
+                        <gco:CharacterString>cesm_1_1_2_LENS</gco:CharacterString>
                     </gmd:edition>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
@@ -306,7 +309,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This is a test metadata record.  The information given in this record does not characterize an actual case.  The values are placeholders only.  This experiment uses the CESM 1.1 coupled model and it is a transient case.  Pacific Pacemaker 10-member ensemble 1920-2013 0.9x1.25. SST anomalies (8N-8S,180-180W) nudged to ERSSTv3b observations + radiative forcing.
+                <gco:CharacterString>This is a test metadata record.  These experimental data were generated by the CESM 1.1 coupled model. The data are from the CESM 1.1 Pacific Pacemaker Historical Transient 10-member ensemble. SST anomalies in the tropical eastern Pacific (8N-8S,180-180W) were nudged to ERSSTv3b observations and time-evolving radiative forcing was prescribed.  The external forcing is the same as for the CESM 1.1. Large Ensemble, except that ozone is from the SPARC dataset, not from WACCM.  The data span 1920-2013.  The historical part of the ensemble covers 1920-2005 under compset B20TRLENS while the 2006-2013 period was forced by RCP 8.5 under copmpset BRCP85LENS.  All fields are available at monthly resolution and selected fields are available at daily resolution.
                     This record represents member ALL of a 10-member ensemble.
             </gco:CharacterString>
             </gmd:abstract>
@@ -459,7 +462,7 @@
                 <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
             </gmd:topicCategory>
             <gmd:environmentDescription>
-                <gco:CharacterString>model version: CESM1.1 ; compset(s):  B20TRLENS; BRCP85LENS ; tag:  ccsm1_1_beta95 ; machine: NCAR:yellowstone ; grid_identifier: 0.9x1.25_gx1v6 ;  Caseroot repository:  https://svn-ccsm-rundb.cgd.ucar.edu/b40.20th.track1.1deg.006/trunk/ </gco:CharacterString>
+                <gco:CharacterString>model version: CESM1.1;  compset(s):  B20TRLENS; BRCP85LENS;   tag:  ccsm1_1_xxxx;   machine: NCAR:yellowstone;   grid_identifier: 0.9x1.25_gx1v6;    Caseroot repository:  https://svn-ccsm-rundb.cgd.ucar.edu/b40.20th.track1.1deg.006/trunk/ </gco:CharacterString>
             </gmd:environmentDescription>
             <gmd:extent>
                 <gmd:EX_Extent>
@@ -499,10 +502,10 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="TemporalRange">
-                                    <gml:description>This is a 50-year model run.</gml:description>
-                                    <gml:beginPosition>0000-01-01</gml:beginPosition>
-                                    <gml:endPosition>0051-12-31</gml:endPosition>
-                                    <gml:duration>P50Y</gml:duration>
+                                    <gml:description>This is a 94-year model run.</gml:description>
+                                    <gml:beginPosition>1920-01-01</gml:beginPosition>
+                                    <gml:endPosition>2013-12-31</gml:endPosition>
+                                    <gml:duration>P94Y</gml:duration>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -541,4 +544,3 @@
         </gmd:MD_MaintenanceInformation>
     </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-<!--Metadata generated with CatMDEdit version 5.0-->
