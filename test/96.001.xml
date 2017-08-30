@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><gmd:MD_Metadata xmlns="http://www.w3.org/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmr="http://www.isotc211.org/2005/gmr" xmlns:gms="http://www.isotc211.org/2005/gms" xmlns:gts="http://www.isotc211.org/2005/gts" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.eol::96.001</gco:CharacterString>
+    <gco:CharacterString>96.001_Forward-Looking_Digital_Camera_Imagery_ISO.xml</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -58,7 +58,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-24T17:39:07Z</gco:DateTime>
+    <gco:Date>2017-08-30</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -461,16 +461,6 @@
           </gmd:keyword>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
-      <gmd:resourceConstraints>
-        <gmd:MD_LegalConstraints>
-          <gmd:useLimitation>
-            <gco:CharacterString>none</gco:CharacterString>
-          </gmd:useLimitation>
-          <gmd:otherConstraints>
-            <gco:CharacterString>none</gco:CharacterString>
-          </gmd:otherConstraints>
-        </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="raster">raster</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
@@ -511,10 +501,7 @@
         </gmd:EX_Extent>
       </gmd:extent>
       <gmd:supplementalInformation>
-        <gco:CharacterString>http://data.eol.ucar.edu/datafile/nph-get/96.001/taplog.camera.506</gco:CharacterString>
-      </gmd:supplementalInformation>
-      <gmd:supplementalInformation>
-        <gco:CharacterString>http://data.eol.ucar.edu/datafile/nph-get/96.001/msls.camera</gco:CharacterString>
+        <gco:CharacterString>http://data.dev.eol.ucar.edu/datafile/nph-get/96.001/taplog.camera.506;http://data.dev.eol.ucar.edu/datafile/nph-get/96.001/msls.camera</gco:CharacterString>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
@@ -589,10 +576,10 @@
               <gmd:onLine>
                 <gmd:CI_OnlineResource>
                   <gmd:linkage>
-                    <gmd:URL>http://www.eol.ucar.edu/field_projects/pacdex</gmd:URL>
+                    <gmd:URL>https://localhost:8443/zinc/project/PACDEX</gmd:URL>
                   </gmd:linkage>
                   <gmd:protocol>
-                    <gco:CharacterString>http</gco:CharacterString>
+                    <gco:CharacterString>https</gco:CharacterString>
                   </gmd:protocol>
                   <gmd:name>
                     <gco:CharacterString>PACific Dust EXperiment</gco:CharacterString>
@@ -605,7 +592,7 @@
               <gmd:onLine>
                 <gmd:CI_OnlineResource>
                   <gmd:linkage>
-                    <gmd:URL>http://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=96.001</gmd:URL>
+                    <gmd:URL>http://data.dev.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=96.001</gmd:URL>
                   </gmd:linkage>
                   <gmd:protocol>
                     <gco:CharacterString>http</gco:CharacterString>
