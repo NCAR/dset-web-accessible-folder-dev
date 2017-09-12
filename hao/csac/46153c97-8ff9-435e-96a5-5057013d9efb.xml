@@ -53,9 +53,7 @@
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
-    <gmd:dateStamp>
-        <gco:DateTime>2017-09-12T13:36:52</gco:DateTime>
-    </gmd:dateStamp>
+    <gmd:dateStamp gco:nilReason="missing"/>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
     </gmd:metadataStandardName>
@@ -63,7 +61,7 @@
         <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
     </gmd:metadataStandardVersion>
     <gmd:dataSetURI>
-        <gco:CharacterString> https://doi.org/10.5065/D6T151QF </gco:CharacterString>
+        <gco:CharacterString>https://doi.org/10.5065/D6T151QF </gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
@@ -195,29 +193,20 @@
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
-                    </gmd:individualName>
+                    <gmd:individualName gco:nilReason="missing"/>
                     <gmd:organisationName>
-                        <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                        <gco:CharacterString>Community Spectropolarimetric Analysis Center</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
                         <gmd:CI_Contact>
-                            <gmd:phone>
-                                <gmd:CI_Telephone>
-                                    <gmd:voice>
-                                    <gco:CharacterString>303-497-1581</gco:CharacterString>
-                                    </gmd:voice>
-                                </gmd:CI_Telephone>
-                            </gmd:phone>
-                            <gmd:address>
-                                <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rce@ucar.edu</gco:CharacterString>
-                                    </gmd:electronicMailAddress>
-                                </gmd:CI_Address>
-                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://www2.hao.ucar.edu/CSAC</gmd:URL>
+                                    </gmd:linkage>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
                         </gmd:CI_Contact>
                     </gmd:contactInfo>
                     <gmd:role>
@@ -320,7 +309,7 @@
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>For Hinode/SP Level 1 or Level 2 data, please reference the calibration paper: "The SP_PREP Data Preparation Package for the Hinode Spectro-Polarimeter" by Lites, B. W. and Ichimoto, K. (2013SoPh..283..601L).
-    Reference the Level 1 Hinode/SP data using the DOI: 10.5065/D6T151QF.</gco:CharacterString>
+                      Reference the Level 1 Hinode/SP data using the DOI: 10.5065/D6T151QF.</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
