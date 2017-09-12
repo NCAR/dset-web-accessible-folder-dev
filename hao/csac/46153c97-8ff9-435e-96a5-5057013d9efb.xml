@@ -54,7 +54,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-09-12T09:42:28</gco:DateTime>
+        <gco:DateTime>2017-09-12T13:36:52</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -75,7 +75,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2006-10-01</gco:Date>
+                                <gco:Date>2006-10-26</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode
@@ -86,12 +86,14 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
+                                <gco:CharacterString>Bruce Lites</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
                                 <gco:CharacterString>HAO/NCAR</gco:CharacterString>
                             </gmd:organisationName>
-                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:positionName>
+                                <gco:CharacterString>Senior Scientist Emeritus</gco:CharacterString>
+                            </gmd:positionName>
                             <gmd:contactInfo>
                                 <gmd:CI_Contact>
                                     <gmd:address>
@@ -105,7 +107,84 @@
                             </gmd:contactInfo>
                             <gmd:role>
                                 <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Rebecca Centeno</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Project Scientist</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
                                     codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Alfred de Wijn</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Jose Garcia</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Rob Markel</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>HAO/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
@@ -155,9 +234,10 @@
                     <gmd:keyword>
                         <gco:CharacterString>INSTRUMENTS &gt; SOT &gt; SOLAR OPTICAL TELESCOPE (HINODE)</gco:CharacterString>
                     </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>Locations: "SPACE","SOLAR REGION","PHOTOSPHERE","","","260436f2-f80a-4e2a-9a8a-1c8780e33d13”</gco:CharacterString>
-                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
                     <gmd:thesaurusName>
                         <gmd:CI_Citation>
                             <gmd:title>
@@ -183,7 +263,49 @@
                                     <gmd:positionName gco:nilReason="missing"/>
                                     <gmd:role>
                                     <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dataset</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-09-12</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
@@ -192,12 +314,15 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>For Hinode/SP Level 1 or Level 2 data, please reference the calibration paper: "The SP_PREP Data Preparation Package for the Hinode Spectro-Polarimeter" by Lites, B. W. and Ichimoto, K. (2013SoPh..283..601L).
-                                  Level 1 Hinode/SP data DOI: 10.5065/D6T151QF.</gco:CharacterString>
+                        <gco:CharacterString>None.</gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>For Hinode/SP Level 1 or Level 2 data, please reference the calibration paper: "The SP_PREP Data Preparation Package for the Hinode Spectro-Polarimeter" by Lites, B. W. and Ichimoto, K. (2013SoPh..283..601L).
+    Reference the Level 1 Hinode/SP data using the DOI: 10.5065/D6T151QF.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
                 <gmd:LanguageCode
