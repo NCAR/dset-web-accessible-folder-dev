@@ -54,7 +54,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-09-12T15:51:25</gco:DateTime>
+        <gco:DateTime>2017-09-13T07:51:25</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -94,7 +94,7 @@
                             <gmd:positionName gco:nilReason="missing"/>
                             <gmd:role>
                                 <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
@@ -176,19 +176,28 @@
                             </gmd:contactInfo>
                             <gmd:role>
                                 <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
-                            </gmd:individualName>
+                            <gmd:individualName gco:nilReason="missing"/>
                             <gmd:organisationName>
-                                <gco:CharacterString>UCAR/NCAR - High Altitude Observatory</gco:CharacterString>
+                                <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>csac@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
                             <gmd:role>
                                 <gmd:CI_RoleCode
                                     codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -202,13 +211,22 @@
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
-                    </gmd:individualName>
+                    <gmd:individualName gco:nilReason="missing"/>
                     <gmd:organisationName>
-                        <gco:CharacterString>UCAR/NCAR - High Altitude Observatory</gco:CharacterString>
+                        <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>csac@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
                             codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
