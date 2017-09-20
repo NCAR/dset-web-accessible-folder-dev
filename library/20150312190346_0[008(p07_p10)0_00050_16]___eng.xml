@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Metadata generated with CatMDEdit version 5.0-->
+
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
     xmlns:gmd="http://www.isotc211.org/2005/gmd"
     xmlns:gml="http://www.opengis.net/gml/"
@@ -42,13 +42,11 @@
             </gmd:contactInfo>
             <gmd:role>
                 <gmd:CI_RoleCode
-                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
-    <gmd:dateStamp>
-        <gco:DateTime>2017-09-19T22:05:31</gco:DateTime>
-    </gmd:dateStamp>
+    <gmd:dateStamp gco:nilReason="missing"/>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
     </gmd:metadataStandardName>
@@ -146,11 +144,11 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>This set of resources includes five volumes of turbulence measurements from United States Army in the 1960s: 
-                                Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
-                                Vol II: Data tabulations for runs 96A through 104.
-                                Vol III: Data tabulations for runs 32 through 66D.
-                                Vol IV: Data tabulations for runs 66E through 76B.
-                                Vol V: Data tabulations for runs 78A through 85C.</gco:CharacterString>
+                                                          Vol. I: Experimental techniques, data-processing procedures, and data tabulations for runs 87A through 95A.
+                                                          Vol II: Data tabulations for runs 96A through 104.
+                                                          Vol III: Data tabulations for runs 32 through 66D.
+                                                          Vol IV: Data tabulations for runs 66E through 76B.
+                                                          Vol V: Data tabulations for runs 78A through 85C.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
@@ -175,7 +173,7 @@
                     </gmd:contactInfo>
                     <gmd:role>
                         <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -208,7 +206,7 @@
                                 <gmd:CI_ResponsibleParty>
                                     <gmd:individualName gco:nilReason="missing"/>
                                     <gmd:organisationName>
-                                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
                                     </gmd:organisationName>
                                     <gmd:positionName gco:nilReason="missing"/>
                                     <gmd:contactInfo>
@@ -246,7 +244,7 @@
                                     </gmd:contactInfo>
                                     <gmd:role>
                                     <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
@@ -275,11 +273,11 @@
             <gmd:extent gco:nilReason="missing"/>
             <gmd:supplementalInformation>
                 <gco:CharacterString>- Remainder of title: Technical Report ECOM-65-G10
-                                                        - Language note: English
-                                                        - Relator code: aut
-                                                        - Personal name: Record, F. A.
-                                                        - Personal name: Tillman, J. E.
-                                                        </gco:CharacterString>
+                                                                                  - Language note: English
+                                                                                  - Relator code: aut
+                                                                                  - Personal name: Record, F. A.
+                                                                                  - Personal name: Tillman, J. E.
+                                                                                  </gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
