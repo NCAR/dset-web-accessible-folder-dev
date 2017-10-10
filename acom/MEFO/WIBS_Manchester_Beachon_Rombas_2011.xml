@@ -4,7 +4,8 @@
     <gco:CharacterString>WIBS_Manchester_Beachon_Rombas_2011</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
-    <gco:CharacterString>eng; USA</gco:CharacterString>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
     <gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
@@ -12,33 +13,6 @@
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
   </gmd:hierarchyLevel>
-  <gmd:contact>
-    <gmd:CI_ResponsibleParty>
-      <gmd:individualName>
-        <gco:CharacterString>Ian Crawford</gco:CharacterString>
-      </gmd:individualName>
-      <gmd:organisationName>
-        <gco:CharacterString>University of Manchester</gco:CharacterString>
-      </gmd:organisationName>
-      <gmd:contactInfo>
-        <gmd:CI_Contact>
-          <gmd:address>
-            <gmd:CI_Address>
-              <gmd:city>
-                <gco:CharacterString>Manchester</gco:CharacterString>
-              </gmd:city>
-              <gmd:country>
-                <gco:CharacterString>UK</gco:CharacterString>
-              </gmd:country>
-            </gmd:CI_Address>
-          </gmd:address>
-        </gmd:CI_Contact>
-      </gmd:contactInfo>
-      <gmd:role>
-        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-      </gmd:role>
-    </gmd:CI_ResponsibleParty>
-  </gmd:contact>
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName>
@@ -51,6 +25,9 @@
         <gmd:CI_Contact>
           <gmd:address>
             <gmd:CI_Address>
+			    <gmd:electronicMailAddress>
+                    <gco:CharacterString>ortega@ucar.edu</gco:CharacterString>
+                </gmd:electronicMailAddress>
               <gmd:deliveryPoint>
                 <gco:CharacterString>PO Box 3000</gco:CharacterString>
               </gmd:deliveryPoint>
@@ -94,6 +71,9 @@
         <gmd:CI_Contact>
           <gmd:address>
             <gmd:CI_Address>
+			    <gmd:electronicMailAddress>
+                    <gco:CharacterString>ziskin@ucar.edu</gco:CharacterString>
+                </gmd:electronicMailAddress>
               <gmd:deliveryPoint>
                 <gco:CharacterString>PO Box 3000</gco:CharacterString>
               </gmd:deliveryPoint>
@@ -126,7 +106,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-06-13T15:28:28</gco:DateTime>
+    <gco:DateTime>2017-06-13T15:38:28</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -212,8 +192,23 @@
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+	  
+	  
+	  <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+                <gco:CharacterString>Standard NCAR/UCAR policy</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:otherConstraints>
+                 <gco:CharacterString>None.</gco:CharacterString>
+            </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+	  
+	  
+	  
       <gmd:language>
-        <gco:CharacterString>eng; USA</gco:CharacterString>
+           <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
       </gmd:language>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
