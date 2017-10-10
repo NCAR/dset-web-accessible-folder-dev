@@ -61,7 +61,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-10-10T10:02:10</gco:DateTime>
+        <gco:DateTime>2017-10-10T10:41:22</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -157,7 +157,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>The Fire INventory from NCAR (FINN) model provides high resolution, global emission estimates from open burning; these emissions have been developed specifically to provide input needed for modeling atmospheric chemistry and air quality in a consistent framework at scales from local to global. The inventory framework produces daily emission estimates at a horizontal resolution of ~1 km2.  The product differs from other inventories because it provides a unique combination of high temporal and spatial resolution, global coverage, and estimates for a large number of chemical species. FINN emission estimates are based on the framework described by Wiedinmyer et al. [2006; 2011]. FINN uses satellite observations of active fires and land cover, together with emission factors and estimated fuel loadings to provide daily, highly-resolved (1 km) open burning emissions estimates for use in regional and global chemical transport models.</gco:CharacterString>
+                <gco:CharacterString>The Fire INventory from NCAR (FINN) model provides high resolution, global emission estimates from open burning; these emissions have been developed specifically to provide input needed for modeling atmospheric chemistry and air quality in a consistent framework at scales from local to global. The inventory framework produces daily emission estimates at a horizontal resolution of ~1 km x 1km.  The product differs from other inventories because it provides a unique combination of high temporal and spatial resolution, global coverage, and estimates for a large number of chemical species. FINN emission estimates are based on the framework described by Wiedinmyer et al. [2006; 2011]. FINN uses satellite observations of active fires and land cover, together with emission factors and estimated fuel loadings to provide daily, highly-resolved (1 km) open burning emissions estimates for use in regional and global chemical transport models.</gco:CharacterString>
             </gmd:abstract>
             <gmd:status>
                 <gmd:MD_ProgressCode
@@ -269,7 +269,7 @@
                 <gmd:MD_Keywords>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AIR QUALITY &gt; EMISSIONS
-                    open burning emissions</gco:CharacterString>
+                              open burning emissions</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:thesaurusName>
                         <gmd:CI_Citation>
@@ -307,7 +307,9 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Standard NCAR/UCAR policy and reference Weidinmyer et al., Geoscientific Model Development, 2011.</gco:CharacterString>
+                        <gco:CharacterString>Standard NCAR/UCAR policy and reference Weidinmyer et al., Geoscientific Model Development, 2011 shown below.
+    
+    Wiedinmyer, C., S. K. Akagi, R. J. Yokelson, L. K. Emmons, J. A. Al-Saadi, J. J. Orlando, and A. J. Soja. "The Fire Inventory from Ncar (Finn): A High Resolution Global Model to Estimate the Emissions from Open Burning." Geoscientific Model Development 4, no. 3 (2011): 625-41. (http://www.geosci-model-dev.net/4/625/2011/gmd-4-625-2011.html)</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>Name and contact information need to be submitted prior to downloading the data files.</gco:CharacterString>
@@ -321,7 +323,7 @@
             <gmd:spatialResolution>
                 <gmd:MD_Resolution>
                     <gmd:distance>
-                        <gco:Distance uom="km">11</gco:Distance>
+                        <gco:Distance uom="km">1</gco:Distance>
                     </gmd:distance>
                 </gmd:MD_Resolution>
             </gmd:spatialResolution>
