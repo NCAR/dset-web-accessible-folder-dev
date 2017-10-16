@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-10-09T14:50:00</gco:DateTime>
+        <gco:DateTime>2017-10-16T13:53:54</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -148,8 +148,8 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>MOPITT is an instrument flying on NASA's Earth Observing System Terra spacecraft, measuring tropospheric carbon monoxide (CO) on the global scale. MOPITT measurements enable scientists to analyze the distribution, transport, sources and sinks of CO, a trace gas produced by methane oxidation, fossil fuel consumption and biomass burning. MOPITT has been operational since March 2000. 
-                          
-Datasets are available in grided or vector formats (22 km x 22km pixels, available in L2 files, 1x1 degree grid in L3 files). Both L2 and L3 MOPITT products have total column CO and vertical profiles with 9 pressure levels.</gco:CharacterString>
+                                  
+        Datasets are available in grided or vector formats (22 km x 22km pixels, available in L2 files, 1x1 degree grid in L3 files). Both L2 and L3 MOPITT products have total column CO and vertical profiles with 9 pressure levels.</gco:CharacterString>
             </gmd:abstract>
             <gmd:status>
                 <gmd:MD_ProgressCode
@@ -389,6 +389,24 @@ Datasets are available in grided or vector formats (22 km x 22km pixels, availab
                     <gmd:version gco:nilReason="missing"/>
                 </gmd:MD_Format>
             </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>NASA</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat gco:nilReason="missing"/>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
         </gmd:MD_Distribution>
     </gmd:distributionInfo>
 </gmd:MD_Metadata>
