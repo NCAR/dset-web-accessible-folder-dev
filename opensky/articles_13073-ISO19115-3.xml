@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-10-20T18:06:08.685389</gco:DateTime>
+      <gco:DateTime>2017-10-25T21:26:13.689814</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -151,7 +151,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>No abstract available.</gco:CharacterString>
+            <gco:CharacterString>The discontinuous Galerkin (DG) method is high order, conservative, and offers excellent parallel efficiency. However, when there are discontinuities in the solution, the DG transport scheme generates spurious oscillations that reduce the quality of the numerical solution. For applications such as the atmospheric tracer transport modeling, a nonoscillatory, positivity-preserving solution is a basic requirement. To suppress the oscillations in the DG solution, a limiter based on the Hermite-Weighted Essentially Nonoscillatory (H-WENO) method has been implemented for a third-order DG transport scheme. However, the H-WENO limiter can still produce wiggles with small amplitudes in the solutions, but this issue has been addressed by combining the limiter with a bound-preserving (BP) filter. The BP filter is local and easy to implement and can be used for making the solution strictly positivity preserving. The DG scheme combined with the limiter and filter preserves the accuracy of the numerical solution in the smooth regions while effectively eliminating overshoots and undershoots. The resulting nonoscillatory DG scheme is third-order accurate (P-2-DG) and based on the modal discretization. The 2D Cartesian scheme is further extended to the cubed-sphere geometry, which employs nonorthogonal, curvilinear coordinates. The accuracy and effectiveness of the limiter and filter are demonstrated with several benchmark tests on both the Cartesian and spherical geometries.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

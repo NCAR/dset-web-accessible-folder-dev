@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-10-20T18:06:04.741117</gco:DateTime>
+      <gco:DateTime>2017-10-25T21:25:22.902686</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -191,7 +191,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>No abstract available.</gco:CharacterString>
+            <gco:CharacterString>As a first step toward coupled ocean-atmosphere data assimilation, a parallelized ensemble filter is implemented in a new stochastic hybrid coupled model. The model consists of a global version of the GFDL Modular Ocean Model Version 4 (MOM4), coupled to a statistical atmosphere based on a regression of National Centers for Environmental Prediction (NCEP) reanalysis surface wind stress, heat, and water flux anomalies onto analyzed tropical Pacific SST anomalies from 1979 to 2002. The residual part of the NCEP fluxes not captured by the regression is then treated as stochastic forcing, with different ensemble members feeling the residual fluxes from different years. The model provides a convenient test bed for coupled data assimilation, as well as a prototype for representing uncertainties in the surface forcing.', A parallel ensemble adjustment Kalman filter (EAKF) has been designed and implemented in the hybrid model, using a local least squares framework. Comparison experiments demonstrate that the massively parallel processing EAKF (MPPEAKF) produces assimilation results with essentially the same quality as a global sequential analysis. Observed subsurface temperature profiles from expendable bathythermographs (XBTs), Tropical Atmosphere Ocean (TAO) buoys, and Argo floats, along with analyzed SSTs from NCEP, are assimilated into the hybrid model over 1980-2002 using the MPPEAKF. The filtered ensemble of SSTs, ocean heat contents, and thermal structures converge well to the observations, in spite of the imposed stochastic forcings. Several facets of the EAKF algorithm used here have been designed to facilitate comparison to a traditional three-dimensional variational data assimilation (3DVAR) algorithm, for instance, the use of a univariate filter in which observations of temperature only directly impact temperature state variables. Despite these choices that may limit the power of the EAKF, the MPPEAKF solution appears to improve upon an earlier 3DVAR solution, producing a smoother, more physically reasonable analysis that better fits the observational data and produces, to some degree, a self-consistent estimate of analysis uncertainties. Hybrid model ENSO forecasts initialized from the MPPEAKF ensemble mean also appear to outperform those initialized from the 3DVAR analysis. This improvement stems from the EAKF's utilization of anisotropic background error covariances that may vary in time.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
