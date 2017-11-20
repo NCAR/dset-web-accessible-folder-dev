@@ -3,7 +3,8 @@
     xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" 
     xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>cesm.cgd.ncar.ucar.edu::b40.1850.track1.deg.006::2011-05-01</gco:CharacterString>
+        <gco:CharacterString>
+            cesm.cgd.ncar.ucar.edu::b40.1850.track1.deg.006::2011-05-01</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -87,12 +88,42 @@
                         <gmd:linkage>
                             <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.1850.track1.1deg.006/atm_863-892-obs/</gmd:URL>
                         </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>The standard atmosphere diagnostics for this case.</gco:CharacterString> 
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
                         <gmd:linkage>
                             <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.1850.track1.1deg.006/ice_863-892-obs/all_plots.html</gmd:URL>
                         </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>The standard sea ice diagnostics for this case.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
                         <gmd:linkage>
                             <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.1850.track1.1deg.006/lnd_863-882-b30.020.ES02/setsIndex.html</gmd:URL>
                         </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>The standard land diagnostics for this case.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information"
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
                         <gmd:linkage>
                             <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.1850.track1.1deg.006/ocn_863-892-obs/popdiag.html</gmd:URL>
                     </gmd:linkage>
@@ -100,7 +131,7 @@
                         <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>The standard atmosphere, land, ocean, sea ice, and climate variability diagnostics for this case.</gco:CharacterString>
+                        <gco:CharacterString>The standard ocean diagnostics for this case.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="information"
@@ -258,7 +289,6 @@
                                 <gco:CharacterString>Community Earth System Model developers and affiliates</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName gco:nilReason="missing"/>
-                           
                             <gmd:role>
                                 <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
@@ -305,13 +335,14 @@
                                 <gmd:CI_RoleCode codeListValue="resourceProvider"
                                     codeList="./resources/codeList.xml#CI_RoleCode">resourceProvider</gmd:CI_RoleCode>
                             </gmd:role>
-                            
-                        </gmd:CI_ResponsibleParty>
+                            </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>These experimental data were generated by the CESM 1.0 coupled model. These data are from the CESM 1.0 CCSM 4.1 Pre-Industrial Control Experiment. The data span 300 years.</gco:CharacterString> 
+                <gco:CharacterString>These experimental data were generated by the CESM 1.0 coupled model. These data are from the CESM 1.0 CCSM 4.1 Pre-Industrial Control Experiment. The data span 300 years.
+                    The spatial resolution information for the data is as follows: laditute_resolution_atmosphere_land_degrees=0.9; longitude_resolution_atmosphere_land_degrees=1.25
+                </gco:CharacterString> 
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Sponsored by the U.S. National Science Foundation</gco:CharacterString>
@@ -400,7 +431,7 @@
                             <gmd:date>
                                 <gmd:CI_Date>
                                     <gmd:date>
-                                        <gco:Date>#</gco:Date> 
+                                        <gco:Date>2010-01-03</gco:Date> 
                                     </gmd:date>
                                     <gmd:dateType>
                                         <gmd:CI_DateTypeCode codeListValue="revision"
@@ -421,7 +452,6 @@
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
-                        
                         </gmd:CI_Citation>
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
@@ -441,20 +471,6 @@
                     codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode">grid</gmd:MD_SpatialRepresentationTypeCode>
             </gmd:spatialRepresentationType>
             <gmd:language gco:nilReason="missing"/>
-            <gmd:spatialResolution>
-                <gmd:MD_Resolution>
-                    <gmd:distance>
-                        <gco:Distance uom="laditute_resolution_atmosphere_land_degrees">0.9</gco:Distance>
-                    </gmd:distance>
-                </gmd:MD_Resolution>         
-            </gmd:spatialResolution>
-            <gmd:spatialResolution>
-                <gmd:MD_Resolution>
-                    <gmd:distance>
-                        <gco:Distance uom="longitude_resolution_atmosphere_land_degrees">1.25</gco:Distance>
-                    </gmd:distance>
-                </gmd:MD_Resolution>        
-            </gmd:spatialResolution>
             <gmd:language>
                 <gmd:LanguageCode
                     codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode> 
@@ -540,10 +556,11 @@
     <gmd:metadataMaintenance>
         <gmd:MD_MaintenanceInformation>
             <gmd:maintenanceAndUpdateFreuency>
-                <gmd:MD_MaintenanceFrequenceyCode codeListValue="asNeeded"
-                    codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode">asNEEDED</gmd:MD_MaintenanceFrequenceyCode>
+                <gmd:MD_MaintenanceFrequenceyCode codeListValue="#"
+                    codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode">#</gmd:MD_MaintenanceFrequenceyCode>
             </gmd:maintenanceAndUpdateFreuency>
         </gmd:MD_MaintenanceInformation>
     </gmd:metadataMaintenance>
-</gmd:MD_Metadata>    
+    </gmd:MD_Metadata>
+ 
             
