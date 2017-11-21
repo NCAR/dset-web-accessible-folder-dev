@@ -87,7 +87,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Collection of all Level 1.5 (Quickook) files (in IDL SAVE format) for the data from the Hinode Spectro-Polarimeter, since the launch of the mission in 2006. Each IDL SAVE file contains quick analyses of a Level 1 SP map, which provides images of measuerements of the longitudinal and transverse componenets of the magnetic flux, the Doppler velocity, the continuum intensity, the solar coordinates of each pixel in the map, and many other parameters describing the data and the reduction process. </gco:CharacterString>
+                <gco:CharacterString>Collection of all Level 1.5 (Quickook) files (in IDL SAVE format) for the data from the Hinode Spectro-Polarimeter, since the launch of the mission in 2006. Each IDL SAVE file contains quick analyses of a Level 1 SP map, which provides images of measuerements of the longitudinal and transverse componenets of the magnetic flux, the Doppler velocity, the continuum intensity, the solar coordinates of each pixel in the map, and many other parameters describing the data and the reduction process. Variable: starting at 0.15 arcseconds</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Lites, B.W. &amp; Ichimoto, K. Sol Phys (2013) 283: 601. https://doi.org/10.1007/s11207-012-0205-4</gco:CharacterString>
@@ -110,7 +110,7 @@
                 <gmd:MD_Keywords>
                     <gmd:keyword>
                         <gco:CharacterString>HINODE &gt; Hinode (Solar-B)
-                        SOT &gt; SOLAR OPTICAL TELESCOPE (HINODE)</gco:CharacterString>
+                                          SOT &gt; SOLAR OPTICAL TELESCOPE (HINODE)</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:thesaurusName>
                         <gmd:CI_Citation>
@@ -134,25 +134,18 @@
                 <gmd:MD_Constraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>CSAC and its services comply with policies outlined by UCAR/NCAR. When using CSAC's eservices, users acknowledge and accept the following:
-                        
-                        - Terms of Use (https://www2.ucar.edu/terms-of-use)
-                        - Copyright Issues (https://www2.ucar.edu/notification-copyright-infringement1``-digital-millennium-copyright-act)
-                        - Privacy Policy (https://www2.ucar.edu/privacy-policy)
-                        - Publication and Information Dissemination (https://www2.fin.ucar.edu/policies/3-5-publication-information-dissemination)
-                        - Public Access (https://library.ucar.edu/public-access)</gco:CharacterString>
+                                          
+                                          - Terms of Use (https://www2.ucar.edu/terms-of-use)
+                                          - Copyright Issues (https://www2.ucar.edu/notification-copyright-infringement1``-digital-millennium-copyright-act)
+                                          - Privacy Policy (https://www2.ucar.edu/privacy-policy)
+                                          - Publication and Information Dissemination (https://www2.fin.ucar.edu/policies/3-5-publication-information-dissemination)
+                                          - Public Access (https://library.ucar.edu/public-access)</gco:CharacterString>
                     </gmd:useLimitation>
                 </gmd:MD_Constraints>
             </gmd:resourceConstraints>
             <gmd:spatialRepresentationType>
                 <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
             </gmd:spatialRepresentationType>
-            <gmd:spatialResolution>
-                <gmd:MD_Resolution>
-                    <gmd:distance>
-                        <gco:Distance>variable: starting at 0.15 arcseconds</gco:Distance>
-                    </gmd:distance>
-                </gmd:MD_Resolution>
-            </gmd:spatialResolution>
             <gmd:language>
                 <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
             </gmd:language>
@@ -163,19 +156,14 @@
                     <gmd:description gco:nilReason="missing"/>
                     <gmd:geographicElement gco:nilReason="missing"/>
                     <gmd:temporalElement>
-                        <gmd:EX_SpatialTemporalExtent>
+                        <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimeEdge>
-                                    <gml:extent>
-                                    <gml:TimePeriod>
-                                    <gml:beginPosition indeterminatePosition="2006">2006</gml:beginPosition>
+                                <gml:TimePeriod>
+                                    <gml:beginPosition indeterminatePosition="2006-10-26T16:10:00">2006-10-26T16:10:00</gml:beginPosition>
                                     <gml:endPosition indeterminatePosition="now">now</gml:endPosition>
-                                    </gml:TimePeriod>
-                                    </gml:extent>
-                                </gml:TimeEdge>
+                                </gml:TimePeriod>
                             </gmd:extent>
-                            <gmd:spatialExtent gco:nilReason="missing"/>
-                        </gmd:EX_SpatialTemporalExtent>
+                        </gmd:EX_TemporalExtent>
                     </gmd:temporalElement>
                     <gmd:verticalElement gco:nilReason="missing"/>
                 </gmd:EX_Extent>
