@@ -54,7 +54,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-11-21T13:12:21</gco:DateTime>
+        <gco:DateTime>2017-11-27T10:12:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -118,11 +118,9 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Rob Markel</gco:CharacterString>
+                                <gco:CharacterString>K. Ichimoto</gco:CharacterString>
                             </gmd:individualName>
-                            <gmd:organisationName>
-                                <gco:CharacterString>UCAR/NCAR - High Altitude Observatory - Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
-                            </gmd:organisationName>
+                            <gmd:organisationName gco:nilReason="missing"/>
                             <gmd:positionName gco:nilReason="missing"/>
                             <gmd:role>
                                 <gmd:CI_RoleCode
@@ -151,22 +149,7 @@
                                 <gco:CharacterString>Rebecca Centeno</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UCAR/NCAR - High Altitude Observatory - Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
-                            </gmd:organisationName>
-                            <gmd:positionName gco:nilReason="missing"/>
-                            <gmd:role>
-                                <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                            </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                    </gmd:citedResponsibleParty>
-                    <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>K. Ichimoto</gco:CharacterString>
-                            </gmd:individualName>
-                            <gmd:organisationName>
-                                <gco:CharacterString>Hide Observatory</gco:CharacterString>
+                                <gco:CharacterString>UCAR/NCAR - High Altitude Observatory - Community Spectropolarimetric Analysis Centerr (CSAC)</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName gco:nilReason="missing"/>
                             <gmd:role>
@@ -193,22 +176,18 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Collection of all Level 1.5 (Quickook) files (in IDL SAVE format) for the data from the Hinode Spectro-Polarimeter, since the launch of the mission in 2006. Each IDL SAVE file contains quick analyses of a Level 1 SP map, which provides images of measuerements of the longitudinal and transverse componenets of the magnetic flux, the Doppler velocity, the continuum intensity, the solar coordinates of each pixel in the map, and many other parameters describing the data and the reduction process. Variable: starting at 0.15 arcseconds</gco:CharacterString>
+                <gco:CharacterString>Collection of all Level 1.5 (Quickook) files (in IDL SAVE format) for the data from the Hinode Spectro-Polarimeter, since the launch of the mission in 2006. Each IDL SAVE file contains quick analyses of a Level 1 SP map, which provides images of measuerements of the longitudinal and transverse componenets of the magnetic flux, the Doppler velocity, the continuum intensity, the solar coordinates of each pixel in the map, and many other parameters describing the data and the reduction process. </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Lites, B.W. &amp; Ichimoto, K. Sol Phys (2013) 283: 601. https://doi.org/10.1007/s11207-012-0205-4</gco:CharacterString>
             </gmd:credit>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>Rebecca Centeno Elliot</gco:CharacterString>
-                    </gmd:individualName>
+                    <gmd:individualName gco:nilReason="missing"/>
                     <gmd:organisationName>
-                        <gco:CharacterString>HAO/STSW</gco:CharacterString>
+                        <gco:CharacterString>Community Spectropolarimetric Analysis Center (CSAC)</gco:CharacterString>
                     </gmd:organisationName>
-                    <gmd:positionName>
-                        <gco:CharacterString>Project Scientist</gco:CharacterString>
-                    </gmd:positionName>
+                    <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
                         <gmd:CI_Contact>
                             <gmd:phone>
@@ -221,7 +200,7 @@
                             <gmd:address>
                                 <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rce@ucar.edu</gco:CharacterString>
+                                    <gco:CharacterString>csac@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
@@ -309,58 +288,16 @@
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
-            <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords>
-                    <gmd:keyword>
-                        <gco:CharacterString>Dataset</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:type>
-                        <gmd:MD_KeywordTypeCode
-                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
-                    </gmd:type>
-                    <gmd:thesaurusName>
-                        <gmd:CI_Citation>
-                            <gmd:title>
-                                <gco:CharacterString>Resource Type</gco:CharacterString>
-                            </gmd:title>
-                            <gmd:date>
-                                <gmd:CI_Date>
-                                    <gmd:date>
-                                    <gco:Date>2017-11-21</gco:Date>
-                                    </gmd:date>
-                                    <gmd:dateType>
-                                    <gmd:CI_DateTypeCode
-                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                                    </gmd:dateType>
-                                </gmd:CI_Date>
-                            </gmd:date>
-                            <gmd:citedResponsibleParty>
-                                <gmd:CI_ResponsibleParty>
-                                    <gmd:individualName gco:nilReason="missing"/>
-                                    <gmd:organisationName>
-                                    <gco:CharacterString>DataCite</gco:CharacterString>
-                                    </gmd:organisationName>
-                                    <gmd:positionName gco:nilReason="missing"/>
-                                    <gmd:role>
-                                    <gmd:CI_RoleCode
-                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                                    </gmd:role>
-                                </gmd:CI_ResponsibleParty>
-                            </gmd:citedResponsibleParty>
-                        </gmd:CI_Citation>
-                    </gmd:thesaurusName>
-                </gmd:MD_Keywords>
-            </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>CSAC and its services comply with policies outlined by UCAR/NCAR. When using CSAC's eservices, users acknowledge and accept the following:
-                                                                      
-                                                                      - Terms of Use (https://www2.ucar.edu/terms-of-use)
-                                                                      - Copyright Issues (https://www2.ucar.edu/notification-copyright-infringement1``-digital-millennium-copyright-act)
-                                                                      - Privacy Policy (https://www2.ucar.edu/privacy-policy)
-                                                                      - Publication and Information Dissemination (https://www2.fin.ucar.edu/policies/3-5-publication-information-dissemination)
-                                                                      - Public Access (https://library.ucar.edu/public-access)</gco:CharacterString>
+                                                                              
+                                                                              - Terms of Use (https://www2.ucar.edu/terms-of-use)
+                                                                              - Copyright Issues (https://www2.ucar.edu/notification-copyright-infringement1``-digital-millennium-copyright-act)
+                                                                              - Privacy Policy (https://www2.ucar.edu/privacy-policy)
+                                                                              - Publication and Information Dissemination (https://www2.fin.ucar.edu/policies/3-5-publication-information-dissemination)
+                                                                              - Public Access (https://library.ucar.edu/public-access)</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>none</gco:CharacterString>
@@ -385,7 +322,7 @@
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="boundingTemporalExtent">
-                                    <gml:beginPosition>2006-10-26T16:10:00</gml:beginPosition>
+                                    <gml:beginPosition indeterminatePosition="2006-10-26T16:10:00">2006-10-26T16:10:00</gml:beginPosition>
                                     <gml:endPosition indeterminatePosition="now">now</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
