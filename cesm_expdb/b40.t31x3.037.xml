@@ -4,7 +4,8 @@
     xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
         <gco:CharacterString>
-            cesm.cgd.ncar.ucar.edu::b40.t31x3.037::2011-01-11</gco:CharacterString>
+            cesm.cgd.ncar.ucar.edu::b40.t31x3.037::2011-11-01</gco:CharacterString>
+    <!-- corrected release date to November 1, 2011-->
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -24,7 +25,7 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>missing</gco:CharacterString>
+                <gco:CharacterString>CESM data manager</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
                 <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
@@ -49,7 +50,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-11-21T15:12:00</gco:DateTime>
+        <gco:DateTime>2017-12-07T15:12:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -85,14 +86,14 @@
         <gmd:MD_MetadataExtensionInformation>
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.t31x3.037/atm_451-500-b40.1850.track1.2deg.003/</gmd:URL>
-                        </gmd:linkage>
+                    <gmd:linkage>
+                        <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.t31x3.037/</gmd:URL>
+                    </gmd:linkage>
                     <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
+                        <gco:CharacterString>Top-level directory for diagnostic package results</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>The standard atmosphere diagnostics for this case.</gco:CharacterString>
+                        <gco:CharacterString>Access atmosphere, ocean, land and sea ice diagnostics for this case.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="information"
@@ -102,60 +103,19 @@
             </gmd:extensionOnLineResource>
         </gmd:MD_MetadataExtensionInformation>
     </gmd:metadataExtensionInfo>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.t31x3.037/ice_451-500-b40.1850.track1.2deg.003/diff_plots.html</gmd:URL>
-                        </gmd:linkage>
-                    <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>The standard sea ice diagnostics for this case.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeListValue="information"
-                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
-                    </gmd:function>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.t31x3.037/lnd_451-500-b40.1850.track1.2deg.003/setsIndex.html</gmd:URL>
-                        </gmd:linkage>
-                    <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>The standard land diagnostics for this case.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeListValue="information"
-                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
-                    </gmd:function>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
+    <!--Abridged diagnostic links to just the top-level directory -->
     <gmd:metadataExtensionInfo>
         <gmd:MD_MetadataExtensionInformation>
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>#</gmd:URL>
+                        <gmd:URL>http://www.earthsystemgrid.org/dataset/ucar.cgd.ccsm4.b40.t31x3.037.html</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>Earth System Grid Location (CESM)</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>Not available</gco:CharacterString>
+                        <gco:CharacterString>Data access via ESG (years 451-500)</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="download"
@@ -254,27 +214,28 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>CCSM4 T31 Pre-Industrial Control (MOAR)</gco:CharacterString> 
+                        <gco:CharacterString>CCSM4 T31 Pre-Industrial Control</gco:CharacterString>
+                    <!--Deleted MOAR -->
                     </gmd:title>
                     <gmd:alternateTitle>
                         <gco:CharacterString>b40.t31x3.037 (CESM Case Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (CMIP Experiment Name)</gco:CharacterString>
+                        <gco:CharacterString>Not available (CMIP Experiment Name)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (CMIP Realization Identifier)</gco:CharacterString> 
+                        <gco:CharacterString>Not available (CMIP Realization Identifier)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (MIP) Name</gco:CharacterString>
+                        <gco:CharacterString>Not available (MIP) Name</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:alternateTitle>
-                        <gco:CharacterString>N/A (ESG - Run Database identifier)</gco:CharacterString> 
+                        <gco:CharacterString>Not available (ESG - Run Database identifier)</gco:CharacterString>
                     </gmd:alternateTitle>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2011-01-11</gco:Date>
+                                <gco:Date>2011-11-01</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeListValue="publication"
@@ -343,8 +304,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>These experimental data were generated by the CESM 1.0 coupled model. These data are from the CESM 1.0 CCSM 4 T31 Pre-Industrial Control Experiment. The data span 506 years.
-                      The spatial resolution information for the data is as follows: laditute_resolution_atmosphere_land_degrees=T31; longitude_resolution_atmosphere_land_degrees=g37. P506y - This is a 506 year long study.
+                <gco:CharacterString>These experimental data were generated by the CCSM4 coupled model. These data are from the CCM4 T31 Pre-Industrial Control Experiment. At atproximately 3.75 degrees horizontal resolution in the atmosphere and land components, and 3 degrees in the ocean component, this is the former "low-resolution" version of CCSM4, intended for paleoclimate studies and other cases requiring very long runs.  The data span 506 years.  To access the data, please see the ESG, HPSS, and/or GLADE links under "Related Resources."
                 </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
@@ -396,7 +356,8 @@
                             <gmd:date>
                                 <gmd:CI_Date>
                                     <gmd:date>
-                                    <gco:Date>2011-01-11</gco:Date>
+                                    <gco:Date>2011-11-01</gco:Date>
+                                    <!--corrected release date -->
                                     </gmd:date>
                                     <gmd:dateType>
                                         <gmd:CI_DateTypeCode codeListValue="publication"
@@ -473,6 +434,21 @@
                 <gmd:MD_SpatialRepresentationTypeCode codeListValue="grid"
                     codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode">grid</gmd:MD_SpatialRepresentationTypeCode>
             </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="latitude_resolution_atmosphere_land_degrees">3.75</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="longitude_resolution_atmosphere_land_degrees">3.75</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <!-- added spatial resolution element-->
             <gmd:language gco:nilReason="missing"/>
             <gmd:language>
                 <gmd:LanguageCode
