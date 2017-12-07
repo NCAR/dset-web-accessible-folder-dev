@@ -24,7 +24,7 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>missing</gco:CharacterString>
+                <gco:CharacterString>CESM data manager</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
                 <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
@@ -49,7 +49,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-11-30T15:05:01</gco:DateTime>
+        <gco:DateTime>2017-12-05T15:05:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -85,77 +85,14 @@
         <gmd:MD_MetadataExtensionInformation>
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.coup_carb.004/atm_351-370-b40.1850.track1.1deg.006/</gmd:URL>
-                        </gmd:linkage>
-                    <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>The standard atmosphere diagnostics for this case.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeListValue="information"
-                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
-                    </gmd:function>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.coup_carb.004/ice_351-370-b40.1850.track1.1deg.006/diff_plots.html</gmd:URL>
-                        </gmd:linkage>
-                    <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>The standard sea ice diagnostics for this case.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeListValue="information"
-                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
-                    </gmd:function>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.coup_carb.004/lnd_351-370-b40.1850.track1.1deg.006/setsIndex.html</gmd:URL>
-                        </gmd:linkage>
-                    <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>The standard land diagnostics for this case.</gco:CharacterString>
-                    </gmd:description>
-                    <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeListValue="information"
-                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode">information</gmd:CI_OnLineFunctionCode>
-                    </gmd:function>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                        <gmd:linkage>
-                            <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.coup_carb.004/ocn_351-370-b40.1850.track1.1deg.006/popdiag.html</gmd:URL>
+                    <gmd:linkage>
+                        <gmd:URL>http://www.cesm.ucar.edu/experiments/cesm1.0/diagnostics/b40.coup_carb.004/</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
-                        <gco:CharacterString>Directory of CESM Diagnostic package Results</gco:CharacterString>
+                        <gco:CharacterString>Top-level directory for diagnostic package results</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>The standard ocean diagnostics for this case.</gco:CharacterString>
+                        <gco:CharacterString>Access atmosphere, ocean, land and sea ice diagnostics for this case.</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="information"
@@ -165,18 +102,19 @@
             </gmd:extensionOnLineResource>
         </gmd:MD_MetadataExtensionInformation>
     </gmd:metadataExtensionInfo>
+   <!--Abridged diagnostic links to just the top-level directory -->
     <gmd:metadataExtensionInfo>
         <gmd:MD_MetadataExtensionInformation>
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>#</gmd:URL>
+                        <gmd:URL>http://www.earthsystemgrid.org/dataset/ucar.cgd.ccsm4.b40.coup_carb.004.html</gmd:URL>
                     </gmd:linkage>
                     <gmd:name>
                         <gco:CharacterString>Earth System Grid Location (CESM)</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>Not available</gco:CharacterString>
+                        <gco:CharacterString>Access the data via ESG (years 351-380)</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="download"
@@ -218,8 +156,7 @@
                         <gco:CharacterString>HPSS path</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>NA Access the eperiment output from the HPSS. 
-                        Available to users with NCAR supercomputing access</gco:CharacterString> 
+                        <gco:CharacterString>Not available</gco:CharacterString>
                     </gmd:description>
                     <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeListValue="download"
@@ -365,8 +302,7 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>These experimental data were generated by the CESM 1.0 coupled model. These data are from the CESM 1.0 ESM1 (BGC) Prognostic CO2 1&#176; Pre-Industrial Control. The data span 1000 years.
-                    The spatial resolution information of the data is as follows: laditute_resolution_atmosphere_land_degrees=0.9; longitude_resolution_atmosphere_land_degrees=1.25. P1000y - This is a 1000 year long study.
+                <gco:CharacterString>These experimental data were generated by the CESM 1.0 coupled model. These data are from the CESM1 (BGC) Prognostic CO2 1-degree Pre-Industrial Control. The data span 1000 years.  To access the data, please see the ESG, HPSS, and/or GLADE links under "Related Resources."
                 </gco:CharacterString>           
             </gmd:abstract>
             <gmd:credit>
@@ -495,6 +431,21 @@
                 <gmd:MD_SpatialRepresentationTypeCode codeListValue="grid"
                     codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode">grid</gmd:MD_SpatialRepresentationTypeCode>
             </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="latitude_resolution_atmosphere_land_degrees">0.9</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="longitude_resolution_atmosphere_land_degrees">1.25</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <!-- added spatial resolution element-->
             <gmd:language gco:nilReason="missing"/>
             <gmd:language>
                 <gmd:LanguageCode
