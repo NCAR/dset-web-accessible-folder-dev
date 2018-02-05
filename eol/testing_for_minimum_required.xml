@@ -54,7 +54,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-02-03T10:59:01</gco:DateTime>
+        <gco:DateTime>2018-02-05T11:42:26</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -79,7 +79,7 @@
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode
-                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
@@ -118,12 +118,93 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Don Stott</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>EOL</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Software Engineer/Programmer</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>303-497-8154</gco:CharacterString>
+                                    </gmd:voice>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>stott@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>CO</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>80307</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://data.eol.ucar.edu</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>A test of filling out minimum required concepts for a dataset.
-  
-  Roads are snow-covered across higher elevation this morning but snow rates are on the lighter side. A Winter Weather Advisory for moderate snow is in effect for the northern mountains through Sunday morning.</gco:CharacterString>
+          
+          Roads are snow-covered across higher elevation this morning but snow rates are on the lighter side. A Winter Weather Advisory for moderate snow is in effect for the northern mountains through Sunday morning.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
@@ -221,11 +302,14 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>None.</gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Use an acknowledgement in publications: "Data provided by NCAR/EOL under the sponsorship of the National Science Foundation."</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
                 <gmd:LanguageCode
