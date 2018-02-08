@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-02-08T14:29:38-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-08T15:15:24-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds866.0/</gco:CharacterString>
@@ -106,7 +106,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>A global high resolution data base of animal population densities and associated methane (CH4) emissions has been developed at the NASA Goddard Institute for Space Studies (NASA/GISS). The animal population statistics were based primarily on the Food and Agriculture Organization (FAO) compilations and other sources. The animals were distributed using a 1-degree by 1-degree resolution data base of countries and land-use (Matthews, 1983). The animals included are cattle and dairy cows, water buffalo, sheep, goats, camels, pigs, horses, and caribou. Estimates of methane production from each animal type were applied to the animal populations to yield a global distribution of methane emissions by animals. About 55% of the global annual emissions was concentrated between 25 N and 55 N. Estimates of methane emissions from animals were based on the research by Crutzen et al (1986).</gco:CharacterString>
+        <gco:CharacterString>A global high resolution data base of animal population densities and associated methane (CH4) emissions has been developed at the NASA Goddard Institute for Space Studies (NASA/GISS). The animal population statistics were based primarily on the Food and Agriculture Organization (FAO) compilations and other sources. The animals were distributed using a 1-degree by 1-degree resolution data base of countries and land-use (Matthews, 1983). The animals included are cattle and dairy cows, water buffalo, sheep, goats, camels, pigs, horses, and caribou. Estimates of methane production from each animal type were applied to the animal populations to yield a global distribution of methane emissions by animals. About 55% of the global annual emissions was concentrated between 25 N and 55 N. Estimates of methane emissions from animals were based on the research by Crutzen et al. (1986).</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -347,6 +347,16 @@
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="ds866.0_time_period">
+                  <gml:beginPosition>1972</gml:beginPosition>
+                  <gml:endPosition>1982</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
         </gmd:EX_Extent>
       </gmd:extent>
     </gmd:MD_DataIdentification>
