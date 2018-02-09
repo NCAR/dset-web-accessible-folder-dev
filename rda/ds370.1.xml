@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:11:30-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-09T15:06:26-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds370.1/</gco:CharacterString>
@@ -108,9 +108,7 @@
       <gmd:abstract>
         <gco:CharacterString>The NCAR Upper Air Database (UADB) contains global observations beginning in the 1920s and extends to a near current date. Upper air soundings from about 50 different sources have been consolidated into products that are well documented and provide the longest possible, duplicate-free, station time series. Historical sampling methods have been accounted for by creating two product lines, one with soundings that have wind (UADB-Wind) and another with temperature and humidity (UADB-TRH) measurements. This approach maximizes the amount of data consolidated, and when profiles have simultaneous temperature, humidity, and wind measurements, they are replicated in both products.
 
-The first consolidation step was compositing stations with identical WMO station numbers across all data sources. The UADB-TRH product has nearly 1100 stations that report for 20 years or more, and over 400 stations have time series of 50 years or longer. The UADB-Wind product has about 1600 stations that report for 20 years or more, and over 500 stations have soundings for at least 50 years. Next stations with different WMO station numbers, but that are located at identical latitudes and longitudes, or nearly so (within 40 kilometers) were combined, accounting for WMO station number changes and small position relocations. The result is that even longer station time series are created; extensions occur at over 240 and 250 locations in the UADB-TRH and UADB-Wind products, respectively. The composited and combined products are both available.
-
-Note: This dataset (UADB) is currently being supported in maintenance mode, and is not receiving regular updates. Additionally, some services such as subsetting may not be available.</gco:CharacterString>
+The first consolidation step was compositing stations with identical WMO station numbers across all data sources. The UADB-TRH product has nearly 1100 stations that report for 20 years or more, and over 400 stations have time series of 50 years or longer. The UADB-Wind product has about 1600 stations that report for 20 years or more, and over 500 stations have soundings for at least 50 years. Next stations with different WMO station numbers, but that are located at identical latitudes and longitudes, or nearly so (within 40 kilometers) were combined, accounting for WMO station number changes and small position relocations. The result is that even longer station time series are created; extensions occur at over 240 and 250 locations in the UADB-TRH and UADB-Wind products, respectively. The composited and combined products are both available.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -188,6 +186,14 @@ Note: This dataset (UADB) is currently being supported in maintenance mode, and 
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
       </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ASCII</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
@@ -244,7 +250,7 @@ Note: This dataset (UADB) is currently being supported in maintenance mode, and 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -274,16 +280,16 @@ Note: This dataset (UADB) is currently being supported in maintenance mode, and 
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -296,7 +302,7 @@ Note: This dataset (UADB) is currently being supported in maintenance mode, and 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-06</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -341,12 +347,28 @@ Note: This dataset (UADB) is currently being supported in maintenance mode, and 
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-179.4799957275</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>179.3999938965</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-90</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>82.5</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds370.1_time_period">
                   <gml:beginPosition>1922-07-10</gml:beginPosition>
-                  <gml:endPosition>2015-06-30</gml:endPosition>
+                  <gml:endPosition>2018-01-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
