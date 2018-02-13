@@ -62,11 +62,31 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-02-12T21:08:00-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-13T14:28:57-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/D69K487J</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://climatedataguide.ucar.edu/climate-data/climate-forecast-system-reanalysis-cfsr</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:description>
+            <gco:CharacterString>Description of CFSR at the NCAR Climate Data Guide</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -1136,13 +1156,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>67333977.7894</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds093.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -1185,5 +1208,4 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 
