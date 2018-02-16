@@ -62,11 +62,34 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:10:51-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:29-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/D6V40SFD</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>http://icoads.noaa.gov/products.html</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>http</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Other access options from ICOADS partners</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -323,7 +346,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -366,7 +389,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-10</gco:Date>
+                    <gco:Date>2018-02-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -430,7 +453,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -480,7 +503,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds548.1_time_period">
                   <gml:beginPosition>1800-01-01</gml:beginPosition>
-                  <gml:endPosition>2017-07-31</gml:endPosition>
+                  <gml:endPosition>2018-01-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -538,13 +561,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>9429</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds548.1/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -560,10 +586,6 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -591,5 +613,4 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 

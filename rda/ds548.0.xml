@@ -62,11 +62,34 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:10:51-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:29-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/D6ZS2TR3</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>http://icoads.noaa.gov/products.html</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>http</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Other access options from ICOADS partners</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -276,7 +299,7 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NOAA IMMA</gco:CharacterString>
+            <gco:CharacterString>NOAA_IMMA</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -284,7 +307,15 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NOAA IMMA</gco:CharacterString>
+            <gco:CharacterString>NOAA_IMMA</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>HDF5</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -348,7 +379,7 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -391,7 +422,7 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-10</gco:Date>
+                    <gco:Date>2018-02-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -464,7 +495,7 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -530,7 +561,7 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds548.0_time_period">
                   <gml:beginPosition>1662-10-15</gml:beginPosition>
-                  <gml:endPosition>2017-07-31</gml:endPosition>
+                  <gml:endPosition>2018-12-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -588,13 +619,16 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>180231</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds548.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -610,10 +644,6 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -641,5 +671,4 @@ The latest Release 3.0 (R3.0) of ICOADS covers 1662-2014, and is coupled with im
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 

@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:11:38-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:38-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds570.0/</gco:CharacterString>
@@ -209,7 +209,7 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>DSS WMSSC</gco:CharacterString>
+            <gco:CharacterString>DSS_WMSSC</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -217,7 +217,7 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>DSS WMSSC</gco:CharacterString>
+            <gco:CharacterString>DSS_WMSSC</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -284,7 +284,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -351,7 +351,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -417,7 +417,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds570.0_time_period">
                   <gml:beginPosition>1738-01-01</gml:beginPosition>
-                  <gml:endPosition>2017-05-31</gml:endPosition>
+                  <gml:endPosition>2017-08-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -475,13 +475,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>202.51</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds570.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -497,10 +500,6 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -528,5 +527,4 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 

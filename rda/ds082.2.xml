@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:10:15-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:22-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds082.2/</gco:CharacterString>
@@ -72,7 +72,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NMC Global Tropospheric Analyses, tropopause subset, daily 1976Jul-1996Aug</gco:CharacterString>
+            <gco:CharacterString>NMC Global Tropospheric Analyses, tropopause subset</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds082.2</gco:CharacterString>
@@ -106,7 +106,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>NCEP Global Tropospheric Analyses on 145x37 2.5 degree grids, one for each hemisphere, 1976Jul01-1997Apr12. The Flattery analysis method was used through 1978Sep21. It forced a relationship between heights and winds which causes the zonal mean meridional wind at every level to be zero. This also caused other problems with winds in equatorial areas. The optimal analysis (OI) method (12 layer) started 1978Sep22. In 1985Apr the Medium Range Forecast (MRF) model started, with 18 layers. Analyses include geopotential height, temperature, wind (u- and v-components) and potential temperature. In more recent years the temperature analyses are derived from thickness temperatures.</gco:CharacterString>
+        <gco:CharacterString>NCEP Global Tropospheric Analyses on 2.5 degree grids, one for each hemisphere, from 1 July 1976 to 12 April 1997. The Flattery analysis method was used through 21 September 1978. It forced a relationship between heights and winds which causes the zonal mean meridional wind at every level to be zero. This also caused other problems with winds in equatorial areas. The optimal analysis (OI) method (12 layer) started on 22 September 1978. In April 1985 the Medium Range Forecast (MRF) model started, with 18 layers. Analyses include geopotential height, temperature, wind (u- and v-components) and potential temperature. In more recent years the temperature analyses are derived from thickness temperatures.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -179,7 +179,7 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NCEP ON84</gco:CharacterString>
+            <gco:CharacterString>NCEP_ON84</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -243,7 +243,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -286,7 +286,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -326,6 +326,13 @@
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="degree">2.5</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -413,13 +420,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>610.58</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds082.2/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -435,10 +445,6 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -466,5 +472,4 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 

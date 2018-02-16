@@ -62,11 +62,34 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:11:30-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:37-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/D6R78C9S</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://precip.gsfc.nasa.gov/</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>NASA GSFC Global Precipitation Analysis – official site</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -136,7 +159,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString> This dataset contains Version 2.2 of the Global Precipitation Climatology Project (GPCP) combined satellite-gauge precipitation estimate and combined satellite-gauge error estimate. The data are monthly analyses defined on a global 2.5 degree by 2.5 degree longitude/latitude grid and cover the period January 1979 to (delayed) present. A monthly climatology (1979-2011) is also available.
+        <gco:CharacterString>NOTE: This dataset has been superseded by GPCP Version 2.3, which is available in RDA dataset ds728.4 [https://rda.ucar.edu/datasets/ds728.4/]. Users are advised to transition to this updated dataset.
+
+ This dataset contains Version 2.2 of the Global Precipitation Climatology Project (GPCP) combined satellite-gauge precipitation estimate and combined satellite-gauge error estimate. The data are monthly analyses defined on a global 2.5 degree by 2.5 degree longitude/latitude grid and cover the period January 1979 to (delayed) present. A monthly climatology (1979-2011) is also available.
 
  Please note that the original binary data were written using the big endian representation of unformatted binary words. Users reading this data on little endian platforms, therefore, will need to byte swap the data.
 
@@ -222,7 +247,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NASA GSFC GPCP</gco:CharacterString>
+            <gco:CharacterString>NASA_GSFC_GPCP</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -270,22 +295,22 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>METEOSAT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>TIROS > Television Infrared Observation Satellite</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>DMSP > Defense Meteorological Satellite Program</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>GOES > NOAA Geostationary Operational Environmental Satellites</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>NOAA POES > NOAA Polar Orbiting Environmental Satellites</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>METEOSAT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GOES > NOAA Geostationary Operational Environmental Satellites</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>GMS > Japan Geostationary Meteorological Satellite</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>DMSP > Defense Meteorological Satellite Program</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>AQUA > Earth Observing System, AQUA</gco:CharacterString>
@@ -301,7 +326,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -331,19 +356,19 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>SSMIS > Special Sensor Microwave Imager/Sounder</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>TOVS > TIROS Operational Vertical Sounder</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>AIRS > Atmospheric Infrared Sounder</gco:CharacterString>
+            <gco:CharacterString>SSMIS > Special Sensor Microwave Imager/Sounder</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>SSM/I > Special Sensor Microwave/Imager</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>AVHRR > Advanced Very High Resolution Radiometer</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>AIRS > Atmospheric Infrared Sounder</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -356,7 +381,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-18</gco:Date>
+                    <gco:Date>2018-02-12</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -386,10 +411,10 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>GPCC > Global Precipitation Climatology Centre</gco:CharacterString>
+            <gco:CharacterString>GPCP > Global Precipitation Climatology Project</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>GPCP > Global Precipitation Climatology Project</gco:CharacterString>
+            <gco:CharacterString>GPCC > Global Precipitation Climatology Centre</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -402,7 +427,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-10</gco:Date>
+                    <gco:Date>2018-02-14</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -445,7 +470,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -485,6 +510,13 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="degree">2.5</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -572,13 +604,16 @@ Request to users from the data authors: The GPCP datasets are developed and main
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>37.41</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds728.2/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -594,10 +629,6 @@ Request to users from the data authors: The GPCP datasets are developed and main
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -625,5 +656,4 @@ Request to users from the data authors: The GPCP datasets are developed and main
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 

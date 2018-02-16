@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2017-08-23T13:11:08-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-15T21:05:32-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds482.1/</gco:CharacterString>
@@ -106,7 +106,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Beth Lavery and colleagues at the Australian Bureau of Meteorology assembled this dataset of 191 Australian rainfall stations for the purpose of climate change monitoring and assessment. These stations were selected because they are believed to be the highest quality and most reliable long-term rainfall stations in Australia. The longest period of record is August 1840 to December 1990, but the actual periods vary by individual station. Each data record in the dataset contains at least a monthly precipitation total, and most records also have daily data as well.</gco:CharacterString>
+        <gco:CharacterString>Australian Bureau of Meteorology assembled this dataset of 191 Australian rainfall stations for the purpose of climate change monitoring and assessment. These stations were selected because they are believed to be the highest quality and most reliable long-term rainfall stations in Australia. The longest period of record is August 1840 to December 1990, but the actual periods vary by individual station. Each data record in the dataset contains at least a monthly precipitation total, and most records also have daily data as well.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -114,7 +114,7 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Steven Worley</gco:CharacterString>
+            <gco:CharacterString>Chi-Fan Shih</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
@@ -124,7 +124,7 @@
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(303)-497-1248</gco:CharacterString>
+                    <gco:CharacterString>(303)-497-1833</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile>
                     <gco:CharacterString>303-497-1291</gco:CharacterString>
@@ -155,7 +155,7 @@
                     <gco:CharacterString>U.S.A.</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>worley@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>chifan@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -249,7 +249,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-08-15</gco:Date>
+                    <gco:Date>2018-01-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -292,7 +292,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2017-07-14</gco:Date>
+                    <gco:Date>2018-02-08</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -416,13 +416,16 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
+         <gmd:transferSize>
+           <gco:Real>47.94</gco:Real>
+         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
                 <gmd:URL>https://rda.ucar.edu/datasets/ds482.1/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:applicationProfile>
                 <gco:CharacterString>browser</gco:CharacterString>
@@ -438,10 +441,6 @@
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
-        </gmd:MD_DigitalTransferOptions>
-      </gmd:transferOptions>
-      <gmd:transferOptions>
-        <gmd:MD_DigitalTransferOptions>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -469,5 +468,4 @@
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
 
