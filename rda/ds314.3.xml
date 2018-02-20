@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-02-20T13:05:21-07:00</gco:DateTime>
+    <gco:DateTime>2018-02-20T14:05:21-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds314.3/</gco:CharacterString>
@@ -72,7 +72,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>CRUNCEP Atmospheric Forcing Data for the Community Land Model</gco:CharacterString>
+            <gco:CharacterString>CRUNCEP Version 7 - Atmospheric Forcing Data for the Community Land Model</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds314.3</gco:CharacterString>
@@ -106,7 +106,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The CRUNCEP is an atmospheric forcing dataset used forcing the land surface models. Specifically this dataset is designed to drive the Community Land Model over a long period. The CRUNCEP is a combination of two existing datasets; the CRU TS3.2 0.5 X 0.5 monthly data covering the period 1901 to 2002 and the NCEP reanalysis 2.5 X 2.5 degree 6-hourly data covering the period 1948 to 2016. The CRUNCEP dataset has been used to force CLM for studies of vegetation growth, evapotranspiration, and gross primary production and for the TRENDY (trends in net land-atmosphere carbon exchange over the period 1980-2010) project, among many other use cases.</gco:CharacterString>
+        <gco:CharacterString>The CRUNCEP is an atmospheric forcing dataset used forcing the land surface models. Specifically this dataset is designed to drive the Community Land Model over a long period. The CRUNCEP is a combination of two existing datasets; the CRU TS3.2 0.5 X 0.5 monthly data covering the period 1901 to 2002 and the NCEP reanalysis 2.5 X 2.5 degree 6-hourly data covering the period 1948 to 2016. The CRUNCEP dataset has been used to force CLM for studies of vegetation growth, evapotranspiration, and gross primary production and for the TRENDY (trends in net land-atmosphere carbon exchange over the period 1980-2010) project, among many other use cases. The CRUNCEP data archived in this dataset is Version 7.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -278,10 +278,22 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > TOTAL SURFACE PRECIPITATION RATE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -370,7 +382,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds314.3_time_period">
                   <gml:beginPosition>1901-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>1975-07-31T21:00:00Z</gml:endPosition>
+                  <gml:endPosition>1978-04-30T21:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -429,7 +441,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>718670</gco:Real>
+           <gco:Real>736285</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
