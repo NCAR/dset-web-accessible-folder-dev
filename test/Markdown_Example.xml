@@ -190,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This is an example of how ckan uses markdown.  It is __strongly__ recommended that data providers do not use any sort of formating (html, markdown, etc...) in their abstracts because we do not know how this particular file will be rendered in the future.
+            <gco:CharacterString><![CDATA[This is an example of how ckan uses markdown.  It is __strongly__ recommended that data providers do not use any sort of formating (html, markdown, etc...) in their abstracts because we do not know how this particular file will be rendered in the future.
 
 __Bold text__ or _italic text_
 
@@ -279,8 +279,7 @@ __double underscores__
 
 Code
 
-Use the `printf()` function.
-            </gco:CharacterString>
+Use the `printf()` function.]]></gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
             <gmd:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="ongoing">ongoing</gmd:MD_ProgressCode>
