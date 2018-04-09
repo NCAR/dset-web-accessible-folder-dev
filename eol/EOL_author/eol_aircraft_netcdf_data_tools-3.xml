@@ -82,7 +82,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-04-06T11:48:33</gco:DateTime>
+        <gco:DateTime>2018-04-06T15:28:13</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -282,6 +282,52 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>CO</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>80307</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://data.eol.ucar.edu</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:presentationForm>
                         <gmd:CI_PresentationFormCode
                             codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
@@ -290,24 +336,24 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>Collection of utilities that can operate on the RAF aircraft netCDF files. The RAF netCDF file conventions can be found here: http://www.eol.ucar.edu/raf/software/netCDF.html. Indiviual utilities and descriptions follow:
-                        - asc2cdf: ASCII to netCDF uploader. Can read a plain file, NASA Ames, BADC, or ICARTT
-                        - flt_time: Scan a netCDF flight and report take-off and landing times. Based on ground speed.
-                        - g2n: GENPRO to NetCDF format translator
-                        - mkcdf: Cheezy utility to make small test netCDF files.
-                        - n2asc: Old Motif-based netCDF to ASCII translator. Plain CSV or Ames DEF output.
-                        - nc2asc: Newer Java-based netCDF to ASCII traslator. Plain CSV or ICARTT output.
-                        - nc2iwg1: Program to read a netCDF file and produce an ASCII file conforming to the IWG1. See http://www.eol.ucar.edu/raf/software/iwgadts/IWG1_Def.html
-                        - ncReorder: Reorder unlimited time dimension to fixed length.
-                        - nc_compare: Compare two netCDF files. Useful for differing runs of the same flight.
-                        - nc_dips: Count number of dips aircraft made in flight
-                        - nc_gap: Report time gaps from flight.
-                        - nc_sane: Perform some sanity checks, esp. with regard to time.
-                        - ncav: Average data even slower than default 1hz
-                        - ncextr: Extract a subset and place in a new netCDF file.
-                        - ncfillvar: Utility to add/create a new variable and fill with missing value (_FillValue)
-                        - ncmerge: Merge two netCDF files. Must have overlapping time segments. Useful for over-writing data or adding new variables.
-                        - ncstat: Provide statistics from variables in file.
-                        - ncvarlist: ASCII output of variable list. Var name, title, units.</gco:CharacterString>
+                                    - asc2cdf: ASCII to netCDF uploader. Can read a plain file, NASA Ames, BADC, or ICARTT
+                                    - flt_time: Scan a netCDF flight and report take-off and landing times. Based on ground speed.
+                                    - g2n: GENPRO to NetCDF format translator
+                                    - mkcdf: Cheezy utility to make small test netCDF files.
+                                    - n2asc: Old Motif-based netCDF to ASCII translator. Plain CSV or Ames DEF output.
+                                    - nc2asc: Newer Java-based netCDF to ASCII traslator. Plain CSV or ICARTT output.
+                                    - nc2iwg1: Program to read a netCDF file and produce an ASCII file conforming to the IWG1. See http://www.eol.ucar.edu/raf/software/iwgadts/IWG1_Def.html
+                                    - ncReorder: Reorder unlimited time dimension to fixed length.
+                                    - nc_compare: Compare two netCDF files. Useful for differing runs of the same flight.
+                                    - nc_dips: Count number of dips aircraft made in flight
+                                    - nc_gap: Report time gaps from flight.
+                                    - nc_sane: Perform some sanity checks, esp. with regard to time.
+                                    - ncav: Average data even slower than default 1hz
+                                    - ncextr: Extract a subset and place in a new netCDF file.
+                                    - ncfillvar: Utility to add/create a new variable and fill with missing value (_FillValue)
+                                    - ncmerge: Merge two netCDF files. Must have overlapping time segments. Useful for over-writing data or adding new variables.
+                                    - ncstat: Provide statistics from variables in file.
+                                    - ncvarlist: ASCII output of variable list. Var name, title, units.</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>The National Center for Atmospheric Research is sponsored by the National Science Foundation.</gco:CharacterString>
@@ -450,15 +496,15 @@
             </gmd:topicCategory>
             <gmd:environmentDescription>
                 <gco:CharacterString>Environment
-          The aircraft NC utilities are written in C. They require netCDF library 3.0 or later.
-          
-          The utilities build and run on any Unix/Linux operating system, including Mac OS X.
-          
-          Dependencies:
-          netcdf-cxx-devel (will pull in netcdf-cxx, netcdf-devel, and netcdf)
-          log4cpp-devel (needed by vardb)
-          xerces-c-devel (needed by vardb)
-          </gco:CharacterString>
+                      The aircraft NC utilities are written in C. They require netCDF library 3.0 or later.
+                      
+                      The utilities build and run on any Unix/Linux operating system, including Mac OS X.
+                      
+                      Dependencies:
+                      netcdf-cxx-devel (will pull in netcdf-cxx, netcdf-devel, and netcdf)
+                      log4cpp-devel (needed by vardb)
+                      xerces-c-devel (needed by vardb)
+                      </gco:CharacterString>
             </gmd:environmentDescription>
             <gmd:extent gco:nilReason="missing"/>
         </gmd:MD_DataIdentification>
