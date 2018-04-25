@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-04-25T10:05:02-07:00</gco:DateTime>
+    <gco:DateTime>2018-04-25T15:05:19-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/D6X34W69</gco:CharacterString>
@@ -85,6 +85,29 @@
           </gmd:name>
           <gmd:description>
             <gco:CharacterString>ECMWF ERA5 Catalogue</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://climate.copernicus.eu/products/climate-reanalysis</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>ECMWF Climate Reanalysis at Copernicus</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -137,7 +160,7 @@ Improvements to ERA5, compared to ERA-Interim, include use of HadISST.2, reproce
 
 NCAR's Data Support Section (DSS) is performing and supplying a grid transformed version of ERA5, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 1280 longitude by 640 latitude N320 Gaussian grid. In addition, DSS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available. Finally, the data is reprocessed into single parameter time series.
 
-Please note: As of November 2017, DSS is also producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for CISL RDA at NCAR. In time, the netCDF-4/HDF5 version will be the de facto RDA ERA5 data format. The GRIB1 data format will not be continued at that point. We encourage users to evaluate the netCDF-4/HDF5 version for their work, and to use the currently existing GRIB1 files as a reference and basis of comparison. To ease this transition, there is a one-to-one correspondence between the netCDF-4/HDF5 and GRIB1 files, with as much GRIB1 metadata as possible incorporated into the attributes of the netCDF-4/HDF5 counterpart.</gco:CharacterString>
+Please note: As of November 2017, DSS is also producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for CISL RDA at NCAR. The netCDF-4/HDF5 version is the de facto RDA ERA5 online data format. The GRIB1 data format is only available via NCAR's High Performance Storage System (HPSS). We encourage users to evaluate the netCDF-4/HDF5 version for their work, and to use the currently existing GRIB1 files as a reference and basis of comparison. To ease this transition, there is a one-to-one correspondence between the netCDF-4/HDF5 and GRIB1 files, with as much GRIB1 metadata as possible incorporated into the attributes of the netCDF-4/HDF5 counterpart.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -654,7 +677,7 @@ Please note: As of November 2017, DSS is also producing a CF 1.6 compliant netCD
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>159295956</gco:Real>
+           <gco:Real>159455473</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
