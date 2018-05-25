@@ -4,11 +4,20 @@
     <gmd:fileIdentifier>
         <gco:CharacterString>10.5065/D6BC3X95</gco:CharacterString>
     </gmd:fileIdentifier>
-    
+
     <gmd:language>
-        <gco:CharacterString>en</gco:CharacterString>
+        <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
     </gmd:language>
-    
+
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+
+    <gmd:parentIdentifier gco:nilReason="inapplicable"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
@@ -38,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2018-05-24T17:48:20.351232</gco:DateTime>
+        <gco:DateTime>2018-05-24T18:05:22.841648</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -81,8 +90,17 @@
                     <gmd:title>
                         <gco:CharacterString>TC-OBS: The Tropical Cyclone Observations-Based Structure Database</gco:CharacterString>
                     </gmd:title>
-                    <gmd:date gco:nilReason="missing">
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2018</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
                     </gmd:date>
+
                     <gmd:citedResponsibleParty>
                        <gmd:CI_ResponsibleParty>
                            <gmd:individualName>
@@ -206,7 +224,7 @@
 &#13;
 TC-OBS currently includes data for all TCs that occurred in the North Atlantic basin from 1999 to 2013. Somewhat more than half of all Atlantic TCs were sampled by aircraft frequently enough to provide useful input data for TC-OBS. Additionally, since aircraft reconnaissance generally commences when TCs move west of 55 deg in the basin, TC-OBS does not provide observational refinement for TCs in the eastern half of the basin. For the most part however, there is good aircraft coverage during nearly all periods in which TCs were threatening land, so TC-OBS provides observational refinements for nearly all the impactful landfalls in the basin. The current version of TC-OBS (v0.42) provides observational refinements for 253 of the 416 TCs that occurred during 1999 to 2013.</gco:CharacterString>
             </gmd:abstract>
-            
+
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
@@ -251,7 +269,7 @@ TC-OBS currently includes data for all TCs that occurred in the North Atlantic b
                             <gmd:date>
                                 <gmd:CI_Date>
                                     <gmd:date>
-                                    <gco:Date>2018</gco:Date>
+                                    <gco:Date>2017-07-17</gco:Date>
                                     </gmd:date>
                                     <gmd:dateType>
                                     <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
