@@ -241,31 +241,6 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                         <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>Tanya Stark</gco:CharacterString>
-                    </gmd:individualName>
-                    <gmd:organisationName>
-                        <gco:CharacterString>NCAR Climate and Global Dynamics Laboratory</gco:CharacterString>
-                    </gmd:organisationName>
-                    <gmd:positionName gco:nilReason="missing">
-                        <gco:CharacterString>Scientist I</gco:CharacterString>
-                    </gmd:positionName>
-                    <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                            <gmd:address>
-                            <gmd:CI_Address>
-                            <gmd:electronicMailAddress>
-                            <gco:CharacterString>tanya_stark@ucar.edu</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                            </gmd:CI_Address>
-                            </gmd:address>
-                        </gmd:CI_Contact>
-                    </gmd:contactInfo>
-                    <gmd:role>
-                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
-                    </gmd:role>
-                </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
             <gmd:resourceFormat>
                 <gmd:MD_Format>
@@ -400,13 +375,6 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
             <gmd:spatialRepresentationType>
                 <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue=""/>
             </gmd:spatialRepresentationType>
-            <gmd:spatialResolution>
-                <gmd:MD_Resolution>
-                    <gmd:distance>
-                        <gco:Distance uom=""/>
-                    </gmd:distance>
-                </gmd:MD_Resolution>
-            </gmd:spatialResolution>
             <gmd:language>
                 <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
             </gmd:language>
@@ -452,7 +420,34 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
             <gmd:supplementalInformation>
                 <gco:CharacterString/>
             </gmd:supplementalInformation>
-        </gmd:MD_DataIdentification>
+        <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Tanya Stark</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>NCAR Climate and Global Dynamics Laboratory</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing">
+                        <gco:CharacterString>Scientist I</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>tanya_stark@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
         <gmd:MD_Distribution>
