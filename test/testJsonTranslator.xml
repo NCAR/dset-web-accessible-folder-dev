@@ -242,6 +242,33 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Tanya Stark</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>NCAR Climate and Global Dynamics Laboratory</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing">
+                        <gco:CharacterString>Scientist I</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>tanya_stark@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:resourceFormat>
                 <gmd:MD_Format>
                     <gmd:name>
@@ -389,22 +416,6 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                     <gmd:description>
                         <gco:CharacterString/>
                     </gmd:description>
-                    <gmd:geographicElement>
-                        <gmd:EX_GeographicBoundingBox>
-                            <gmd:westBoundLongitude>
-                                <gco:Decimal/>
-                            </gmd:westBoundLongitude>
-                            <gmd:eastBoundLongitude>
-                                <gco:Decimal/>
-                            </gmd:eastBoundLongitude>
-                            <gmd:southBoundLatitude>
-                                <gco:Decimal/>
-                            </gmd:southBoundLatitude>
-                            <gmd:northBoundLatitude>
-                                <gco:Decimal/>
-                            </gmd:northBoundLatitude>
-                        </gmd:EX_GeographicBoundingBox>
-                    </gmd:geographicElement>
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
@@ -420,34 +431,7 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
             <gmd:supplementalInformation>
                 <gco:CharacterString/>
             </gmd:supplementalInformation>
-        <gmd:pointOfContact>
-                <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>Tanya Stark</gco:CharacterString>
-                    </gmd:individualName>
-                    <gmd:organisationName>
-                        <gco:CharacterString>NCAR Climate and Global Dynamics Laboratory</gco:CharacterString>
-                    </gmd:organisationName>
-                    <gmd:positionName gco:nilReason="missing">
-                        <gco:CharacterString>Scientist I</gco:CharacterString>
-                    </gmd:positionName>
-                    <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                            <gmd:address>
-                            <gmd:CI_Address>
-                            <gmd:electronicMailAddress>
-                            <gco:CharacterString>tanya_stark@ucar.edu</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                            </gmd:CI_Address>
-                            </gmd:address>
-                        </gmd:CI_Contact>
-                    </gmd:contactInfo>
-                    <gmd:role>
-                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
-                    </gmd:role>
-                </gmd:CI_ResponsibleParty>
-            </gmd:pointOfContact>
-            </gmd:MD_DataIdentification>
+        </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
         <gmd:MD_Distribution>
@@ -456,6 +440,9 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                     <gmd:name>
                         <gco:CharacterString/>
                     </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString/>
+                    </gmd:version>
                 </gmd:MD_Format>
             </gmd:distributionFormat>
             <gmd:distributor>
@@ -490,14 +477,7 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                     <gmd:distributorFormat gco:nilReason="inapplicable"/>
                 </gmd:MD_Distributor>
             </gmd:distributor>
-            <gmd:transferOptions>
-                <gmd:MD_DigitalTransferOptions>
-                    <gmd:transferSize>
-                        <gco:Real/>
-                    </gmd:transferSize>
-                </gmd:MD_DigitalTransferOptions>
-            </gmd:transferOptions>
-        </gmd:MD_Distribution>
+            </gmd:MD_Distribution>
     </gmd:distributionInfo>
 </gmd:MD_Metadata>
 
