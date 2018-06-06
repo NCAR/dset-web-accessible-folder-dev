@@ -40,7 +40,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-06-05T17:00:41.096756</gco:DateTime>
+        <gco:DateTime>2018-06-06T12:16:34.439576</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -294,9 +294,19 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
             <gmd:resourceFormat>
                 <gmd:MD_Format>
                     <gmd:name>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>NETCDF</gco:CharacterString>
                     </gmd:name>
                     <gmd:version>
+                        <gco:CharacterString>3</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ASCII</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing">
                         <gco:CharacterString/>
                     </gmd:version>
                 </gmd:MD_Format>
@@ -438,7 +448,7 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                 <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
             </gmd:topicCategory>
             <gmd:environmentDescription>
-                <gco:CharacterString/>
+                <gco:CharacterString>Fortran; Java; C++</gco:CharacterString>
             </gmd:environmentDescription>
             <gmd:extent>
                 <gmd:EX_Extent>
@@ -474,7 +484,7 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                 </gmd:EX_Extent>
             </gmd:extent>
             <gmd:supplementalInformation>
-                <gco:CharacterString/>
+                <gco:CharacterString>For ease of data analysis post-processing, this dataset includes NetCDF files that have been split into individual time steps.</gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
@@ -483,7 +493,17 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
             <gmd:distributionFormat>
                 <gmd:MD_Format>
                     <gmd:name>
+                        <gco:CharacterString>TAR</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
                         <gco:CharacterString/>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ZIP</gco:CharacterString>
                     </gmd:name>
                     <gmd:version>
                         <gco:CharacterString/>
@@ -494,13 +514,13 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                 <gmd:MD_Distributor>
                     <gmd:distributorContact>
                         <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
+                            <gmd:individualName gco:nilReason="missing">
                                 <gco:CharacterString/>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString/>
+                                <gco:CharacterString>NCAR Atmospheric Chemistry Observations &amp; Modeling Laboratory</gco:CharacterString>
                             </gmd:organisationName>
-                            <gmd:positionName>
+                            <gmd:positionName gco:nilReason="missing">
                                 <gco:CharacterString/>
                             </gmd:positionName>
                             <gmd:contactInfo>
@@ -508,14 +528,14 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                                     <gmd:address>
                                         <gmd:CI_Address>
                                             <gmd:electronicMailAddress>
-                                                <gco:CharacterString/>
+                                                <gco:CharacterString>acom-support@ucar.edu</gco:CharacterString>
                                             </gmd:electronicMailAddress>
                                         </gmd:CI_Address>
                                     </gmd:address>
                                 </gmd:CI_Contact>
                             </gmd:contactInfo>
                             <gmd:role>
-                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:distributorContact>
