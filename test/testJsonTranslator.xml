@@ -40,7 +40,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-06-06T12:16:34.439576</gco:DateTime>
+        <gco:DateTime>2018-06-06T12:23:58.838176</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -542,7 +542,14 @@ ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resoluti
                     <gmd:distributorFormat gco:nilReason="inapplicable"/>
                 </gmd:MD_Distributor>
             </gmd:distributor>
-            </gmd:MD_Distribution>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>508375</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
     </gmd:distributionInfo>
 </gmd:MD_Metadata>
 
