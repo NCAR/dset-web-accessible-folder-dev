@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>Met_NCAR_Beachon_RoMBAS_2011a</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>Met_NCAR_Beachon_RoMBAS_2011a</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Andrew Turnipseed</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>turnip@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,14 +172,55 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
+                <gco:CharacterString>Turnipseed_MetRadiationData Instructions&#13;
+&#13;
+Investigator: Andrew Turnipseed, NCAR/ACD&#13;
+turnip@ucar.edu&#13;
+&#13;
+Filename:  Turnipseed_MetRadiationData.csv (comma delimited)&#13;
+&#13;
+Data Interval:  5 min. averages&#13;
+Initial Start time of file:  July 1, 2011, 0:00:00  (MST)&#13;
+z denotes measurement height in meters&#13;
+Missing data = -9999&#13;
+Below measurable limit = -8888 (only on wind speed/direction)&#13;
+&#13;
+Columns:&#13;
+Start_sec:	Beginning of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+End_sec: 	End of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Mid_sec:	Midpoint of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Date:		MM/dd/YY, &#13;
+Time:		hh:mm:ss, Beginning of 5 min. period (MST)&#13;
+Day of Year:	decimal day, Beginning of 5 min. period (MST)&#13;
+PAR27:		Incoming Photosynthetically-active Radiation, units = micromol m-2 s-1, z = 27.8 m&#13;
+T25:		Temperature, units = oC, z = 25.1 m&#13;
+T7:		Temperature, units =  oC, z = 7.0 m&#13;
+RH25:		Relative Humidity, units = %, z = 25.1 m&#13;
+RH7:		Relative Humidity, units =  %, z = 7.0 m&#13;
+WD:		Wind Direction, units = degrees from North, z = 25 m&#13;
+Wspd:		Wind speed, units = m/s, z = 25 m&#13;
+Press.:		Barometric Pressure, units = mbar, z =  9.6 m&#13;
+Precip:		Accumulated Precipitation, units = mm, z = 10.8 m&#13;
+Rnet:		Net Radiation, units = W m-2, z = 27.8 m&#13;
+Sdir:		Direct Beam Photosynthetic-active radiation, units = micromol m-2 s-1, z = 27.8 m&#13;
+Sdiff:		Diffuse Beam Photosynthetic-active radiation, units = micromol m-2 s-1, z = 27.8 m&#13;
+PAR2:		Averaged incoming Photosynthetic-active radiation, units = micromol m-2 s-1, z = 1.8 m&#13;
+PAR4:		Averaged incoming Photosynthetic-active radiation, units = micromol m-2 s-1, z = 3.7 m&#13;
+PAR7:		Averaged incoming Photosynthetic-active radiation, units = micromol m-2 s-1, z = 7.0 m&#13;
+&#13;
+&#13;
+Instrumentation:&#13;
+PAR27:				Licor 190A quantum sensor&#13;
+T25, T8, RH25, RH8:		Vaisala HMP35C &#13;
+WD/Wspd:			Met One 034A=L cup/vane anemometer&#13;
+Press:				Vaisala PTB101B  barometer&#13;
+Precip:				TE 525 tipping bucket rain gauge&#13;
+Rnet:				REBS Q*7.0 net radiometer&#13;
+Sdir, Sdiff:			Delta Instruments BF3 Sunshine sensor&#13;
+PAR2, PAR4, PAR8:		Apogee LQS (Line Quantum sensor)&#13;
+Logging:			Campbell CR1000 with multiplexer.  	&#13;
+&#13;
+&#13;
 </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
@@ -302,6 +343,9 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
@@ -321,54 +365,6 @@ rrhew@berkeley.edu
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +454,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-07-01T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-08-31T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

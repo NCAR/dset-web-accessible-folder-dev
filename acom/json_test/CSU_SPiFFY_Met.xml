@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>CSU_SPiFFY_Met</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>CSU_SPiFFY_Met</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Delphine Farmer</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>Colorado State University</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>delphine.farmer@colostate.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,37 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>Manitou Experimental Forest Observatory&#13;
+Summer/Fall 2016&#13;
+Met data from Chemistry Tower&#13;
+John Ortega, NCAR, Atmospheric Chemistry Observations and Modeling&#13;
+&#13;
+Meteorological data was taken at 1 Hz from 4 levels on the chemistry tower:  1.8m (level 1), 7.0m, 14.1m, and 27.8m (level 4).  Data archived here is avergaged every 5 minutes.  The data file for each day should have exactly 288 lines -1 line for&#13;
+each 5 minute period.  The columns in the text files are the following:&#13;
+1.  Time (Matlab day)  January 1, 2016 = 736330&#13;
+2.  Time (decimial day of year; July 7 = 189 in 2016 (188 for non leap years).&#13;
+3.  Temperature in deg C&#13;
+4.  % Relative humidity&#13;
+5.  Pressure in mb (1 mb = 1 hPa)&#13;
+6.  Wind speed in m/s&#13;
+7.  Wind direction in degrees (north = 0, west = 270, etc.).&#13;
+&#13;
+Wind directions were broken down into their sine and cosine components prior to averaging.&#13;
+&#13;
+Missing data is listed at -8888.&#13;
+&#13;
+The met data on level 4 is oriented 30 degrees east of north, so the wind direction data has 30 degrees subtracted from it in the final data.  This has been taken into account in all of the data files, but not in the plots (jpeg files: "WS_2016XXXX.jpg" where XXXX is the day and month (e.g. 0809 = August 9 or 1030 = October 30).&#13;
+&#13;
+Wind speed for all 4 levels:  "WS_2016XXXX.jpg"&#13;
+Wind direction for all 4 levels:  "WD_2016XXXX.jpg"&#13;
+Temperature for all for levels:  "Temp_2016XXXX.jpg"&#13;
+Relative humidity for all 4 levels:  "RH_2016XXXX.jpg"&#13;
+&#13;
+The following data files are available in tab-delimited text:&#13;
+5 minute data for single day:  "MET_levelX_2016YYYY.txt where X is the level 1-4 and YYYY is the month and day as described above.&#13;
+5 minute data for the July 7-August 20:   "MET_levelX_July7_Aug20.txt" wher X is the level 1-4.&#13;
+&#13;
+The time stamp in columns 1 and 2 are the middle (2:30) of each 5 minute period.  Time is </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -316,60 +338,6 @@ rrhew@berkeley.edu
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
                     </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
-                    </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                     </gmd:type>
@@ -458,8 +426,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2016-08-10T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2016-09-30T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

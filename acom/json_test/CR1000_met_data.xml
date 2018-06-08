@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>CR1000_met_data</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>CR1000_met_data</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Andrew Turnipseed</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>turnip@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,14 +172,50 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
+                <gco:CharacterString>Manitou Exp . Forest		
+2009		
+Andrew Turnipseed		
+CR1000 met data		
+Chemistry Tower		
+time tag = end of period		
+		
+Log and Information		
+		
+Date/Time	Comments	Sensor(s)
+August:		
+8/19/2009 13:15	Started logging data	PAR 27+2m sensors,2 m SW sensor, LQS 2 and 8 m
+8/27/2009 14:40	connected   	Vierling sensors 
+8/27/2009 13:11		IRTs (in hindsight - maybe not so good)
+8/27/2009 11:11		LQS 4m - no diffuser one.
+8/27/2009 14:46		Rain Gauge
+September:		
+9/4/2009 14:15	New Logger program: V5	
+	Replaced LQS 4m	LQS 4m with diffuser (similar to 2 and 8 m ones)
+	connected   	HMP35C RH/T at 8 m
+9/11/2009 12:20	connected   	HMP35C RH/T at 25.3 m
+	started Labview contin. Logging/1 min. avgs.	
+9/20/2009 13:25	started saving 5 min avgs. In Labview	
+9/29/2009 0:00	noticed that 25.3m RH was haywire.	
+9/30/2009 11:15	Disconnected   	Vierling Sensors 
+9/30/2009 13:00	connected   	Sunshine sensor (Sdirect and Sdiffuse)
+October:		
+10/1/2009 0:00	Noticed that Sdirect was haywire 	Sunshine sensor  
+	Noticed that IRTs read higher than other T-sensors	
+	PAR 2m seemed spiky and not with others	
+10/5/2009 13:25	IRT mV converters had low battery.	Reset, but could go out again.
+	Sdir is screwed up - Mux channel is OK	
+November:		
+11/3/2009 10:37	Logger off - replacing multiplexer	
+11/3/2009 12:25	Logger on	IRTs read directly now
+	connected   	PT101b - atmospheric pressure.
+	RH at 25.3 m - looks screwed up	
+	Sdir is screwed up - Mux channel is OK	even with new cable.
+11/3/2009 14:03	moved rain gauge to other side of tower.	
+11/3/2009 14:47	connected   	Met One wind anemometer/vane
+	Tleaf and Ttarget may be backwards?	
+11/11/2009 13:15	switched IRTs at logger	
+December:		
+	just let it run   ..	
 </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
@@ -320,55 +356,10 @@ rrhew@berkeley.edu
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +449,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2009-08-19T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2009-12-31T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

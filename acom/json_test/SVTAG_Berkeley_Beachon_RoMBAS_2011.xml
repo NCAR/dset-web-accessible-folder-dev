@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>SVTAG_Berkeley_Beachon_RoMBAS_2011</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>SVTAG_Berkeley_Beachon_RoMBAS_2011</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Allen Goldstein</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>University of California Berkeley</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -103,8 +103,8 @@
                                 <gmd:CI_Contact>
                                     <gmd:address>
                                     <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gmd:electronicMailAddress gco:nilReason="missing">
+                                    <gco:CharacterString/>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,116 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>README&#13;
+&#13;
+109, 1001&#13;
+Allen Goldstein, Jose Jimenez&#13;
+University of California, Berkeley&#13;
+Semivolatile Thermal Desorption Aerosol Gas Chromatograph - Aerosol Mass Spectrometer (SV-TAG-AMS)&#13;
+BEACHON-RoMBAS 2011&#13;
+1, 1&#13;
+2011, 08, 18, 2013, 03, 04&#13;
+0&#13;
+TAG_StartTime,seconds,Mountain Standard Time&#13;
+76&#13;
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1&#13;
+-9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999&#13;
+TAG_MidTime,seconds,Mountain Standard Time&#13;
+TAG_StopTime,seconds,Mountain Standard Time&#13;
+ISOP_ACETOPHENONE,ng/m3,mass concentration of isopropenylacetophenone&#13;
+LONGIFOLENE,ng/m3,mass concentration of longifolene&#13;
+C14,ng/m3,mass concentration of tetradecane&#13;
+NAPHTHOQUINONE,ng/m3,mass concentration of naphthoquinone&#13;
+BCARYOPHYLLENE,ng/m3,mass concentration of beta-caryophyllene&#13;
+DIMETHYLNAPHTHALENE,ng/m3,mass concentration of dimethylnaphthalene&#13;
+DIMETHOXYBENZALDEHYDE,ng/m3,mass concentration of dimethoxybenzaldehyde&#13;
+COUMARIN,ng/m3,mass concentration of coumarin&#13;
+AROMADENDRENE,ng/m3,mass concentration of aromadendrene&#13;
+ACENAPHTHYLENE,ng/m3,mass concentration of acenaphthylene&#13;
+HUMULENE,ng/m3,mass concentration of alpha-humulene&#13;
+ALKANE1,ng/m3,mass concentration of unknown alkane&#13;
+ALLOAROMADENDRENE,ng/m3,mass concentration of alloaromadendrene&#13;
+SQT202_1,ng/m3,mass concentration of unknown m202 sesquiterpene (isomer 1)&#13;
+METHYLBIPHENYL,ng/m3,mass concentration of methylbiphenyl&#13;
+SQT_204,ng/m3,mass concentration of unknown m204 sesquiterpene&#13;
+ISOP_NAPHTHALENE,ng/m3,mass concentration of isopropylnaphthalene&#13;
+C15,ng/m3,mass concentration of pentadecane&#13;
+SQT202_2,ng/m3,mass concentration of unknown m202 sesquiterpene (isomer 2)&#13;
+MUUROLENE,ng/m3,mass concentration of alpha-muurolene&#13;
+CUPARENE,ng/m3,mass concentration of cuparene&#13;
+DIBENZOFURAN,ng/m3,mass concentration of dibenzofuran&#13;
+TETRAMETHYLTETRALIN,ng/m3,mass concentration of tetramethyltetralin&#13;
+CALAMENENE,ng/m3,mass concentration of calamenene&#13;
+DODECENOICACID,ng/m3,mass concentration of dodecenoic acid&#13;
+SQT202_3,ng/m3,mass concentration of unknown m202 sesquiterpene (isomer 3)&#13;
+LONGICAMPHENYLONE,ng/m3,mass concentration of longicamphenylone&#13;
+FLUORENE,ng/m3,mass concentration of fluorene&#13;
+DIMETHYLPHENYL1,ng/m3,mass concentration of dimethylphenyl (isomer 1)&#13;
+DIETHYLPHTHALATE,ng/m3,mass concentration of diethylphthalate&#13;
+CADINATRIENE,ng/m3,mass concentration of cadinatriene&#13;
+C16,ng/m3,mass concentration of hexadecane&#13;
+DIMETHYLBIPHENYL2,ng/m3,mass concentration of dimethylbiphenyl (isomer 2)&#13;
+DIMETHYLBIPHENYL3,ng/m3,mass concentration of dimethylbiphenyl (isomer 3)&#13;
+METHYLDIBENZOFURAN,ng/m3,mass concentration of methyldibenzofuran&#13;
+BENZOPHENONE,ng/m3,mass concentration of benzophenone&#13;
+BIPHENYLCARBOXALDEHYDE,ng/m3,mass concentration of biphenylcarboxaldehyde&#13;
+CADALENE,ng/m3,mass concentration of cadalene&#13;
+DIMETHYLACENAPHTHENONE,ng/m3,mass concentration of dimethylacenaphthenone&#13;
+C17,ng/m3,mass concentration of heptadecane&#13;
+PRISTANE,ng/m3,mass concentration of pristane&#13;
+CADALENE2,ng/m3,mass concentration of cadalene (isomer)&#13;
+TRIMETHYLPHENYLINDENE,ng/m3,mass concentration of trimethylphenylindene&#13;
+TETRADECENOICACID,ng/m3,mass concentration of tetradecenoic acid&#13;
+FLUORENONE,ng/m3,mass concentration of fluorenone&#13;
+DIBENZOTHIOPHENE,ng/m3,mass concentration of dibenzothiophene&#13;
+PHENANTHRENE,ng/m3,mass concentration of phenanthrene&#13;
+C18,ng/m3,mass concentration of octadecane&#13;
+PHYTANE,ng/m3,mass concentration of phytane&#13;
+TRIMETHYLPENTADECANONE,ng/m3,mass concentration of trimethylpentadecanone&#13;
+BENZOICACIDPHENYLETHYLESTER,ng/m3,mass concentration of benzoic acid, phenyl ester&#13;
+METHYLDIBENZOTHIOPHENE,ng/m3,mass concentration of methyldibenzothiophene&#13;
+METHYLPHENANTHRENE,ng/m3,mass concentration of methylphenanthrene&#13;
+PHENYLNAPHTHALENE,ng/m3,mass concentration of phenylnaphthalene&#13;
+C19,ng/m3,mass concentration of nonadecane&#13;
+HEXADECENOICACID,ng/m3,mass concentration of hexadecenoic acid&#13;
+ANTHRAQUINONE,ng/m3,mass concentration of anthraquinone&#13;
+DITERPENE1,ng/m3,mass concentration of diterpene (isomer 1)&#13;
+C20,ng/m3,mass concentration of eicosane&#13;
+MANOYLOXIDE,ng/m3,mass concentration of manoyl oxide&#13;
+RETENE,ng/m3,mass concentration of retene&#13;
+DITERPENE2,ng/m3,mass concentration of diterpene (isomer 2)&#13;
+NAPHTHALICANHYDRIDE,ng/m3,mass concentration of naphthalic anhydride&#13;
+CYCLOPENTAPHENANTHRENONE,ng/m3,mass concentration of cyclopentaphenanthrenone&#13;
+FLUORANTHENE,ng/m3,mass concentration of fluoranthene&#13;
+C21,ng/m3,mass concentration of heneicosane&#13;
+PYRENE,ng/m3,mass concentration of pyrene&#13;
+C22,ng/m3,mass concentration of docosane&#13;
+METHYLRETENE1,ng/m3,mass concentration of methylretene (isomer 1)&#13;
+METHYLRETENE2,ng/m3,mass concentration of methylretene (isomer 2)&#13;
+C23,ng/m3,mass concentration of tricosane&#13;
+DEHYDROABIETICACIDMETHYLESTER,ng/m3,mass concentration of dehydroabietic acid, methyl ester&#13;
+C24,ng/m3,mass concentration of tetracosane&#13;
+C25,ng/m3,mass concentration of pentacosane&#13;
+1&#13;
+Timestamp is in Mountain Standard Time (UTC - 7 h)&#13;
+18&#13;
+PI_CONTACT_INFO: Address: 250 Hilgard Hall, UC Berkeley, Berkeley, CA 94703&#13;
+PLATFORM: Ground site, Trailer 3&#13;
+LOCATION: Manitou Experimental Forest near Woodland Park, CO (39.10065 N, 105.10250 W)&#13;
+ASSOCIATED_DATA: N/A&#13;
+INSTRUMENT_INFO: Collection of gas phase low-volatility organics onto metal fiber filters, followed by thermal desorption and speciation by gas chromatography. Shared mass spectrometer with AMS. Species identified by mass spectral match to authentic standards, NIST libraries and/or literature retention times.&#13;
+DATA_INFO: Units: ng/m3&#13;
+UNCERTAINTY: 40%&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: varies for each species&#13;
+DM_CONTACT_INFO: Data Manager: Arthur Chan, arthurchan@berkeley.edu or arthurwh.chan@utoronto.ca&#13;
+PROJECT_INFO: BEACHON-RoMBAS: 2011/7/20 - 2011/8/25; Sampling period 2011/8/19 - 2011/8/30&#13;
+STIPULATIONS_ON_USE: Use of these data require prior ok from PI.&#13;
+OTHER_COMMENTS: N/A&#13;
+REVISION: 0&#13;
+R0: final data</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -302,73 +403,7 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Organic aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +493,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-08-18T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-08-30T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>HO2_RO2_NCAR_Beachon_RoMBAS_2011</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>HO2_RO2_NCAR_Beachon_RoMBAS_2011</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Christopher A. Cantrell</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>christopher.cantrell@colorado.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,55 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>README&#13;
+&#13;
+9, 1001&#13;
+Cantrell, Christopher A&#13;
+Atmospheric Chemistry Division/NESL/NCAR&#13;
+HO2 and HO2+RO2 from PeRCIMS at Manitou Experimental Forest&#13;
+BEACHON-RoMBAS&#13;
+1,1&#13;
+0&#13;
+Start_MST, seconds, number_of_seconds_from_0000_MST&#13;
+6&#13;
+1,1,1,1,1,1&#13;
+-99999,-99999,-99999,-99999,-99999,-99999&#13;
+Stop_MST, seconds, number_of_seconds_from_0000_MST&#13;
+Mid_MST, seconds, number_of_seconds_from_0000_MST&#13;
+HO2, pptv, HO2_mixing_ratio&#13;
+HO2_uncertainty, pptv, HO2_2_sigma_uncertainty&#13;
+HO2+RO2, pptv, HO2+RO2_mixing_ratio&#13;
+HO2+RO2_uncertainty, pptv, HO2+RO2_2_sigma_uncertainty&#13;
+5&#13;
+These data are reduced using four factors determined in the laboratory and in the field: F_lo and F_hi are the radical sensitivities in the&#13;
+HO2+RO2 and HO2 modes, respectively (units pptv/ion ratio).  Alpha_lo and alpha_hi are the ratios of RO2 to HO2 sensitivity in the HO2+RO2&#13;
+and HO2 modes, respectively.  HO2+RO2 concentrations are then S_lo*F_lo-(S_lo*F_lo - S_hi*F_hi)*(alpha_lo - 1)/(alpha_lo - alpha_hi) .&#13;
+HO2 concentrations are S_lo*F_lo-(S_lo*F_lo - S_hi*F_hi)*(alpha_lo)/(alpha_lo - alpha_hi) . S_lo is the background corrected ion ratio in the HO2+RO2&#13;
+mode, and S_hi is the background corrected ion ratio in the HO2 mode.  The ion ratios are mass 97 signal count rate minus background count rate divided by mass 62 count rate.&#13;
+24&#13;
+PI_CONTACT_INFO: 303-497-1479, NCAR, 3090 Center Green Dr., Boulder, CO 80301, cantrell@ucar.edu&#13;
+PLATFORM: Seacontainer #1&#13;
+LOCATION: Manitou Experimental Forest, Woodland Park, Colorado, USA&#13;
+ASSOCIATED_DATA: N/A&#13;
+INSTRUMENT_INFO: These data were collected using a CIMS based instrument.  An inlet collects ambient air from the&#13;
+free air stream and adds reagents, includling O2 or N2 diluents, and NO and SO2 reagent gases.  This method, called oxygen dilution modulation leads to nearly 100%&#13;
+measurement of HO2 and RO2 in the O2 dilution/low reagent concentration mode, whereas RO2 is measured with less than 15% efficiency in the N2 dilution/higher reagent concentration mode.&#13;
+This is because the chemistry converts peroxy radicals to H2SO4 efficiently in the O2 mode, but RO2 radicals are converted to RONO in the N2 mode.  The H2SO4 thus produced&#13;
+is ionized by reaction with NO3- ions.  The reagent and product ions are detected by mass spectrometry using quadrupole mass filtering and counting by a channel&#13;
+electron multiplier operating in the negative ion mode.  &#13;
+DATA_INFO: Signal data for HO2+RO2 are collected during the 0-7 second time interval, and for HO2 in 30-37 second time interval.&#13;
+UNCERTAINTY: approximately 35% (2 sigma) for values well above 2 pptv; estimates are listed for each data point (2 sigma)&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: N/A&#13;
+DM_CONTACT_INFO: N/A&#13;
+PROJECT_INFO: BEACHON-RoMBAS, 20-Jul-2011 to 30-Aug-2011&#13;
+STIPULATIONS_ON_USE: contact PI BEFORE use/presentation/publication&#13;
+OTHER_COMMENTS: &#13;
+REVISION: R1; R0&#13;
+R1: final data&#13;
+R0: preliminary data</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -302,73 +342,7 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; RO2</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +432,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-07-21T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-08-30T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

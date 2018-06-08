@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>AMS_aerosol_CU_Beachon_RoMBAS_2011</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>AMS_aerosol_CU_Beachon_RoMBAS_2011</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Jose-Luis Jimenez</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>University of Colorado Boulder</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -103,8 +103,8 @@
                                 <gmd:CI_Contact>
                                     <gmd:address>
                                     <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gmd:electronicMailAddress gco:nilReason="missing">
+                                    <gco:CharacterString/>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,55 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>50, 1001&#13;
+Jose-Luis Jimenez&#13;
+CIRES, Dept. of Chem. &amp; Biochem. University of Colorado, Boulder&#13;
+CU AMS&#13;
+BEACHON-RoMBAS&#13;
+1, 1&#13;
+2011, 07, 19, 2012, 12, 21&#13;
+0&#13;
+AMS_Starttime,seconds,Mountain Standard Time&#13;
+16&#13;
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1&#13;
+-9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999&#13;
+AMS_Stoptime,seconds,Mountain Standard Time&#13;
+AMS_MidPointTime,seconds,Mountain Standard Time&#13;
+Organic_AMS,ug m-3,mass concentration of ambient organic aerosol&#13;
+Sulfate_AMS,ug m-3,mass concentration of ambient sulfate aerosol&#13;
+Nitrate_AMS,ug m-3,mass concentration of ambient nitrate aerosol&#13;
+Ammonium_AMS,ug m-3,mass concentration of ambient ammonium aerosol&#13;
+Chloride_AMS,ug m-3,mass concentration of ambient chloride aerosol&#13;
+OrgNO3_AMS,ug m-3,mass concentration of estimated organic nitrate contribution to total nitrate aerosol&#13;
+InorgNO3_AMS,ug m-3,mass concentration of estimated inorganic nitrate contribution to total nitrate aerosol&#13;
+O_C_AMS,none,O/C atomic ratio of the organic aerosol&#13;
+H_C_AMS,none,H/C atomic ratio of the organic aerosol&#13;
+OM_OC_AMS,none,OM/OC ratio of the organic aerosol&#13;
+f44_AMS,none,fraction of the total organic signal measured at m/z 44&#13;
+f43_AMS,none,fraction of the total organic signal measured at m/z 43&#13;
+f57_AMS,none,fraction of the total organic signal measured at m/z 57&#13;
+f60_AMS,none,fraction of the total organic signal measured at m/z 60&#13;
+1&#13;
+Timestamp is in Mountain Standard Time (UTC-7h)&#13;
+19&#13;
+PI_CONTACT_INFO: Address: University of Colorado UCB 216; CIRES Bldg., Boulder, CO 80309-0216&#13;
+PLATFORM: Ground Site, Rental Trailer #8 Roof&#13;
+LOCATION: Manitou Experimental Forest near Woodland Park, CO (39.10065 N, 105.10250 W)&#13;
+ASSOCIATED_DATA: Aerosol Mass Concentrations&#13;
+INSTRUMENT_INFO: AMS_Type=V; Ionization_type=EI; AMS_SamplingTime: 2.5 min averaging, alternating V and W mode, alternating 5 min ambient and 5 min other; AMS_SamplingCycle: V mode, 3 loops of 4 s closed and 8 s open, followed by 39 s PToF, repeated twice for 150 s; AMS_LensType=standard PM1; AMS_LensPressure=1.4 Torr; AMS_FlowRate=120 ccm; AMS_PrsTempFlowCal: 293K, 574 Torr; AMS_STPConversionFactor=approx. 0.76; AMS_IEOverAB: 2.74143e-13 first ~week, 2.93184e-13 second ~week, 3.10675e-13 (reference) middle third, 3.80888e-13 last third; AMS_Calibrations: every 3 days NH4NO3 Calibration (400 nm), 2 PSL Size calibrations; AMS_RIENH4=3.89 first half, 3.55 second half, in-campaign calibration; AMS_RIESO4=1.35 post-campaign calibration; AMS_CE: 1, by extensive comparison with available data (SMPSs,PAM reactor); AMS_PMCut= 2.5um cyclone on inlet, ~1 um cutoff in lens; AMS_InletRH: &lt; 40% with nafion drier; AMS_LocalToUTCTime: UTC-7h; AMS_RelatedInstrumentInfo: Shared inlet with TSI SMPS and DustTrak.&#13;
+DATA_INFO: Sub-micron aerosol mass loadings. Units: micrograms per cubic meter at ambient temperature and pressure.&#13;
+UNCERTAINTY: Accuracy estimate (2sdev): Inorganics 34%, Organics 38%, dominated by uncertainity in the particle collection efficiency due to particle bounce. O/C 31%, H/C 10%, OM/OC 6% (Aiken et al., 2008, ES&amp;T).&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: N/A&#13;
+DM_CONTACT_INFO: Brett B. Palm brett.palm@colorado.edu&#13;
+PROJECT_INFO: BEACHON-RoMBAS: 19 July - 30 August 2011&#13;
+STIPULATIONS_ON_USE: Use of these data require prior OK from PI.&#13;
+OTHER_COMMENTS: V-mode HR data up to m/z 120, with all UMR mass at m/z &gt;120 added to Organic_AMS. Corrections applied to this dataset include basic frag adjustments for water, air, organics, RIE of ammonium, and CE estimation. The IE applied was time-dependent and based on periodic calibrations using dried 400nm NH4NO3 particles. Variations in the airbeam (m/z 28) were used to track the IE between calibrations. AMS alternated measuring 5 min ambient and 5 min of either thermodenuded ambient or PAM-processed air.&#13;
+REVISION: R2,R1,RF,RE,RA&#13;
+R2: High-resolution data reported (all previous data was UMR only). First report of organic nitrate and inorganic nitrate (calculated as in Fry et al., 2012, ACPD), O/C, H/C, OM/OC, f44, f43, f57, and f60. Instrument Info updated. &#13;
+R1: Data now reported with CE=1 (all previous revisions reported with CE=0.5).  Additional minor QC performed.  RF: Additional notes added, data has not changed from RE. RE: Digitizing error in last data set fixed.  Data has been checked for quality and corrected. RA: Prelim.</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -302,73 +342,19 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Ammonum aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Chloride aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Organic aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Sulfate aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; Nitrate aerosol</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +444,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-07-19T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-08-30T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

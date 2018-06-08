@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>H2SO4_OH_NCAR_Beachon_RoMBAS_2011</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>H2SO4_OH_NCAR_Beachon_RoMBAS_2011</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Saewung Kim</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>saewung@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,127 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>README&#13;
+&#13;
+###################################################&#13;
+H2SO4_MFO_20110721_R1.ict&#13;
+&#13;
+36, 1001&#13;
+Saewung Kim&#13;
+NCAR/ACD&#13;
+OH_H2SO4_CIMS&#13;
+BEACHON_ROMBAS&#13;
+1, 1&#13;
+2011, 07, 21, 2012, 06, 08&#13;
+0&#13;
+start_mst_all&#13;
+3&#13;
+1, 1, 1&#13;
+-9999, -9999, -9999&#13;
+stop_mst_all&#13;
+mid_mst_all&#13;
+h2so4_preliminary&#13;
+1&#13;
+N/A&#13;
+18&#13;
+PI_CONTACT_INFO: Address: 3090 Center Green Dr. Boulder CO 80301 saewung@ucar.edu&#13;
+PLATFORM: MFO&#13;
+LOCATION: MFO&#13;
+ASSOCIATED_DATA: N/A&#13;
+INSTRUMENT_INFO: N/A&#13;
+DATA_INFO: Units: molecules cm-3 (in ambient condition)&#13;
+UNCERTAINTY: 35%&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: 1e-5&#13;
+DM_CONTACT_INFO: saewung@ucar.edu&#13;
+PROJECT_INFO: BEACHON_ROMBAS&#13;
+STIPULATIONS_ON_USE: Use of these data require prior ok from PI.&#13;
+OTHER_COMMENTS: N/A&#13;
+REVISION: 1&#13;
+R1: Final Data&#13;
+###################################################&#13;
+&#13;
+###################################################&#13;
+NCAROH_BEACHON_20110721_R1.ict&#13;
+&#13;
+36, 1001&#13;
+Saewung Kim&#13;
+NCAR/ACD/BAI&#13;
+OH Steady_State_Calculations&#13;
+BEACHON_ROMBAS&#13;
+1, 1&#13;
+2011, 07, 21, 2012, 06, 24&#13;
+1&#13;
+start_time_30&#13;
+3&#13;
+1, 1, 1&#13;
+-9999, -9999, -9999&#13;
+end_time_30&#13;
+mid_time_30&#13;
+OH_30_avg&#13;
+1&#13;
+Constrained box-model calculation results; See Kim et al. Atmos. Chem. Phys. Discuss.; 12; 15945-15975; 2012; www.atmos-chem-phys-discuss.net/12/15945/2012/; doi:10.5194/acpd-12-15945-2012&#13;
+18&#13;
+PI_CONTACT_INFO: Address: 3090 Center Green Dr Boulder CO 80301&#13;
+PLATFORM: MFO&#13;
+LOCATION: MFO&#13;
+ASSOCIATED_DATA: N/A&#13;
+INSTRUMENT_INFO: N/A&#13;
+DATA_INFO: Units: molecules cm-3&#13;
+UNCERTAINTY: N/A&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: N/A&#13;
+DM_CONTACT_INFO: Saewung Kim saewung@ucar.edu&#13;
+PROJECT_INFO: BEACHON_ROMBAS&#13;
+STIPULATIONS_ON_USE: Use of these data require prior ok from PI.&#13;
+OTHER_COMMENTS: N/A&#13;
+REVISION: 1&#13;
+R1: Final Data&#13;
+###################################################&#13;
+&#13;
+###################################################&#13;
+OHCIMS_BEACHON_20110720_R2.ict&#13;
+&#13;
+36, 1001&#13;
+Saewung Kim&#13;
+University of California, Irvine&#13;
+OH CIMS&#13;
+BEACHON_ROMBAS&#13;
+1, 1&#13;
+2011, 07, 20, 2013, 02, 16&#13;
+300&#13;
+start_report&#13;
+3&#13;
+1, 1, 1&#13;
+-9999, -9999, -9999&#13;
+mid_report&#13;
+stop_report&#13;
+OH_Report_Feb2013avg&#13;
+1&#13;
+N/A&#13;
+18&#13;
+PI_CONTACT_INFO: 3216 Croul Hall, Department of Earth System Science, Irvine CA 92697&#13;
+PLATFORM: Ground&#13;
+LOCATION: Seatainer&#13;
+ASSOCIATED_DATA: N/A&#13;
+INSTRUMENT_INFO: N/A&#13;
+DATA_INFO: molecules cm-3 (in ambient condition)&#13;
+UNCERTAINTY: 35%&#13;
+ULOD_FLAG: -7777&#13;
+ULOD_VALUE: N/A&#13;
+LLOD_FLAG: -8888&#13;
+LLOD_VALUE: 5e5&#13;
+DM_CONTACT_INFO: saewungk@uci.edu&#13;
+PROJECT_INFO: BEACHON_ROMBAS&#13;
+STIPULATIONS_ON_USE: Use of these data require prior ok from PI.&#13;
+OTHER_COMMENTS: The results are from steady state model caluclations as described by Kim et al. (2013) ACP for the BEACHON special issue; Data used for model: NO (G3 Turnipseed Final 20 Sept 2012) HO2 (G15 Cantrell Final R1 Dec 2011) jNO2 (M16 Leffer/Hall RB 18Aug2011)&#13;
+REVISION: B&#13;
+2nd_revision&#13;
+###################################################</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -302,73 +414,10 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; H2SO4</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; OH</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +507,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-07-20T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-09-01T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

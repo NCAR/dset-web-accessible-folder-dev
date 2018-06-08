@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>Trace_gas_NCAR_2011</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>Trace_gas_NCAR_2011</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -91,10 +91,10 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
+                                <gco:CharacterString>Andrew Turnipseed</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
+                                <gco:CharacterString>NCAR/ACOM</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:positionName>
                                 <gco:CharacterString>Scientist</gco:CharacterString>
@@ -104,7 +104,7 @@
                                     <gmd:address>
                                     <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
+                                    <gco:CharacterString>turnip@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                     </gmd:address>
@@ -172,15 +172,177 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
-</gco:CharacterString>
+                <gco:CharacterString>Turnipseed Ozone/SO2/NOx/CO trace gas data&#13;
+&#13;
+Investigator: Andrew Turnipseed, NCAR/ACD&#13;
+turnip@ucar.edu&#13;
+Date: 1/27/2012&#13;
+&#13;
+Filename:  TurnipseedROMBAS_O3.csv (comma delimited)&#13;
+&#13;
+Data Interval:  5 min. averages&#13;
+Initial Start time of file:  July 1, 2011, 0:00:00  (MST)&#13;
+Measurements are made from 6 inlets at different heights.&#13;
+Measurements are made from each inlet for 5 min., cycling through all 6 inlets over a 30 min. period.&#13;
+These are denoted in the column labeled "z".  Heights are:&#13;
+z1 = 1.5 m&#13;
+z2 = 5.0 m&#13;
+z3 = 8.5 m&#13;
+z4 = 12.0 m&#13;
+z5 = 17.7 m&#13;
+z6 = 25.1 m&#13;
+Missing data = -9999&#13;
+&#13;
+Columns:&#13;
+Start_sec:	Beginning of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+End_sec: 	End of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Mid_sec:	Midpoint of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Date:		MM/dd/YY, &#13;
+Time:		hh:mm:ss, Beginning of 5 min. period (MST)&#13;
+Day of Year:	decimal day, Beginning of 5 min. period (MST)&#13;
+O3:		Ozone mixing ratio, ppbv&#13;
+z:		Inlet height, m&#13;
+&#13;
+Instrumentation:&#13;
+2B Techonologies Model 205 UV-absorption spectrometer 	&#13;
+&#13;
+Sampling Notes: Each inlet was sampled for 5 min. (6 inlets - 30 min. for complete profile)&#13;
+starting with the lowest inlet at the beginning of the 30 min. period.&#13;
+&#13;
+Calibrations:  The O3 instrument was automatically zeroed every 6 hours using &#13;
+scrubbed zero grade air.  It was run side-by-side with in the lab and field with a&#13;
+second ozone monitor both prior to and following the ROMBAS experiment and found &#13;
+to be in excellent agreement.   &#13;
+---------------------&#13;
+&#13;
+&#13;
+.   &#13;
+-----------------------------&#13;
+Turnipseed NOx profile Data Instructions&#13;
+&#13;
+Investigator: Andrew Turnipseed, NCAR/ACD&#13;
+turnip@ucar.edu&#13;
+Date: 9/20/2012&#13;
+&#13;
+Filename:  TurnipseedROMBAS_NOx.csv (comma delimited)&#13;
+&#13;
+Data Interval:  5 min. averages&#13;
+Missing data = -9999&#13;
+&#13;
+Columns:&#13;
+Start_sec:	Beginning of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+End_sec: 	End of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Mid_sec:	Midpoint of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Date:		MM/dd/YY, &#13;
+Time:		hh:mm:ss, Beginning of 5 min. period (MST)&#13;
+Day of Year:	decimal day, Beginning of 5 min. period (MST)&#13;
+NO:		nitric oxide mixing ratio, ppbv&#13;
+NO2:		nitrogen dioxide mixing ratio, ppbv&#13;
+NOx:		NO + NO2 mixing ratio, ppbv&#13;
+z:		Inlet height, m&#13;
+S flag:		Profiling system = 0,  Separate line = 1.(see explanation below)*&#13;
+&#13;
+Instrumentation:&#13;
+NO monitor:  Ecophysics CLD88Y&#13;
+NO2 Photolysis:  Droplet Technology Blue light converter (modified).&#13;
+NO2 converson efficiency = 0.42 (measured during exp.)	&#13;
+&#13;
+Sampling methods: &#13;
+Typically, measurements were made from 6 inlets at different heights.&#13;
+Measurements were made from each inlet for 5 min., cycling through all 6 inlets over a 30 min. period.  These are denoted in the column labeled "z".  &#13;
+Heights are:  1.5 m, 5.0 m, 8.5 m, 12.0 m, 17.7 m and 25.1 m.&#13;
+During each 5 min. period the single channel analyzer cycled between measuring NO directly (first 2 minutes),  NO + NO2 (thru the photolysis cell, 2nd 2 minutes) and through a Molybdenum converter (last minute).  &#13;
+&#13;
+*Due to inadequate cooling - the analyzer periodically shut down during ROMBAS which caused data loss on all instruments connected to the profiling system.  To minimize overall data loss, the NOx instrument was often run separate from the profiling manifold on its own inlet line.  The height for this was separate inlet was at 2.5 m.  The final column (S flag) is given to give a quick indication of when the NOx instrument was running on this separate inlet line.  One consequence of &#13;
+this separate inlet was that its proximity to trees/branches resulted in less air flow surrounding this actual intake.  So the NOx concentrations appeared much more variable when sampling from this inlet due to the wind intermittency. &#13;
+&#13;
+Calibrations:  The NO instrument was automatically calibrated every 6 hours.  Offsets were measured by diverting the sample flow through a pre-reaction chamber where it reacts with a large excess of ozone.  The instrument was then calibrated via standard addition of a small flow of NO standard (~ 3 sccm, 10 ppmv in Nitrogen, Scott-Marrin) to the main sample flow (~ 3 sLpm).   &#13;
+&#13;
+----------------&#13;
+Turnipseed SO2 profile Data Instructions&#13;
+&#13;
+Investigator: Andrew Turnipseed, NCAR/ACD&#13;
+turnip@ucar.edu&#13;
+Date: 1/25/2012&#13;
+&#13;
+Filename:  TurnipseedROMBAS_So2.csv (comma delimited)&#13;
+&#13;
+Data Interval:  5 min. averages&#13;
+Initial Start time of file:  July 1, 2011, 0:00:00  (MST)&#13;
+Measurements are made from 6 inlets at different heights.&#13;
+Measurements are made from each inlet for 5 min., cycling through all 6 inlets over a 30 min. period.&#13;
+These are denoted in the column labeled "z".  Heights are:&#13;
+z1 = 1.5 m&#13;
+z2 = 5.0 m&#13;
+z3 = 8.5 m&#13;
+z4 = 12.0 m&#13;
+z5 = 17.7 m&#13;
+z6 = 25.1 m&#13;
+Missing data = -9999&#13;
+&#13;
+Columns:&#13;
+Start_sec:	Beginning of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+End_sec: 	End of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Mid_sec:	Midpoint of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Date:		MM/dd/YY, &#13;
+Time:		hh:mm:ss, Beginning of 5 min. period (MST)&#13;
+Day of Year:	decimal day, Beginning of 5 min. period (MST)&#13;
+SO2:		sulfur dioxide mixing ratio, ppbv&#13;
+z:		Inlet height, m&#13;
+&#13;
+Instrumentation:&#13;
+Thermo Environmental Model 43C-TLE 	&#13;
+&#13;
+Sampling Notes: Each inlet was sampled for 5 min. (6 inlets - 30 min. for complete profile)&#13;
+starting with the lowest inlet at the beginning of the 30 min. period.&#13;
+&#13;
+Calibrations:  The SO2 instrument was automatically zeroed every 6 hours using &#13;
+scrubbed zero grade air.  The instrument was then calibrated via standard addition &#13;
+of a small flow SO2 standard (~ 3 sccm, 13 ppmv in Nitrogen, Scott-Marrin) to the &#13;
+main sample flow (~ 3 sLpm).   &#13;
+--------------------&#13;
+Turnipseed CO2 and H2O profile Data Instructions&#13;
+&#13;
+Investigator: Andrew Turnipseed, NCAR/ACD&#13;
+turnip@ucar.edu&#13;
+Date: 1/25/2012&#13;
+&#13;
+Filename:  TurnipseedROMBAS_CO2_H2O.csv (comma delimited)&#13;
+&#13;
+Data Interval:  5 min. averages&#13;
+Initial Start time of file:  July 1, 2011, 0:00:00  (MST)&#13;
+Measurements are made from 6 inlets at different heights.&#13;
+Measurements are made from each inlet for 5 min., cycling through all 6 inlets over a 30 min. period.&#13;
+These are denoted in the column labeled "z".  Heights are:&#13;
+z1 = 1.5 m&#13;
+z2 = 5.0 m&#13;
+z3 = 8.5 m&#13;
+z4 = 12.0 m&#13;
+z5 = 17.7 m&#13;
+z6 = 25.1 m&#13;
+Missing data = -9999&#13;
+&#13;
+Columns:&#13;
+Start_sec:	Beginning of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+End_sec: 	End of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Mid_sec:	Midpoint of 5 min. period  (seconds since July 1, 2011, 0:00:00 MST)&#13;
+Date:		MM/dd/YY, &#13;
+Time:		hh:mm:ss, Beginning of 5 min. period (MST)&#13;
+Day of Year:	decimal day, Beginning of 5 min. period (MST)&#13;
+CO2:		carbon dioxide mixing ratio, ppmv&#13;
+H2O:		Water vapor mixing ratio, mmol/mol&#13;
+z:		Inlet height, m&#13;
+&#13;
+Instrumentation:&#13;
+Licor Li-6262 	&#13;
+&#13;
+Sampling Notes: Each inlet was sampled for 5 min. (6 inlets - 30 min. for complete profile)&#13;
+starting with the lowest inlet at the beginning of the 30 min. period.&#13;
+&#13;
+Calibrations:  Both the CO2 and H2O channels were automatically zeroed every 6 hours using &#13;
+scrubbed zero grad air.  CO2 was calibrated every 6 hours by adding a 400 ppmv CO2/air &#13;
+standard from Scott-Marrin.  H2O was not automatically calibrated, but was scaled using &#13;
+meteorological data (T, RH, P) from the WXT520 sensors on the tower at 4 heights.  </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString/>
@@ -302,73 +464,13 @@ rrhew@berkeley.edu
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; SO2</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; NOx</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +560,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2011-08-30T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>

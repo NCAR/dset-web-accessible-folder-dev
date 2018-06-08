@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+        <gco:CharacterString>CO2_H2O_Flux_UToronto_2015</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -76,7 +76,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>Alkene_Data_for_MEFO</gco:CharacterString>
+                        <gco:CharacterString>CO2_H2O_Flux_UToronto_2015</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -89,33 +89,6 @@
                         </gmd:CI_Date>
                     </gmd:date>
                     <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>Robert Rhew</gco:CharacterString>
-                            </gmd:individualName>
-                            <gmd:organisationName>
-                                <gco:CharacterString>UC Berkeley</gco:CharacterString>
-                            </gmd:organisationName>
-                            <gmd:positionName>
-                                <gco:CharacterString>Scientist</gco:CharacterString>
-                            </gmd:positionName>
-                            <gmd:contactInfo>
-                                <gmd:CI_Contact>
-                                    <gmd:address>
-                                    <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>rrhew@berkeley.edu</gco:CharacterString>
-                                    </gmd:electronicMailAddress>
-                                    </gmd:CI_Address>
-                                    </gmd:address>
-                                </gmd:CI_Contact>
-                            </gmd:contactInfo>
-                            <gmd:role>
-                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                            </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                    </gmd:citedResponsibleParty>
-                <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
                                 <gco:CharacterString>Daniel Ziskin</gco:CharacterString>
@@ -172,14 +145,88 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This data set represents light alkene fluxes taken from the Manitou Experimental Forest Observatory tower during summer of 2014.  The fluxes were measured using the relaxed eddy accumulation (REA) technique with organic quantification performed by GC-FID. Gaps in alkene REA fluxes were filled using a artificial neural network appproach, gap filled time series are labeled (GF_compound name). Also included are CO2 mixing ratio, CO2 flux (eddy covariance), H2O mixing ratio, H2O flux (eddy covariance), sensible heat flux (eddy covariance), latent heat flux (eddy covariance), benzene mixing ratio (GC-FID), isoprene flux (REA) and isoprene concentrations (GC-FID), and other meteorological variables.
-
-Additional information can be found in Rhew et al., 2017, ACPD, https://doi.org/10.5194/acp-17-13417-2017
-
-P.I.  Robert Rhew, University of California, Berkeley
-510-642-3903
-rrhew@berkeley.edu
-
+                <gco:CharacterString>RESULTS AND PLOT README FILES COMBINED&#13;
+&#13;
+######################################################################&#13;
+# Eddy covariance flux calculation; MANITOU experiment 2015&#13;
+# by: Alexander Moravek, Dept. of Chemistry, University of Toronto&#13;
+# date of last version:  26 Nov 2015  &#13;
+######################################################################&#13;
+&#13;
+---------&#13;
+Details&#13;
+---------&#13;
+&#13;
+# Turbulent exchange fluxes of (1) momentum, (2) sensible heat flux, (3) latent heat and the CO2 were calculated using the TK3 flux calculation tool (Mauder and Foken, 2011). &#13;
+&#13;
+# Time period: &#13;
+-&gt; 19.07.2015 20:30 - 20.08.2015 09:00&#13;
+&#13;
+# Used site specific parameters:&#13;
+-&gt; measurement height: 26m&#13;
+-&gt; canopy height: 16m&#13;
+-&gt; height above sea level: 2600m &#13;
+&#13;
+# Applied corrections and quality control: &#13;
+-&gt; an overview is presented in Foken et al. (2012) -&gt; table 4.8 on p. 122/123.&#13;
+-&gt; chosen coordinate rotation method: double rotation&#13;
+&#13;
+# Output file:&#13;
+-&gt; important parameters:&#13;
+----&gt; col. "AH": CO2 flux (in mmol/m2/s)&#13;
+----&gt; col. "AK": u* (in m/s)&#13;
+----&gt; col. "AL": sensible heat flux (in W/m2)&#13;
+----&gt; col. "AN": latent heat flux (in W/m2)&#13;
+----&gt; col. "AO": stability parameter z/L&#13;
+----&gt; col. "AQ"-"AU": quality control flags&#13;
+----&gt; col. "BB"-"BE": random flux errors&#13;
+-&gt; invalid data points are represented as -9999.9&#13;
+-&gt; data quality flags are computed as proposed by Foken et al. (2004): &#13;
+----&gt; classes 1 3: used for fundamental research, such as the development of parameterizations&#13;
+----&gt; classes 4-6: are used for general use such as for continuously running systems&#13;
+----&gt; classes 7-9: should be excluded&#13;
+&#13;
+---------&#13;
+References&#13;
+---------  &#13;
+                                                                                         &#13;
+(1) Mauder, M., and T. Foken (2011), Documentation and Instruction Manual of the Eddy-Covariance Software Package TK3, in Arbeitsergebnisse, edited, pp. 60, ISSN 1614-8916, Abteilung Mikrometeorologie, Universit t Bayreuth, Bayreuth.&#13;
+&#13;
+(2) Foken, T., R. Leuning, S. Oncley, M. Mauder, and M. Aubinet (2012), Corrections and Data Quality Control, in Eddy Covariance, edited by M. Aubinet, T. Vesala and D. Papale, pp. 85-131, Springer Netherlands.&#13;
+&#13;
+(3) Foken T, G ckede M, Mauder M, Mahrt L, Amiro BD, Munger JW (2004) Post-field data quality control. In: Lee X et al (eds) Handbook of micrometeorology: a guide for surface flux measurement and analysis. Kluwer, Dordrecht, pp 181 208&#13;
+&#13;
+&#13;
+######################################################################&#13;
+# Plots of eddy covariance fluxes; MANITOU experiment 2015&#13;
+# by: Alexander Moravek, Dept. of Chemistry, University of Toronto&#13;
+# date of last version:  4 Dec 2015  &#13;
+######################################################################&#13;
+&#13;
+---------&#13;
+Details&#13;
+---------&#13;
+&#13;
+# Plots show daily fluxes of (1) momentum (ustar), (2) sensible heat flux (H), (3) latent heat (LvE) and the CO2 and respective their scalars.&#13;
+&#13;
+# Time period: &#13;
+-&gt; 19.07.2015 20:30 - 20.08.2015 09:00&#13;
+&#13;
+# Quality control:&#13;
+-&gt; Only data with quality control flags classes 1-6 were used (Foken et al. 2004). During the evalution period, data with classes 7-9 are displayed as a marker "x". &#13;
+-&gt; flux error bars denote the random flux error (representing the random error due to the stochastic nature of turbulence, see Mauder et al. (2013) for implementation). In nearly all cases the flux error associate with instrument noise was &lt; 1%.&#13;
+&#13;
+# Reason for longer gaps in time series:&#13;
+-&gt; due to power falure&#13;
+-&gt; Li7500 for CO2/H2O measurements had a communication issue, that occured at a few times.&#13;
+&#13;
+---------&#13;
+References&#13;
+---------                                                                                          &#13;
+&#13;
+(1) Foken T, G ckede M, Mauder M, Mahrt L, Amiro BD, Munger JW (2004) Post-field data quality control. In: Lee X et al (eds) Handbook of micrometeorology: a guide for surface flux measurement and analysis. Kluwer, Dordrecht, pp 181 208&#13;
+&#13;
+(2) Mauder, M., M. Cuntz, C. Dr e, A. Graf, C. Rebmann, H. P. Schmid, M. Schmidt, and R. Steinbrecher (2013), A strategy for quality and uncertainty assessment of longterm eddy-covariance measurements, Agr Forest Meteorol, 169(0), 122-135.&#13;
 </gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
@@ -305,34 +352,10 @@ rrhew@berkeley.edu
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Temperature</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Humidity</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Speed</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Wind Direction</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Pressure</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; Precipitation</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Solar Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; PAR</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; Heat Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; Water Vapor Flux</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; RESPIRATION RATE &gt; CO2 Flux</gco:CharacterString>
@@ -344,31 +367,7 @@ rrhew@berkeley.edu
                         <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; u*</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene Flux</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Ethylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Propylene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Butene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Isoprene</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; Benzene</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; z/L</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -458,8 +457,8 @@ rrhew@berkeley.edu
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="timePeriodDate">
-                                    <gml:beginPosition>2014-06-23T00:00:00Z</gml:beginPosition>
-                                    <gml:endPosition>2014-06-28T23:59:59Z</gml:endPosition>
+                                    <gml:beginPosition>2015-07-19T00:00:00Z</gml:beginPosition>
+                                    <gml:endPosition>2015-08-20T23:59:59Z</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
