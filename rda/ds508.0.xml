@@ -62,7 +62,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-02-21T18:05:39-07:00</gco:DateTime>
+    <gco:DateTime>2018-07-16T16:05:02-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds508.0/</gco:CharacterString>
@@ -179,14 +179,6 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>ASCII</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
             <gco:CharacterString>Binary</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
@@ -257,7 +249,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-02-02</gco:Date>
+                    <gco:Date>2018-07-04</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -265,7 +257,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -303,7 +295,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-02-09</gco:Date>
+                    <gco:Date>2018-06-06</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -311,7 +303,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.5</gco:CharacterString>
+                <gco:CharacterString>8.6</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -348,12 +340,28 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-177.383</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>171.383</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-14.3333</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>71.3</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds508.0_time_period">
-                  <gml:beginPosition>1881-01</gml:beginPosition>
-                  <gml:endPosition>1958-12</gml:endPosition>
+                  <gml:beginPosition>1881-01-01</gml:beginPosition>
+                  <gml:endPosition>1986-01-01</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
