@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>6264936e-b5d5-11e8-93c8-34e6d74c4412</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet gco:nilReason="missing"/>
+    <gmd:parentIdentifier gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName gco:nilReason="missing"/>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Tropical Cyclone Guidance Project</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName gco:nilReason="missing"/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2018-09-11T09:47:18</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>http://hurricanes.ral.ucar.edu/repository/</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://hurricanes.ral.ucar.edu/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>TCGP Home Page</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>Project-level home page</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://hurricanes.ral.ucar.edu/realtime/current/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>TCGP Current Active Storms</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>A web page that includes a clickable map where users can see visualizations of current forecast guidance products as well as a wealth of storm information from external sources</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>NCAR Tropical Cyclone Guidance Project Real-Time Data Collection</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>TCGP Real-time Repository for Global Tropical Cyclone Basins</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2011-10-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                        <gco:CharacterString>1.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Jonathan Vigh</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>To be provided by Jonathan
+                  
+                  Please note that the raw file format for the dataset is the Automated Tropical Cyclone Forecast System (ATCF) format, and the ddata files of the datasets are also distributed in this format (file extension is .dat).</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:status>
+                <gmd:MD_ProgressCode
+                    codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Tropical Cyclone Guidance Project</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Jonathan Vigh</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jvigh@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dataset</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2018-09-11</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES &gt; SUBTROPICAL DEPRESSION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES &gt; SUBTROPICAL DEPRESSION &gt; SUBTROPICAL DEPRESSION TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES &gt; SUBTROPICAL STORM</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES &gt; SUBTROPICAL STORM &gt; SUBTROPICAL STORM MOTION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; SUBTROPICAL CYCLONES &gt; SUBTROPICAL STORM &gt; SUBTROPICAL STORM TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; CYCLONES (SW INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; SEVERE CYCLONIC STORMS (N. INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; SEVERE TROPICAL CYCLONES (SW PACIFIC/SE INDIAN)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; TYPHOONS (WESTERN N. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL DEPRESSION MOTION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL DEPRESSION TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL STORM FORCE WIND EXTENT</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL STORM MOTION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL STORM TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; CYCLONES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; HURRICANES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; HURRICANES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; SEVERE TROPICAL CYCLONES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; TYPHOONS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2018-07-18</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>These data are provided under the UCAR Terms of Use (which among other things, specify educational and non-commercial uses only)</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                    codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="textTable">textTable</gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="degree">0.1</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gmd:LanguageCode
+                    codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+            </gmd:language>
+            <gmd:characterSet gco:nilReason="missing"/>
+            <gmd:topicCategory gco:nilReason="missing"/>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description>
+                        <gco:CharacterString>6-hourly</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-180</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>180</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-90</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>90</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:beginPosition>2005-09-21T00:00:00</gml:beginPosition>
+                                    <gml:endPosition indeterminatePosition="now"/>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat gco:nilReason="missing"/>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>50000</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+</gmd:MD_Metadata>
+<!--Metadata generated with CatMDEdit version 5.0-->
