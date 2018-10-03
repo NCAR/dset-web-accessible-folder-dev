@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink">
-
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
         <gco:CharacterString>10.5065/D61Z42GH</gco:CharacterString>
     </gmd:fileIdentifier>
-
     <gmd:language>
-        <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
     </gmd:language>
-
     <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode
+            codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
     </gmd:characterSet>
-
     <gmd:parentIdentifier gco:nilReason="inapplicable"/>
     <gmd:hierarchyLevel>
-        <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
     </gmd:hierarchyLevel>
-
+    <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
@@ -26,42 +29,141 @@
             <gmd:organisationName>
                 <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
             </gmd:organisationName>
-            <gmd:positionName>
-                <gco:CharacterString/>
-            </gmd:positionName>
+            <gmd:positionName gco:nilReason="missing"/>
             <gmd:contactInfo>
-               <gmd:CI_Contact>
-                   <gmd:address>
-                       <gmd:CI_Address>
-                           <gmd:electronicMailAddress>
-                               <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
-                           </gmd:electronicMailAddress>
-                       </gmd:CI_Address>
-                   </gmd:address>
-               </gmd:CI_Contact>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
             </gmd:contactInfo>
             <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
-
     <gmd:dateStamp>
-        <gco:DateTime>2018-09-13T13:31:07.353877</gco:DateTime>
+        <gco:DateTime>2018-10-03T16:46:25</gco:DateTime>
     </gmd:dateStamp>
-
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
     </gmd:metadataStandardName>
-
     <gmd:metadataStandardVersion>
         <gco:CharacterString>ISO 19115:2003(E)</gco:CharacterString>
     </gmd:metadataStandardVersion>
-
     <gmd:dataSetURI>
         <gco:CharacterString>https://doi.org/10.5065/D61Z42GH</gco:CharacterString>
     </gmd:dataSetURI>
-
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>https://doi.org/10.5065/D6PR7T26</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Documentation for the VDM+ Dataset</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>An NCAR Technical Note which provides full documentation on about the structure and parameters of the VDM+ Dataset.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>https://journals.ametsoc.org/doi/abs/10.1175/MWR-D-11-00108.1</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Vigh et al 2012 paper and supplement</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>A key scientific reference for the VDM+ Dataset, describing the history of aircraft observations and instrumentation.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://www.aoml.noaa.gov/hrd/hurdat/Data_Storm.html</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>HURDAT2 Database</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>A source dataset included in the VDM+ Dataset whose “best track” parameters are fully included in the VDM+ Dataset for TCs in the period 1989-2015. HURDAT2 is maintained by the National Hurricane Center and the National Oceanic and Atmospheric Administration Atlantic Oceanographic and Meteorological Laboratory Hurricane Research Division (NOAA/AOML/HRD).</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://rammb.cira.colostate.edu/research/tropical_cyclones/tc_extended_best_track_dataset/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Extended Best Track Dataset</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>A source dataset included in the VDM+ Dataset which provides a parameter for the radius of maximum winds. This dataset is maintained by NOAA National Environmental Satellite, Data, and Information Service (NESDIS).</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>http://rammb.cira.colostate.edu/research/tropical_cyclones/ships/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>SHIPS Development Dataset</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>A source dataset whose parameters are fully included in the VDM+ Dataset for TCs in the period 1989-2015.</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
             <gmd:citation>
@@ -69,179 +171,152 @@
                     <gmd:title>
                         <gco:CharacterString>VDM+: The Enhanced Vortex Message Dataset: Structure, Intensity, and Environmental Parameters from Tropical Cyclones (Version 1.100)</gco:CharacterString>
                     </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>VDM+ Dataset</gco:CharacterString>
+                    </gmd:alternateTitle>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2015</gco:Date>
+                                <gco:Date>2015-01-01</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
-                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-
+                    <gmd:edition>
+                        <gco:CharacterString>Version 1.1 </gco:CharacterString>
+                    </gmd:edition>
                     <gmd:citedResponsibleParty>
-                       <gmd:CI_ResponsibleParty>
-                           <gmd:individualName>
-                               <gco:CharacterString>Vigh, Jonathan</gco:CharacterString>
-                           </gmd:individualName>
-                        <gmd:organisationName>
-                            <gco:CharacterString/>
-                        </gmd:organisationName>
-                        <gmd:positionName>
-                            <gco:CharacterString/>
-                        </gmd:positionName>
-                           <gmd:contactInfo>
-                               <gmd:CI_Contact>
-                                   <gmd:address>
-                                       <gmd:CI_Address>
-                                           <gmd:electronicMailAddress>
-                                               <gco:CharacterString/>
-                                           </gmd:electronicMailAddress>
-                                       </gmd:CI_Address>
-                                   </gmd:address>
-                               </gmd:CI_Contact>
-                           </gmd:contactInfo>
-
-                           <gmd:role>
-                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                           </gmd:role>
-                       </gmd:CI_ResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Vigh, Jonathan</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-
-                <gmd:citedResponsibleParty>
-                       <gmd:CI_ResponsibleParty>
-                           <gmd:individualName>
-                               <gco:CharacterString/>
-                           </gmd:individualName>
-                        <gmd:organisationName>
-                            <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
-                        </gmd:organisationName>
-                        <gmd:positionName>
-                            <gco:CharacterString/>
-                        </gmd:positionName>
-                           <gmd:contactInfo>
-                               <gmd:CI_Contact>
-                                   <gmd:address>
-                                       <gmd:CI_Address>
-                                           <gmd:electronicMailAddress>
-                                               <gco:CharacterString/>
-                                           </gmd:electronicMailAddress>
-                                       </gmd:CI_Address>
-                                   </gmd:address>
-                               </gmd:CI_Contact>
-                           </gmd:contactInfo>
-
-                           <gmd:role>
-                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
-                           </gmd:role>
-                       </gmd:CI_ResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-
-                <gmd:citedResponsibleParty>
-                       <gmd:CI_ResponsibleParty>
-                           <gmd:individualName>
-                               <gco:CharacterString>University Corporation for Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Research Applications Laboratory (RAL):Joint Numerical Testbed (JNT)</gco:CharacterString>
-                           </gmd:individualName>
-                        <gmd:organisationName>
-                            <gco:CharacterString/>
-                        </gmd:organisationName>
-                        <gmd:positionName>
-                            <gco:CharacterString/>
-                        </gmd:positionName>
-                           <gmd:contactInfo>
-                               <gmd:CI_Contact>
-                                   <gmd:address>
-                                       <gmd:CI_Address>
-                                           <gmd:electronicMailAddress>
-                                               <gco:CharacterString/>
-                                           </gmd:electronicMailAddress>
-                                       </gmd:CI_Address>
-                                   </gmd:address>
-                               </gmd:CI_Contact>
-                           </gmd:contactInfo>
-
-                           <gmd:role>
-                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
-                           </gmd:role>
-                       </gmd:CI_ResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>University Corporation for Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Research Applications Laboratory (RAL):Joint Numerical Testbed (JNT)</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName gco:nilReason="missing"/>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-
-                <gmd:citedResponsibleParty>
-                       <gmd:CI_ResponsibleParty>
-                           <gmd:individualName>
-                               <gco:CharacterString>Risk Prediction Initiative (RPI2.0)</gco:CharacterString>
-                           </gmd:individualName>
-                        <gmd:organisationName>
-                            <gco:CharacterString/>
-                        </gmd:organisationName>
-                        <gmd:positionName>
-                            <gco:CharacterString/>
-                        </gmd:positionName>
-                           <gmd:contactInfo>
-                               <gmd:CI_Contact>
-                                   <gmd:address>
-                                       <gmd:CI_Address>
-                                           <gmd:electronicMailAddress>
-                                               <gco:CharacterString/>
-                                           </gmd:electronicMailAddress>
-                                       </gmd:CI_Address>
-                                   </gmd:address>
-                               </gmd:CI_Contact>
-                           </gmd:contactInfo>
-
-                           <gmd:role>
-                               <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
-                           </gmd:role>
-                       </gmd:CI_ResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Risk Prediction Initiative (RPI2.0)</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName gco:nilReason="missing"/>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="funder">funder</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>A VDM is a succinct summary of crucial vortex parameters sampled by aircraft as it flies through a tropical cyclone.  The Enhanced Vortex Data Message Dataset (VDM+) includes intensity, thermodynamic, and structure parameters derived from 6448 VDMs transmitted by aircraft from 298 tropical cyclones in the Atlantic, Eastern Pacific, and Central Pacific basins during the period 1989-2015. VDMs include several parameters that are difficult to characterize from other data sources, such as the location and velocity of the maximum observed winds at flight level and the surface, the diameter and character of the eye (if present), the minimum central pressure, the maximum flight level temperature, and many other structural aspects from the free-form remarks. The VDM+ dataset aggregates all of the data from VDMs, as well as the Best Track parameters and the development dataset of the Statistical Hurricane Intensity Prediction Scheme (SHIPS). By making all of these data easily accessible in one structured NetCDF dataset (~592 MB), VDM+ offers the research community a wealth of data useful for wind risk applications and further research into the TC life cycle and the challenging problems of rapid intensification and structure change.</gco:CharacterString>
+                <gco:CharacterString>A Vortex Data Message (VDM) is a succinct summary of crucial vortex parameters sampled by aircraft as it flies through a tropical cyclone (TC). The Enhanced Vortex Data Message Dataset (VDM+) includes intensity, thermodynamic, and structure parameters derived from 6448 VDMs transmitted by aircraft from 298 TCs in the Atlantic, Eastern Pacific, and Central Pacific basins during the period 1989-2015. VDMs include several parameters that are difficult to characterize from other data sources, such as the location and velocity of the maximum flight level winds, the location and velocity of the maximum surface winds measured by the Stepped Frequency Microwave Radiometer (SFMR) instrument, the diameter and character of the eye (if present), the coverage of the eyewall (open, closed, partial), the minimum central pressure, and the maximum flight level temperatures in the eyewall and eye. VDMs also contain information about many other structural aspects in the free-form remarks. The VDM+ Dataset aggregates nearly all of the data contained in the VDMs along with the full set of Best Track parameters contained in the Hurricane Dataset (HURDAT2). It supplements the Best Track parameters with the non-best-tracked radius of maximum wind (RMW) parameter from the Extended Best Track and Automated Tropical Cyclone Forecast System (ATCF) b-decks. Finally, for the TCs in the covered period, the VDM+ Dataset includes the full set of environmental and model-based diagnostic parameters, and remote sensing-based parameters of the Statistical Hurricane Intensity Prediction Scheme (SHIPS) Development Dataset. By making all of these data easily accessible in one structured NetCDF dataset (~592 MB), VDM+ offers the research community a wealth of data useful for research on wind risk applications, the TC life cycle, and the challenging problems of rapid intensification and structure change.
+                  </gco:CharacterString>
             </gmd:abstract>
-
+            <gmd:status>
+                <gmd:MD_ProgressCode
+                    codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+            </gmd:status>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
-                        <gco:CharacterString>Vigh, Jonathan, jvigh@ucar.edu</gco:CharacterString>
+                        <gco:CharacterString>Tropical Cyclone Data Project </gco:CharacterString>
                     </gmd:individualName>
                     <gmd:organisationName>
                         <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
                     </gmd:organisationName>
-                    <gmd:positionName>
-                        <gco:CharacterString/>
-                    </gmd:positionName>
+                    <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
                         <gmd:CI_Contact>
                             <gmd:address>
-                            <gmd:CI_Address>
-                            <gmd:electronicMailAddress>
-                            <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
-                            </gmd:electronicMailAddress>
-                            </gmd:CI_Address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
                             </gmd:address>
                         </gmd:CI_Contact>
                     </gmd:contactInfo>
                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Jonathan Vigh</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jvigh@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
                         <gco:CharacterString>Dataset</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
-                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                     </gmd:type>
                     <gmd:thesaurusName>
                         <gmd:CI_Citation>
                             <gmd:title>
-                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                                <gco:CharacterString>DataCite</gco:CharacterString>
                             </gmd:title>
                             <gmd:date>
                                 <gmd:CI_Date>
@@ -249,7 +324,8 @@
                                     <gco:Date>2017-07-17</gco:Date>
                                     </gmd:date>
                                     <gmd:dateType>
-                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
                                     </gmd:dateType>
                                 </gmd:CI_Date>
                             </gmd:date>
@@ -257,7 +333,7 @@
                                 <gmd:CI_ResponsibleParty>
                                     <gmd:individualName gco:nilReason="inapplicable"/>
                                     <gmd:organisationName>
-                                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                                    <gco:CharacterString>DataCite </gco:CharacterString>
                                     </gmd:organisationName>
                                     <gmd:positionName gco:nilReason="inapplicable"/>
                                     <gmd:contactInfo>
@@ -279,7 +355,8 @@
                                     </gmd:CI_Contact>
                                     </gmd:contactInfo>
                                     <gmd:role>
-                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
@@ -290,28 +367,117 @@
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>aircraft observations</gco:CharacterString>
+                        <gco:CharacterString>AIRCRAFT</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>eye</gco:CharacterString>
+                        <gco:CharacterString>WP-3D ORION &gt; Lockheed WP-3D Orion</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>flight level winds</gco:CharacterString>
+                        <gco:CharacterString>WC-130J &gt; Lockheed-Martin WC-130J Hercules</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>radius of maximum winds</gco:CharacterString>
+                        <gco:CharacterString>STEP FREQUENCY RADIOMETERS</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>Best Track</gco:CharacterString>
+                        <gco:CharacterString>DROPSONDES</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>tropical cyclone</gco:CharacterString>
+                        <gco:CharacterString>ROSEMOUNT PROBES
+                        </gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>hurricane</gco:CharacterString>
+                        <gco:CharacterString>GPS SONDE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; PEAK INTENSITY</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; PEAK INTENSITY &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; LANDFALL INTENSITY</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; LANDFALL INTENSITY &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM 1-MINUTE SUSTAINED WIND &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM SURFACE WIND &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MAXIMUM WIND GUST &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE RADIUS &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; MINIMUM CENTRAL PRESSURE &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE FORCE WIND EXTENT</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE FORCE WIND EXTENT &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE MOTION &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; TROPICAL CYCLONE TRACK &gt; HURRICANES (N. ATLANTIC/E. PACIFIC)</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES &gt; HURRICANES
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; CARIBBEAN SEA</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>OCEAN &gt; ATLANTIC OCEAN &gt; NORTH ATLANTIC OCEAN &gt; GULF OF MEXICO</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; EASTERN PACIFIC OCEAN</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>OCEAN &gt; PACIFIC OCEAN &gt; CENTRAL PACIFIC OCEAN</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
-                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                     </gmd:type>
                     <gmd:thesaurusName>
                         <gmd:CI_Citation>
@@ -321,10 +487,11 @@
                             <gmd:date>
                                 <gmd:CI_Date>
                                     <gmd:date>
-                                    <gco:Date>2005-11-17</gco:Date>
+                                    <gco:Date>2018-07-18</gco:Date>
                                     </gmd:date>
                                     <gmd:dateType>
-                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
                                     </gmd:dateType>
                                 </gmd:CI_Date>
                             </gmd:date>
@@ -332,7 +499,7 @@
                                 <gmd:CI_ResponsibleParty>
                                     <gmd:individualName gco:nilReason="inapplicable"/>
                                     <gmd:organisationName>
-                                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
                                     </gmd:organisationName>
                                     <gmd:positionName gco:nilReason="inapplicable"/>
                                     <gmd:contactInfo>
@@ -347,7 +514,8 @@
                                     </gmd:CI_Contact>
                                     </gmd:contactInfo>
                                     <gmd:role>
-                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
@@ -358,18 +526,74 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Use of these data is subject to a data user agreement and license. Copyright 2015 University Corporation for Atmospheric Research, Research Applications Laboratory, Joint Numerical Testbed. (See http://verif.rap.ucar.edu/tcdata/vortex/dataset/data_user_agreement_and_license.php )</gco:CharacterString>
+                        <gco:CharacterString>Use of these data is subject to a data user agreement and license. Copyright 2015 University Corporation for Atmospheric Research, Research Applications Laboratory, Joint Numerical Testbed. (See http://verif.rap.ucar.edu/tcdata/vortex/dataset/data_user_agreement_and_license.php)</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
-                        <gco:CharacterString>None</gco:CharacterString>
+                        <gco:CharacterString>A short user registration is required, mainly for the purpose having a way to contact dataset users if bugs are found or new versions are released, and also for tracking user metrics. Dataset access is currently subject to U.S. Export Control regulations.</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:language>
-                <gco:CharacterString>en</gco:CharacterString>
+                <gmd:LanguageCode
+                    codeList="./resources/codeList.xml#LanguageCode" codeListValue="en">en</gmd:LanguageCode>
             </gmd:language>
+            <gmd:characterSet gco:nilReason="missing"/>
+            <gmd:topicCategory gco:nilReason="missing"/>
+            <gmd:environmentDescription>
+                <gco:CharacterString>NCAR Command Language (NCL)</gco:CharacterString>
+            </gmd:environmentDescription>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description gco:nilReason="missing"/>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-168.95 </gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-44.25</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>9.9333</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>44.4167</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:beginPosition>19890712T19:30:00</gml:beginPosition>
+                                    <gml:endPosition>20151023T20:32:00</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>VDM+ was built using the NCAR Command Language (NCL), a powerful and free data &amp; visualization language similar to Matlab or IDL:
+                  The NCAR Command Language (Version 6.2.1) [Software]. (2014). Boulder, Colorado: UCAR/NCAR/CISL/TDD. http://dx.doi.org/10.5065/D6WD3XH5. 
+              
+              An example code set (written in NCL) is provided on the dataset download page to aid users in reading the dataset products. The example code contains a module that reads all 355 dataset parameters into memory, including the VDM, SHIPS, and HURDAT2 parameters. Then the code illustrates how to do several simple analysis tasks, such as printing out a subset of VDM parameters for a given storm or finding the overall maximum wind speed across all storms in the dataset. Users may adapt this code to undertake new analysis tasks or to translate the data into a different format. 
+              </gco:CharacterString>
+            </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
-
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat gco:nilReason="missing"/>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>593</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
 </gmd:MD_Metadata>
-
+<!--Metadata generated with CatMDEdit version 5.0-->
