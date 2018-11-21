@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:35.664947</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:28.968069</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7fq9z46</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1002/2015MS000532</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7fq9z46</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1002/2015MS000532</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -241,7 +237,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Yamaguchi and Feingold (2012) note that the cloud fields in their large-eddy simulations (LESs) of marine stratocumulus using the Weather Research and Forecasting (WRF) model exhibit a strong sensitivity to time stepping choices. In this study, we reproduce and analyze this sensitivity issue using two stratocumulus cases, one marine and one continental. Results show that (1) the sensitivity is associated with spurious motions near the moisture jump between the boundary layer and the free atmosphere, and (2) these spurious motions appear to arise from neglecting small variations in water vapor mixing ratio (qv) in the pressure gradient calculation in the acoustic substepping portion of the integration procedure. We show that this issue is remedied in the WRF dynamical core by replacing the prognostic equation for the potential temperature &amp;#952; with one for the moist potential temperature &amp;#952;m=&amp;#952;(1&amp;#8201;+&amp;#8201;1.61qv), which allows consistent treatment of moisture in the calculation of pressure during the acoustic substeps. With this modification, the spurious motions and the sensitivity to the time stepping settings (i.e., the dynamic time step length and number of acoustic sub-steps) are eliminated in both of the example stratocumulus cases. This modification improves the applicability of WRF for LES applications, and possibly other models using similar dynamical core formulations, and also permits the use of longer time steps than in the original code.</gco:CharacterString>
+            <gco:CharacterString>Yamaguchi and Feingold (2012) note that the cloud fields in their large-eddy simulations (LESs) of marine stratocumulus using the Weather Research and Forecasting (WRF) model exhibit a strong sensitivity to time stepping choices. In this study, we reproduce and analyze this sensitivity issue using two stratocumulus cases, one marine and one continental. Results show that (1) the sensitivity is associated with spurious motions near the moisture jump between the boundary layer and the free atmosphere, and (2) these spurious motions appear to arise from neglecting small variations in water vapor mixing ratio (qv) in the pressure gradient calculation in the acoustic substepping portion of the integration procedure. We show that this issue is remedied in the WRF dynamical core by replacing the prognostic equation for the potential temperature &#x3b8; with one for the moist potential temperature &#x3b8;m=&#x3b8;(1&#x2009;+&#x2009;1.61qv), which allows consistent treatment of moisture in the calculation of pressure during the acoustic substeps. With this modification, the spurious motions and the sensitivity to the time stepping settings (i.e., the dynamic time step length and number of acoustic sub-steps) are eliminated in both of the example stratocumulus cases. This modification improves the applicability of WRF for LES applications, and possibly other models using similar dynamical core formulations, and also permits the use of longer time steps than in the original code.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

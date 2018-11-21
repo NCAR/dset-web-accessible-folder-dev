@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:36.957175</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:32.624899</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7mp54tx</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1080/03091920802684665</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7mp54tx</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1080/03091920802684665</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Vortex dynamics often involves a wide range of strongly non-linearly interacting scales, and many situations arise in which relatively few aspects of the spatial configuration of the vortices seem to play a more significant dynamical role, and contribute more significantly to the energy spectrum, than does the rest of the flow. This presents a challenge to both simulation and analysis, as follows. A simulation method must be as highly accurate and computationally efficient as are methods that rely on simple spatial boundaries and geometry, but should also enable complex boundaries and geometry, as well as combined spatial and spectral analyses. That is, it should enable geometric analysis of vortex spatial aspects of any dimension - (approximate) points, curves, surfaces or volumes; and enable spatially local spectral analysis, to characterise potential spatially localised fractional-dimensional aspects such as spectral power laws. The spectral-element method (SEM) for numerically solving partial differential equations combines the spatial-configuration flexibility and computational efficiency of the finite-element method with the high accuracy (exponential convergence) of the pseudo-spectral method (PSM). Several SEM formulations until now have included dynamic adaptive refinement and coarsening (DARe), but always specialized to the 2D or 3D cases. To enable better simulation and analysis of vortex dynamics and similar complex flows, the present SEM-DARe formulation includes topological structure in order to achieve a completely general treatment of the d-dimensional case for arbitrary positive integer d. With a few exceptions, most SEM applications have been to compressible flow or to incompressible flow at low Reynolds number, Re. A new simulation code, the geophysical-astrophysical spectral-element adaptive refinement (GASpAR) code, recently introduced for two-dimensional linear and non-linear advection-diffusion simulations by Rosenberg et al. (Geophysical-astrophysical spectral-element adaptive refinement (GASpAR): Object-oriented h-adaptive fluid dynamics simulation. J. Comp. Phys., 2006, 215, 59-80, Available from http://dx.doi.org/10.1016/j.jcp.2005.10.031), has now been extended to decaying incompressible Navier-Stokes flows at high Re. GASpAR employs DARe of non-conforming type h (mesh size), and fixed number N of expansion polynomials per element per coordinate. GASpAR simulation of bi-periodic flow at Re = 2 &amp;#215; 10&amp;#8308;initialised with 3 Gaussian vortices, closely reproduces that by PSM with the same number of computational degrees of freedom. The high N enables a recently introduced SEM-customised Fourier analysis (Fournier, A., Exact calculation of Fourier series in non-conforming spectral-element methods. J. Comp. Phys., 2006, 215, 1-5, Available from http://dx.doi.org/10.1016/j.jcp.2005.11.023.) to find evidence of power-law-scaling regimes &amp;#917;&amp;#954;&amp;#8764;|&amp;#954;|(-&amp;#946;)over about 1 wavenumber decade, with exponents 3&amp;#8804;&amp;#946;&amp;#8804;4. Thus, GASpAR not only has several new and potent capabilities, but is also shown to reproduce and potentially enhance traditional PSM simulation and analysis of vortex dynamics.</gco:CharacterString>
+            <gco:CharacterString>Vortex dynamics often involves a wide range of strongly non-linearly interacting scales, and many situations arise in which relatively few aspects of the spatial configuration of the vortices seem to play a more significant dynamical role, and contribute more significantly to the energy spectrum, than does the rest of the flow. This presents a challenge to both simulation and analysis, as follows. A simulation method must be as highly accurate and computationally efficient as are methods that rely on simple spatial boundaries and geometry, but should also enable complex boundaries and geometry, as well as combined spatial and spectral analyses. That is, it should enable geometric analysis of vortex spatial aspects of any dimension - (approximate) points, curves, surfaces or volumes; and enable spatially local spectral analysis, to characterise potential spatially localised fractional-dimensional aspects such as spectral power laws. The spectral-element method (SEM) for numerically solving partial differential equations combines the spatial-configuration flexibility and computational efficiency of the finite-element method with the high accuracy (exponential convergence) of the pseudo-spectral method (PSM). Several SEM formulations until now have included dynamic adaptive refinement and coarsening (DARe), but always specialized to the 2D or 3D cases. To enable better simulation and analysis of vortex dynamics and similar complex flows, the present SEM-DARe formulation includes topological structure in order to achieve a completely general treatment of the d-dimensional case for arbitrary positive integer d. With a few exceptions, most SEM applications have been to compressible flow or to incompressible flow at low Reynolds number, Re. A new simulation code, the geophysical-astrophysical spectral-element adaptive refinement (GASpAR) code, recently introduced for two-dimensional linear and non-linear advection-diffusion simulations by Rosenberg et al. (Geophysical-astrophysical spectral-element adaptive refinement (GASpAR): Object-oriented h-adaptive fluid dynamics simulation. J. Comp. Phys., 2006, 215, 59-80, Available from http://dx.doi.org/10.1016/j.jcp.2005.10.031), has now been extended to decaying incompressible Navier-Stokes flows at high Re. GASpAR employs DARe of non-conforming type h (mesh size), and fixed number N of expansion polynomials per element per coordinate. GASpAR simulation of bi-periodic flow at Re = 2 &#xd7; 10&#x2074;initialised with 3 Gaussian vortices, closely reproduces that by PSM with the same number of computational degrees of freedom. The high N enables a recently introduced SEM-customised Fourier analysis (Fournier, A., Exact calculation of Fourier series in non-conforming spectral-element methods. J. Comp. Phys., 2006, 215, 1-5, Available from http://dx.doi.org/10.1016/j.jcp.2005.11.023.) to find evidence of power-law-scaling regimes &#x395;&#x3ba;&#x223c;|&#x3ba;|(-&#x3b2;)over about 1 wavenumber decade, with exponents 3&#x2264;&#x3b2;&#x2264;4. Thus, GASpAR not only has several new and potent capabilities, but is also shown to reproduce and potentially enhance traditional PSM simulation and analysis of vortex dynamics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

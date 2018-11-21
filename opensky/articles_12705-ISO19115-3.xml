@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:53:23.312666</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:17.205969</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d78c9x3b</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-12-00351.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d78c9x3b</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-12-00351.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>There is growing use of limited-area models (LAMs) for high-resolution (&amp;lt;10 km) applications, for which consistent mapping of input terrestrial and meteorological datasets is critical for accurate simulations. The geographic coordinate systems of most input datasets are based on spheroid-shaped (i.e., elliptical) Earth models, while LAMs generally assume a perfectly sphere-shaped Earth. This distinction is often neglected during preprocessing, when input data are remapped to LAM domains, leading to geolocation discrepancies that can exceed 20 km at midlatitudes. A variety of terrestrial (topography and land use) input dataset configurations is employed to explore the impact of Earth model assumptions on a series of 1-km LAM simulations over Colorado. For the same terrestrial datasets, the ~20-km geolocation discrepancy between spheroidal-versus-spherical Earth models over the domain leads to simulated differences in near-surface and midtropospheric air temperature, humidity, and wind speed that are larger and more widespread than those due to using different topography and land use datasets altogether but not changing the Earth model. Simulated differences are caused by the shift of static fields with respect to boundary conditions, and altered Coriolis forcing and topographic gradients. The sensitivity of high-resolution LAM simulations to Earth model assumptions emphasizes the importance for users to ensure terrestrial and meteorological input data are consistently mapped during preprocessing (i.e., datasets share a common geographic coordinate system before remapping to the LAM domain). Concurrently, the modeling community should update preprocessing systems to make sure input data are correctly mapped for all global and limited-area simulation domains.</gco:CharacterString>
+            <gco:CharacterString>There is growing use of limited-area models (LAMs) for high-resolution (&lt;10 km) applications, for which consistent mapping of input terrestrial and meteorological datasets is critical for accurate simulations. The geographic coordinate systems of most input datasets are based on spheroid-shaped (i.e., elliptical) Earth models, while LAMs generally assume a perfectly sphere-shaped Earth. This distinction is often neglected during preprocessing, when input data are remapped to LAM domains, leading to geolocation discrepancies that can exceed 20 km at midlatitudes. A variety of terrestrial (topography and land use) input dataset configurations is employed to explore the impact of Earth model assumptions on a series of 1-km LAM simulations over Colorado. For the same terrestrial datasets, the ~20-km geolocation discrepancy between spheroidal-versus-spherical Earth models over the domain leads to simulated differences in near-surface and midtropospheric air temperature, humidity, and wind speed that are larger and more widespread than those due to using different topography and land use datasets altogether but not changing the Earth model. Simulated differences are caused by the shift of static fields with respect to boundary conditions, and altered Coriolis forcing and topographic gradients. The sensitivity of high-resolution LAM simulations to Earth model assumptions emphasizes the importance for users to ensure terrestrial and meteorological input data are consistently mapped during preprocessing (i.e., datasets share a common geographic coordinate system before remapping to the LAM domain). Concurrently, the modeling community should update preprocessing systems to make sure input data are correctly mapped for all global and limited-area simulation domains.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

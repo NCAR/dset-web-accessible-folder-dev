@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:34.486933</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:36.613792</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7t154t7</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1109/TBME.2014.2342280</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7t154t7</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1109/TBME.2014.2342280</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -191,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Electrical impedance tomography (EIT) is a noninvasive imaging modality, where imperceptible currents are applied to the skin and the resulting surface voltages are measured. It has the potential to distinguish between ischaemic and haemorrhagic stroke with a portable and inexpensive device. The image reconstruction relies on an accurate forward model of the experimental setup. Because of the relatively small signal in stroke EIT, the finite-element modeling requires meshes of more than 10 million elements. To study the requirements in the forward modeling in EIT and also to reduce the time for experimental image acquisition, it is necessary to reduce the run time of the forward computation. We show the implementation of a parallel forward solver for EIT using the DUNE-FEM C++ library and demonstrate its performance on many CPU&amp;#8217;s of a computer cluster. For a typical EIT application a direct solver was significantly slower and not an alternative to iterative solvers with multigrid preconditioning. With this new solver, we can compute the forward solutions and the Jacobian matrix of a typical EIT application with 30 electrodes on a 15-million element mesh in less than 15 min. This makes it a valuable tool for simulation studies and EIT applications with high precision requirements. It is freely available for download.</gco:CharacterString>
+            <gco:CharacterString>Electrical impedance tomography (EIT) is a noninvasive imaging modality, where imperceptible currents are applied to the skin and the resulting surface voltages are measured. It has the potential to distinguish between ischaemic and haemorrhagic stroke with a portable and inexpensive device. The image reconstruction relies on an accurate forward model of the experimental setup. Because of the relatively small signal in stroke EIT, the finite-element modeling requires meshes of more than 10 million elements. To study the requirements in the forward modeling in EIT and also to reduce the time for experimental image acquisition, it is necessary to reduce the run time of the forward computation. We show the implementation of a parallel forward solver for EIT using the DUNE-FEM C++ library and demonstrate its performance on many CPU&#x2019;s of a computer cluster. For a typical EIT application a direct solver was significantly slower and not an alternative to iterative solvers with multigrid preconditioning. With this new solver, we can compute the forward solutions and the Jacobian matrix of a typical EIT application with 30 electrodes on a 15-million element mesh in less than 15 min. This makes it a valuable tool for simulation studies and EIT applications with high precision requirements. It is freely available for download.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

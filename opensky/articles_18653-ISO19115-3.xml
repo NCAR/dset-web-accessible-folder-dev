@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:59.533506</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:33.894869</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d75q4xrg</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-15-0368.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d75q4xrg</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-15-0368.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper discusses the advection of coupled hydrometeor quantities by air motion in atmospheric models. It is shown that any bulk property derived from a set of advected microphysical variables must meet certain conditions in order to be preserved during transport using linear or semilinear advection schemes when the property is initially uniform, with implications for physical consistency of the property. A new, efficient flux-based method for calculating hydrometeor advection, similar to vector transport applied previously in aerosol modeling, is also presented. In this method, called scaled flux vector transport (SFVT), lead scalars (the mass mixing ratios) are advected using the host model&amp;#8217;s unmodified advection scheme and secondary scalars (e.g., number mixing ratios) are advected by appropriately scaling the lead scalar fluxes. By design, SFVT retains linear relationships between the advected scalars. Analytic tests reveal that mean errors using SFVT are similar to those incurred using the traditional approach of separately advecting each variable. SFVT is applied to the multimoment predicted particle properties bulk microphysics scheme in idealized two-dimensional squall-line simulations using the Weather Research and Forecasting Model. The computational cost in total wall clock run time is reduced by 10%-15% while producing solutions similar to the traditional approach. Thus, SFVT can reduce the overall cost of using multimoment bulk microphysics schemes, making them competitive with simpler schemes having fewer prognostic variables.</gco:CharacterString>
+            <gco:CharacterString>This paper discusses the advection of coupled hydrometeor quantities by air motion in atmospheric models. It is shown that any bulk property derived from a set of advected microphysical variables must meet certain conditions in order to be preserved during transport using linear or semilinear advection schemes when the property is initially uniform, with implications for physical consistency of the property. A new, efficient flux-based method for calculating hydrometeor advection, similar to vector transport applied previously in aerosol modeling, is also presented. In this method, called scaled flux vector transport (SFVT), lead scalars (the mass mixing ratios) are advected using the host model&#x2019;s unmodified advection scheme and secondary scalars (e.g., number mixing ratios) are advected by appropriately scaling the lead scalar fluxes. By design, SFVT retains linear relationships between the advected scalars. Analytic tests reveal that mean errors using SFVT are similar to those incurred using the traditional approach of separately advecting each variable. SFVT is applied to the multimoment predicted particle properties bulk microphysics scheme in idealized two-dimensional squall-line simulations using the Weather Research and Forecasting Model. The computational cost in total wall clock run time is reduced by 10%-15% while producing solutions similar to the traditional approach. Thus, SFVT can reduce the overall cost of using multimoment bulk microphysics schemes, making them competitive with simpler schemes having fewer prognostic variables.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

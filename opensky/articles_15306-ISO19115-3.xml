@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:22.044008</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:21.962620</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7vt1t48</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2009MWR2820.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7vt1t48</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2009MWR2820.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In the Advanced Research Weather Research and Forecasting Model (ARW), versions 3.0 and earlier, advection of scalars was performed using the Runge&amp;#8211;Kutta time-integration scheme with an option of using a positive-definite (PD) flux limiter. Large-eddy simulations of aerosol&amp;#8211;cloud interactions using the ARW model are performed to evaluate the advection schemes. The basic Runge&amp;#8211;Kutta scheme alone produces spurious oscillations and negative values in scalar mixing ratios because of numerical dispersion errors. The PD flux limiter assures positive definiteness but retains the oscillations with an amplification of local maxima by up to 20% in the tests. These numerical dispersion errors contaminate active scalars directly through the advection process and indirectly through physical and dynamical feedbacks, leading to a misrepresentation of cloud physical and dynamical processes. A monotonic flux limiter is introduced to correct the generally accurate but dispersive solutions given by high-order Runge&amp;#8211;Kutta scheme. The monotonic limiter effectively minimizes the dispersion errors with little significant enhancement of numerical diffusion errors. The improvement in scalar advection using the monotonic limiter is discussed in the context of how the different advection schemes impact the quantification of aerosol&amp;#8211;cloud interactions. The PD limiter results in 20% (10%) fewer cloud droplets and 22% (5%) smaller cloud albedo than the monotonic limiter under clean (polluted) conditions. Underprediction of cloud droplet number concentration by the PD limiter tends to trigger the early formation of precipitation in the clean case, leading to a potentially large impact on cloud albedo change.</gco:CharacterString>
+            <gco:CharacterString>In the Advanced Research Weather Research and Forecasting Model (ARW), versions 3.0 and earlier, advection of scalars was performed using the Runge&#x2013;Kutta time-integration scheme with an option of using a positive-definite (PD) flux limiter. Large-eddy simulations of aerosol&#x2013;cloud interactions using the ARW model are performed to evaluate the advection schemes. The basic Runge&#x2013;Kutta scheme alone produces spurious oscillations and negative values in scalar mixing ratios because of numerical dispersion errors. The PD flux limiter assures positive definiteness but retains the oscillations with an amplification of local maxima by up to 20% in the tests. These numerical dispersion errors contaminate active scalars directly through the advection process and indirectly through physical and dynamical feedbacks, leading to a misrepresentation of cloud physical and dynamical processes. A monotonic flux limiter is introduced to correct the generally accurate but dispersive solutions given by high-order Runge&#x2013;Kutta scheme. The monotonic limiter effectively minimizes the dispersion errors with little significant enhancement of numerical diffusion errors. The improvement in scalar advection using the monotonic limiter is discussed in the context of how the different advection schemes impact the quantification of aerosol&#x2013;cloud interactions. The PD limiter results in 20% (10%) fewer cloud droplets and 22% (5%) smaller cloud albedo than the monotonic limiter under clean (polluted) conditions. Underprediction of cloud droplet number concentration by the PD limiter tends to trigger the early formation of precipitation in the clean case, leading to a potentially large impact on cloud albedo change.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

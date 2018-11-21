@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:53:41.480954</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:36.733621</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7mc90x1</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/gmd-6-2023-2013</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7mc90x1</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/gmd-6-2023-2013</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A new hybrid Eulerian&amp;#8211;Lagrangian numerical scheme (HEL) for solving prognostic equations in fluid dynamics is proposed. The basic idea is to use an Eulerian as well as a fully Lagrangian representation of all prognostic variables. The time step in Lagrangian space is obtained as a translation of irregularly spaced Lagrangian parcels along downstream trajectories. Tendencies due to other physical processes than advection are calculated in Eulerian space, interpolated, and added to the Lagrangian parcel values. A directionally biased mixing amongst neighboring Lagrangian parcels is introduced. The rate of mixing is proportional to the local deformation rate of the flow. The time stepping in Eulerian representation is achieved in two steps: first a mass-conserving Eulerian or semi-Lagrangian scheme is used to obtain a provisional forecast. This forecast is then nudged towards target values defined from the irregularly spaced Lagrangian parcel values. The nudging procedure is defined in such a way that mass conservation and shape preservation is ensured in Eulerian space. The HEL scheme has been designed to be accurate, multi-tracer efficient, mass conserving, and shape preserving. In Lagrangian space only physically based mixing takes place; i.e., the problem of artificial numerical mixing is avoided. This property is desirable in atmospheric chemical transport models since spurious numerical mixing can impact chemical concentrations severely. The properties of HEL are here verified in two-dimensional tests. These include deformational passive transport on the sphere, and simulations with a semi-implicit shallow water model including topography.</gco:CharacterString>
+            <gco:CharacterString>A new hybrid Eulerian&#x2013;Lagrangian numerical scheme (HEL) for solving prognostic equations in fluid dynamics is proposed. The basic idea is to use an Eulerian as well as a fully Lagrangian representation of all prognostic variables. The time step in Lagrangian space is obtained as a translation of irregularly spaced Lagrangian parcels along downstream trajectories. Tendencies due to other physical processes than advection are calculated in Eulerian space, interpolated, and added to the Lagrangian parcel values. A directionally biased mixing amongst neighboring Lagrangian parcels is introduced. The rate of mixing is proportional to the local deformation rate of the flow. The time stepping in Eulerian representation is achieved in two steps: first a mass-conserving Eulerian or semi-Lagrangian scheme is used to obtain a provisional forecast. This forecast is then nudged towards target values defined from the irregularly spaced Lagrangian parcel values. The nudging procedure is defined in such a way that mass conservation and shape preservation is ensured in Eulerian space. The HEL scheme has been designed to be accurate, multi-tracer efficient, mass conserving, and shape preserving. In Lagrangian space only physically based mixing takes place; i.e., the problem of artificial numerical mixing is avoided. This property is desirable in atmospheric chemical transport models since spurious numerical mixing can impact chemical concentrations severely. The properties of HEL are here verified in two-dimensional tests. These include deformational passive transport on the sphere, and simulations with a semi-implicit shallow water model including topography.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:17.313319</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:50.317280</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d73x87p8</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2009MWR2917.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d73x87p8</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2009MWR2917.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Alternative meshes of the sphere and adaptive mesh refinement could be immensely beneficial for weather and climate forecasts, but it is not clear how mesh refinement should be achieved. A finite-volume model that solves the shallow-water equations on any mesh of the surface of the sphere is presented. The accuracy and cost effectiveness of four quasi-uniform meshes of the sphere are compared: a cubed sphere, reduced latitude&amp;#8211;longitude, hexagonal&amp;#8211;icosahedral, and triangular&amp;#8211;icosahedral. On some standard shallow-water tests, the hexagonal&amp;#8211;icosahedral mesh performs best and the reduced latitude&amp;#8211;longitude mesh performs well only when the flow is aligned with the mesh. The inclusion of a refined mesh over a disc-shaped region is achieved using either gradual Delaunay, gradual Voronoi, or abrupt 2:1 block-structured refinement. These refined regions can actually degrade global accuracy, presumably because of changes in wave dispersion where the mesh is highly nonuniform. However, using gradual refinement to resolve a mountain in an otherwise coarse mesh can improve accuracy for the same cost. The model prognostic variables are height and momentum collocated at cell centers, and (to remove grid-scale oscillations of the A grid) the mass flux between cells is advanced from the old momentum using the momentum equation. Quadratic and upwind biased cubic differencing methods are used as explicit corrections to a fast implicit solution that uses linear differencing.</gco:CharacterString>
+            <gco:CharacterString>Alternative meshes of the sphere and adaptive mesh refinement could be immensely beneficial for weather and climate forecasts, but it is not clear how mesh refinement should be achieved. A finite-volume model that solves the shallow-water equations on any mesh of the surface of the sphere is presented. The accuracy and cost effectiveness of four quasi-uniform meshes of the sphere are compared: a cubed sphere, reduced latitude&#x2013;longitude, hexagonal&#x2013;icosahedral, and triangular&#x2013;icosahedral. On some standard shallow-water tests, the hexagonal&#x2013;icosahedral mesh performs best and the reduced latitude&#x2013;longitude mesh performs well only when the flow is aligned with the mesh. The inclusion of a refined mesh over a disc-shaped region is achieved using either gradual Delaunay, gradual Voronoi, or abrupt 2:1 block-structured refinement. These refined regions can actually degrade global accuracy, presumably because of changes in wave dispersion where the mesh is highly nonuniform. However, using gradual refinement to resolve a mountain in an otherwise coarse mesh can improve accuracy for the same cost. The model prognostic variables are height and momentum collocated at cell centers, and (to remove grid-scale oscillations of the A grid) the mass flux between cells is advanced from the old momentum using the momentum equation. Quadratic and upwind biased cubic differencing methods are used as explicit corrections to a fast implicit solution that uses linear differencing.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

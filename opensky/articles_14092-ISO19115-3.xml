@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:53:56.005504</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:42.306992</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d77945m2</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-13-00210.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d77945m2</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-13-00210.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -181,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A cell-integrated semi-Lagrangian (CISL) semi-implicit nonhydrostatic solver for the fully compressible moist Euler equations in two-dimensional Cartesian (x&amp;#8211;z) geometry is presented. The semi-implicit CISL solver uses the inherently conservative semi-Lagrangian multitracer transport scheme (CSLAM) and a new flux-form semi-implicit formulation of the continuity equation that ensures numerically consistent transport. The flux-form semi-implicit formulation is based on a recent successful approach in a shallow-water equations (SWE) solver (CSLAM-SW). With the new approach, the CISL semi-implicit nonhydrostatic solver (CSLAM-NH) is able to ensure conservative and consistent transport by avoiding the need for a time-independent mean reference state. Like its SWE counterpart, the nonhydrostatic solver presented here is designed to be similar to typical semi-Lagrangian semi-implicit schemes, such that only a single linear Helmholtz equation solution and a single call to CSLAM are required per time step. To demonstrate its stability and accuracy, the solver is applied to a set of three idealized test cases: a density current (dry), a gravity wave (dry), and a squall line (moist). A fourth test case shows that shape preservation of passive tracers is ensured by coupling the semi-implicit CISL formulation with existing shape-preserving filters. Results show that CSLAM-NH solutions compare well with other existing solvers for the three test cases, and that it is shape preserving.</gco:CharacterString>
+            <gco:CharacterString>A cell-integrated semi-Lagrangian (CISL) semi-implicit nonhydrostatic solver for the fully compressible moist Euler equations in two-dimensional Cartesian (x&#x2013;z) geometry is presented. The semi-implicit CISL solver uses the inherently conservative semi-Lagrangian multitracer transport scheme (CSLAM) and a new flux-form semi-implicit formulation of the continuity equation that ensures numerically consistent transport. The flux-form semi-implicit formulation is based on a recent successful approach in a shallow-water equations (SWE) solver (CSLAM-SW). With the new approach, the CISL semi-implicit nonhydrostatic solver (CSLAM-NH) is able to ensure conservative and consistent transport by avoiding the need for a time-independent mean reference state. Like its SWE counterpart, the nonhydrostatic solver presented here is designed to be similar to typical semi-Lagrangian semi-implicit schemes, such that only a single linear Helmholtz equation solution and a single call to CSLAM are required per time step. To demonstrate its stability and accuracy, the solver is applied to a set of three idealized test cases: a density current (dry), a gravity wave (dry), and a squall line (moist). A fourth test case shows that shape preservation of passive tracers is ensured by coupling the semi-implicit CISL formulation with existing shape-preserving filters. Results show that CSLAM-NH solutions compare well with other existing solvers for the three test cases, and that it is shape preserving.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

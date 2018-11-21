@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:44.352025</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:26.283657</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d73t9jsp</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-14-00303.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d73t9jsp</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-14-00303.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Particle filtering methods for data assimilation may suffer from the &amp;#8220;curse of dimensionality,&amp;#8221; where the required ensemble size grows rapidly as the dimension increases. It would, therefore, be useful to know a priori whether a particle filter is feasible to implement in a given system. Previous work provides an asymptotic relation between the necessary ensemble size and an exponential function of , a statistic that depends on observation-space quantities and that is related to the system dimension when the number of observations is large; for linear, Gaussian systems, the statistic can be computed from eigenvalues of an appropriately normalized covariance matrix. Tests with a low-dimensional system show that these asymptotic results remain useful when the system is nonlinear, with either the standard or optimal proposal implementation of the particle filter. This study explores approximations to the covariance matrices that facilitate computation in high-dimensional systems, as well as different methods to estimate the accumulated system noise covariance for the optimal proposal. Since may be approximated using an ensemble from a simpler data assimilation scheme, such as the ensemble Kalman filter, the asymptotic relations thus allow an estimate of the ensemble size required for a particle filter before its implementation. Finally, the improved performance of particle filters with the optimal proposal, relative to those using the standard proposal, in the same low-dimensional system is demonstrated</gco:CharacterString>
+            <gco:CharacterString>Particle filtering methods for data assimilation may suffer from the &#x201c;curse of dimensionality,&#x201d; where the required ensemble size grows rapidly as the dimension increases. It would, therefore, be useful to know a priori whether a particle filter is feasible to implement in a given system. Previous work provides an asymptotic relation between the necessary ensemble size and an exponential function of , a statistic that depends on observation-space quantities and that is related to the system dimension when the number of observations is large; for linear, Gaussian systems, the statistic can be computed from eigenvalues of an appropriately normalized covariance matrix. Tests with a low-dimensional system show that these asymptotic results remain useful when the system is nonlinear, with either the standard or optimal proposal implementation of the particle filter. This study explores approximations to the covariance matrices that facilitate computation in high-dimensional systems, as well as different methods to estimate the accumulated system noise covariance for the optimal proposal. Since may be approximated using an ensemble from a simpler data assimilation scheme, such as the ensemble Kalman filter, the asymptotic relations thus allow an estimate of the ensemble size required for a particle filter before its implementation. Finally, the improved performance of particle filters with the optimal proposal, relative to those using the standard proposal, in the same low-dimensional system is demonstrated</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

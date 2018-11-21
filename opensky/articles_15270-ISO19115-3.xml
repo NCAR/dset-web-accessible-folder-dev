@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:20.856766</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:19.995968</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7hq40xn</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2008MWR2817.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7hq40xn</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2008MWR2817.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Land, ocean, and atmospheric models are often implemented on different spherical grids. As a conseqence coupling these model components requires state variables and fluxes to be regridded. For some variables, such as fluxes, it is paramount that the regridding algorithm is conservative (so that energy and water budget balances are maintained) and monotone (to prevent unphysical values). For global applications the cubed-sphere grids are gaining popularity in the atmospheric community whereas, for example, the land modeling groups are mostly using the regular latitude&amp;#8211;longitude grid. Most existing regridding schemes fail to take advantage of geometrical symmetries between these grids and hence accuracy of the calculations can be lost. Hence, a new Geometrically Exact Conservative Remapping (GECoRe) scheme with a monotone option is proposed for remapping between regular latitude&amp;#8211;longitude and gnomonic cubed-sphere grids. GECoRe is compared with existing remapping schemes published in the meteorological literature. It is concluded here that the geometrically exact scheme significantly improves the accuracy of the resulting remapping in idealized test cases.</gco:CharacterString>
+            <gco:CharacterString>Land, ocean, and atmospheric models are often implemented on different spherical grids. As a conseqence coupling these model components requires state variables and fluxes to be regridded. For some variables, such as fluxes, it is paramount that the regridding algorithm is conservative (so that energy and water budget balances are maintained) and monotone (to prevent unphysical values). For global applications the cubed-sphere grids are gaining popularity in the atmospheric community whereas, for example, the land modeling groups are mostly using the regular latitude&#x2013;longitude grid. Most existing regridding schemes fail to take advantage of geometrical symmetries between these grids and hence accuracy of the calculations can be lost. Hence, a new Geometrically Exact Conservative Remapping (GECoRe) scheme with a monotone option is proposed for remapping between regular latitude&#x2013;longitude and gnomonic cubed-sphere grids. GECoRe is compared with existing remapping schemes published in the meteorological literature. It is concluded here that the geometrically exact scheme significantly improves the accuracy of the resulting remapping in idealized test cases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

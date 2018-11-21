@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:41.715330</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:40.671345</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7ht2qh7</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-14-00127.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7ht2qh7</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-14-00127.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Feature Calibration and Alignment technique (FCA) has been developed to characterize errors that a human would ascribe to a change in the position or intensity of a coherent feature, such as a hurricane. Here the feature alignment part of FCA is implemented in the Weather Research and Forecasting Data Assimilation system (WRFDA) to correct position errors in background fields and tested in simulation for the case of Hurricane Katrina (2005). The displacement vectors determined by feature alignment can be used to explain part of the background error and make the residual background errors smaller and more Gaussian. Here a set of 2D displacement vectors to improve the alignment of features in the forecast and observations is determined by solving the usual variational data assimilation problem--simultaneously minimizing the misfit to observations and a constraint on the displacements. This latter constraint is currently implemented by hijacking the usual background term for the midlevel u- and &amp;#965;-wind components. The full model fields are then aligned using a procedure that minimizes dynamical imbalances by displacing only conserved or quasi-conserved quantities. Simulation experiments show the effectiveness of these procedures in correcting gross position errors and improving short-term forecasts. Compared to earlier experiments, even this initial implementation of feature alignment produces improved short-term forecasts. Adding the calculation of displacements to WRFDA advances the key contribution of FCA toward mainstream implementation since all observations with a corresponding observation operator may be used and the existing methodology for estimating the background error covariances may be used to refine the displacement error covariances.</gco:CharacterString>
+            <gco:CharacterString>The Feature Calibration and Alignment technique (FCA) has been developed to characterize errors that a human would ascribe to a change in the position or intensity of a coherent feature, such as a hurricane. Here the feature alignment part of FCA is implemented in the Weather Research and Forecasting Data Assimilation system (WRFDA) to correct position errors in background fields and tested in simulation for the case of Hurricane Katrina (2005). The displacement vectors determined by feature alignment can be used to explain part of the background error and make the residual background errors smaller and more Gaussian. Here a set of 2D displacement vectors to improve the alignment of features in the forecast and observations is determined by solving the usual variational data assimilation problem--simultaneously minimizing the misfit to observations and a constraint on the displacements. This latter constraint is currently implemented by hijacking the usual background term for the midlevel u- and &#x3c5;-wind components. The full model fields are then aligned using a procedure that minimizes dynamical imbalances by displacing only conserved or quasi-conserved quantities. Simulation experiments show the effectiveness of these procedures in correcting gross position errors and improving short-term forecasts. Compared to earlier experiments, even this initial implementation of feature alignment produces improved short-term forecasts. Adding the calculation of displacements to WRFDA advances the key contribution of FCA toward mainstream implementation since all observations with a corresponding observation operator may be used and the existing methodology for estimating the background error covariances may be used to refine the displacement error covariances.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

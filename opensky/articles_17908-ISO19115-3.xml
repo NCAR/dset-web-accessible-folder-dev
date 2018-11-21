@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:33.600813</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:21.298677</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d72n53sr</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-15-0163.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d72n53sr</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-15-0163.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents a new data assimilation approach based on the particle filter (PF) that has potential for nonlinear/non-Gaussian applications in geoscience. Particle filters provide a Monte Carlo approximation of a system's probability density, while making no assumptions regarding the underlying error distribution. The proposed method is similar to the PF in that particles&amp;#8212;also referred to as ensemble members&amp;#8212;are weighted based on the likelihood of observations in order to approximate posterior probabilities of the system state. The new approach, denoted the local PF, extends the particle weights into vector quantities to reduce the influence of distant observations on the weight calculations via a localization function. While the number of particles required for standard PFs scales exponentially with the dimension of the system, the local PF provides accurate results using relatively few particles. In sensitivity experiments performed with a 40-variable dynamical system, the local PF requires only five particles to prevent filter divergence for both dense and sparse observation networks. Comparisons of the local PF and ensemble Kalman filters (EnKFs) reveal advantages of the new method in situations resembling geophysical data assimilation applications. In particular, the new filter demonstrates substantial benefits over EnKFs when observation networks consist of densely spaced measurements that relate nonlinearly to the model state&amp;#8212;analogous to remotely sensed data used frequently in weather analyses.</gco:CharacterString>
+            <gco:CharacterString>This paper presents a new data assimilation approach based on the particle filter (PF) that has potential for nonlinear/non-Gaussian applications in geoscience. Particle filters provide a Monte Carlo approximation of a system's probability density, while making no assumptions regarding the underlying error distribution. The proposed method is similar to the PF in that particles&#x2014;also referred to as ensemble members&#x2014;are weighted based on the likelihood of observations in order to approximate posterior probabilities of the system state. The new approach, denoted the local PF, extends the particle weights into vector quantities to reduce the influence of distant observations on the weight calculations via a localization function. While the number of particles required for standard PFs scales exponentially with the dimension of the system, the local PF provides accurate results using relatively few particles. In sensitivity experiments performed with a 40-variable dynamical system, the local PF requires only five particles to prevent filter divergence for both dense and sparse observation networks. Comparisons of the local PF and ensemble Kalman filters (EnKFs) reveal advantages of the new method in situations resembling geophysical data assimilation applications. In particular, the new filter demonstrates substantial benefits over EnKFs when observation networks consist of densely spaced measurements that relate nonlinearly to the model state&#x2014;analogous to remotely sensed data used frequently in weather analyses.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

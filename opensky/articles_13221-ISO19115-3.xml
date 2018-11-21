@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:53:44.892217</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:37.451561</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7g44r65</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-13-00152.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7g44r65</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-13-00152.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Two techniques for estimating good localization functions for serial ensemble Kalman filters are compared in observing system simulation experiments (OSSEs) conducted with the dynamical core of an atmospheric general circulation model. The first technique, the global group filter (GGF), minimizes the root-mean-square (RMS) difference between the estimated regression coefficients using a hierarchical ensemble filter. The second, the empirical localization function (ELF), minimizes the RMS difference between the true values of the state variables and the posterior ensemble mean. Both techniques provide an estimate of the localization function for an observation&amp;#8217;s impact on a state variable with few a priori assumptions about the localization function. The ELF localizations can have values larger than 1.0 at small distances, indicating that this technique addresses localization but also can correct the prior ensemble spread in the same way as a variance inflation when needed. OSSEs using ELF localizations generally have smaller root-mean-square error (RMSE) than the optimal Gaspari and Cohn (GC) localization function obtained by empirically tuning the GC width. The localization functions estimated by the GGF are broader than those from the ELF, and the OSSEs with the GGF localization generally have larger RMSE than the optimal GC localization function. The GGFs are too broad because of spurious correlation biases that occur in the OSSEs. These errors can be reduced by using a stochastic EnKF with perturbed observations instead of a deterministic EAKF.</gco:CharacterString>
+            <gco:CharacterString>Two techniques for estimating good localization functions for serial ensemble Kalman filters are compared in observing system simulation experiments (OSSEs) conducted with the dynamical core of an atmospheric general circulation model. The first technique, the global group filter (GGF), minimizes the root-mean-square (RMS) difference between the estimated regression coefficients using a hierarchical ensemble filter. The second, the empirical localization function (ELF), minimizes the RMS difference between the true values of the state variables and the posterior ensemble mean. Both techniques provide an estimate of the localization function for an observation&#x2019;s impact on a state variable with few a priori assumptions about the localization function. The ELF localizations can have values larger than 1.0 at small distances, indicating that this technique addresses localization but also can correct the prior ensemble spread in the same way as a variance inflation when needed. OSSEs using ELF localizations generally have smaller root-mean-square error (RMSE) than the optimal Gaspari and Cohn (GC) localization function obtained by empirically tuning the GC width. The localization functions estimated by the GGF are broader than those from the ELF, and the OSSEs with the GGF localization generally have larger RMSE than the optimal GC localization function. The GGFs are too broad because of spurious correlation biases that occur in the OSSEs. These errors can be reduced by using a stochastic EnKF with perturbed observations instead of a deterministic EAKF.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

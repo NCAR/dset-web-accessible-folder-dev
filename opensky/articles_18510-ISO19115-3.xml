@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:52.955061</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:49.262097</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7765gzm</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/gmd-9-77-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7765gzm</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/gmd-9-77-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -161,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Model for Prediction Across Scales (MPAS) is a novel set of Earth system simulation components and consists of an atmospheric model, an ocean model and a land-ice model. Its distinct features are the use of unstructured Voronoi meshes and C-grid discretisation to address shortcomings of global models on regular grids and the use of limited area models nested in a forcing data set, with respect to parallel scalability, numerical accuracy and physical consistency. This concept allows one to include the feedback of regional land use information on weather and climate at local and global scales in a consistent way, which is impossible to achieve with traditional limited area modelling approaches. Here, we present an in-depth evaluation of MPAS with regards to technical aspects of performing model runs and scalability for three medium-size meshes on four different high-performance computing (HPC) sites with different architectures and compilers. We uncover model limitations and identify new aspects for the model optimisation that are introduced by the use of unstructured Voronoi meshes. We further demonstrate the model performance of MPAS in terms of its capability to reproduce the dynamics of the West African monsoon (WAM) and its associated precipitation in a pilot study. Constrained by available computational resources, we compare 11-month runs for two meshes with observations and a reference simulation from the Weather Research and Forecasting (WRF) model. We show that MPAS can reproduce the atmospheric dynamics on global and local scales in this experiment, but identify a precipitation excess for the West African region. Finally, we conduct extreme scaling tests on a global 3&amp;#8239;km mesh with more than 65 million horizontal grid cells on up to half a million cores. We discuss necessary modifications of the model code to improve its parallel performance in general and specific to the HPC environment. We confirm good scaling (70&amp;#8239;% parallel efficiency or better) of the MPAS model and provide numbers on the computational requirements for experiments with the 3&amp;#8239;km mesh. In doing so, we show that global, convection-resolving atmospheric simulations with MPAS are within reach of current and next generations of high-end computing facilities.</gco:CharacterString>
+            <gco:CharacterString>The Model for Prediction Across Scales (MPAS) is a novel set of Earth system simulation components and consists of an atmospheric model, an ocean model and a land-ice model. Its distinct features are the use of unstructured Voronoi meshes and C-grid discretisation to address shortcomings of global models on regular grids and the use of limited area models nested in a forcing data set, with respect to parallel scalability, numerical accuracy and physical consistency. This concept allows one to include the feedback of regional land use information on weather and climate at local and global scales in a consistent way, which is impossible to achieve with traditional limited area modelling approaches. Here, we present an in-depth evaluation of MPAS with regards to technical aspects of performing model runs and scalability for three medium-size meshes on four different high-performance computing (HPC) sites with different architectures and compilers. We uncover model limitations and identify new aspects for the model optimisation that are introduced by the use of unstructured Voronoi meshes. We further demonstrate the model performance of MPAS in terms of its capability to reproduce the dynamics of the West African monsoon (WAM) and its associated precipitation in a pilot study. Constrained by available computational resources, we compare 11-month runs for two meshes with observations and a reference simulation from the Weather Research and Forecasting (WRF) model. We show that MPAS can reproduce the atmospheric dynamics on global and local scales in this experiment, but identify a precipitation excess for the West African region. Finally, we conduct extreme scaling tests on a global 3&#x202f;km mesh with more than 65 million horizontal grid cells on up to half a million cores. We discuss necessary modifications of the model code to improve its parallel performance in general and specific to the HPC environment. We confirm good scaling (70&#x202f;% parallel efficiency or better) of the MPAS model and provide numbers on the computational requirements for experiments with the 3&#x202f;km mesh. In doing so, we show that global, convection-resolving atmospheric simulations with MPAS are within reach of current and next generations of high-end computing facilities.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

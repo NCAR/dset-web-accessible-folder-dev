@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:54:53.060408</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:32:50.155253</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d77w6ddw</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-15-0059.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d77w6ddw</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-15-0059.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -171,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An important question for atmospheric modeling is the viability of semi-implicit time integration schemes on massively parallel computing architectures. Semi-implicit schemes can provide increased stability and accuracy. However, they require the solution of an elliptic problem at each time step, creating concerns about their parallel efficiency and scalability. Here, a semi-implicit (SI) version of the Model for Prediction Across Scales (MPAS) is developed and compared with the original model version, which uses a split Runge-Kutta (SRK3) time integration scheme. The SI scheme is based on a quasi-Newton iteration toward a Crank&amp;#8211;Nicolson scheme. Each Newton iteration requires the solution of a Helmholtz problem; here, the Helmholtz problem is derived, and its solution using a geometric multigrid method is described. On two standard test cases, a midlatitude baroclinic wave and a small-planet nonhydrostatic gravity wave, the SI and SRK3 versions produce almost identical results. On the baroclinic wave test, the SI version can use somewhat larger time steps (about 60%) than the SRK3 version before losing stability. The SI version costs 10%&amp;#8211;20% more per step than the SRK3 version, and the weak and strong scalability characteristics of the two versions are very similar for the processor configurations the authors have been able to test (up to 1920 processors). Because of the spatial discretization of the pressure gradient in the lowest model layer, the SI version becomes unstable in the presence of realistic orography. Some further work will be needed to demonstrate the viability of the SI scheme in this case.</gco:CharacterString>
+            <gco:CharacterString>An important question for atmospheric modeling is the viability of semi-implicit time integration schemes on massively parallel computing architectures. Semi-implicit schemes can provide increased stability and accuracy. However, they require the solution of an elliptic problem at each time step, creating concerns about their parallel efficiency and scalability. Here, a semi-implicit (SI) version of the Model for Prediction Across Scales (MPAS) is developed and compared with the original model version, which uses a split Runge-Kutta (SRK3) time integration scheme. The SI scheme is based on a quasi-Newton iteration toward a Crank&#x2013;Nicolson scheme. Each Newton iteration requires the solution of a Helmholtz problem; here, the Helmholtz problem is derived, and its solution using a geometric multigrid method is described. On two standard test cases, a midlatitude baroclinic wave and a small-planet nonhydrostatic gravity wave, the SI and SRK3 versions produce almost identical results. On the baroclinic wave test, the SI version can use somewhat larger time steps (about 60%) than the SRK3 version before losing stability. The SI version costs 10%&#x2013;20% more per step than the SRK3 version, and the weak and strong scalability characteristics of the two versions are very similar for the processor configurations the authors have been able to test (up to 1920 processors). Because of the spatial discretization of the pressure gradient in the lowest model layer, the SI version becomes unstable in the presence of realistic orography. Some further work will be needed to demonstrate the viability of the SI scheme in this case.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

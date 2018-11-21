@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:51:32.971269</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:10.206399</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7668dc0</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/2008MWR2499.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7668dc0</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/2008MWR2499.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -151,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A group of new conservative remapping schemes based on nonpolynomial approximations is proposed. The remapping schemes rely on the conservative cascade scheme (CCS), which employs an efficient sequence of 1D remapping operations to solve a multidimensional problem. The present study adapts three new nonpolynomial-based reconstructions of subgrid variation to the CCS: the Piecewise Hyperbolic Method (PHM), the Piecewise Double Hyperbolic Method (PDHM), and the Piecewise Rational Method (PRM) for comparison with the baseline method: the Piecewise Parabolic Method (PPM). Additionally, an adaptive hybrid approximation scheme, PPM-Hybrid (PPM-H), is constructed using monotonic PPM for smooth data and local extrema and using PHM for steep jumps where PPM typically suffers large accuracy degradation because of its original monotonic filter. Smooth and nonsmooth data profiles are transported in 1D, 2D Cartesian, and 2D spherical frameworks under uniform advection, solid-body rotation, and deformational flow. Accuracy is compared via the L&amp;#8321; global error norm. In general, PPM outperformed PHM, but when the majority of the error came from PPM degradation at sharp derivative changes (e.g., the vicinity near sine wave extrema), PHM was more accurate. PRM performed very similarly to PPM for nonsmooth functions, but the order of convergence was worse than PPM for smoother data. PDHM performed the worst of all of the nonpolynomial methods for nearly every test case. PPM-H outperformed PPM and all of the nonpolynomial methods for all test cases in all geometries, offering a robust advantage in the CCS scheme with a negligible increase in computational time.</gco:CharacterString>
+            <gco:CharacterString>A group of new conservative remapping schemes based on nonpolynomial approximations is proposed. The remapping schemes rely on the conservative cascade scheme (CCS), which employs an efficient sequence of 1D remapping operations to solve a multidimensional problem. The present study adapts three new nonpolynomial-based reconstructions of subgrid variation to the CCS: the Piecewise Hyperbolic Method (PHM), the Piecewise Double Hyperbolic Method (PDHM), and the Piecewise Rational Method (PRM) for comparison with the baseline method: the Piecewise Parabolic Method (PPM). Additionally, an adaptive hybrid approximation scheme, PPM-Hybrid (PPM-H), is constructed using monotonic PPM for smooth data and local extrema and using PHM for steep jumps where PPM typically suffers large accuracy degradation because of its original monotonic filter. Smooth and nonsmooth data profiles are transported in 1D, 2D Cartesian, and 2D spherical frameworks under uniform advection, solid-body rotation, and deformational flow. Accuracy is compared via the L&#x2081; global error norm. In general, PPM outperformed PHM, but when the majority of the error came from PPM degradation at sharp derivative changes (e.g., the vicinity near sine wave extrema), PHM was more accurate. PRM performed very similarly to PPM for nonsmooth functions, but the order of convergence was worse than PPM for smoother data. PDHM performed the worst of all of the nonpolynomial methods for nearly every test case. PPM-H outperformed PPM and all of the nonpolynomial methods for all test cases in all geometries, offering a robust advantage in the CCS scheme with a negligible increase in computational time.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

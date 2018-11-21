@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:36.205671</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:35:24.230255</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7s1841r</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/acp-16-3927-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7s1841r</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/acp-16-3927-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -261,7 +257,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An ensemble-based forecast and data assimilation system has been developed for use in Navy aerosol forecasting. The system makes use of an ensemble of the Navy Aerosol Analysis Prediction System (ENAAPS) at 1&amp;#8201;&amp;#215;&amp;#8201;1&amp;#176;, combined with an ensemble adjustment Kalman filter from NCAR's Data Assimilation Research Testbed (DART). The base ENAAPS-DART system discussed in this work utilizes the Navy Operational Global Analysis Prediction System (NOGAPS) meteorological ensemble to drive offline NAAPS simulations coupled with the DART ensemble Kalman filter architecture to assimilate bias-corrected MODIS aerosol optical thickness (AOT) retrievals. This work outlines the optimization of the 20-member ensemble system, including consideration of meteorology and source-perturbed ensemble members as well as covariance inflation. Additional tests with 80 meteorological and source members were also performed. An important finding of this work is that an adaptive covariance inflation method, which has not been previously tested for aerosol applications, was found to perform better than a temporally and spatially constant covariance inflation. Problems were identified with the constant inflation in regions with limited observational coverage. The second major finding of this work is that combined meteorology and aerosol source ensembles are superior to either in isolation and that both are necessary to produce a robust system with sufficient spread in the ensemble members as well as realistic correlation fields for spreading observational information. The inclusion of aerosol source ensembles improves correlation fields for large aerosol source regions, such as smoke and dust in Africa, by statistically separating freshly emitted from transported aerosol species. However, the source ensembles have limited efficacy during long-range transport. Conversely, the meteorological ensemble generates sufficient spread at the synoptic scale to enable observational impact through the ensemble data assimilation. The optimized ensemble system was compared to the Navy's current operational aerosol forecasting system, which makes use of NAVDAS-AOD (NRL Atmospheric Variational Data Assimilation System for aerosol optical depth), a 2-D variational data assimilation system. Overall, the two systems had statistically insignificant differences in root-mean-squared error (RMSE), bias, and correlation relative to AERONET-observed AOT. However, the ensemble system is able to better capture sharp gradients in aerosol features compared to the 2DVar system, which has a tendency to smooth out aerosol events. Such skill is not easily observable in bulk metrics. Further, the ENAAPS-DART system will allow for new avenues of model development, such as more efficient lidar and surface station assimilation as well as adaptive source functions. At this early stage of development, the parity with the current variational system is encouraging.</gco:CharacterString>
+            <gco:CharacterString>An ensemble-based forecast and data assimilation system has been developed for use in Navy aerosol forecasting. The system makes use of an ensemble of the Navy Aerosol Analysis Prediction System (ENAAPS) at 1&#x2009;&#xd7;&#x2009;1&#xb0;, combined with an ensemble adjustment Kalman filter from NCAR's Data Assimilation Research Testbed (DART). The base ENAAPS-DART system discussed in this work utilizes the Navy Operational Global Analysis Prediction System (NOGAPS) meteorological ensemble to drive offline NAAPS simulations coupled with the DART ensemble Kalman filter architecture to assimilate bias-corrected MODIS aerosol optical thickness (AOT) retrievals. This work outlines the optimization of the 20-member ensemble system, including consideration of meteorology and source-perturbed ensemble members as well as covariance inflation. Additional tests with 80 meteorological and source members were also performed. An important finding of this work is that an adaptive covariance inflation method, which has not been previously tested for aerosol applications, was found to perform better than a temporally and spatially constant covariance inflation. Problems were identified with the constant inflation in regions with limited observational coverage. The second major finding of this work is that combined meteorology and aerosol source ensembles are superior to either in isolation and that both are necessary to produce a robust system with sufficient spread in the ensemble members as well as realistic correlation fields for spreading observational information. The inclusion of aerosol source ensembles improves correlation fields for large aerosol source regions, such as smoke and dust in Africa, by statistically separating freshly emitted from transported aerosol species. However, the source ensembles have limited efficacy during long-range transport. Conversely, the meteorological ensemble generates sufficient spread at the synoptic scale to enable observational impact through the ensemble data assimilation. The optimized ensemble system was compared to the Navy's current operational aerosol forecasting system, which makes use of NAVDAS-AOD (NRL Atmospheric Variational Data Assimilation System for aerosol optical depth), a 2-D variational data assimilation system. Overall, the two systems had statistically insignificant differences in root-mean-squared error (RMSE), bias, and correlation relative to AERONET-observed AOT. However, the ensemble system is able to better capture sharp gradients in aerosol features compared to the 2DVar system, which has a tendency to smooth out aerosol events. Such skill is not easily observable in bulk metrics. Further, the ENAAPS-DART system will allow for new avenues of model development, such as more efficient lidar and surface station assimilation as well as adaptive source functions. At this early stage of development, the parity with the current variational system is encouraging.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

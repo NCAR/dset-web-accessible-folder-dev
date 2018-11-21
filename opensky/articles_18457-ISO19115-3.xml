@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:55:49.860466</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:34:47.495939</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7028t51</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.5194/gmd-9-2223-2016</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7028t51</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.5194/gmd-9-2223-2016</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -251,7 +247,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper describes the first version of a stand-alone runoff routing tool, mizuRoute. The mizuRoute tool post-processes runoff outputs from any distributed hydrologic model or land surface model to produce spatially distributed streamflow at various spatial scales from headwater basins to continental-wide river systems. The tool can utilize both traditional grid-based river network and vector-based river network data. Both types of river network include river segment lines and the associated drainage basin polygons, but the vector-based river network can represent finer-scale river lines than the grid-based network. Streamflow estimates at any desired location in the river network can be easily extracted from the output of mizuRoute. The routing process is simulated as two separate steps. First, hillslope routing is performed with a gamma-distribution-based unit-hydrograph to transport runoff from a hillslope to a catchment outlet. The second step is river channel routing, which is performed with one of two routing scheme options: (1) a kinematic wave tracking (KWT) routing procedure; and (2) an impulse response function &amp;#8211; unit-hydrograph (IRF-UH) routing procedure. The mizuRoute tool also includes scripts (python, NetCDF operators) to pre-process spatial river network data. This paper demonstrates mizuRoute's capabilities to produce spatially distributed streamflow simulations based on river networks from the United States Geological Survey (USGS) Geospatial Fabric (GF) data set in which over 54000 river segments and their contributing areas are mapped across the contiguous United States (CONUS). A brief analysis of model parameter sensitivity is also provided. The mizuRoute tool can assist model-based water resources assessments including studies of the impacts of climate change on streamflow.</gco:CharacterString>
+            <gco:CharacterString>This paper describes the first version of a stand-alone runoff routing tool, mizuRoute. The mizuRoute tool post-processes runoff outputs from any distributed hydrologic model or land surface model to produce spatially distributed streamflow at various spatial scales from headwater basins to continental-wide river systems. The tool can utilize both traditional grid-based river network and vector-based river network data. Both types of river network include river segment lines and the associated drainage basin polygons, but the vector-based river network can represent finer-scale river lines than the grid-based network. Streamflow estimates at any desired location in the river network can be easily extracted from the output of mizuRoute. The routing process is simulated as two separate steps. First, hillslope routing is performed with a gamma-distribution-based unit-hydrograph to transport runoff from a hillslope to a catchment outlet. The second step is river channel routing, which is performed with one of two routing scheme options: (1) a kinematic wave tracking (KWT) routing procedure; and (2) an impulse response function &#x2013; unit-hydrograph (IRF-UH) routing procedure. The mizuRoute tool also includes scripts (python, NetCDF operators) to pre-process spatial river network data. This paper demonstrates mizuRoute's capabilities to produce spatially distributed streamflow simulations based on river networks from the United States Geological Survey (USGS) Geospatial Fabric (GF) data set in which over 54000 river segments and their contributing areas are mapped across the contiguous United States (CONUS). A brief analysis of model parameter sensitivity is also provided. The mizuRoute tool can assist model-based water resources assessments including studies of the impacts of climate change on streamflow.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T17:52:48.820064</gco:DateTime>
+      <gco:DateTime>2018-11-20T23:33:09.171858</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7p84cjb</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1175/MWR-D-11-00140.1</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7p84cjb</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1175/MWR-D-11-00140.1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -141,7 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hybrid bulk--bin microphysics schemes discretize particle size distributions into bins for calculating microphysical process rates, while retaining a limited number of bulk prognostic quantities and assuming an underlying analytic functional form for the particle size distributions as in traditional bulk microphysics schemes. In this paper, the treatment of sedimentation in two-moment bulk and hybrid schemes is compared using different numerical methods. Using the first-order upwind method for calculating sedimentation in conjunction with a widely used, two-step, time-splitting approach that updates model fields after transport by air motion followed by calculation of sedimentation, it is shown analytically that despite using a spectrum of fall speeds corresponding to different particle sizes, hybrid schemes converge with increasing bin resolution toward bulk schemes that utilize only characteristic moment-weighted particle fall speeds. While not strictly convergent, it is also shown that solutions using bulk and hybrid schemes are often similar for other numerical methods and approaches. Noticeable improvement using the hybrid scheme occurs in a few circumstances: when the Courant number associated with falling precipitation is large (&amp;gt;&amp;gt;1), requiring substepping, semi-implicit, or Lagrangian-type methods for numerical stability; or when a one-step approach is employed that calculates hydrometeor transport in a single step using a velocity that combines both vertical air motion and particle fall speed. Thus, it is concluded that the use of hybrid rather than bulk schemes is justified for some, but not all, applications, and care should be taken to determine the appropriateness of hybrid schemes for specific applications.</gco:CharacterString>
+            <gco:CharacterString>Hybrid bulk--bin microphysics schemes discretize particle size distributions into bins for calculating microphysical process rates, while retaining a limited number of bulk prognostic quantities and assuming an underlying analytic functional form for the particle size distributions as in traditional bulk microphysics schemes. In this paper, the treatment of sedimentation in two-moment bulk and hybrid schemes is compared using different numerical methods. Using the first-order upwind method for calculating sedimentation in conjunction with a widely used, two-step, time-splitting approach that updates model fields after transport by air motion followed by calculation of sedimentation, it is shown analytically that despite using a spectrum of fall speeds corresponding to different particle sizes, hybrid schemes converge with increasing bin resolution toward bulk schemes that utilize only characteristic moment-weighted particle fall speeds. While not strictly convergent, it is also shown that solutions using bulk and hybrid schemes are often similar for other numerical methods and approaches. Noticeable improvement using the hybrid scheme occurs in a few circumstances: when the Courant number associated with falling precipitation is large (&gt;&gt;1), requiring substepping, semi-implicit, or Lagrangian-type methods for numerical stability; or when a one-step approach is employed that calculates hydrometeor transport in a single step using a velocity that combines both vertical air motion and particle fall speed. Thus, it is concluded that the use of hybrid rather than bulk schemes is justified for some, but not all, applications, and care should be taken to determine the appropriateness of hybrid schemes for specific applications.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
