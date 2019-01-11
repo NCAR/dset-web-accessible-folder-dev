@@ -50,7 +50,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-12-05T11:08:22Z</gco:DateTime>
+        <gco:DateTime>2019-01-11T11:27:38Z</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -62,7 +62,7 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://repo.prototype.ucar.edu/dataset/id/088871b4-f1be-11e8-b7af-00c0f03d5b7c.html</gco:CharacterString>
+        <gco:CharacterString>https://doi.org/10.5072/FK20R9VD4K</gco:CharacterString>
     </gmd:dataSetURI>
 
     <gmd:metadataExtensionInfo>
@@ -109,23 +109,20 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2018-12-05</gco:Date>
+                                <gco:Date>2019-01-11</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-                    <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>Andreas Prein</gco:CharacterString>
-                            </gmd:individualName>
-                            <gmd:role>
-                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-                            </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                    </gmd:citedResponsibleParty>
+                    <gmd:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gmx:Anchor xlink:href="https://doi.org/10.5072/FK20R9VD4K" xlink:title="DOI" xlink:actuate="onRequest">https://doi.org/10.5072/FK20R9VD4K</gmx:Anchor>
+                            </gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:identifier>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
@@ -139,7 +136,17 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>NCAR Repository</gco:CharacterString>
+                                <gco:CharacterString>Andreas Prein</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>NCAR/UCAR DASH Repository</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:role>
                                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -149,7 +156,9 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This dataset contains daily gridded hail risk estimates on a global scale for the period 1979 to 2015. It is based on the presence of environmental conditions in which large hail (diameter &gt;2.5 cm) has been observed. The data is provided on a global grid with 0.75°x075° grid spacing. The hail risk varies between zero and one where one means a high probability that the location will experience large hail on the corresponding day.</gco:CharacterString>
+                <gco:CharacterString>This dataset contains daily gridded hail risk estimates on a global scale for the period 1979 to 2015. It is based on the presence of environmental conditions in which large hail (diameter &gt;2.5 cm) has been observed. 
+
+The data is provided on a global grid with 0.75x075 degree grid spacing. The hail risk varies between zero and one where one means a high probability that the location will experience large hail on the corresponding day.  Data can also be found at https://doi.pangaea.de/10.1594/PANGAEA.888881</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
