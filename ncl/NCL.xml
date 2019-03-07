@@ -47,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2019-02-28T12:40:11</gco:DateTime>
+        <gco:DateTime>2019-02-28T12:40:12</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -79,7 +79,9 @@
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-
+                    <gmd:edition>
+                        <gco:CharacterString>6.6.2</gco:CharacterString>
+                    </gmd:edition>
                     <gmd:citedResponsibleParty>
                        <gmd:CI_ResponsibleParty>
                            <gmd:individualName>
@@ -463,9 +465,14 @@
                 <gco:CharacterString>NCL is a scripting language designed for the analysis and visualization of geoscientific data. It supports a wide range of data formats, has hundreds of computational functions that are tailored for climate science, and its visualizations are publication quality and highly customizable.</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:status>
+               <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+            </gmd:status>
+
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
+                        <gco:CharacterString>NCL Support Group Listserv (see instructions in "Additional Information" below)</gco:CharacterString>
                         <gco:CharacterString>NCL Support Group (Register here: http://ncl.ucar.edu/Support/email_lists.shtml)</gco:CharacterString>
                     </gmd:individualName>
                     <gmd:organisationName>
@@ -548,59 +555,6 @@
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
-            <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords>
-                    <gmd:keyword>
-                        <gco:CharacterString>Data analysis</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>visualization</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:type>
-                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
-                    </gmd:type>
-                    <gmd:thesaurusName>
-                        <gmd:CI_Citation>
-                            <gmd:title>
-                                <gco:CharacterString>GCMD</gco:CharacterString>
-                            </gmd:title>
-                            <gmd:date>
-                                <gmd:CI_Date>
-                                    <gmd:date>
-                                    <gco:Date>2005-11-17</gco:Date>
-                                    </gmd:date>
-                                    <gmd:dateType>
-                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                                    </gmd:dateType>
-                                </gmd:CI_Date>
-                            </gmd:date>
-                            <gmd:citedResponsibleParty>
-                                <gmd:CI_ResponsibleParty>
-                                    <gmd:individualName gco:nilReason="inapplicable"/>
-                                    <gmd:organisationName>
-                                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                                    </gmd:organisationName>
-                                    <gmd:positionName gco:nilReason="inapplicable"/>
-                                    <gmd:contactInfo>
-                                    <gmd:CI_Contact>
-                                    <gmd:address>
-                                    <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>ross.bagwell@nasa.gov</gco:CharacterString>
-                                    </gmd:electronicMailAddress>
-                                    </gmd:CI_Address>
-                                    </gmd:address>
-                                    </gmd:CI_Contact>
-                                    </gmd:contactInfo>
-                                    <gmd:role>
-                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                                    </gmd:role>
-                                </gmd:CI_ResponsibleParty>
-                            </gmd:citedResponsibleParty>
-                        </gmd:CI_Citation>
-                    </gmd:thesaurusName>
-                </gmd:MD_Keywords>
-            </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
@@ -614,6 +568,9 @@
             <gmd:language>
                 <gco:CharacterString>en</gco:CharacterString>
             </gmd:language>
+            <gmd:supplementalInformation>
+               <gco:CharacterString> Register here to join the NCL Support email list: http://ncl.ucar.edu/Support/email_lists.shtml </gco:CharacterString>
+            </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
 
