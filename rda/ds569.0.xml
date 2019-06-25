@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-08-14T11:32:40-07:00</gco:DateTime>
+    <gco:DateTime>2019-06-14T14:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds569.0/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/YNHR-4N72</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>U.S. DOE Global Monthly Station Temperature and Precipitation, 1738-1980</gco:CharacterString>
+            <gco:CharacterString>Global Monthly Station Temperature and Precipitation</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds569.0</gco:CharacterString>
@@ -128,7 +128,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Global monthly station temperature and precipitation data from the U.S. Department of Energy</gco:CharacterString>
+        <gco:CharacterString>This dataset contains global monthly station temperature and precipitation data compiled by the U.S. Department of Energy. Some stations go back as far as the late 1700s.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -136,7 +136,7 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Steven Worley</gco:CharacterString>
+            <gco:CharacterString>Bob Dattore</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
@@ -146,7 +146,7 @@
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(303)-497-1248</gco:CharacterString>
+                    <gco:CharacterString>(303)-497-1825</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile>
                     <gco:CharacterString>303-497-1291</gco:CharacterString>
@@ -177,7 +177,7 @@
                     <gco:CharacterString>U.S.A.</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>worley@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>dattore@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -201,7 +201,15 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>Binary</gco:CharacterString>
+            <gco:CharacterString>ASCII</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ASCII</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -268,7 +276,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-08-09</gco:Date>
+                    <gco:Date>2019-05-31</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -314,7 +322,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2019-06-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -362,12 +370,28 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-180</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>179.9</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-80</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>86.2</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds569.0_time_period">
-                  <gml:beginPosition>1738-01</gml:beginPosition>
-                  <gml:endPosition>1980-12</gml:endPosition>
+                  <gml:beginPosition>1697-01-01</gml:beginPosition>
+                  <gml:endPosition>1982-12-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -426,7 +450,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>64.79</gco:Real>
+           <gco:Real>31.42</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>

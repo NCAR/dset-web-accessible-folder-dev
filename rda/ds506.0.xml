@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2019-05-10T12:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2019-06-11T13:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -222,7 +222,15 @@ We have also received data for more than 130 U.S. stations that were digitized f
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>Binary</gco:CharacterString>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -292,7 +300,7 @@ We have also received data for more than 130 U.S. stations that were digitized f
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2019-05-06</gco:Date>
+                    <gco:Date>2019-05-31</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -347,7 +355,7 @@ We have also received data for more than 130 U.S. stations that were digitized f
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2019-04-24</gco:Date>
+                    <gco:Date>2019-06-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -395,12 +403,28 @@ We have also received data for more than 130 U.S. stations that were digitized f
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-165.4</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.02</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>19.73</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>64.83</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds506.0_time_period">
-                  <gml:beginPosition>1928</gml:beginPosition>
-                  <gml:endPosition>1948</gml:endPosition>
+                  <gml:beginPosition>1928-06-25</gml:beginPosition>
+                  <gml:endPosition>1948-11-29</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -459,7 +483,7 @@ We have also received data for more than 130 U.S. stations that were digitized f
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>970.58</gco:Real>
+           <gco:Real>4084</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
