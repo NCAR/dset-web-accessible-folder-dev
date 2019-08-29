@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2019-08-29T13:05:03-07:00</gco:DateTime>
+    <gco:DateTime>2019-08-29T14:05:03-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -380,25 +380,10 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > ALBEDO</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW/ICE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW MELT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > SURFACE ROUGHNESS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH</gco:CharacterString>
@@ -407,13 +392,25 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
             <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DENSITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > ALBEDO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > ICE EXTENT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > SKIN TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > SURFACE ROUGHNESS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > ALBEDO</gco:CharacterString>
@@ -503,6 +500,9 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
@@ -564,7 +564,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
             <gco:CharacterString>Use of this dataset is subject to UCAR's Terms of Use, except that commercial use is generally not prohibited.</gco:CharacterString>
           </gmd:useLimitation>
           <gmd:otherConstraints>
-            <gco:CharacterString>Must be a registered user of RDA ECMWF Data (Other Than Operational Data). Please update your current RDA user profile by clicking on the "ECMWF Data (Other Than Operational Data)" terms of acceptance, or create a new RDA user profile if you have not already done so (and click on the "ECMWF Data (Other Than Operational Data)" terms of acceptance during the registration process).</gco:CharacterString>
+            <gco:CharacterString>Registration on the RDA web site is a requirement for access to the data.</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
@@ -610,7 +610,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds633.0_time_period">
                   <gml:beginPosition>1979-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2012-08-31T23:00:00Z</gml:endPosition>
+                  <gml:endPosition>2012-09-01T23:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -669,7 +669,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>711260793</gco:Real>
+           <gco:Real>711663550</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
