@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.8.4.xsd">
+          <Entry_ID>292e6aa6-899d-42ac-8718-ce1b2d51b22b</Entry_ID>
+          <Entry_Title>WRF Large-Eddy Simulation Data from Realtime Runs Used to Support UAS Operations during LAPSE-RATE</Entry_Title>
+
+          <Parameters>
+            <Category>EARTH SCIENCE</Category>
+            <Topic>ATMOSPHERE</Topic>
+            <Term>ATMOSPHERIC WINDS</Term>
+          </Parameters>
+          <Parameters>
+            <Category>EARTH SCIENCE</Category>
+            <Topic>ATMOSPHERE</Topic>
+            <Term>ATMOSPHERIC WATER VAPOR</Term>
+            <Variable_Level_1>WATER VAPOR INDICATORS</Variable_Level_1>
+            <Variable_Level_2>HUMIDITY</Variable_Level_2>
+            <Variable_Level_3>RELATIVE HUMIDITY</Variable_Level_3>
+          </Parameters>
+          <Parameters>
+            <Category>EARTH SCIENCE</Category>
+            <Topic>ATMOSPHERE</Topic>
+            <Term>ATMOSPHERIC TEMPERATURE</Term>
+            <Variable_Level_1>SURFACE TEMPERATURE</Variable_Level_1>
+            <Variable_Level_2>AIR TEMPERATURE</Variable_Level_2>
+          </Parameters>
+
+          <Temporal_Coverage>
+            <Start_Date>2018-07-14</Start_Date>
+            <Stop_Date>2018-07-19</Stop_Date>
+          </Temporal_Coverage>
+
+          <Spatial_Coverage>
+            <Southernmost_Latitude>37.551</Southernmost_Latitude>
+            <Northernmost_Latitude>38.433</Northernmost_Latitude>
+            <Westernmost_Longitude>-106.642</Westernmost_Longitude>
+            <Easternmost_Longitude>-105.389</Easternmost_Longitude>
+          </Spatial_Coverage>
+
+          <Data_Center>
+            <Data_Center_Name>
+              <Short_Name>REPO</Short_Name>
+              <Long_Name>NCAR DASH Repository</Long_Name>
+            </Data_Center_Name>
+            <Data_Center_URL>https://datarepo.ucar.edu/</Data_Center_URL>
+            <Personnel>
+              <Role>DATA CENTER CONTACT</Role>
+              <First_Name>DASH Repository</First_Name>
+              <Last_Name>User Services</Last_Name>
+              <Contact_Address>
+                <Address>NCAR/CISL</Address>
+                <Address>P.O. Box 3000</Address>
+                <City>Boulder</City>
+                <Province_or_State>CO</Province_or_State>
+                <Postal_Code>80307</Postal_Code>
+                <Country>USA</Country>
+              </Contact_Address>
+            </Personnel>
+          </Data_Center>
+          <Summary>
+            <Abstract>Realtime micro-scale weather simulations were performed to support UAV (Unmanned Aerial Vehicles) flights during ISARRA Lower Atmospheric Process Studies at Elevation – Remotely-piloted Aircraft Team Experiment (LAPSE-RATE) field deployment. These simulations were performed by driving a nested grid configuration of the Weather Research and Forecasting model with its innermost mesh being run at 111 m grid spacing. The innermost grid was nested within a grid with 1 km grid spacing. The outermost grid being driven using operational forecast models data as described below. While the MYNN2 PBL scheme is used to parameterize turbulence in the 1 km grid, the PBL scheme is turned off within the 111 m grid, thus, allowing large-scale turbulent eddies to be resolved by WRF primitive equations. Subgrid-scale turbulence is diagnosed and stored within the TKE variable using Lilly (1966, 1967).
+
+LAPSE-RATE took place in the San Luis Valley of Colorado during July of 2018. Goals of LAPSE-RATE were to sample the finescale evolution of the boundary layer and associated sub-mesoscale flows across a sub-alpine desert valley using a combination of surface-based instrumentation and in situ data collected using numerous, low-flying small UAVs. The realtime simulations were produced twice per day in order to support mission planning and UAVs flight operations. A next-day simulation was run using forcing data from NCEP&apos;s Global Forecast System (GFS) while a day-of simulation was run using data from the High Resolution Rapid Refresh (HRRR). Both simulations were valid between 04:00 and 16:00 local time providing an opportunity to explore the impact of lateral boundary conditions on forecast skill. The dataset consists of a series of two sets of files: 3D grids and point profiles. The 3D grids consist of all relevant basic state parameters (p,T,U,RH) and diagnostics (e.g., sub-grid scale TKE, ceiling height, visibility) that have been interpolated to flight levels AGL using the Unified Post-Processor (UPP). The UPP was used to de-stagger the mass and wind fields, interpolate forecast data to flight levels AGL and to compute diagnostics such as visibility, ceiling height, and radar reflectivity. Profile data were stored for select grid points coincident with 3 fixed observation sites set up during LAPSE-RATE (i.e., Sagauche, Moffat and Leach Airfield). The 3D grid files are stored every 10 min, while point profile data have a time resolution of 0.666 seconds.</Abstract>
+          </Summary>
+          <Related_URL>
+            <URL_Content_Type>
+              <Type>GET DATA</Type>
+            </URL_Content_Type>
+            <URL>http://dashrepo.ucar.edu/dataset/id/292e6aa6-899d-42ac-8718-ce1b2d51b22b.html</URL>
+            <Description>Data Center top-level access page for this resource</Description>
+          </Related_URL>
+
+          <Metadata_Name>GATEWAY IDN DIF</Metadata_Name>
+          <Metadata_Version>9.8.5</Metadata_Version>
+          <Last_DIF_Revision_Date>2020-01-24</Last_DIF_Revision_Date>
+        </DIF>
