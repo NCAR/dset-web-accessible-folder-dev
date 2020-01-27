@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2020-01-27T15:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2020-01-27T16:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -181,7 +181,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString> This dataset contains files that are an ensemble of 'coupler history' files from an 80-member reanalysis performed with the Data Assimilation Research Testbed (DART) using the Community Atmosphere Model Version 4 with the finite volume core (CAM4 FV) at 1.9 degree by 2.5 degree resolution. The observations assimilated include all those used in the NCEP/NCAR reanalysis (temperature and wind components from radiosondes, aircraft, and satellite drift winds) plus radio occultation observations from the COSMIC satellites starting in late 2006. These files are intended to be used as 'DATM stream files' for CESM "I" component sets (land-only) that require a data atmosphere. Some example stream text files are included to illustrate how to use these data.</gco:CharacterString>
+        <gco:CharacterString> This dataset contains files that are an ensemble of 'coupler history' files from an 80-member reanalysis performed with the Data Assimilation Research Testbed (DART) using the Community Atmosphere Model Version 4 with the finite volume core (CAM4 FV) at 1.9 degree by 2.5 degree resolution. The observations assimilated include all those used in the NCEP/NCAR reanalysis (temperature and wind components from radiosondes, aircraft, and satellite drift winds) plus radio occultation observations from the COSMIC satellites starting in late 2006. These files are intended to be used as 'DATM stream files' for CESM "I" component sets (land-only) that require a data atmosphere. Some example stream text files are included to illustrate how to use these data.
+
+ Note: All data were replaced for this dataset on January 27, 2020. There were some unphysical radiation values in the prior version of the dataset that has been fixed in the replacement file set. The unphysical radiation values caused CLM to error out but were likely not an issue for other applications.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -553,7 +555,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>285323</gco:Real>
+           <gco:Real>798905</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
