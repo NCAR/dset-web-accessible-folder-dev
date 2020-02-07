@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-10-26T13:05:23-07:00</gco:DateTime>
+    <gco:DateTime>2019-07-23T15:05:04-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds217.1/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/9PPT-SQ83</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>GFDL Global Monthly Atmospheric Circulation Analyses for May 1958 through December 1989</gco:CharacterString>
+            <gco:CharacterString>Global Atmospheric Circulation Statistics, 1958-1989</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds217.1</gco:CharacterString>
@@ -109,9 +109,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Oort, Abraham Hans</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -128,11 +128,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Twenty-two monthly statistical quantities make up this dataset of grids which describes the atmospheric general circulation at eleven vertical levels across the troposphere and stratosphere over a 32-year period. These gridded analyses, created from upper air soundings across the globe, span the period from May 1958 to December 1989. The statistical parameters included, which are useful for comparing climate model simulations to actual observations, include monthly means and variances of horizontal and vertical wind, temperature, geopotential height, moisture, and horizontal wind divergence. There are also covariance terms describing the relationship between wind, temperature, moisture, and geopotential height.
-
-In general, the analyses near the surface of the earth (900mb and below) tend to be less reliable than those of the higher levels because the individual rawinsonde reports are often incomplete due to missing 1000mb reports.
-
-The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Laboratory (GFDL). The original grids are in an IEEE floating-point format, and DSS has created a netCDF version of the full dataset.</gco:CharacterString>
+        <gco:CharacterString>Twenty-two monthly statistical quantities make up this dataset of grids which describes the atmospheric general circulation at eleven vertical levels across the troposphere and stratosphere over a 32-year period. These gridded analyses, created from upper air soundings across the globe, span the period from May 1958 to December 1989. The statistical parameters, which are useful for comparing climate model simulations to actual observations, include monthly means and variances of horizontal and vertical wind, temperature, geopotential height, moisture, and horizontal wind divergence. There are also covariance terms describing the relationship between wind, temperature, moisture, and geopotential height. In general, the analyses near the surface of the earth (900mb and below) tend to be less reliable than those of the higher levels because the individual rawinsonde reports are often incomplete due to missing 1000mb reports.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -210,6 +206,14 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
       </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
@@ -266,7 +270,7 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-10-23</gco:Date>
+                    <gco:Date>2019-06-26</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -296,22 +300,22 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > CONVERGENCE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -324,7 +328,7 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2019-07-15</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -402,8 +406,8 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds217.1_time_period">
-                  <gml:beginPosition>1958-08-29T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>1990-03-31T00:00:00Z</gml:endPosition>
+                  <gml:beginPosition>1958-05-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>1990-01-01T00:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -462,7 +466,7 @@ The data were provided to DSS by Bram Oort of the Geophysical Fluid Dynamics Lab
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>1960</gco:Real>
+           <gco:Real>3340</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>

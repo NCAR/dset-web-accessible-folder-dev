@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-08-14T11:32:44-07:00</gco:DateTime>
+    <gco:DateTime>2019-07-23T15:05:04-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds220.0/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/Z4EA-B620</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>U.S.A.F. ETAC Global Tropospheric and Stratospheric Monthly Climatologies</gco:CharacterString>
+            <gco:CharacterString>Monthly Climatological Grid Data for Levels Aloft</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds220.0</gco:CharacterString>
@@ -128,9 +128,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Dean Bowman of the USAF Environmental Technical Applications Center (ETAC) created these monthly climatologies of temperature and winds for the Northern and Southern Hemispheres, and geopotential height for the Northern Hemisphere. Generally, the data input period from approximately 150 stations was the 5-year period from January 1956 through December 1960, but some data into 1962 was also used.
-
-The data are available on 5-degree latitude/longitude grids separately for each hemisphere, and for eight vertical pressure levels from 850 mbar up to 50 mbar.</gco:CharacterString>
+        <gco:CharacterString>The USAF Environmental Technical Applications Center (ETAC) created these monthly climatologies of temperature and winds for the Northern and Southern Hemispheres, and geopotential height for the Northern Hemisphere. Generally, the data input period from approximately 150 stations was the 5-year period from January 1956 through December 1960, but some data into 1962 were also used. The climatologies are available on 5-degree latitude/longitude grids separately for eight vertical pressure levels between 850 and 50 millibars, inclusive.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -203,7 +201,15 @@ The data are available on 5-degree latitude/longitude grids separately for each 
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>Binary</gco:CharacterString>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -264,7 +270,7 @@ The data are available on 5-degree latitude/longitude grids separately for each 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-08-09</gco:Date>
+                    <gco:Date>2019-06-26</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -313,7 +319,7 @@ The data are available on 5-degree latitude/longitude grids separately for each 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2019-07-15</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -353,6 +359,13 @@ The data are available on 5-degree latitude/longitude grids separately for each 
       <gmd:spatialRepresentationType>
         <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
       </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="degree">5</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -373,7 +386,7 @@ The data are available on 5-degree latitude/longitude grids separately for each 
                 <gco:Decimal>180</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>-87.5</gco:Decimal>
+                <gco:Decimal>-90</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
                 <gco:Decimal>90</gco:Decimal>
@@ -384,8 +397,8 @@ The data are available on 5-degree latitude/longitude grids separately for each 
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds220.0_time_period">
-                  <gml:beginPosition>1956-01</gml:beginPosition>
-                  <gml:endPosition>1960-12</gml:endPosition>
+                  <gml:beginPosition>1956-01-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>1961-01-01T00:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -444,7 +457,7 @@ The data are available on 5-degree latitude/longitude grids separately for each 
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>1.53</gco:Real>
+           <gco:Real>5.51</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>

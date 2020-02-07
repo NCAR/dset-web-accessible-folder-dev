@@ -21,7 +21,7 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>Tropical Cyclone Guidance Project</gco:CharacterString>
+                <gco:CharacterString>Steinhoff, Daniel</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
                 <gco:CharacterString>UCAR/NCAR - Research Applications Laboratory</gco:CharacterString>
@@ -34,7 +34,7 @@
                    <gmd:address>
                        <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                               <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                               <gco:CharacterString>steinhof@ucar.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                        </gmd:CI_Address>
                    </gmd:address>
@@ -47,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2018-09-13T13:30:17.386592</gco:DateTime>
+        <gco:DateTime>2019-02-13T14:16:00</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -62,6 +62,22 @@
         <gco:CharacterString>https://doi.org/10.5065/D6J67DXP</gco:CharacterString>
     </gmd:dataSetURI>
 
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>https://doi.org/10.1175/EI-D-15-0048.1</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol><gco:CharacterString>http</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:applicationProfile><gco:CharacterString>browser</gco:CharacterString></gmd:applicationProfile>
+                    <gmd:name><gco:CharacterString>Related Publication:</gco:CharacterString></gmd:name>
+                    <gmd:description><gco:CharacterString>Steinhoff, D.F., and Coauthors, 2016: WHATCH'EM: A weather-driven energy balance model for determining water height and temperature in container habitats for Aedes aegypti. Earth Interactions, 20, 1-31, doi:10.1175/EI-D-15-0048.1</gco:CharacterString></gmd:description>
+                </gmd:CI_OnlineResource></gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+    
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
             <gmd:citation>
@@ -363,7 +379,7 @@
                             <gmd:address>
                             <gmd:CI_Address>
                             <gmd:electronicMailAddress>
-                            <gco:CharacterString>ral-tcgp@ucar.edu</gco:CharacterString>
+                            <gco:CharacterString>steinhof@ucar.edu</gco:CharacterString>
                             </gmd:electronicMailAddress>
                             </gmd:CI_Address>
                             </gmd:address>
@@ -435,7 +451,7 @@
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>Habitate Modeling</gco:CharacterString>
+                        <gco:CharacterString>Habitat Modeling</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -475,6 +491,44 @@
                                     </gmd:contactInfo>
                                     <gmd:role>
                                     <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; BIOLOGICAL CLASSIFICATION &gt; ANIMALS/INVERTEBRATES &gt; ARTHROPODS &gt; HEXAPODS &gt; INSECTS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2017-07-14</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>

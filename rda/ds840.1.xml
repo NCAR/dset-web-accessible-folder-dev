@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-10-26T14:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2019-07-23T17:05:02-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds840.1/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/FFH8-Z735</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NMC TDL Manually Digitized Radar (MDR), hourly 1973Nov-1994Dec</gco:CharacterString>
+            <gco:CharacterString>Manually-Digitized Radar Data for the Conterminous United States</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds840.1</gco:CharacterString>
@@ -109,9 +109,19 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>Meteorological Development Laboratory, Office of Science and  Technology, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Foster, Donald S.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Reap, Ronald M.</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -128,9 +138,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Manually-digitized radar data have been collected from teletype reports and archived in the Model Output Statistics (MOS) predictand tape format since November 1973. These data are intended for both general and severe thunderstorm prediction using MOS which relate the radar data to large-scale predictors from operational numerical models.
-
-This dataset contains manually-digitized radar data over the U.S. at 40nmi and 20nmi resolutions from November 1973 to December 1994.</gco:CharacterString>
+        <gco:CharacterString>The former Techniques Development Laboratory (TDL) of the U.S. National Weather Service began collecting Manually-Digitized Radar (MDR) data in November 1973 from teletype reports for the eastern two-thirds of the United States. In 1978, TDL began archiving the MDR on a new grid aligned with the output grid of the Limited Fine Mesh (LFM) model, which was the model used for numerical weather prediction at the time. The new MDR archive covered the entire conterminous United States. As with the old MDR data, the new data were archived in Model Output Statistics (MOS) predictand format to support thunderstorm prediction. In addition to the "raw" MDR data, TDL also created a gridded 20-nautical-mile-resolution MDR product.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -264,7 +272,7 @@ This dataset contains manually-digitized radar data over the U.S. at 40nmi and 2
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-10-23</gco:Date>
+                    <gco:Date>2019-06-26</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -307,7 +315,7 @@ This dataset contains manually-digitized radar data over the U.S. at 40nmi and 2
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-10-23</gco:Date>
+                    <gco:Date>2019-07-16</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -350,7 +358,7 @@ This dataset contains manually-digitized radar data over the U.S. at 40nmi and 2
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2019-07-15</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -488,7 +496,7 @@ This dataset contains manually-digitized radar data over the U.S. at 40nmi and 2
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>1011</gco:Real>
+           <gco:Real>8726</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>

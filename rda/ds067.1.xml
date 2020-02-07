@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-10-26T13:05:24-07:00</gco:DateTime>
+    <gco:DateTime>2019-07-23T14:05:04-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds067.1/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/G40S-0534</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Gelman's CAC Global Analyses, September 1978 to February 1998</gco:CharacterString>
+            <gco:CharacterString>CAC Global Tropospheric and Stratospheric Analyses</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds067.1</gco:CharacterString>
@@ -109,9 +109,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Gelman, Melvyn E.</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -128,11 +128,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This dataset contains global once-daily and monthly-mean gridded analyses for September 1978 to February 1998, which were produced by NMC's operational models. At mandatory levels from 1000mb up to 0.4mb, grids contain geopotential height and temperature. At the tropopause, grids contain pressure and temperature. Also included are total column ozone and upward flux of longwave radiation.
+        <gco:CharacterString>The Climate Analysis Center (CAC) of the U.S. National Meteorological Center (NMC) produced gridded analyses of temperature and wind in the atmosphere by combining the operational tropospheric analyses from NMC and radiosonde and rocketsonde observations in the stratosphere. Grids are available at mandatory pressure levels from 1000 mbar up to 0.4 mbar. Additionally, total-column ozone and longwave radiation are also included. Global coverage is achieved by combining the grids for the northern and southern hemispheres at each time step.
 
-The grid is a 65x65 polar-stereographic grid, centered on the Pole (North or South). Global coverage is provided by combining two grids, one for the Northern Hemisphere and one for the Southern Hemisphere.
-
-The Flattery analysis method was used through 26 July 1984, so the usefulness of grids in that period is suspect. After that time, the analysis method used was the same as for other NMC global archives.</gco:CharacterString>
+The Flattery analysis method was used through 26 July 1984, so the usefulness of grids in that period is suspect. After that time, the analysis method used was the same as for other NMC global operational outputs.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -277,7 +275,7 @@ The Flattery analysis method was used through 26 July 1984, so the usefulness of
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-10-23</gco:Date>
+                    <gco:Date>2019-06-26</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -307,13 +305,13 @@ The Flattery analysis method was used through 26 July 1984, so the usefulness of
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > TROPOSPHERIC OZONE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -326,7 +324,7 @@ The Flattery analysis method was used through 26 July 1984, so the usefulness of
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2019-07-15</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
