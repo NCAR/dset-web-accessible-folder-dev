@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-08-14T11:32:48-07:00</gco:DateTime>
+    <gco:DateTime>2020-03-04T21:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -106,7 +106,7 @@
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>Source of this set at NCDC</gco:CharacterString>
+            <gco:CharacterString>Newer Version of this Dataset at NCEI</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -117,7 +117,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NCDC TD9640 U.S. Palmer Drought Indices, continuing from 1895</gco:CharacterString>
+            <gco:CharacterString>Time Bias Corrected U.S. Divisional Temperature-Precipitation-Drought Index, 1895 to 1993</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds885.1</gco:CharacterString>
@@ -151,7 +151,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This dataset contains monthly average temperature, precipitation, and Palmer Drought Indices for each climatic division in the 48 contiguous U.S. states, as well as Puerto Rico and the Virgin Islands. The period of record is January 1895 to April 1993. Monthly averages within a climatic division have been calculated by giving equal weight to stations reporting both temperature and precipitation.</gco:CharacterString>
+        <gco:CharacterString>This dataset from NCDC (DSI 9640) contains monthly average temperature, precipitation, and Palmer Drought Indices: drought severity (PDSI), hydrological drought (PHDI), Z index, and modified drought severity (PMDI), for each climatic division in the 48 contiguous U.S. states, as well as Puerto Rico and the Virgin Islands. The period of record is January 1895 to April 1993. Monthly averages within a climatic division have been calculated by giving equal weight to stations reporting both temperature and precipitation.
+
+NOTE: This dataset has been superseded by a newer version that is available from NCEI [http://www1.ncdc.noaa.gov/pub/data/cirs].</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -272,6 +274,9 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
+            <gco:CharacterString>WEATHER STATIONS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>METEOROLOGICAL STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
@@ -279,9 +284,6 @@
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>FIXED OBSERVATION STATIONS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>WEATHER STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -294,7 +296,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-08-09</gco:Date>
+                    <gco:Date>2020-03-04</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -302,7 +304,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.6</gco:CharacterString>
+                <gco:CharacterString>9.1.5</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -324,10 +326,10 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > CLIMATE INDICATORS > LAND SURFACE/AGRICULTURE INDICATORS > DROUGHT INDICES > PALMER DROUGHT SEVERITY INDEX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > CLIMATE INDICATORS > LAND SURFACE/AGRICULTURE INDICATORS > DROUGHT INDICES > PALMER DROUGHT SEVERITY INDEX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
@@ -343,7 +345,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2018-07-18</gco:Date>
+                    <gco:Date>2020-02-27</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -351,7 +353,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>8.6</gco:CharacterString>
+                <gco:CharacterString>9.1.5</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -2715,7 +2717,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds885.1_time_period">
                   <gml:beginPosition>1895-01</gml:beginPosition>
-                  <gml:endPosition>2005-01</gml:endPosition>
+                  <gml:endPosition>1993-04</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -2774,7 +2776,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>21.29</gco:Real>
+           <gco:Real>19.43</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
