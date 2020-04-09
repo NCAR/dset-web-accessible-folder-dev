@@ -50,7 +50,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2020-04-09T07:13:09Z</gco:DateTime>
+        <gco:DateTime>2020-04-09T07:30:40Z</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -109,7 +109,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2020-03-23</gco:Date>
+                                <gco:Date>2020-04-09</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
@@ -159,10 +159,10 @@
             <gmd:abstract>
                 <gco:CharacterString>These data are the results of parameter sensitivity simulations and multiple perturbed parameter ensembles (PPE) with the Community Land Model, version 5 (CLM5). These simulations form the basis of a publication documenting a machine learning approach to studying parameter uncertainty in CLM5.
 
-The parameter sensitivity simulations include thirty-four CLM5 biophysical parameters perturbed one at a time to their minimum and maximum values, as well as a control simulation with default parameter values. The output files are labeled by the parameter name with “_min” or “_max” to denote simulation type, where each file includes 5 years of monthly output. The simulation with default parameter values includes 30 years of monthly output, labeled “CLM_control”.
+The parameter sensitivity simulations include thirty-four CLM5 biophysical parameters perturbed one at a time to their minimum and maximum values, as well as a control simulation with default parameter values. The output files are labeled by the parameter name with &quot;_min&quot; or &quot;_max&quot; to denote simulation type, where each file includes 5 years of monthly output. The simulation with default parameter values includes 30 years of monthly output, labeled &quot;CLM_control&quot;.
 
-The PPE simulations include six of the aforementioned parameters perturbed simultaneously. We use Latin Hypercube (LHC) sampling to generate 100 unique parameter sets for the top six parameters identified by the sensitivity simulations. There are two 100-member PPEs with present-day climate forcing conditions, but each uses a different LHC sampling. The output files are labeled “PPE_x” and “PPE_v2_x” with the ensemble member x from 1 to 100. There is also a simulation with default parameter values labeled “PPE_control”. Again each file includes 5 years of monthly output.
-We test optimized parameter values with CLM, the results of which are labeled “CLM_test_calibration”, and this file also includes 5 years of monthly output.</gco:CharacterString>
+The PPE simulations include six of the aforementioned parameters perturbed simultaneously. We use Latin Hypercube (LHC) sampling to generate 100 unique parameter sets for the top six parameters identified by the sensitivity simulations. There are two 100-member PPEs with present-day climate forcing conditions, but each uses a different LHC sampling. The output files are labeled &quot;PPE_x&quot; and &quot;PPE_v2_x&quot; with the ensemble member x from 1 to 100. There is also a simulation with default parameter values labeled &quot;PPE_control&quot;. Again each file includes 5 years of monthly output.
+We test optimized parameter values with CLM, the results of which are labeled &quot;CLM_test_calibration&quot;, and this file also includes 5 years of monthly output.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
