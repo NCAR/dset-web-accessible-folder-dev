@@ -15,7 +15,7 @@
     <gmd:parentIdentifier gco:nilReason="missing"/>
     <gmd:hierarchyLevel>
         <gmd:MD_ScopeCode
-            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="fieldSession">fieldSession</gmd:MD_ScopeCode>
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
     </gmd:hierarchyLevel>
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
@@ -54,7 +54,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2020-04-01T20:06:14</gco:DateTime>
+        <gco:DateTime>2020-04-01T22:06:14</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -329,15 +329,32 @@
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
                     <gmd:temporalElement>
-                        <gmd:EX_TemporalElement>
+                        <gmd:EX_SpatialTemporalExtent>
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="boundingTemporalExtent">
                                     <gml:beginPosition>1992-11-01T00:00:00</gml:beginPosition>
                                     <gml:endPosition>1993-02-28T23:59:59</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
-                        </gmd:EX_TemporalElement>
+                            <gmd:spatialExtent>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                    <gco:Decimal>120.0</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                    <gco:Decimal>180.0</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                    <gco:Decimal>-30.0</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                    <gco:Decimal>30.0</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:spatialExtent>
+                        </gmd:EX_SpatialTemporalExtent>
                     </gmd:temporalElement>
+                    <gmd:verticalElement gco:nilReason="missing"/>
                 </gmd:EX_Extent>
             </gmd:extent>
         </gmd:MD_DataIdentification>
