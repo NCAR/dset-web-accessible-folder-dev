@@ -24,9 +24,10 @@ import os
 #---------------------------------------------------
 #	SET INPUT AND OUTPUT DIRECTORIES
 #---------------------------------------------------
-
+currentdir = os.getcwd()
+currentdirstring = str(currentdir)
 #input_directory = os.fsencode('../LevelsScores/')
-input_directory = '../LevelsScores/'
+input_directory = currentdirstring + '/LevelsScores/'
 output_directory = '../barcharts/'
 
 #---------------------------------------------------
