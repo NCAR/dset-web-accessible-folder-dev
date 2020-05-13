@@ -27,7 +27,7 @@ import os
 currentdir = os.getcwd()
 currentdirstring = str(currentdir)
 #input_directory = os.fsencode('../LevelsScores/')
-input_directory = currentdirstring + '/LevelsScores/'
+input_directory =  '/LevelsScores/'
 output_directory = '../barcharts/'
 
 #---------------------------------------------------
