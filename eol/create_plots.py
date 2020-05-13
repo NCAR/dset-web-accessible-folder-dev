@@ -25,8 +25,8 @@ import os
 #	SET INPUT AND OUTPUT DIRECTORIES
 #---------------------------------------------------
 
-input_directory = os.fsencode('../LevelsScores/')
-#input_directory = '../LevelsScores/'
+#input_directory = os.fsencode('../LevelsScores/')
+input_directory = '../LevelsScores/'
 output_directory = '../barcharts/'
 
 #---------------------------------------------------
