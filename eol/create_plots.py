@@ -46,7 +46,9 @@ def createTotals():
 
 for filename in os.listdir(input_directory):
 # for filename in listdir(input_directory):
-	filename_str = filename.decode("utf-8")
+	#filename_str = filename.decode("utf-8") 
+	#object has already been decoded
+	filename_str = filename
 	index = filename_str.find('-Scores')
 	lab_name = filename_str[0:index] 	#extract lab name from filename
 	print('Reading in totals for metadata values from ', lab_name)    
