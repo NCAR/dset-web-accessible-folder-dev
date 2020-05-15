@@ -14,9 +14,9 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        working-directory: eol
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r eol/requirements.txt
+        cd eol
         python create_plots.py 
         
     - name: Commit files
