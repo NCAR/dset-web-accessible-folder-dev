@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2020-07-26T15:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2020-12-02T15:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -94,7 +94,7 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>https://precip.gsfc.nasa.gov/</gmd:URL>
+            <gmd:URL>https://www.ncdc.noaa.gov/cdr/atmospheric/precipitation-gpcp-daily</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
             <gco:CharacterString>https</gco:CharacterString>
@@ -106,7 +106,7 @@
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>NASA GSFC Global Precipitation Analysis - official site</gco:CharacterString>
+            <gco:CharacterString>NOAA Climate Data Record - GPCP Daily Precipitation</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -171,7 +171,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString> This dataset contains Version 1.2 of the Global Precipitation Climatology Project (GPCP) daily precipitation estimates. The data are daily analyses defined on a global 1.0 degree by 1.0 degree longitude-latitude grid and cover the period October 1996 to (delayed) present.
+        <gco:CharacterString>NOTE: This dataset has been superseded by GPCP Daily Precipitation Version 1.3, which is available in RDA dataset ds728.5 [https://rda.ucar.edu/datasets/ds728.5/]. Users are advised to transition to this updated dataset.
+
+ This dataset contains Version 1.2 of the Global Precipitation Climatology Project (GPCP) daily precipitation estimates. The data are daily analyses defined on a global 1.0 degree by 1.0 degree longitude-latitude grid and cover the period October 1996 to (delayed) present.
 
  Please note the original binary data produced at NASA Goddard Space Flight Center were written using the big endian representation of unformatted binary words. Users reading this data on little endian platforms, therefore, are required to byte swap the data.
 
@@ -304,7 +306,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
             <gco:CharacterString>NOAA POES > NOAA Polar Orbiting Environmental Satellites</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>METEOSAT</gco:CharacterString>
+            <gco:CharacterString>METEOSAT > Meteosat Operational Programme</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>GOES > NOAA Geostationary Operational Environmental Satellites</gco:CharacterString>
@@ -329,7 +331,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-07-24</gco:Date>
+                    <gco:Date>2020-11-24</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -381,7 +383,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-07-21</gco:Date>
+                    <gco:Date>2020-11-16</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -424,7 +426,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-07-14</gco:Date>
+                    <gco:Date>2020-11-12</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -467,7 +469,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-07-16</gco:Date>
+                    <gco:Date>2020-11-24</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
