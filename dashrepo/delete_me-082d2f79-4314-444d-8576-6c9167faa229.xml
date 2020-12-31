@@ -10,7 +10,7 @@
                                      http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
 
     <gmd:fileIdentifier>
-        <gco:CharacterString>localhost::9fe6e7b6-b1f2-4e02-baee-7e29b51aeae7</gco:CharacterString>
+        <gco:CharacterString>localhost::082d2f79-4314-444d-8576-6c9167faa229</gco:CharacterString>
     </gmd:fileIdentifier>
 
     <gmd:language>
@@ -52,43 +52,20 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://handle.test.datacite.org/10.5065/c2rf-6170</gco:CharacterString>
+        <gco:CharacterString>https://localhost:8443/dataset/id/082d2f79-4314-444d-8576-6c9167faa229.html</gco:CharacterString>
     </gmd:dataSetURI>
-    <gmd:metadataExtensionInfo>
-        <gmd:MD_MetadataExtensionInformation>
-            <gmd:extensionOnLineResource>
-                <gmd:CI_OnlineResource>
-                    <gmd:linkage>
-                        <gmd:URL>https://doi.org/10.1029/2019MS001609</gmd:URL>
-                    </gmd:linkage>
-                    <gmd:protocol>
-                        <gco:CharacterString>https</gco:CharacterString>
-                    </gmd:protocol>
-                    <gmd:applicationProfile>
-                        <gco:CharacterString>browser</gco:CharacterString>
-                    </gmd:applicationProfile>
-                    <gmd:name>
-                        <gco:CharacterString>Parametric Controls on Vegetation Responses to Biogeochemical Forcing in the CLM5</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:description>
-                        <gco:CharacterString>Fisher, R. A., Wieder, W. R., Sanderson, B. M., Koven, C. D., Oleson, K. W., Xu, C., ... &amp; Lawrence, D. M. (2019). Journal of Advances in Modeling Earth Systems, 11(9), 2879-2895.</gco:CharacterString>
-                    </gmd:description>
-                </gmd:CI_OnlineResource>
-            </gmd:extensionOnLineResource>
-        </gmd:MD_MetadataExtensionInformation>
-    </gmd:metadataExtensionInfo>
 
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>CLM5 Sensitivity Analyses</gco:CharacterString>
+                        <gco:CharacterString>Delete Me</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2019-10-29</gco:Date>
+                                <gco:Date>2020-12-30</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -98,22 +75,13 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2019-10-29</gco:Date>
+                                <gco:Date>2020-12-30</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-                        <gmd:identifier>
-                            <gmd:MD_Identifier>
-                                <gmd:code>
-                                    <gmx:Anchor xlink:href="citation.identifier" xlink:title="DOI" xlink:actuate="onRequest">
-                                        https://handle.test.datacite.org/10.5065/c2rf-6170
-                                    </gmx:Anchor>
-                                </gmd:code>
-                            </gmd:MD_Identifier>
-                        </gmd:identifier>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
@@ -141,17 +109,14 @@
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Rosie Fisher</gco:CharacterString>
+                                <gco:CharacterString>Tester</gco:CharacterString>
                             </gmd:individualName>
-                            <gmd:organisationName>
-                                <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
-                            </gmd:organisationName>
                             <gmd:contactInfo>
                                 <gmd:CI_Contact>
                                     <gmd:address>
                                         <gmd:CI_Address>
                                             <gmd:electronicMailAddress>
-                                                <gco:CharacterString>rosieafisher@gmail.com</gco:CharacterString>
+                                                <gco:CharacterString>test@test.com</gco:CharacterString>
                                             </gmd:electronicMailAddress>
                                         </gmd:CI_Address>
                                     </gmd:address>
@@ -165,28 +130,19 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>These data are the results of sensitivities with the Community Land Model (version 5, CLM5) under conditions of elevated carbon dioxide, nitrogen deposition, and present day transient control conditions. 13 parameters are modified with 5 iterations each, for four different individual flux tower sites.
-
-The CLM5 is the land surface scheme of the CESM2 Earth System model, and these simulations form the basis of a paper currently in press at the Journal of Advances in Modeling the Earth System, which forms part of the CESM2 special issue.
-
-For each site x experiment file, there are monthly CLM history output files for 53 simulations, which are 13 parameters varied across 4 iterations plus the default. The parameter files used can be found in the PFT files. Simulations 1 through 52 access the PFT files in the order 11, 12, 13, 14, 21, 22, 23, 24, 31,32,33, 34,... 131, 132, 133, 134. Simulation number 53 accesses the default PFT file (#00). 
-
-For further information on driving data, available analysis scripts, etc. please contact the Resource Support Contact below.</gco:CharacterString>
+                <gco:CharacterString>This is a dataset for testing, please delete after you are done with it.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                         <gmd:individualName>
-                            <gco:CharacterString>Rosie Fisher</gco:CharacterString>
+                            <gco:CharacterString>Tester</gco:CharacterString>
                         </gmd:individualName>
-                        <gmd:organisationName>
-                            <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
-                        </gmd:organisationName>
                         <gmd:contactInfo>
                             <gmd:CI_Contact>
                                 <gmd:address>
                                     <gmd:CI_Address>
                                         <gmd:electronicMailAddress>
-                                            <gco:CharacterString>rosieafisher@gmail.com</gco:CharacterString>
+                                            <gco:CharacterString>test@test.com</gco:CharacterString>
                                         </gmd:electronicMailAddress>
                                     </gmd:CI_Address>
                                 </gmd:address>
@@ -238,48 +194,6 @@ For further information on driving data, available analysis scripts, etc. please
                     </gmd:thesaurusName>
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
-            <gmd:descriptiveKeywords>
-                <gmd:MD_Keywords>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; BIOGEOCHEMICAL CYCLES</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; VEGETATION &gt; CARBON</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; VEGETATION &gt; NITROGEN</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; BIOSPHERIC INDICATORS</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:thesaurusName>
-                        <gmd:CI_Citation>
-                            <gmd:title>
-                                <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
-                            </gmd:title>
-                            <gmd:alternateTitle>
-                                <gco:CharacterString>Science and Services Keywords</gco:CharacterString>
-                            </gmd:alternateTitle>
-                            <gmd:date>
-                                <gmd:CI_Date>
-                                    <gmd:date>
-                                        <gco:Date>2018-03-15</gco:Date>
-                                    </gmd:date>
-                                    <gmd:dateType>
-                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                                    </gmd:dateType>
-                                </gmd:CI_Date>
-                            </gmd:date>
-                            <gmd:edition>
-                                <gco:CharacterString>8.6</gco:CharacterString>
-                            </gmd:edition>
-                            <gmd:collectiveTitle>
-                                <gco:CharacterString>Global Change Master Directory (GCMD). 2018. GCMD Keywords, Version 8.6. Greenbelt, MD: Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://earthdata.nasa.gov/gcmd-forum</gco:CharacterString>
-                            </gmd:collectiveTitle>
-                        </gmd:CI_Citation>
-                    </gmd:thesaurusName>
-                </gmd:MD_Keywords>
-            </gmd:descriptiveKeywords>
 
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
@@ -290,7 +204,7 @@ For further information on driving data, available analysis scripts, etc. please
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>
-                            None
+                            No rights are given at all.
                         </gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
@@ -300,36 +214,6 @@ For further information on driving data, available analysis scripts, etc. please
                 <gco:CharacterString>eng; USA</gco:CharacterString>
             </gmd:language>
 
-            <gmd:extent>
-                <gmd:EX_Extent>
-                    <gmd:geographicElement>
-                        <gmd:EX_GeographicBoundingBox>
-                            <gmd:westBoundLongitude>
-                                <gco:Decimal>-121.6</gco:Decimal>
-                            </gmd:westBoundLongitude>
-                            <gmd:eastBoundLongitude>
-                                <gco:Decimal>-51.4</gco:Decimal>
-                            </gmd:eastBoundLongitude>
-                            <gmd:southBoundLatitude>
-                                <gco:Decimal>-1.9</gco:Decimal>
-                            </gmd:southBoundLatitude>
-                            <gmd:northBoundLatitude>
-                                <gco:Decimal>44.5</gco:Decimal>
-                            </gmd:northBoundLatitude>
-                        </gmd:EX_GeographicBoundingBox>
-                    </gmd:geographicElement>
-                    <gmd:temporalElement>
-                        <gmd:EX_TemporalExtent>
-                            <gmd:extent>
-                                <gml:TimePeriod gml:id="tp_5869360c-4c6e-4226-ba80-e3c5e0e40682">
-                                    <gml:beginPosition>1760-01-01</gml:beginPosition>
-                                    <gml:endPosition>2159-12-31</gml:endPosition>
-                                </gml:TimePeriod>
-                            </gmd:extent>
-                        </gmd:EX_TemporalExtent>
-                    </gmd:temporalElement>
-                </gmd:EX_Extent>
-            </gmd:extent>
 
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
@@ -355,7 +239,7 @@ For further information on driving data, available analysis scripts, etc. please
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>https://localhost:8443/dataset/id/9fe6e7b6-b1f2-4e02-baee-7e29b51aeae7</gmd:URL>
+                                <gmd:URL>https://localhost:8443/dataset/id/082d2f79-4314-444d-8576-6c9167faa229</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>
@@ -364,7 +248,7 @@ For further information on driving data, available analysis scripts, etc. please
                                 <gco:CharacterString>browser</gco:CharacterString>
                             </gmd:applicationProfile>
                             <gmd:name>
-                                <gco:CharacterString>CLM5 Sensitivity Analyses</gco:CharacterString>
+                                <gco:CharacterString>Delete Me</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
                                 <gco:CharacterString>Metadata Link</gco:CharacterString>
