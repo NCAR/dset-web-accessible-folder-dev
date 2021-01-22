@@ -70,7 +70,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2021-01-14T17:08:25</gco:DateTime>
+        <gco:DateTime>2021-01-19T14:33:29</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -544,16 +544,29 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName gco:nilReason="missing"/>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Research Application Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>The Weather Research and Forecasting Model Hydrological modeling system (WRF-Hydro) was developed as a community-based, open source, model coupling framework designed to link multi-scale process models of the atmosphere and terrestrial hydrology to provide:
-                
-              An extensible multi-scale &amp; multi-physics land-atmosphere modeling capability for conservative, coupled and uncoupled assimilation &amp; prediction of major water cycle components such as: precipitation, soil moisture, snow pack, ground water, streamflow, and inundation. 
-              
-              Accurate and reliable streamflow prediction across scales (from 0-order headwater catchments to continental river basins and from minutes to seasons). 
-              
-              A research modeling testbed for evaluating and improving physical process and coupling representations</gco:CharacterString>
+                        
+                      An extensible multi-scale &amp; multi-physics land-atmosphere modeling capability for conservative, coupled and uncoupled assimilation &amp; prediction of major water cycle components such as: precipitation, soil moisture, snow pack, ground water, streamflow, and inundation. 
+                      
+                      Accurate and reliable streamflow prediction across scales (from 0-order headwater catchments to continental river basins and from minutes to seasons). 
+                      
+                      A research modeling testbed for evaluating and improving physical process and coupling representations</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>NSF, NASA, NOAA, Baron</gco:CharacterString>
@@ -633,11 +646,11 @@
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; WEATHER RESEARCH/FORECAST MODELS  
-          </gco:CharacterString>
+                    </gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
                         <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; LAND SURFACE MODELS  
-          </gco:CharacterString>
+                    </gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode
@@ -693,6 +706,66 @@
                                     <gmd:role>
                                     <gmd:CI_RoleCode
                                     codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Software</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                            codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2021-01-22</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>support@datacite.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>https://groups.google.com/forum/?hl=en&amp;fromgroups#!forum/datacite-metadata</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                                     </gmd:role>
                                 </gmd:CI_ResponsibleParty>
                             </gmd:citedResponsibleParty>
