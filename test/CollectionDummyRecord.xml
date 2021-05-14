@@ -5,7 +5,7 @@
     xmlns:gts="http://www.isotc211.org/2005/gts"
     xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gmd:fileIdentifier>
-        <gco:CharacterString>edu.ucar.edu::CollectionTest3</gco:CharacterString>
+        <gco:CharacterString>edu.ucar.edu::CollectionDummyRecord</gco:CharacterString>
     </gmd:fileIdentifier>
     <gmd:language>
         <gmd:LanguageCode
@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2018-03-06T09:39:39</gco:DateTime>
+        <gco:DateTime>2018-04-06T09:39:39</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -61,7 +61,7 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>EDIT Collection TWO Test Record</gco:CharacterString>
+                        <gco:CharacterString>Collection Harvesting Test Record</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
@@ -381,9 +381,18 @@
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>This record is supposed to represent a SECOND dummy collection, to test for the creation, updating, and deletion of collections in CKAN.
+                <gco:CharacterString>This record is supposed to represent a dummy collection, to test for the creation, updating, and deletion of collections in CKAN.
                                 
-To delete the record, it should be sufficient to change the name of the file to no longer end in ".xml", e.g. make the file name "CollectionRecord.xml.IGNORE".   When this change is pushed in the WAF, CKAN should perform a delete operation on the collection.</gco:CharacterString>
+To delete the record, it should be sufficient to change the name of the file to no longer end in ".xml", e.g. make the file name "CollectionDummyRecord.xml.IGNORE".   When this change is pushed in the WAF, CKAN should perform a delete operation on the collection.
+
+__NOTE__:  Changing the GUID of an already-harvested collection record will result in a database error on re-harvest.   
+
+__To change the GUID__: 
+
+ * First change the file ending and push this change to github.
+ * Wait for the record to be deleted from the database.   
+ * Update the GUID, restore the file ending to *.xml, and push this change to github.
+</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
