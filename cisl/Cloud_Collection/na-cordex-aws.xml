@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2021-06-02T12:17:52</gco:DateTime>
+        <gco:DateTime>2021-06-02T13:17:52</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -348,6 +348,37 @@ An Intake-ESM Catalog listing all available data can be found at:
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
+            <gmd:aggregationInfo>
+              <gmd:MD_AggregateInformation>
+                <gmd:aggregateDataSetName>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gco:CharacterString>Cloud-Optimized Datasets</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2021-06-01</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:identifier>
+                      <gmd:MD_Identifier>
+                        <gmd:code>
+                          <gco:CharacterString>edu.ucar.cisl::cloud-collection</gco:CharacterString>
+                        </gmd:code>
+                      </gmd:MD_Identifier>
+                    </gmd:identifier>
+                  </gmd:CI_Citation>
+                </gmd:aggregateDataSetName>
+                <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+                </gmd:associationType>
+              </gmd:MD_AggregateInformation>
+            </gmd:aggregationInfo>
             <gmd:spatialRepresentationType>
                 <gmd:MD_SpatialRepresentationTypeCode
                     codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
