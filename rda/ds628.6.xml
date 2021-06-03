@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.rda::ds083.3</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.rda::ds628.6</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -87,14 +87,14 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://doi.org/10.5065/D65Q4T4Z</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/ds628.6/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:metadataExtensionInfo>
     <gmd:MD_MetadataExtensionInformation>
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://www.emc.ncep.noaa.gov/modelinfo/index.html</gmd:URL>
+            <gmd:URL>http://jra.kishou.go.jp/JRA-55/index_en.html</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
             <gco:CharacterString>http</gco:CharacterString>
@@ -106,7 +106,7 @@
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>NMC EMC Model Documentation</gco:CharacterString>
+            <gco:CharacterString>JRA-55: Japanese 55-year Reanalysis</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -117,10 +117,10 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://www.emc.ncep.noaa.gov/gmb/para/parabout.html</gmd:URL>
+            <gmd:URL>https://climatedataguide.ucar.edu/climate-data/jra-55</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
+            <gco:CharacterString>https</gco:CharacterString>
           </gmd:protocol>
           <gmd:applicationProfile>
             <gco:CharacterString>browser</gco:CharacterString>
@@ -129,7 +129,7 @@
             <gco:CharacterString>Related Resource #2</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>NCEP Global Parallel System Documentation</gco:CharacterString>
+            <gco:CharacterString>Description of JRA-55 at the NCAR Climate Data Guide</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -140,7 +140,7 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://www.emc.ncep.noaa.gov/gmb/STATS/html/model_changes.html</gmd:URL>
+            <gmd:URL>http://jra.kishou.go.jp/JRA-55/index_en.html#quality</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
             <gco:CharacterString>http</gco:CharacterString>
@@ -152,145 +152,7 @@
             <gco:CharacterString>Related Resource #3</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>MRF/AVN/GDAS CHANGES SINCE 1991</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.nws.noaa.gov/tg/histgate.php</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #4</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>THE NATIONAL WEATHER SERVICE GATEWAY ... HISTORY ...</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.ncl.ucar.edu/Document/Manuals/Ref_Manual/NclFormatSupport.shtml#GRIB</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #5</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>NCAR Command Language GRIB to NetCDF file structure description</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.ncep.noaa.gov/mail_liaison/</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #6</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>Ask NCEP science questions about the FNL dataset through this link</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.emc.ncep.noaa.gov/gmb/gdas/</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #7</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>NCEP Grid-Point Statistical Interpolation (GSI) homepage</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www2.mmm.ucar.edu/wrf/users/support.html</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #8</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>WRF User Support</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.nco.ncep.noaa.gov/pmb/products/gfs/#GDAS</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #9</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>NCEP GDAS 'real-time' operational data access</gco:CharacterString>
+            <gco:CharacterString>JRA-55 Quality Issues</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -301,14 +163,14 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids</gco:CharacterString>
+            <gco:CharacterString>JRA-55: Japanese 55-year Reanalysis, Daily and Monthly Climatologies, 1991-2020</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>ds083.3</gco:CharacterString>
+            <gco:CharacterString>ds628.6</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2015-07-23</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2021-06-02</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -317,7 +179,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                <gco:CharacterString>Japan Meteorological Agency, Japan</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -335,19 +197,19 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>These NCEP FNL (Final) operational global analysis and forecast data are on 0.25-degree by 0.25-degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses. The FNLs are made with the same model which NCEP uses in the Global Forecast System (GFS), but the FNLs are prepared about an hour or so after the GFS is initialized. The FNLs are delayed so that more observational data can be used. The GFS is run earlier in support of time critical forecast needs, and uses the FNL from the previous 6 hour cycle as part of its initialization.
+        <gco:CharacterString>The Japan Meteorological Agency (JMA) conducted JRA-55, the second Japanese global atmospheric reanalysis project. It covers 55 years, extending back to 1958, coinciding with the establishment of the global radiosonde observing system. Compared to its predecessor, JRA-25, JRA-55 is based on a new data assimilation and prediction system (DA) that improves many deficiencies found in the first Japanese reanalysis. These improvements have come about by implementing higher spatial resolution (TL319L60), a new radiation scheme, four-dimensional variational data assimilation (4D-Var) with Variational Bias Correction (VarBC) for satellite radiances, and introduction of greenhouse gases with time varying concentrations. The entire JRA-55 production was completed in 2013, and thereafter will be continued on a real time basis.
 
-The analyses are available on the surface, at 26 mandatory (and other pressure) levels from 1000 millibars to 10 millibars, in the surface boundary layer and at some sigma layers, the tropopause and a few others. Parameters include surface pressure, sea level pressure, geopotential height, temperature, sea surface temperature, soil values, ice cover, relative humidity, u- and v- winds, vertical motion, vorticity and ozone.
+Specific early results of quality assessment of JRA-55 indicate that a large temperature bias in the lower stratosphere has been significantly reduced compared to JRA-25 through a combination of the new radiation scheme and application of VarBC (which also reduces unrealistic temperature variations). In addition, a dry land surface anomaly in the Amazon basin has been mitigated, and overall forecast scores are much improved over JRA-25.
 
-The archive time series is continuously extended to a near-current date. It is not maintained in real-time.</gco:CharacterString>
+Most of the observational data employed in JRA-55 are those used in JRA-25. Additionally, newly reprocessed METEOSAT and GMS data were supplied by EUMETSAT and MSC/JMA respectively. Snow depth data over the United States, Russia and Mongolia were supplied by UCAR, RIHMI and IMH respectively.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Riley Conroy</gco:CharacterString>
+            <gco:CharacterString>Dave Stepaniak</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
@@ -357,7 +219,7 @@ The archive time series is continuously extended to a near-current date. It is n
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(303) 497-2467</gco:CharacterString>
+                    <gco:CharacterString>(303)-497-1343</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile>
                     <gco:CharacterString>303-497-1291</gco:CharacterString>
@@ -388,7 +250,7 @@ The archive time series is continuously extended to a near-current date. It is n
                     <gco:CharacterString>U.S.A.</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>rpconroy@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>davestep@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -402,7 +264,7 @@ The archive time series is continuously extended to a near-current date. It is n
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="daily">daily</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:updateScope>
             <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -411,23 +273,15 @@ The archive time series is continuously extended to a near-current date. It is n
       </gmd:resourceMaintenance>
       <gmd:graphicOverview>
         <gmd:MD_BrowseGraphic>
-          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/ncep_80_137_80.gif</gco:CharacterString></gmd:fileName>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/Harerun_JRA-55_version.small_150_130.png</gco:CharacterString></gmd:fileName>
           <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
-          <gmd:fileType><gco:CharacterString>GIF</gco:CharacterString></gmd:fileType>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
         </gmd:MD_BrowseGraphic>
       </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>WMO_GRIB2</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>WMO_GRIB2</gco:CharacterString>
+            <gco:CharacterString>WMO_GRIB1</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -475,10 +329,7 @@ The archive time series is continuously extended to a near-current date. It is n
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>NCEP-GDAS > NCEP Global Data Assimilation System</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>NCEP-FNL > NCEP Final Global Data Assimilation System</gco:CharacterString>
+            <gco:CharacterString>REANALYSIS MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -521,152 +372,7 @@ The archive time series is continuously extended to a near-current date. It is n
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>WRF > WRF (Weather Research and Forecasting) Modeling</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:thesaurusName>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-              </gmd:title>
-              <gmd:alternateTitle>
-                <gco:CharacterString>GCMD</gco:CharacterString>
-              </gmd:alternateTitle>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:Date>2021-05-18</gco:Date>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-              <gmd:edition>
-                <gco:CharacterString>10.2</gco:CharacterString>
-              </gmd:edition>
-              <gmd:citedResponsibleParty>
-                <gmd:CI_ResponsibleParty>
-                  <gmd:organisationName>
-                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                  </gmd:organisationName>
-                  <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                  </gmd:role>
-                </gmd:CI_ResponsibleParty>
-              </gmd:citedResponsibleParty>
-              <gmd:otherCitationDetails>
-                <gco:CharacterString>Valids List: Projects</gco:CharacterString>
-              </gmd:otherCitationDetails>
-            </gmd:CI_Citation>
-          </gmd:thesaurusName>
-        </gmd:MD_Keywords>
-      </gmd:descriptiveKeywords>
-      <gmd:descriptiveKeywords>
-        <gmd:MD_Keywords>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW WATER EQUIVALENT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > ICE EXTENT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > SKIN TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > ALBEDO</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL GOVERNANCE/MANAGEMENT > LAND MANAGEMENT > LAND USE/LAND COVER CLASSIFICATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION RATE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD FREQUENCY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD MICROPHYSICS > CLOUD LIQUID WATER/ICE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > WIND SHEAR</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VORTICITY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPORATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > TOTAL PRECIPITABLE WATER</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > DEW POINT TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > POTENTIAL TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SHORTWAVE RADIATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > LONGWAVE RADIATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > HYDROSTATIC PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > GRAVITY WAVE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > PLANETARY BOUNDARY LAYER HEIGHT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -716,16 +422,6 @@ The archive time series is continuously extended to a near-current date. It is n
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">0.25</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -737,28 +433,12 @@ The archive time series is continuously extended to a near-current date. It is n
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>90</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="ds083.3_time_period">
-                  <gml:beginPosition>2015-07-08T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2021-06-02T09:00:00Z</gml:endPosition>
+                <gml:TimePeriod gml:id="ds628.6_time_period">
+                  <gml:beginPosition>1991-01-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2020-12-31T21:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -817,12 +497,12 @@ The archive time series is continuously extended to a near-current date. It is n
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>7879702</gco:Real>
+           <gco:Real>0.00</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds083.3/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds628.6/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -844,7 +524,7 @@ The archive time series is continuously extended to a near-current date. It is n
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds083.3/#!access</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds628.6/#!access</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
