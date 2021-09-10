@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.rda::ds335.0</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.rda::ds340.0</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -87,17 +87,17 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://doi.org/10.5065/549X-KE89</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/ds340.0/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:metadataExtensionInfo>
     <gmd:MD_MetadataExtensionInformation>
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://nomads.ncep.noaa.gov/</gmd:URL>
+            <gmd:URL>https://www.acom.ucar.edu/firex-aq/forecast.shtml</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
+            <gco:CharacterString>https</gco:CharacterString>
           </gmd:protocol>
           <gmd:applicationProfile>
             <gco:CharacterString>browser</gco:CharacterString>
@@ -106,76 +106,7 @@
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>NCEP model data archive.</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.unidata.ucar.edu/projects/index.html#idd</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #2</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>Unidata IDD homepage</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://www.ncl.ucar.edu/Document/Manuals/Ref_Manual/NclFormatSupport.shtml#GRIB</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #3</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>NCAR Command Language GRIB to NetCDF file structure description.</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>http://motherlode.ucar.edu/repository/entry/show/RAMADDA/Data/IDD+Data/native/grid/NCEP</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #4</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>IDD Model data available through the Unidata RAMADDA Server</gco:CharacterString>
+            <gco:CharacterString>WRF-CHEM Forecast Maps</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -186,14 +117,14 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Historical Unidata Internet Data Distribution (IDD) Gridded Model Data</gco:CharacterString>
+            <gco:CharacterString>The WRF Model coupled with Chemistry (WRF-Chem) Output over CONUS</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>ds335.0</gco:CharacterString>
+            <gco:CharacterString>ds340.0</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2003-10-31</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2021-09-10</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -201,9 +132,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>European Centre for Medium-Range Weather Forecasts</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Kumar, Rajesh</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -211,9 +142,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>Unidata, University Corporation for Atmospheric Research</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -221,9 +152,29 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Drews, Carl</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Honomichl, Shawn</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Attilo, Garth D</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -240,7 +191,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Historical Unidata Internet Data Distribution (IDD) Gridded Model Data are obtained via the Unidata Internet Data Distribution System (IDD). Data includes gridded analyses and forecasts from US National Centers for Environmental Prediction (NCEP) and European Centre for Medium-Range Weather Forecasts (ECMWF) models. Models include NCEP ETA, NAM and RUC covering the Continental US, NCEP Ensemble and GFS covering North America and the globe, and GFS Extended and ECMWF covering the globe, at various spatial and temporal resolutions. Potential variables found in the model output include pressure, relative humidity, temperature, geopotential height, zonal component wind speed, and V-component wind speed.</gco:CharacterString>
+        <gco:CharacterString>The Weather Research and Forecasting (WRF) model coupled with Chemistry version 3.9.1 is used to generate a 48-hour air quality forecast daily at 12 km grid spacing over the CONUS. This WRF-Chem model simulates the emission, transport, mixing, and chemical transformation of trace gases and aerosols simultaneously with the meteorology. These forecasts are used to support air quality decision-making, field campaign planning, early identification of model errors and biases, and support the atmospheric science community in their research. This system aims to complement the operational air quality forecasts produced by the National Oceanic and Atmospheric Administration (NOAA), not to replace them. A publicly available information dissemination system has been established that displays various air quality products, including a near-real-time evaluation of the model forecasts at the WRF Chemistry Forecast Maps [https://www.acom.ucar.edu/firex-aq/forecast.shtml].</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -248,7 +199,7 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Doug Schuster</gco:CharacterString>
+            <gco:CharacterString>Chi-Fan Shih</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>UCAR/NCAR - Research Data Archive</gco:CharacterString>
@@ -258,7 +209,7 @@
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(303)-497-1216</gco:CharacterString>
+                    <gco:CharacterString>(303)-497-1833</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile>
                     <gco:CharacterString>303-497-1291</gco:CharacterString>
@@ -289,7 +240,7 @@
                     <gco:CharacterString>U.S.A.</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>schuster@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>chifan@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -310,33 +261,10 @@
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
-      <gmd:graphicOverview>
-        <gmd:MD_BrowseGraphic>
-          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/unidata_logo_rgb_sm_100_100.png</gco:CharacterString></gmd:fileName>
-          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
-          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
-        </gmd:MD_BrowseGraphic>
-      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>WMO_GRIB2</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>WMO_GRIB1</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>WMO_GRIB2</gco:CharacterString>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -384,16 +312,7 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>NCEP-RUC > NCEP Rapid Update Cycle Model</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>NCEP-NAM > NCEP North American Model</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>NCEP-GFS > NCEP Global Forecast System</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
+            <gco:CharacterString>WRF > Weather Research and Forecasting (WRF) Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -436,101 +355,16 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>WRF > WRF (Weather Research and Forecasting) Modeling</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:thesaurusName>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-              </gmd:title>
-              <gmd:alternateTitle>
-                <gco:CharacterString>GCMD</gco:CharacterString>
-              </gmd:alternateTitle>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:Date>2021-08-30</gco:Date>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-              <gmd:edition>
-                <gco:CharacterString>11.0</gco:CharacterString>
-              </gmd:edition>
-              <gmd:citedResponsibleParty>
-                <gmd:CI_ResponsibleParty>
-                  <gmd:organisationName>
-                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                  </gmd:organisationName>
-                  <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                  </gmd:role>
-                </gmd:CI_ResponsibleParty>
-              </gmd:citedResponsibleParty>
-              <gmd:otherCitationDetails>
-                <gco:CharacterString>Valids List: Projects</gco:CharacterString>
-              </gmd:otherCitationDetails>
-            </gmd:CI_Citation>
-          </gmd:thesaurusName>
-        </gmd:MD_Keywords>
-      </gmd:descriptiveKeywords>
-      <gmd:descriptiveKeywords>
-        <gmd:MD_Keywords>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE > POTENTIAL TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS > U/V WIND COMPONENTS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE > VERTICAL PROFILES</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > POTENTIAL TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > OXYGEN COMPOUNDS > ATMOSPHERIC OZONE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SHORTWAVE RADIATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > LONGWAVE RADIATION</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > PRESSURE TENDENCY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > HYDROSTATIC PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > GRAVITY WAVE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > TROPOPAUSE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > PLANETARY BOUNDARY LAYER HEIGHT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > VISIBILITY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > TROPOSPHERIC OZONE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > ATMOSPHERIC CARBON MONOXIDE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -580,93 +414,6 @@
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">0.5</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">1</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">2.5</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">5</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">12191</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">20317</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">20318</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">32463</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">40635</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">81271</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">190500</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="m">381000</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -678,28 +425,12 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>90</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="ds335.0_time_period">
-                  <gml:beginPosition>2006-11-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2021-09-10T20:00:00Z</gml:endPosition>
+                <gml:TimePeriod gml:id="ds340.0_time_period">
+                  <gml:beginPosition>2019-05-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2019-05-01T23:00:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -758,12 +489,12 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>161167008</gco:Real>
+           <gco:Real>0.00</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds335.0/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds340.0/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -785,7 +516,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds335.0/#!access</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds340.0/#!access</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
