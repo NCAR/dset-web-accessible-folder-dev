@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2021-09-01T14:45:00</gco:DateTime>
+        <gco:DateTime>2021-09-09T14:45:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -190,12 +190,17 @@
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>
-We have published a copy of the NA-CORDEX dataset on Amazon Web Services (AWS). We thank the AWS Open Data Sponsorship Program and the Amazon Sustainability Data Initiative for providing free storage and egress for these data.
+The NA-CORDEX dataset contains output from high-resolution regional climate models run over North America using boundary conditions from global simulations in the CMIP5 archive.
 
-The NA-CORDEX data on AWS is stored in Zarr format. This format supports the same data model as netCDF and is well suited to object storage and distributed computing in the cloud using the Pangeo libraries in Python.
+The subset of the NA-CORDEX data on AWS (data volume ~15 TB) includes daily data from 1950-2100 for impacts-relevant variables on a 0.25° or 0.50° common lat-lon grid. This data is freely available on AWS S3 thanks to the AWS Open Data Sponsorship Program and the Amazon Sustainability Data Initiative, which provide free storage and egress.
+
+The data on AWS is stored in Zarr format. This format supports the same data model as netCDF and is well suited to object storage and distributed computing in the cloud using the Pangeo libraries in Python.
 
 An Intake-ESM Catalog listing all available data can be found at:
 [https://ncar-na-cordex.s3-us-west-2.amazonaws.com/catalogs/aws-na-cordex.json]
+
+The full dataset (data volume ~35 TB) can be accessed for download or via web services on the NCAR Climate Data Gateway.
+[https://www.earthsystemgrid.org/search/cordexsearch.html]
                 </gco:CharacterString>
             </gmd:abstract>
             <gmd:status>
@@ -469,7 +474,7 @@ An Intake-ESM Catalog listing all available data can be found at:
             <gmd:transferOptions>
                 <gmd:MD_DigitalTransferOptions>
                     <gmd:transferSize>
-                        <gco:Real>20000000</gco:Real>
+                        <gco:Real>14800000</gco:Real>
                     </gmd:transferSize>
                 </gmd:MD_DigitalTransferOptions>
             </gmd:transferOptions>
