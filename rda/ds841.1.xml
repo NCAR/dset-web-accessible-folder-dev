@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.rda::ds612.5</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.rda::ds841.1</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -87,21 +87,21 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://rda.ucar.edu/datasets/ds612.5/</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/ds841.1/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>CONUS (Continental U.S.) II High Resolution Present and Future Climate Simulation</gco:CharacterString>
+            <gco:CharacterString>GridRad - Three-Dimensional Gridded NEXRAD WSR-88D Reflectivity and Spectrum Width</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>ds612.5</gco:CharacterString>
+            <gco:CharacterString>ds841.1</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2021-03-26</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2021-10-18</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -109,9 +109,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Rasmussen, Roy</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>School of Meteorology, University of Oklahoma</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -119,29 +119,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Dai, Aiguo</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:citedResponsibleParty>
-          <gmd:citedResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Liu, Changhai</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:citedResponsibleParty>
-          <gmd:citedResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName>
-                <gco:CharacterString>Ikeda, Kyoko</gco:CharacterString>
-              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Department of Atmospheric Sciences, Texas A&amp;M University</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -158,9 +138,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The CONUS II simulations aim to partially address both the need to capture inherent climate internal variability and greenhouse gas induced atmospheric variability by using the mean of the CMIP5 model for both present and historical mean climate as the CONUS boundary forcing. This forcing is applied to a 4km horizontal resolution Weather Research and Forecasting (WRF) model to produce a mesoscale hydro-climate of two 20-year runs covering a current period from 1996-2015 and a future period from 2080-2099 over the CONUS domain.
-
-The characteristics of these simulations are: 1) more realistic depiction of the mesoscale terrain features, critical to the successful simulation of mountainous precipitation, 2) the ability to realistically simulate the major summer precipitation producer in the central U.S. without the need of conventional cumulus parameterizations.</gco:CharacterString>
+        <gco:CharacterString>Hourly, CONUS wide volumes of radar reflectivity and velocity spectrum width for warm seasons only (April-August), 2008 to the Present.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -233,7 +211,7 @@ The characteristics of these simulations are: 1) more realistic depiction of the
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF4</gco:CharacterString>
+            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -281,7 +259,7 @@ The characteristics of these simulations are: 1) more realistic depiction of the
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>WRF > Weather Research and Forecasting (WRF) Model</gco:CharacterString>
+            <gco:CharacterString>OBSERVATION BASED > OBSERVATION BASED ANALYSES</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -324,13 +302,53 @@ The characteristics of these simulations are: 1) more realistic depiction of the
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>NEXRAD > NEXt Generation RADar</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>GCMD</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2021-10-15</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>11.3</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+              <gmd:otherCitationDetails>
+                <gco:CharacterString>Valids List: Instruments</gco:CharacterString>
+              </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > SPECTRAL/ENGINEERING > RADAR > SPECTRUM WIDTH</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > SKIN TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > SPECTRAL/ENGINEERING > RADAR > RADAR REFLECTIVITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -394,9 +412,9 @@ The characteristics of these simulations are: 1) more realistic depiction of the
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="ds612.5_time_period">
-                  <gml:beginPosition>1995-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2010-11-30T23:00:00Z</gml:endPosition>
+                <gml:TimePeriod gml:id="ds841.1_time_period">
+                  <gml:beginPosition>2008-04-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2021-08-31T23:59:59Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -460,7 +478,7 @@ The characteristics of these simulations are: 1) more realistic depiction of the
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds612.5/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds841.1/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -482,7 +500,7 @@ The characteristics of these simulations are: 1) more realistic depiction of the
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/ds612.5/#!access</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/ds841.1/#!access</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
