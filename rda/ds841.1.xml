@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2021-10-19T08:05:06-07:00</gco:DateTime>
+    <gco:DateTime>2021-10-19T12:05:03-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -94,7 +94,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>GridRad - Three-Dimensional Gridded NEXRAD WSR-88D Reflectivity and Spectrum Width</gco:CharacterString>
+            <gco:CharacterString>GridRad - Three-Dimensional Gridded NEXRAD WSR-88D Reflectivity and Velocity Spectrum Width</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds841.1</gco:CharacterString>
@@ -208,6 +208,14 @@
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="inapplicable" />
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -414,7 +422,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds841.1_time_period">
                   <gml:beginPosition>2008-04-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2009-05-31T23:00:00Z</gml:endPosition>
+                  <gml:endPosition>2021-08-31T23:59:59Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
