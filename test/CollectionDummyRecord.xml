@@ -398,7 +398,7 @@ __To change the GUID__:
 __To Purge an already-deleted collection, so it can be reharvested anew__: 
 
 ```
-curl -k -X POST -H "Authorization: <api-key>" "https://ckandev.ucar.edu/api/action/group_purge" -d '{"id":"edu.ucar.cisl::cloud-collection"}'
+curl -k -X POST -H "Authorization: {api-key}" "https://ckandev.ucar.edu/api/action/group_purge" -d '{"id":"edu.ucar.cisl::cloud-collection"}'
 ```
 
 </gco:CharacterString>
