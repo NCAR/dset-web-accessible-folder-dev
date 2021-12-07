@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <gmd:fileIdentifier>
+        <gco:CharacterString>edu.ucar.cisl::dart-cam6-aws</gco:CharacterString>
+    </gmd:fileIdentifier>
+
+    <gmd:language>
+        <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+    </gmd:language>
+
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8
+        </gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+
+    <gmd:parentIdentifier gco:nilReason="inapplicable"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset
+        </gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>CESM-LENS Help</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>UCAR/NCAR - Computational &amp; Information Systems Lab - Information Systems
+                    Division
+                </gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName gco:nilReason="missing"/>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                        codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+                </gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+
+    <gmd:dateStamp>
+        <gco:DateTime>2021-12-07T13:14:42.209191</gco:DateTime>
+    </gmd:dateStamp>
+
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+    </gmd:metadataStandardName>
+
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115:2003(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://doi.org/10.26024/sprq-2d04</gco:CharacterString>
+    </gmd:dataSetURI>
+
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>https://github.com/NCAR/ncar-dart-cam6</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Related Software and Documentation</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>Jupyter Notebook, other documentation, and software tools
+                        </gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                                codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">
+                            information
+                        </gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
+
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>CAM6 Data Assimilation Research Testbed (DART) Reanalysis: Cloud-Optimized
+                            Dataset
+                        </gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2021</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode"
+                                                     codeListValue="publication">publication
+                                </gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Bonnlander, Brian</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString/>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString/>
+                            </gmd:positionName>
+
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                        codeListValue="author">author
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Raeder, Kevin</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString/>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString/>
+                            </gmd:positionName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                        codeListValue="author">author
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString/>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Computational and Information Systems Lab
+                                </gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString/>
+                            </gmd:positionName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                        codeListValue="publisher">publisher
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This is a cloud-hosted subset of the CAM6+DART (Community Atmosphere Model version
+                    6 Data Assimilation Research Testbed) Reanalysis dataset. These data products are designed to
+                    facilitate a broad variety of research using the NCAR CESM 2.1 (National Center for Atmospheric
+                    Research’s Community Earth System Model version 2.1), including model evaluation, ensemble
+                    hindcasting, data assimilation experiments, and sensitivity studies. They come from an 80 member
+                    ensemble reanalysis of the global troposphere and stratosphere using DART and CAM6. The data
+                    products represent states of the atmosphere consistent with observations from 2011 through 2019 at 1
+                    degree horizontal resolution and weekly frequency. Each ensemble member is an equally likely
+                    description of the atmosphere, and is also consistent with dynamics and physics of CAM6. The dataset
+                    also contains corresponding land surface values at 6-hourly frequency. This dataset is a
+                    reformatting, with no change to numerical values, of data from the “CAM6 Data Assimilation Research
+                    Testbed (DART) Reanalysis”, DOI:10.5065/JG1E-8525.
+                    This dataset is a reformatting, with no change to numerical values, of data from the "CAM6 Data
+                    Assimilation Research Testbed (DART) Reanalysis", DOI:10.5065/JG1E-8525
+                </gco:CharacterString>
+            </gmd:abstract>
+
+            <gmd:status>
+                <gmd:MD_ProgressCode
+                        codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed">completed
+                </gmd:MD_ProgressCode>
+            </gmd:status>
+
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>CESM-LENS Help</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR - Computational &amp; Information Systems Lab - Information
+                            Systems Division
+                        </gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>cisl-aws-lens@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                                codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">
+                            pointOfContact
+                        </gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ZARR</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dataset</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode"
+                                                codeListValue="theme">theme
+                        </gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2017-07-17</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode"
+                                                             codeListValue="publication">publication
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="inapplicable"/>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="inapplicable"/>
+                                    <gmd:contactInfo>
+                                        <gmd:CI_Contact>
+                                            <gmd:address>
+                                                <gmd:CI_Address>
+                                                    <gmd:electronicMailAddress>
+                                                        <gco:CharacterString>support@datacite.org</gco:CharacterString>
+                                                    </gmd:electronicMailAddress>
+                                                </gmd:CI_Address>
+                                            </gmd:address>
+                                            <gmd:onlineResource>
+                                                <gmd:CI_OnlineResource>
+                                                    <gmd:linkage>
+                                                        <gmd:URL>https://groups.google.com/forum/?hl=en&amp;fromgroups#!forum/datacite-metadata</gmd:URL>
+                                                    </gmd:linkage>
+                                                </gmd:CI_OnlineResource>
+                                            </gmd:onlineResource>
+                                        </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode"
+                                                         codeListValue="originator">originator
+                                        </gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Cloud-Hosted</gco:CharacterString>
+                    </gmd:keyword>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>CONTINENT > NORTH AMERICA</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>UCAR/NCAR > National Center for Atmospheric Research, University
+                            Corporation for Atmospheric Research
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE
+                            > AIR TEMPERATURE
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR
+                            RADIATION
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND
+                            COMPONENTS
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR
+                            INDICATORS > HUMIDITY > SPECIFIC HUMIDITY
+                        </gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2019-02-25</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode"
+                                                             codeListValue="revision">revision
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName gco:nilReason="missing"/>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>GCMD</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName gco:nilReason="missing"/>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode"
+                                                         codeListValue="originator">originator
+                                        </gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Data are freely available and reusable under the terms of the CC-BY-4.0
+                            license. See [Terms of Use](https://www.ucar.edu/terms-of-use/data).
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>If you use these data, we request that you provide attribution in any
+                            derived products.
+                        </gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+
+            <gmd:aggregationInfo>
+                <gmd:MD_AggregateInformation>
+                    <gmd:aggregateDataSetName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Cloud-Optimized Datasets</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2021-06-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                codeListValue="publication">publication
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:code>
+                                        <gco:CharacterString>edu.ucar.cisl::cloud-collection</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:identifier>
+                        </gmd:CI_Citation>
+                    </gmd:aggregateDataSetName>
+                    <gmd:associationType>
+                        <gmd:DS_AssociationTypeCode
+                                codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                codeListValue="largerWorkCitation">largerWorkCitation
+                        </gmd:DS_AssociationTypeCode>
+                    </gmd:associationType>
+                </gmd:MD_AggregateInformation>
+            </gmd:aggregationInfo>
+
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="degree">1.0</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gmd:LanguageCode
+                        codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng
+                </gmd:LanguageCode>
+            </gmd:language>
+            <gmd:characterSet gco:nilReason="missing"/>
+            <gmd:topicCategory gco:nilReason="missing"/>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description>
+                        <gco:CharacterString>6-Hourly, Weekly</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-180</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>180</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-90</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>90</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:beginPosition>2011-01-01</gml:beginPosition>
+                                    <gml:endPosition>2019-12-31</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                        codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid
+                </gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+
+            <gmd:language>
+                <gco:CharacterString>en</gco:CharacterString>
+            </gmd:language>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ZARR</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>5000000</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+
+</gmd:MD_Metadata>
+
