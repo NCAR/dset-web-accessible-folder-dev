@@ -47,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2021-12-08T14:34:31.314555</gco:DateTime>
+        <gco:DateTime>2021-12-08T15:34:31.314555</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -61,6 +61,28 @@
     <gmd:dataSetURI>
         <gco:CharacterString>https://doi.org/10.26024/y48t-q717</gco:CharacterString>
     </gmd:dataSetURI>
+
+    <gmd:metadataExtensionInfo>
+        <gmd:MD_MetadataExtensionInformation>
+            <gmd:extensionOnLineResource>
+                <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                        <gmd:URL>https://github.com/NCAR/cesm2-le-aws</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:name>
+                        <gco:CharacterString>Related Software and Documentation</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                        <gco:CharacterString>Jupyter Notebook, other documentation, and software tools</gco:CharacterString>
+                    </gmd:description>
+                    <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                            codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                    </gmd:function>
+                </gmd:CI_OnlineResource>
+            </gmd:extensionOnLineResource>
+        </gmd:MD_MetadataExtensionInformation>
+    </gmd:metadataExtensionInfo>
 
     <gmd:identificationInfo>
         <gmd:MD_DataIdentification>
@@ -364,7 +386,7 @@
             <gmd:extent>
                 <gmd:EX_Extent>
                     <gmd:description>
-                        <gco:CharacterString>Hourly, daily, monthly, seasonal, annual, monthly climatology, and seasonal climatology</gco:CharacterString>
+                        <gco:CharacterString>daily, monthly</gco:CharacterString>
                     </gmd:description>
                     <gmd:geographicElement>
                         <gmd:EX_GeographicBoundingBox>
