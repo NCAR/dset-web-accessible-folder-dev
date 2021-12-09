@@ -47,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2021-12-08T15:34:31.314555</gco:DateTime>
+        <gco:DateTime>2021-12-08T15:35:31.314555</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -334,7 +334,7 @@
                         <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode )</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
-                        <gco:CharacterString>Access constraints: https://www.ucar.edu/terms-of-use/data</gco:CharacterString>
+                        <gco:CharacterString>Access constraints: (https://www.ucar.edu/terms-of-use/data)</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
@@ -419,5 +419,25 @@
             </gmd:extent>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
+
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ZARR</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:transferSize>
+                        <gco:Real>70000000</gco:Real>
+                    </gmd:transferSize>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
 </gmd:MD_Metadata>
 
