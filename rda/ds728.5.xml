@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2022-02-23T09:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2022-02-23T13:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -240,15 +240,7 @@ Request to users from the data authors: The GPCP datasets are developed and main
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF4</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>NetCDF4</gco:CharacterString>
+            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -543,8 +535,8 @@ Request to users from the data authors: The GPCP datasets are developed and main
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds728.5_time_period">
-                  <gml:beginPosition>2020-01-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2020-04-21T00:00:00Z</gml:endPosition>
+                  <gml:beginPosition>1996-10-01</gml:beginPosition>
+                  <gml:endPosition>2020-08-01</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
