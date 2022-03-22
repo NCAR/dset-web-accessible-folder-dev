@@ -10,7 +10,7 @@
                                      http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
 
     <gmd:fileIdentifier>
-        <gco:CharacterString>edu.ucar.prototype.gdex::aeab59c9-4a30-47a6-bae8-9f0e66a11cdc</gco:CharacterString>
+        <gco:CharacterString>edu.ucar.prototype.gdex::ac218b2a-d725-44a9-83ec-53ef6fd5a826</gco:CharacterString>
     </gmd:fileIdentifier>
 
     <gmd:language>
@@ -51,7 +51,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2022-03-18T16:31:29-06:00</gco:DateTime>
+        <gco:DateTime>2022-03-22T08:15:28-06:00</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -63,7 +63,7 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://gdex.prototype.ucar.edu/dataset/version/id/aeab59c9-4a30-47a6-bae8-9f0e66a11cdc.html</gco:CharacterString>
+        <gco:CharacterString>https://handle.test.datacite.org/10.5065/khh0-6nko</gco:CharacterString>
     </gmd:dataSetURI>
 
     <gmd:metadataExtensionInfo>
@@ -163,6 +163,15 @@
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
+                    <gmd:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gmx:Anchor xlink:href="https://handle.test.datacite.org/10.5065/khh0-6nko" xlink:title="DOI" xlink:actuate="onRequest">
+                                    https://handle.test.datacite.org/10.5065/khh0-6nko
+                                </gmx:Anchor>
+                            </gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:identifier>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:organisationName>
@@ -315,14 +324,15 @@ To unpack the tar.gz files on Linux/OSX, issue the command `tar -xzvf [myFile].t
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-                <gmd:resourceFormat>
-                    <gmd:MD_Format>
-                        <gmd:name>
-                            <gco:CharacterString>application/gzip</gco:CharacterString>
-                        </gmd:name>
-                        <gmd:version gco:nilReason="unknown"/>
-                    </gmd:MD_Format>
-                </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>Gzip Compressed Archive (application/gzip)</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="unknown"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -446,7 +456,7 @@ To unpack the tar.gz files on Linux/OSX, issue the command `tar -xzvf [myFile].t
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/version/id/aeab59c9-4a30-47a6-bae8-9f0e66a11cdc.html</gmd:URL>
+                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/ac218b2a-d725-44a9-83ec-53ef6fd5a826.html</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>

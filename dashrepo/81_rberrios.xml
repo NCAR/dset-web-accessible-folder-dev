@@ -10,7 +10,7 @@
                                      http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
 
     <gmd:fileIdentifier>
-        <gco:CharacterString>edu.ucar.prototype.gdex::9aeefe05-c062-410e-8b75-14d0bf355b84</gco:CharacterString>
+        <gco:CharacterString>edu.ucar.prototype.gdex::3077b262-38da-4a70-9d33-26dba7de4d10</gco:CharacterString>
     </gmd:fileIdentifier>
 
     <gmd:language>
@@ -51,7 +51,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2022-03-18T16:31:16-06:00</gco:DateTime>
+        <gco:DateTime>2022-03-22T08:15:16-06:00</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -63,7 +63,7 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://gdex.prototype.ucar.edu/dataset/version/id/9aeefe05-c062-410e-8b75-14d0bf355b84.html</gco:CharacterString>
+        <gco:CharacterString>https://handle.test.datacite.org/10.5065/cam1-v353</gco:CharacterString>
     </gmd:dataSetURI>
 
 
@@ -94,6 +94,15 @@
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
+                    <gmd:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gmx:Anchor xlink:href="https://handle.test.datacite.org/10.5065/cam1-v353" xlink:title="DOI" xlink:actuate="onRequest">
+                                    https://handle.test.datacite.org/10.5065/cam1-v353
+                                </gmx:Anchor>
+                            </gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:identifier>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:organisationName>
@@ -216,14 +225,15 @@
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-                <gmd:resourceFormat>
-                    <gmd:MD_Format>
-                        <gmd:name>
-                            <gco:CharacterString>application/x-hdf</gco:CharacterString>
-                        </gmd:name>
-                        <gmd:version gco:nilReason="unknown"/>
-                    </gmd:MD_Format>
-                </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>Hierarchical Data Format File (application/x-hdf)</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="unknown"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -400,7 +410,7 @@
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/version/id/9aeefe05-c062-410e-8b75-14d0bf355b84.html</gmd:URL>
+                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/3077b262-38da-4a70-9d33-26dba7de4d10.html</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>
