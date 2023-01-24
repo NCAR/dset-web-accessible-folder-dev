@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2020-02-13T14:05:08-07:00</gco:DateTime>
+    <gco:DateTime>2023-01-24T12:42:54-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -193,16 +193,6 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>TRITON Office, Japan Agency for Marine-Earth Science and Technology, Japan</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:citedResponsibleParty>
-          <gmd:citedResponsibleParty>
-            <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
                 <gco:CharacterString>Deutscher Wetterdienst (German Meteorological  Service), Germany</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
@@ -253,7 +243,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Physical Sciences Division, Earth System Research Laboratory, OAR, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                <gco:CharacterString>Physical Sciences Laboratory, Earth System Research Laboratory, OAR, NOAA, U.S. Department of Commerce</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -274,6 +264,16 @@
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
                 <gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>TRITON Office, Japan Agency for Marine-Earth Science and Technology, Japan</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -372,7 +372,7 @@ IMPORTANT: The time period of data available is defined in two segments.
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>Binary</gco:CharacterString>
+            <gco:CharacterString>ASCII</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -380,7 +380,7 @@ IMPORTANT: The time period of data available is defined in two segments.
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>ASCII</gco:CharacterString>
+            <gco:CharacterString>Binary</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -428,25 +428,25 @@ IMPORTANT: The time period of data available is defined in two segments.
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>SHIPS</gco:CharacterString>
+            <gco:CharacterString>Ships</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>BUOYS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>COASTAL STATIONS > COASTAL STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>OCEAN WEATHER STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>MOVING SHIPS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>MOORINGS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>MOVING SHIPS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>DRIFTING OBSERVATION STATIONS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>COASTAL STATIONS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>BUOYS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -459,7 +459,7 @@ IMPORTANT: The time period of data available is defined in two segments.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-02-12</gco:Date>
+                    <gco:Date>2023-01-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -467,7 +467,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>9.1.5</gco:CharacterString>
+                <gco:CharacterString>15.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -502,7 +502,7 @@ IMPORTANT: The time period of data available is defined in two segments.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-02-10</gco:Date>
+                    <gco:Date>2023-01-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -510,7 +510,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>9.1.5</gco:CharacterString>
+                <gco:CharacterString>15.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -532,25 +532,25 @@ IMPORTANT: The time period of data available is defined in two segments.
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > WIND STRESS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > SURFACE WINDS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD FREQUENCY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > WIND STRESS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD FREQUENCY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > SURFACE WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -563,7 +563,7 @@ IMPORTANT: The time period of data available is defined in two segments.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2020-01-29</gco:Date>
+                    <gco:Date>2023-01-12</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -571,7 +571,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>9.1.5</gco:CharacterString>
+                <gco:CharacterString>15.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -668,7 +668,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Philippines</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Arctic Ocean</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -715,7 +715,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tokelau</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Cuba</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -762,7 +762,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Northern Mariana Islands</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominican Republic</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -809,7 +809,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Palau</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Haiti</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -856,7 +856,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Marshall Islands</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Jamaica</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -903,7 +903,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Federated States of Micronesia</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Puerto Rico</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -950,900 +950,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tuvalu</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tonga</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Samoa</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Niue</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > French Polynesia</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Fiji</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Kiribati</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Wake Island</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Cook Islands</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Vanuatu</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Solomon Islands</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Papua New Guinea</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > New Caledonia</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Eastern Pacific Ocean > Galapagos Islands</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Guam</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Indian Ocean > Malaysia</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Indian Ocean > Indonesia > Sumatra</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Indian Ocean > Indonesia</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Indian Ocean > Brunei Darussalam</gco:CharacterString>
-                  </gmd:code>
-                </gmd:MD_Identifier>
-              </gmd:geographicIdentifier>
-            </gmd:EX_GeographicDescription>
-          </gmd:geographicElement>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicDescription>
-              <gmd:geographicIdentifier>
-                <gmd:MD_Identifier>
-                  <gmd:authority>
-                    <gmd:CI_Citation>
-                      <gmd:title>
-                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
-                      </gmd:title>
-                      <gmd:alternateTitle>
-                        <gco:CharacterString>GCMD</gco:CharacterString>
-                      </gmd:alternateTitle>
-                      <gmd:date>
-                        <gmd:CI_Date>
-                          <gmd:date>
-                            <gco:Date>2015-03-26</gco:Date>
-                          </gmd:date>
-                          <gmd:dateType>
-                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                          </gmd:dateType>
-                        </gmd:CI_Date>
-                      </gmd:date>
-                      <gmd:edition>
-                        <gco:CharacterString>8.1</gco:CharacterString>
-                      </gmd:edition>
-                      <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                          <gmd:organisationName>
-                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
-                          </gmd:organisationName>
-                          <gmd:role>
-                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                          </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                      </gmd:citedResponsibleParty>
-                      <gmd:otherCitationDetails>
-                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
-                      </gmd:otherCitationDetails>
-                    </gmd:CI_Citation>
-                  </gmd:authority>
-                  <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > South Atlantic Ocean > Falkland Islands</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Corsica</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -1984,7 +1091,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Corsica</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Atlantic Ocean > South Atlantic Ocean > Falkland Islands</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2031,7 +1138,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Puerto Rico</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Indian Ocean > Brunei Darussalam</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2078,7 +1185,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Jamaica</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Indian Ocean > Indonesia</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2125,7 +1232,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Haiti</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Indian Ocean > Indonesia > Sumatra</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2172,7 +1279,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominican Republic</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Indian Ocean > Malaysia</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2219,7 +1326,7 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Cuba</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Guam</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2266,7 +1373,900 @@ IMPORTANT: The time period of data available is defined in two segments.
                     </gmd:CI_Citation>
                   </gmd:authority>
                   <gmd:code>
-                    <gco:CharacterString>Ocean > Arctic Ocean</gco:CharacterString>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Kiribati</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Central Pacific Ocean > Wake Island</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Eastern Pacific Ocean > Galapagos Islands</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > New Caledonia</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Papua New Guinea</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Solomon Islands</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Vanuatu</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Cook Islands</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Fiji</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > French Polynesia</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Niue</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Samoa</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tokelau</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tonga</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tuvalu</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Federated States of Micronesia</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Marshall Islands</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Northern Mariana Islands</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Palau</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:alternateTitle>
+                        <gco:CharacterString>GCMD</gco:CharacterString>
+                      </gmd:alternateTitle>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2015-03-26</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>8.1</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                      <gmd:otherCitationDetails>
+                        <gco:CharacterString>Valids List: Locations</gco:CharacterString>
+                      </gmd:otherCitationDetails>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>Ocean > Pacific Ocean > Western Pacific Ocean > Philippines</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:geographicIdentifier>
@@ -2277,7 +2277,7 @@ IMPORTANT: The time period of data available is defined in two segments.
               <gmd:extent>
                 <gml:TimePeriod gml:id="ds540.1_time_period">
                   <gml:beginPosition>1800-01</gml:beginPosition>
-                  <gml:endPosition>2016-09</gml:endPosition>
+                  <gml:endPosition>2022-03</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
