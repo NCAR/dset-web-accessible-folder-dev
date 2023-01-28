@@ -9,7 +9,7 @@
                                      http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
 
     <gmd:fileIdentifier>
-        <gco:CharacterString>edu.ucar.prototype.gdex::8cf82181-4c35-49d4-aa1f-b25f424fd177</gco:CharacterString>
+        <gco:CharacterString>edu.ucar.prototype.gdex::7544eb2e-ec0d-45b3-9bd2-96a6c9be2675</gco:CharacterString>
     </gmd:fileIdentifier>
 
     <gmd:language>
@@ -37,7 +37,7 @@
                     <gmd:address>
                         <gmd:CI_Address>
                             <gmd:electronicMailAddress>
-                                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                                <gco:CharacterString>gdex@ucar.edu</gco:CharacterString>
                             </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                     </gmd:address>
@@ -50,7 +50,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2023-01-28T00:04:51-07:00</gco:DateTime>
+        <gco:DateTime>2023-01-28T00:12:02-07:00</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -62,7 +62,7 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://handle.test.datacite.org/10.5065/kevg-4091</gco:CharacterString>
+        <gco:CharacterString>https://gdex.prototype.ucar.edu/dataset/id/7544eb2e-ec0d-45b3-9bd2-96a6c9be2675.html</gco:CharacterString>
     </gmd:dataSetURI>
 
     <gmd:metadataExtensionInfo>
@@ -70,7 +70,7 @@
             <gmd:extensionOnLineResource>
                 <gmd:CI_OnlineResource>
                     <gmd:linkage>
-                        <gmd:URL>https://dx.doi.org/10.1002/kin.20493.</gmd:URL>
+                        <gmd:URL>https://first.cut.org</gmd:URL>
                     </gmd:linkage>
                     <gmd:protocol>
                         <gco:CharacterString>https</gco:CharacterString>
@@ -79,10 +79,10 @@
                         <gco:CharacterString>browser</gco:CharacterString>
                     </gmd:applicationProfile>
                     <gmd:name>
-                        <gco:CharacterString>Publication</gco:CharacterString>
+                        <gco:CharacterString>First Cut</gco:CharacterString>
                     </gmd:name>
                     <gmd:description>
-                        <gco:CharacterString>The atmospheric oxidation of ethyl formate and ethyl acetate over a range of temperatures and oxygen partial pressures</gco:CharacterString>
+                        <gco:CharacterString>First cut.</gco:CharacterString>
                     </gmd:description>
                 </gmd:CI_OnlineResource>
             </gmd:extensionOnLineResource>
@@ -94,12 +94,12 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>ICARUS Chamber Experiment: NCAR_20050928_ETHYL ACETATE_Chlorine radical_No Seed_Cl2 / Ethyl Acetate Oxidation, 249 K, 150 Torr O2, #2</gco:CharacterString>
+                        <gco:CharacterString>Jason Test Dataset 1</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2022-01-06</gco:Date>
+                                <gco:Date>2023-01-27</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -109,26 +109,38 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2022-01-06</gco:Date>
+                                <gco:Date>2023-01-27</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
                             </gmd:dateType>
                         </gmd:CI_Date>
                     </gmd:date>
-                    <gmd:identifier>
-                        <gmd:MD_Identifier>
-                            <gmd:code>
-                                <gmx:Anchor xlink:href="https://handle.test.datacite.org/10.5065/kevg-4091" xlink:title="DOI" xlink:actuate="onRequest">
-                                    https://handle.test.datacite.org/10.5065/kevg-4091
-                                </gmx:Anchor>
-                            </gmd:code>
-                        </gmd:MD_Identifier>
-                    </gmd:identifier>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - GDEX</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>gdex@ucar.edu</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
                             <gmd:individualName>
-                                <gco:CharacterString>Orlando, John</gco:CharacterString>
+                                <gco:CharacterString>Jason Cunning</gco:CharacterString>
                             </gmd:individualName>
                             <gmd:organisationName>
                                 <gco:CharacterString>NCAR</gco:CharacterString>
@@ -138,7 +150,7 @@
                                     <gmd:address>
                                         <gmd:CI_Address>
                                             <gmd:electronicMailAddress>
-                                                <gco:CharacterString>orlando@ucar.edu</gco:CharacterString>
+                                                <gco:CharacterString>jcunning@ucar.edu</gco:CharacterString>
                                             </gmd:electronicMailAddress>
                                         </gmd:CI_Address>
                                     </gmd:address>
@@ -149,40 +161,15 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
-                    <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                            <gmd:organisationName>
-                                <gco:CharacterString>ICARUS Community</gco:CharacterString>
-                            </gmd:organisationName>
-                            <gmd:role>
-                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
-                            </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Goals:
-Determine atmospheric photoxidation pathways for ethyl acetate, specifically examine chemistry of CH3CH2C(O)OCH(O.)CH3 radical vs. T and O2 partial pressure
-
-Summary:
-Determine end-products of Cl-atom initiated oxidation of ethyl acetate vs. T and O2 partial pressure.
-
-Organization: NCAR
-Lab Affiliation: NCAR ACOM Boulder CO USA
-Chamber: NCAR First Floor Stainless Steel
-
-Experiment Category: Gas phase chemical reaction
-Oxidant: Chlorine radical
-Reactants: ETHYL ACETATE
-Reaction Type: Photooxidation
-Temperature: -24
-Pressure: 740 Torr</gco:CharacterString>
+                <gco:CharacterString>A long description is very much recommended if you want to publish this dataset quickly.</gco:CharacterString>
             </gmd:abstract>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
-                        <gco:CharacterString>, Geoff Tyndall</gco:CharacterString>
+                        <gco:CharacterString>Jason Cunning</gco:CharacterString>
                     </gmd:individualName>
                     <gmd:organisationName>
                         <gco:CharacterString>NCAR</gco:CharacterString>
@@ -192,7 +179,7 @@ Pressure: 740 Torr</gco:CharacterString>
                             <gmd:address>
                                 <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                        <gco:CharacterString>tyndall@ucar.edu</gco:CharacterString>
+                                        <gco:CharacterString>jcunning@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
@@ -203,14 +190,6 @@ Pressure: 740 Torr</gco:CharacterString>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-            <gmd:resourceFormat>
-                <gmd:MD_Format>
-                    <gmd:name>
-                        <gco:CharacterString>Compressed Archive File (application/zip)</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:version gco:nilReason="unknown"/>
-                </gmd:MD_Format>
-            </gmd:resourceFormat>
 
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
@@ -255,10 +234,7 @@ Pressure: 740 Torr</gco:CharacterString>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS</gco:CharacterString>
-                    </gmd:keyword>
-                    <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; TRACE GASES/TRACE SPECIES</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; AGRICULTURE &gt; AGRICULTURAL AQUATIC SCIENCES</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -294,7 +270,7 @@ Pressure: 740 Torr</gco:CharacterString>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>Other &gt; Physical Models &gt; Laboratory &gt; Laboratory</gco:CharacterString>
+                        <gco:CharacterString>Air-Based Platforms &gt; Balloons &gt; Balloons</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -330,7 +306,10 @@ Pressure: 740 Torr</gco:CharacterString>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>In Situ/Laboratory Instruments &gt; Chemical Meters/Analyzers</gco:CharacterString>
+                        <gco:CharacterString>Earth Remote Sensing Instruments</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Earth Remote Sensing Instruments &gt; Active Remote Sensing &gt; Altimeters</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -373,7 +352,7 @@ Pressure: 740 Torr</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>
-                            These data are openly accessible by all registered users. Accounts are available free of charge following the registration of user information with a valid email address.
+                            An access constraint
                         </gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
@@ -391,14 +370,6 @@ Pressure: 740 Torr</gco:CharacterString>
 
     <gmd:distributionInfo>
         <gmd:MD_Distribution>
-            <gmd:distributionFormat>
-                <gmd:MD_Format>
-                    <gmd:name>
-                        <gco:CharacterString>Compressed Archive File (application/zip)</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:version gco:nilReason="unknown"/>
-                </gmd:MD_Format>
-            </gmd:distributionFormat>
             <gmd:distributor>
                 <gmd:MD_Distributor>
                     <gmd:distributorContact>
@@ -418,7 +389,7 @@ Pressure: 740 Torr</gco:CharacterString>
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/8cf82181-4c35-49d4-aa1f-b25f424fd177.html</gmd:URL>
+                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/7544eb2e-ec0d-45b3-9bd2-96a6c9be2675.html</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>
@@ -427,7 +398,7 @@ Pressure: 740 Torr</gco:CharacterString>
                                 <gco:CharacterString>browser</gco:CharacterString>
                             </gmd:applicationProfile>
                             <gmd:name>
-                                <gco:CharacterString>ICARUS Chamber Experiment: NCAR_20050928_ETHYL ACETATE_Chlorine radical_No Seed_Cl2 / Ethyl Acetate Oxidation, 249 K, 150 Torr O2, #2</gco:CharacterString>
+                                <gco:CharacterString>Jason Test Dataset 1</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
                                 <gco:CharacterString>Metadata Link</gco:CharacterString>
