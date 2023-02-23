@@ -39,7 +39,7 @@
                 <gco:CharacterString>80307-3000</gco:CharacterString>
               </gmd:postalCode>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -61,7 +61,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2018-07-13T19:39:49Z</gco:DateTime>
+    <gco:DateTime>2022-12-14T23:50:49Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -70,71 +70,17 @@
     <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://data.eol.ucar.edu/dataset/61.003</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.26023/Y8HC-X52H-PE06</gco:CharacterString>
   </gmd:dataSetURI>
-  <gmd:referenceSystemInfo>
-    <gmd:MD_ReferenceSystem>
-      <gmd:referenceSystemIdentifier>
-        <gmd:RS_Identifier>
-          <gmd:authority>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>European Petroleum Survey Group (EPSG) Geodetic Parameter Registry</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:Date>2008-11-12</gco:Date>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-              <gmd:citedResponsibleParty>
-                <gmd:CI_ResponsibleParty>
-                  <gmd:individualName gco:nilReason="missing"/>
-                  <gmd:organisationName>
-                    <gco:CharacterString>European Petroleum Survey Group</gco:CharacterString>
-                  </gmd:organisationName>
-                  <gmd:positionName gco:nilReason="missing"/>
-                  <gmd:contactInfo>
-                    <gmd:CI_Contact>
-                      <gmd:onlineResource>
-                        <gmd:CI_OnlineResource>
-                          <gmd:linkage>
-                            <gmd:URL>http://www.epsg-registry.org</gmd:URL>
-                          </gmd:linkage>
-                        </gmd:CI_OnlineResource>
-                      </gmd:onlineResource>
-                    </gmd:CI_Contact>
-                  </gmd:contactInfo>
-                  <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                  </gmd:role>
-                </gmd:CI_ResponsibleParty>
-              </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-          </gmd:authority>
-          <gmd:code>
-            <gco:CharacterString>urn:ogc:def:crs:EPSG:4326</gco:CharacterString>
-          </gmd:code>
-          <gmd:version>
-            <gco:CharacterString>6.18.3</gco:CharacterString>
-          </gmd:version>
-        </gmd:RS_Identifier>
-      </gmd:referenceSystemIdentifier>
-    </gmd:MD_ReferenceSystem>
-  </gmd:referenceSystemInfo>
   <gmd:metadataExtensionInfo>
     <gmd:MD_MetadataExtensionInformation>
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://data.eol.ucar.edu/datafile/nph-get/61.003/caspr_readme.txt</gmd:URL>
+            <gmd:URL>https://data.eol.ucar.edu/datafile/nph-get/61.003/caspr_readme.txt</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
+            <gco:CharacterString>https</gco:CharacterString>
           </gmd:protocol>
           <gmd:name>
             <gco:CharacterString>Documentation #1</gco:CharacterString>
@@ -154,7 +100,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>ARCMIP: CASPR-ARCMIP 1998 Dataset (Curry)</gco:CharacterString>
+            <gco:CharacterString>CASPR-ARCMIP 1998 Dataset</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>61.003</gco:CharacterString>
@@ -169,12 +115,18 @@
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:edition>
+          <gmd:editionDate>
+            <gco:DateTime>2010-02-02T08:47:42Z</gco:DateTime>
+          </gmd:editionDate>
           <gmd:identifier>
             <gmd:MD_Identifier>
               <gmd:authority>
                 <gmd:CI_Citation>
                   <gmd:title>
-                    <gco:CharacterString>ARCMIP: CASPR-ARCMIP 1998 Dataset (Curry)</gco:CharacterString>
+                    <gco:CharacterString>CASPR-ARCMIP 1998 Dataset</gco:CharacterString>
                   </gmd:title>
                   <gmd:date>
                     <gmd:CI_Date>
@@ -211,7 +163,7 @@
                                 <gco:CharacterString>80307-3000</gco:CharacterString>
                               </gmd:postalCode>
                               <gmd:electronicMailAddress>
-                                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                               </gmd:electronicMailAddress>
                             </gmd:CI_Address>
                           </gmd:address>
@@ -239,20 +191,35 @@
               </gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gmx:Anchor xlink:href="https://doi.org/10.26023/Y8HC-X52H-PE06" xlink:title="DOI" xlink:actuate="onRequest">doi:10.26023/Y8HC-X52H-PE06</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty/>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Randolph A. Reeder</gco:CharacterString>
+              </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
+                <gco:CharacterString>University of Colorado</gco:CharacterString>
               </gmd:organisationName>
-              <gmd:positionName>
-                <gco:CharacterString>EOL Data Support</gco:CharacterString>
-              </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>303 492-4266</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:deliveryPoint>
-                        <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                        <gco:CharacterString>Aerospace Engineering Dept.</gco:CharacterString>
                       </gmd:deliveryPoint>
                       <gmd:city>
                         <gco:CharacterString>Boulder</gco:CharacterString>
@@ -261,27 +228,17 @@
                         <gco:CharacterString>CO</gco:CharacterString>
                       </gmd:administrativeArea>
                       <gmd:postalCode>
-                        <gco:CharacterString>80307-3000</gco:CharacterString>
+                        <gco:CharacterString>80309</gco:CharacterString>
                       </gmd:postalCode>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                        <gco:CharacterString>rreeder@cloud.colorado.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
-                  <gmd:onlineResource>
-                    <gmd:CI_OnlineResource>
-                      <gmd:linkage>
-                        <gmd:URL>https://data.eol.ucar.edu/</gmd:URL>
-                      </gmd:linkage>
-                      <gmd:name>
-                        <gco:CharacterString>homepage</gco:CharacterString>
-                      </gmd:name>
-                    </gmd:CI_OnlineResource>
-                  </gmd:onlineResource>
                 </gmd:CI_Contact>
               </gmd:contactInfo>
               <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:citedResponsibleParty>
@@ -317,25 +274,28 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Judith A. Curry</gco:CharacterString>
+              </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Georgia Institute of Technology</gco:CharacterString>
+                <gco:CharacterString>Georgia Insitute of Technology</gco:CharacterString>
               </gmd:organisationName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>221 Bobby Dodd Way</gco:CharacterString>
-                      </gmd:deliveryPoint>
                       <gmd:city>
                         <gco:CharacterString>Atlanta</gco:CharacterString>
                       </gmd:city>
                       <gmd:administrativeArea>
-                        <gco:CharacterString>GA</gco:CharacterString>
+                        <gco:CharacterString>Georgia</gco:CharacterString>
                       </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>30332</gco:CharacterString>
-                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>curryja@eas.gatech.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                 </gmd:CI_Contact>
@@ -350,9 +310,6 @@
       <gmd:abstract>
         <gco:CharacterString>This dataset consists of SHEBA AVHRR Arctic satellite retrievals corresponding to the Arctic Regional Climate Model Intercomparison Project (ARCMIP) domain location for 1998. This is a subset of the original SHEBA AVHRR retrievals that correspond to the locations in the domain.txt file included with the data.</gco:CharacterString>
       </gmd:abstract>
-      <gmd:credit>
-        <gco:CharacterString>Please acknowledge NCAR/EOL in your publications with text such as: Data provided by NCAR/EOL under the sponsorship of the National Science Foundation. https://data.eol.ucar.edu/</gco:CharacterString>
-      </gmd:credit>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
@@ -384,7 +341,7 @@
                     <gco:CharacterString>80307-3000</gco:CharacterString>
                   </gmd:postalCode>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -448,33 +405,6 @@
           </gmd:role>
         </gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
-      <gmd:resourceMaintenance>
-        <gmd:MD_MaintenanceInformation>
-          <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
-          </gmd:maintenanceAndUpdateFrequency>
-        </gmd:MD_MaintenanceInformation>
-      </gmd:resourceMaintenance>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>ASCII: ASCII Text (text/plain)</gco:CharacterString>
-          </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>2013-05-01T00:03:40Z</gco:CharacterString>
-          </gmd:version>
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>TAR/GNU Zip (.tar.gz/.tgz) (application/x-gzip)</gco:CharacterString>
-          </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>2014-12-22T22:32:17Z</gco:CharacterString>
-          </gmd:version>
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
@@ -521,7 +451,7 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>Satellite, NOAA AVHRR Imagery</gco:CharacterString>
+            <gco:CharacterString>NOAA POES</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
@@ -531,11 +461,78 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>Arctic</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>Satellite</gco:CharacterString>
           </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Arctic</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD TOP PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD TOP TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; CLOUD OPTICAL DEPTH/THICKNESS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SURFACE THERMAL PROPERTIES &gt; SKIN TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; SKIN TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ALBEDO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; LONGWAVE RADIATION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD RADIATIVE TRANSFER &gt; CLOUD RADIATIVE FORCING</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SHORTWAVE RADIATION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; TOTAL PRECIPITABLE WATER</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; CLOUD DROPLET CONCENTRATION/SIZE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-02-27</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>National Aeronautics and Space Administration</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
       <gmd:resourceConstraints>
@@ -591,74 +588,9 @@
   </gmd:identificationInfo>
   <gmd:distributionInfo>
     <gmd:MD_Distribution>
-      <gmd:distributionFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>ASCII: ASCII Text (text/plain)</gco:CharacterString>
-          </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>2013-05-01T00:03:40Z</gco:CharacterString>
-          </gmd:version>
-        </gmd:MD_Format>
-      </gmd:distributionFormat>
-      <gmd:distributionFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>TAR/GNU Zip (.tar.gz/.tgz) (application/x-gzip)</gco:CharacterString>
-          </gmd:name>
-          <gmd:version>
-            <gco:CharacterString>2014-12-22T22:32:17Z</gco:CharacterString>
-          </gmd:version>
-        </gmd:MD_Format>
-      </gmd:distributionFormat>
       <gmd:distributor>
         <gmd:MD_Distributor>
-          <gmd:distributorContact>
-            <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:positionName>
-                <gco:CharacterString>EOL Data Support</gco:CharacterString>
-              </gmd:positionName>
-              <gmd:contactInfo>
-                <gmd:CI_Contact>
-                  <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>PO Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307-3000</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
-                  </gmd:address>
-                  <gmd:onlineResource>
-                    <gmd:CI_OnlineResource>
-                      <gmd:linkage>
-                        <gmd:URL>https://data.eol.ucar.edu/</gmd:URL>
-                      </gmd:linkage>
-                      <gmd:name>
-                        <gco:CharacterString>homepage</gco:CharacterString>
-                      </gmd:name>
-                    </gmd:CI_OnlineResource>
-                  </gmd:onlineResource>
-                </gmd:CI_Contact>
-              </gmd:contactInfo>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
-          </gmd:distributorContact>
+          <gmd:distributorContact/>
         </gmd:MD_Distributor>
       </gmd:distributor>
       <gmd:transferOptions>
@@ -669,13 +601,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://data.eol.ucar.edu/dataset/61.003</gmd:URL>
+                <gmd:URL>https://data.eol.ucar.edu//dataset/61.003</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>ARCMIP: CASPR-ARCMIP 1998 Dataset (Curry) homepage</gco:CharacterString>
+                <gco:CharacterString>CASPR-ARCMIP 1998 Dataset homepage</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>Dataset homepage</gco:CharacterString>
@@ -685,13 +617,13 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>http://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=61.003</gmd:URL>
+                <gmd:URL>https://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=61.003</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
-                <gco:CharacterString>http</gco:CharacterString>
+                <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>ARCMIP: CASPR-ARCMIP 1998 Dataset (Curry) Data Order Form</gco:CharacterString>
+                <gco:CharacterString>CASPR-ARCMIP 1998 Dataset Data Order Form</gco:CharacterString>
               </gmd:name>
               <gmd:description>
                 <gco:CharacterString>Dataset order request form. Data files are made available via FTP.</gco:CharacterString>
@@ -705,11 +637,4 @@
       </gmd:transferOptions>
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
-  <gmd:metadataMaintenance>
-    <gmd:MD_MaintenanceInformation>
-      <gmd:maintenanceAndUpdateFrequency>
-        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
-      </gmd:maintenanceAndUpdateFrequency>
-    </gmd:MD_MaintenanceInformation>
-  </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
