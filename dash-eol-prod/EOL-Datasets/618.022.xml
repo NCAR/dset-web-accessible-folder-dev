@@ -39,7 +39,7 @@
                 <gco:CharacterString>80307-3000</gco:CharacterString>
               </gmd:postalCode>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -61,7 +61,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2022-07-06T16:40:20Z</gco:DateTime>
+    <gco:DateTime>2023-06-22T22:18:58Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -140,7 +140,7 @@
                                 <gco:CharacterString>80307-3000</gco:CharacterString>
                               </gmd:postalCode>
                               <gmd:electronicMailAddress>
-                                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                               </gmd:electronicMailAddress>
                             </gmd:CI_Address>
                           </gmd:address>
@@ -199,9 +199,9 @@
                       <gmd:postalCode>
                         <gco:CharacterString>80307-3000</gco:CharacterString>
                       </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>USA</gco:CharacterString>
-                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
@@ -224,36 +224,17 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
+                <gco:CharacterString>NSF/NCAR GV Team</gco:CharacterString>
               </gmd:organisationName>
-              <gmd:positionName>
-                <gco:CharacterString>EOL Data Support</gco:CharacterString>
-              </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>PO Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307-3000</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
+                    <gmd:CI_Address/>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>https://data.eol.ucar.edu/</gmd:URL>
+                        <gmd:URL>https://www.eol.ucar.edu/node/150</gmd:URL>
                       </gmd:linkage>
                       <gmd:name>
                         <gco:CharacterString>homepage</gco:CharacterString>
@@ -270,7 +251,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>A 2D-S instrument contains two 2D probes which image particles as they pass through beams that are oriented orthogonally to each other and the airflow. If particles also lie in the intersection of the sensitive areas of the two beams, they are seen by both 2D probes. This dataset contains This dataset contains Fast 2D-S imagery collected aboard the NCAR GV during the TI3GER project.</gco:CharacterString>
+        <gco:CharacterString>A 2D-S instrument contains two 2D probes which image particles as they pass through beams that are oriented orthogonally to each other and the airflow. If particles also lie in the intersection of the sensitive areas of the two beams, they are seen by both 2D probes. This dataset contains Fast 2D-S imagery collected aboard the NCAR GV during the TI3GER project.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -303,7 +284,7 @@
                     <gco:CharacterString>80307-3000</gco:CharacterString>
                   </gmd:postalCode>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -349,7 +330,7 @@
                     <gco:CharacterString>80307-3000</gco:CharacterString>
                   </gmd:postalCode>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -413,13 +394,62 @@
           </gmd:thesaurusName>
         </gmd:MD_Keywords>
       </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; CLOUD DROPLET CONCENTRATION/SIZE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; CLOUD LIQUID WATER/ICE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; PARTICLE SIZE DISTRIBUTION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; AEROSOL EXTINCTION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD DROPLET DISTRIBUTION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Global Change Master Directory (GCMD)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-02-27</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>8.5</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>National Aeronautics and Space Administration</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
           <gmd:useLimitation>
             <gco:CharacterString>none</gco:CharacterString>
           </gmd:useLimitation>
           <gmd:otherConstraints>
-            <gco:CharacterString>Access to these data requires a password.</gco:CharacterString>
+            <gco:CharacterString>none</gco:CharacterString>
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
@@ -490,9 +520,9 @@
                       <gmd:postalCode>
                         <gco:CharacterString>80307-3000</gco:CharacterString>
                       </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>USA</gco:CharacterString>
-                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                      </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
@@ -538,7 +568,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://data.eol.ucar.edu/cgi-bin/codiac_pw/fgr_form/id=618.022</gmd:URL>
+                <gmd:URL>https://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=618.022</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
