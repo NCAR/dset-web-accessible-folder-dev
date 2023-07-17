@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2023-07-16T23:05:02-07:00</gco:DateTime>
+    <gco:DateTime>2023-07-17T13:05:02-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -163,7 +163,7 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-data-assimilation-system-gdas</gmd:URL>
+            <gmd:URL>https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00379</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
             <gco:CharacterString>https</gco:CharacterString>
@@ -175,7 +175,7 @@
             <gco:CharacterString>Related Resource #4</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>GDAS radiance BUFR data archive at NCEI</gco:CharacterString>
+            <gco:CharacterString>NCEI GDAS BUFR archive (select data order for 'GDAS Daily BUFR files')</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -209,29 +209,6 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>https://github.com/JCSDA/py-ncepbufr</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>https</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #6</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>Python interface to NCEP BUFRLIB</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
             <gmd:URL>https://github.com/pytroll/python-bufr</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
@@ -241,7 +218,7 @@
             <gco:CharacterString>browser</gco:CharacterString>
           </gmd:applicationProfile>
           <gmd:name>
-            <gco:CharacterString>Related Resource #7</gco:CharacterString>
+            <gco:CharacterString>Related Resource #6</gco:CharacterString>
           </gmd:name>
           <gmd:description>
             <gco:CharacterString>Python BUFR reader and converter to NetCDF</gco:CharacterString>
