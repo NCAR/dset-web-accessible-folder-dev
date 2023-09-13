@@ -9,7 +9,7 @@
                                      http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
 
     <gmd:fileIdentifier>
-        <gco:CharacterString>edu.ucar.prototype.gdex::0aec74c6-97b6-41d8-ac74-c697b661d8fd</gco:CharacterString>
+        <gco:CharacterString>edu.ucar.prototype.gdex::9c39d682-1bb9-4940-b9d6-821bb9c940b5</gco:CharacterString>
     </gmd:fileIdentifier>
 
     <gmd:language>
@@ -50,7 +50,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2023-09-07T08:00:46-06:00</gco:DateTime>
+        <gco:DateTime>2023-09-12T08:08:28-06:00</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -62,7 +62,7 @@
     </gmd:metadataStandardVersion>
 
     <gmd:dataSetURI>
-        <gco:CharacterString>https://handle.test.datacite.org/10.70101/bk6k-y105</gco:CharacterString>
+        <gco:CharacterString>https://handle.test.datacite.org/10.70101/aqvv-ka18</gco:CharacterString>
     </gmd:dataSetURI>
 
 
@@ -71,12 +71,12 @@
             <gmd:citation>
                 <gmd:CI_Citation>
                     <gmd:title>
-                        <gco:CharacterString>ICARUS Chamber Experiment: Nguyen Group_20220525_Nitrogen Dioxide/Ammonium Sulfate/Ozone/Hydrogen Peroxide/beta-Pinene_Nitrate radical_Ammonium sulfate</gco:CharacterString>
+                        <gco:CharacterString>CESM2 SMOOTH experiments</gco:CharacterString>
                     </gmd:title>
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2023-09-07</gco:Date>
+                                <gco:Date>2023-09-12</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -86,7 +86,7 @@
                     <gmd:date>
                         <gmd:CI_Date>
                             <gmd:date>
-                                <gco:Date>2023-09-07</gco:Date>
+                                <gco:Date>2023-09-12</gco:Date>
                             </gmd:date>
                             <gmd:dateType>
                                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="modified">modified</gmd:CI_DateTypeCode>
@@ -96,26 +96,47 @@
                     <gmd:identifier>
                         <gmd:MD_Identifier>
                             <gmd:code>
-                                <gmx:Anchor xlink:href="https://handle.test.datacite.org/10.70101/bk6k-y105" xlink:title="DOI" xlink:actuate="onRequest">
-                                    https://handle.test.datacite.org/10.70101/bk6k-y105
+                                <gmx:Anchor xlink:href="https://handle.test.datacite.org/10.70101/aqvv-ka18" xlink:title="DOI" xlink:actuate="onRequest">
+                                    https://handle.test.datacite.org/10.70101/aqvv-ka18
                                 </gmx:Anchor>
                             </gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:identifier>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>Nguyen, Tran</gco:CharacterString>
-                            </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>Nguyen Group</gco:CharacterString>
+                                <gco:CharacterString>UCAR/NCAR - GDEX</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:contactInfo>
                                 <gmd:CI_Contact>
                                     <gmd:address>
                                         <gmd:CI_Address>
                                             <gmd:electronicMailAddress>
-                                                <gco:CharacterString>tbn@ucdavis.edu</gco:CharacterString>
+                                                <gco:CharacterString>gdex@ucar.edu</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Alice K. DuVivier</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>duvivier@ucar.edu</gco:CharacterString>
                                             </gmd:electronicMailAddress>
                                         </gmd:CI_Address>
                                     </gmd:address>
@@ -128,54 +149,49 @@
                     </gmd:citedResponsibleParty>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Marika M. Holland</gco:CharacterString>
+                            </gmd:individualName>
                             <gmd:organisationName>
-                                <gco:CharacterString>ICARUS Community</gco:CharacterString>
+                                <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
                             </gmd:organisationName>
                             <gmd:role>
-                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Christine A. Shields</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
-                <gco:CharacterString>Goals:
-To quantify SOA yield and gas-phase product yields (particularly of C10 nitrooxy-hydroperoxide and other organonitrates) from humid nighttime RO2+HO2-dominated NO3-initiated chemistry of b-pinene.
-
-Summary:
-The chamber was humidified, after which H2O2, NO2, and O3 were injected in the chamber and allowed to equilibrate, forming NO3 and HO2. Ammonium sulfate seed particles were injected. Then b-pinene was injected and decayed by simultaneous reaction with ozone and NO3. Gas phase organics were monitored by CF3O- CIMS (units: normalized counts), particle formation was monitored by SMPS, and RH/T/O3/NOx were monitored throughout.
-
-O3/NOx data sometimes require post-correction not applied here, including subtraction of an ozone interference from H2O2 (1 ppm H2O2 is detected as about 12 ppb ozone) and correction for an in-line HEPA filter (see timeline for applicable timing) that scrubs about 10% of NO2 and 45% of ozone.
-
-CIMS ran out of reagent gas ~90 minutes before end of expt.
-
-Organization: Nguyen Group
-Lab Affiliation: UC Davis
-Chamber: Tran&apos;s big bag of air
-
-Experiment Category: Gas phase chemical reaction, Aerosol formation
-Oxidant: Nitrate radical
-Reactants: Nitrogen Dioxide, Ammonium Sulfate, Ozone, Hydrogen Peroxide, beta-Pinene
-Reaction Type: Dark oxidation
-Relative Humidity: 67
-Temperature: 22
-Seed Name: Ammonium sulfate
-Pressure: approx 1 atm</gco:CharacterString>
+                <gco:CharacterString>The Arctic is undergoing a pronounced and rapid transformation in response to changing greenhouse gasses, including reduction in sea ice extent and thickness. There are also projected increases in near-surface Arctic winds. This study addresses how the winds trends may be driven by changing surface roughness and/or stability in different Arctic regions. These data are from five experiments using CESM2 with an artificially decreased sea ice roughness to match that of the open ocean. The data included include only select variables from the atmospheric and sea ice model components. These variables are included because they were used for figures and analysis in the associated manuscript: DuVivier, A.K. et al. (2023) &quot;Investigating future Arctic sea ice loss and near-surface wind speed changes related to surface roughness using the Community Earth System Model.&quot; Journal of Geophysical Research - Atmospheres.</gco:CharacterString>
             </gmd:abstract>
+            <gmd:credit>
+                <gco:CharacterString>This material is based upon work supported by the National Center for Atmospheric Research (NCAR), which is a major facility sponsored by the National Science Foundation (NSF) under Cooperative Agreement 1852977. The CESM project is supported primarily by NSF. Support for the people who performed these simulations was provided by NSF Office of Polar Programs Award #2043588, NSF Integrative Activities Award #1947282, the U.S. Department of Energy, Office of Science, Office of Biological &amp; Environmental Research (BER), Regional and Global Model Analysis (RGMA) component of the Earth and Environmental System Modeling Program under Award Number DE-SC0022070.</gco:CharacterString>
+            </gmd:credit>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
-                        <gco:CharacterString>Bates, Kelvin</gco:CharacterString>
+                        <gco:CharacterString>Alice K. DuVivier</gco:CharacterString>
                     </gmd:individualName>
                     <gmd:organisationName>
-                        <gco:CharacterString>Nguyen Group</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - Climate and Global Dynamics Laboratory</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:contactInfo>
                         <gmd:CI_Contact>
                             <gmd:address>
                                 <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                        <gco:CharacterString>kelvinhbates@gmail.com</gco:CharacterString>
+                                        <gco:CharacterString>duvivier@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
@@ -186,14 +202,6 @@ Pressure: approx 1 atm</gco:CharacterString>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-            <gmd:resourceFormat>
-                <gmd:MD_Format>
-                    <gmd:name>
-                        <gco:CharacterString>Compressed Archive File (application/zip)</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:version gco:nilReason="unknown"/>
-                </gmd:MD_Format>
-            </gmd:resourceFormat>
 
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
@@ -238,10 +246,13 @@ Pressure: approx 1 atm</gco:CharacterString>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; WIND SPEED</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:keyword>
-                        <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; TRACE GASES/TRACE SPECIES</gco:CharacterString>
+                        <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; CRYOSPHERIC INDICATORS &gt; CLIMATE WARMING</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; CRYOSPHERIC INDICATORS &gt; SEA ICE CONCENTRATION</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -277,7 +288,7 @@ Pressure: approx 1 atm</gco:CharacterString>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
-                        <gco:CharacterString>In Situ/Laboratory Instruments &gt; Chemical Meters/Analyzers</gco:CharacterString>
+                        <gco:CharacterString>Other &gt; Models &gt; Cesm &gt; Ncar Community Earth System Model</gco:CharacterString>
                     </gmd:keyword>
                     <gmd:type>
                         <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -288,7 +299,7 @@ Pressure: approx 1 atm</gco:CharacterString>
                                 <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
                             </gmd:title>
                             <gmd:alternateTitle>
-                                <gco:CharacterString>Instruments and Sensors Keywords</gco:CharacterString>
+                                <gco:CharacterString>Platforms and Sources Keywords</gco:CharacterString>
                             </gmd:alternateTitle>
                             <gmd:date>
                                 <gmd:CI_Date>
@@ -320,12 +331,19 @@ Pressure: approx 1 atm</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>
-                            These data are openly accessible by all registered users. Accounts are available free of charge following the registration of user information with a valid email address.
+                            None
                         </gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
 
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="degreeGrid">1.0</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
 
             <gmd:language>
                 <gco:CharacterString>eng; USA</gco:CharacterString>
@@ -337,9 +355,9 @@ Pressure: approx 1 atm</gco:CharacterString>
                     <gmd:temporalElement>
                         <gmd:EX_TemporalExtent>
                             <gmd:extent>
-                                <gml:TimePeriod gml:id="tp_0306d0cc-c944-4a0f-86d0-ccc9445a0ff7">
-                                    <gml:beginPosition>2022-05-25</gml:beginPosition>
-                                    <gml:endPosition>2022-05-25</gml:endPosition>
+                                <gml:TimePeriod gml:id="tp_f9691cf7-4841-458e-a91c-f74841558e81">
+                                    <gml:beginPosition>2015</gml:beginPosition>
+                                    <gml:endPosition>2100</gml:endPosition>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
@@ -352,14 +370,6 @@ Pressure: approx 1 atm</gco:CharacterString>
 
     <gmd:distributionInfo>
         <gmd:MD_Distribution>
-            <gmd:distributionFormat>
-                <gmd:MD_Format>
-                    <gmd:name>
-                        <gco:CharacterString>Compressed Archive File (application/zip)</gco:CharacterString>
-                    </gmd:name>
-                    <gmd:version gco:nilReason="unknown"/>
-                </gmd:MD_Format>
-            </gmd:distributionFormat>
             <gmd:distributor>
                 <gmd:MD_Distributor>
                     <gmd:distributorContact>
@@ -379,7 +389,7 @@ Pressure: approx 1 atm</gco:CharacterString>
                     <gmd:onLine>
                         <gmd:CI_OnlineResource>
                             <gmd:linkage>
-                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/0aec74c6-97b6-41d8-ac74-c697b661d8fd.html</gmd:URL>
+                                <gmd:URL>https://gdex.prototype.ucar.edu/dataset/id/9c39d682-1bb9-4940-b9d6-821bb9c940b5.html</gmd:URL>
                             </gmd:linkage>
                             <gmd:protocol>
                                 <gco:CharacterString>https</gco:CharacterString>
@@ -388,7 +398,7 @@ Pressure: approx 1 atm</gco:CharacterString>
                                 <gco:CharacterString>browser</gco:CharacterString>
                             </gmd:applicationProfile>
                             <gmd:name>
-                                <gco:CharacterString>ICARUS Chamber Experiment: Nguyen Group_20220525_Nitrogen Dioxide/Ammonium Sulfate/Ozone/Hydrogen Peroxide/beta-Pinene_Nitrate radical_Ammonium sulfate</gco:CharacterString>
+                                <gco:CharacterString>CESM2 SMOOTH experiments</gco:CharacterString>
                             </gmd:name>
                             <gmd:description>
                                 <gco:CharacterString>Metadata Link</gco:CharacterString>
