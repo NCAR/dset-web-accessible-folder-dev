@@ -21,7 +21,7 @@
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
             <gmd:individualName>
-                <gco:CharacterString>UCAR COSMIC Program</gco:CharacterString>
+                <gco:CharacterString>COSMIC Data Support</gco:CharacterString>
             </gmd:individualName>
             <gmd:organisationName>
                 <gco:CharacterString/>
@@ -47,7 +47,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2021-01-15T12:38:28.594344</gco:DateTime>
+        <gco:DateTime>2023-09-05T11:07:02.341516</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -141,7 +141,7 @@
                 <gmd:citedResponsibleParty>
                        <gmd:CI_ResponsibleParty>
                            <gmd:individualName>
-                               <gco:CharacterString>University Corporation for Atmospheric Research (UCAR): UCAR Community Programs (UCP): Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC)</gco:CharacterString>
+                               <gco:CharacterString>University Corporation For Atmospheric Research (UCAR):Constellation Observing System For Meteorology, Ionosphere, And Climate (COSMIC)</gco:CharacterString>
                            </gmd:individualName>
                         <gmd:organisationName>
                             <gco:CharacterString/>
@@ -176,7 +176,7 @@
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
-                        <gco:CharacterString>UCAR COSMIC Program</gco:CharacterString>
+                        <gco:CharacterString>COSMIC Data Support</gco:CharacterString>
                     </gmd:individualName>
                     <gmd:organisationName>
                         <gco:CharacterString/>
@@ -200,7 +200,38 @@
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
-
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>binary instrument data</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>text/plain</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>BUFR</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>netCDF</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version gco:nilReason="missing"/>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -345,6 +376,16 @@
                             </gmd:northBoundLatitude>
                         </gmd:EX_GeographicBoundingBox>
                     </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="timePeriodDate">
+                                    <gml:beginPosition>2019-10-01</gml:beginPosition>
+                                    <gml:endPosition indeterminatePosition="now">now</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
                 </gmd:EX_Extent>
             </gmd:extent>
         </gmd:MD_DataIdentification>
