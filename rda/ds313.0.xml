@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2023-12-11T12:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2023-12-13T12:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,7 +87,7 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://doi.org/10.5065/QTSA-G775</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/ds313.0/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
@@ -209,7 +209,7 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF</gco:CharacterString>
+            <gco:CharacterString>NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -217,7 +217,7 @@
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF4</gco:CharacterString>
+            <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -294,7 +294,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>17.3</gco:CharacterString>
+                <gco:CharacterString>17.3      </gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -340,7 +340,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>17.3</gco:CharacterString>
+                <gco:CharacterString>17.3      </gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -378,20 +378,6 @@
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
-      <gmd:extent>
-        <gmd:EX_Extent>
-          <gmd:temporalElement>
-            <gmd:EX_TemporalExtent>
-              <gmd:extent>
-                <gml:TimePeriod gml:id="ds313.0_time_period">
-                  <gml:beginPosition>2004-01-02T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2023-12-09T21:00:00Z</gml:endPosition>
-                </gml:TimePeriod>
-              </gmd:extent>
-            </gmd:EX_TemporalExtent>
-          </gmd:temporalElement>
-        </gmd:EX_Extent>
-      </gmd:extent>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo>
@@ -443,9 +429,6 @@
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>34021958</gco:Real>
-         </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
