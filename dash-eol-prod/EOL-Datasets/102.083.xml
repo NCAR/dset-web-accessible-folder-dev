@@ -54,7 +54,7 @@
                         <gco:CharacterString>80307-3000</gco:CharacterString>
                      </gmd:postalCode>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                        <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -77,7 +77,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-    <gco:DateTime>2021-10-01T16:05:10Z</gco:DateTime>
+      <gco:DateTime>2024-02-07T22:48:45Z</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -93,7 +93,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://data.eol.ucar.edu/datafile/nph-get/102.083/Sherr_2008_metadata.pdf</gmd:URL>
+                  <gmd:URL>https://data.eol.ucar.edu//file/download/41B9C747F25/Sherr_2008_metadata.pdf</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -117,7 +117,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://data.eol.ucar.edu/dataset/102.061</gmd:URL>
+                  <gmd:URL>https://data.eol.ucar.edu//dataset/102.061</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -141,7 +141,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://data.eol.ucar.edu/dataset/102.126</gmd:URL>
+                  <gmd:URL>https://data.eol.ucar.edu//dataset/102.126</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -230,7 +230,7 @@
                                                 <gco:CharacterString>80307-3000</gco:CharacterString>
                                              </gmd:postalCode>
                                              <gmd:electronicMailAddress>
-                                                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                                              </gmd:electronicMailAddress>
                                           </gmd:CI_Address>
                                        </gmd:address>
@@ -292,9 +292,9 @@
                                  <gmd:postalCode>
                                     <gco:CharacterString>80307-3000</gco:CharacterString>
                                  </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>USA</gco:CharacterString>
-                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
@@ -487,7 +487,7 @@
                               <gco:CharacterString>80307-3000</gco:CharacterString>
                            </gmd:postalCode>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                              <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -553,6 +553,14 @@
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>XLS: Excel (application/vnd.ms-excel)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="inapplicable"/>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
@@ -616,6 +624,9 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
+                  <gco:CharacterString>Plankton</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
                   <gco:CharacterString>Oceanography</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
@@ -623,9 +634,6 @@
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>Biology</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Plankton</gco:CharacterString>
                </gmd:keyword>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -683,15 +691,15 @@
           <gmd:aggregateDataSetName>
             <gmd:CI_Citation>
               <gmd:title>
-                <gco:CharacterString>Bering Ecosystem Study</gco:CharacterString>
+             <gco:CharacterString>Bering Ecosystem Study</gco:CharacterString>
               </gmd:title>
               <gmd:alternateTitle>
-                <gco:CharacterString>BEST</gco:CharacterString>
+             <gco:CharacterString>BEST</gco:CharacterString>
               </gmd:alternateTitle>
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2019-06-15</gco:Date>
+                 <gco:Date>2019-06-15</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -701,7 +709,7 @@
               <gmd:identifier>
                 <gmd:MD_Identifier>
                   <gmd:code>
-                    <gco:CharacterString>edu.ucar.eol::102.000</gco:CharacterString>
+                 <gco:CharacterString>edu.ucar.eol::102.000</gco:CharacterString>
                   </gmd:code>
                 </gmd:MD_Identifier>
               </gmd:identifier>
@@ -830,9 +838,9 @@
                                  <gmd:postalCode>
                                     <gco:CharacterString>80307-3000</gco:CharacterString>
                                  </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>USA</gco:CharacterString>
-                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
@@ -863,7 +871,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>https://data.eol.ucar.edu/dataset/102.083</gmd:URL>
+                        <gmd:URL>https://data.eol.ucar.edu//dataset/102.083</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>https</gco:CharacterString>

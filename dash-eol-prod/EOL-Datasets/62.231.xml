@@ -54,7 +54,7 @@
                         <gco:CharacterString>80307-3000</gco:CharacterString>
                      </gmd:postalCode>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                        <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -77,7 +77,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-    <gco:DateTime>2021-10-01T16:05:10Z</gco:DateTime>
+      <gco:DateTime>2024-02-07T22:46:59Z</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
@@ -86,14 +86,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>https://doi.org/doi:10.5065/D6QZ281M</gco:CharacterString>
+      <gco:CharacterString>https://doi.org/10.5065/D6QZ281M</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://data.eol.ucar.edu/datafile/nph-get/62.231/README_DEVOL.txt</gmd:URL>
+                  <gmd:URL>https://data.eol.ucar.edu//file/download/4163B31A3F4/README_DEVOL.txt</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -117,7 +117,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://data.eol.ucar.edu/dataset/62.232</gmd:URL>
+                  <gmd:URL>https://data.eol.ucar.edu//dataset/62.232</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -206,7 +206,7 @@
                                                 <gco:CharacterString>80307-3000</gco:CharacterString>
                                              </gmd:postalCode>
                                              <gmd:electronicMailAddress>
-                                                <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                                                <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                                              </gmd:electronicMailAddress>
                                           </gmd:CI_Address>
                                        </gmd:address>
@@ -238,7 +238,7 @@
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
-                        <gmx:Anchor xlink:href="https://doi.org/doi:10.5065/D6QZ281M"
+                        <gmx:Anchor xlink:href="https://doi.org/10.5065/D6QZ281M"
                                     xlink:title="DOI"
                                     xlink:actuate="onRequest">doi:10.5065/D6QZ281M</gmx:Anchor>
                      </gmd:code>
@@ -268,9 +268,9 @@
                                  <gmd:postalCode>
                                     <gco:CharacterString>80307-3000</gco:CharacterString>
                                  </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>USA</gco:CharacterString>
-                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
@@ -497,7 +497,7 @@
                               <gco:CharacterString>80307-3000</gco:CharacterString>
                            </gmd:postalCode>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>eol-datahelp@ucar.edu</gco:CharacterString>
+                              <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -563,6 +563,22 @@
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ASCII: ASCII Text (text/plain)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="inapplicable"/>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>XLS: Excel (application/vnd.ms-excel)</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="inapplicable"/>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
@@ -612,13 +628,10 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>USCGC Healy - HLY</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>USCGC Healy</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>Ships</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>USCGC Healy - HLY</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
@@ -629,13 +642,13 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
+                  <gco:CharacterString>Ship</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
                   <gco:CharacterString>Arctic</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>Biogeochemical</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>Ship</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>Benthos</gco:CharacterString>
@@ -645,10 +658,10 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NITRITE</gco:CharacterString>
+                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NITRATE</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NUTRIENTS</gco:CharacterString>
+                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NITRITE</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; OXYGEN</gco:CharacterString>
@@ -657,7 +670,7 @@
                   <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; AMMONIA</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NITRATE</gco:CharacterString>
+                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; NUTRIENTS</gco:CharacterString>
                </gmd:keyword>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
@@ -773,9 +786,9 @@
                                  <gmd:postalCode>
                                     <gco:CharacterString>80307-3000</gco:CharacterString>
                                  </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>USA</gco:CharacterString>
-                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>datahelp@eol.ucar.edu</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
                            <gmd:onlineResource>
@@ -806,7 +819,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>https://data.eol.ucar.edu/dataset/62.231</gmd:URL>
+                        <gmd:URL>https://data.eol.ucar.edu//dataset/62.231</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>https</gco:CharacterString>
@@ -822,10 +835,10 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=62.231</gmd:URL>
+                        <gmd:URL>https://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=62.231</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
-                        <gco:CharacterString>http</gco:CharacterString>
+                        <gco:CharacterString>https</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
                         <gco:CharacterString>HLY-02-03 Porewater Oxidant Concentration and Reduction Rates [Devol, A. H. and J. P. Christensen] Data Order Form</gco:CharacterString>
