@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-03-12T15:05:01-07:00</gco:DateTime>
+    <gco:DateTime>2024-03-14T21:05:02-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -94,7 +94,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>GATE Ship Quadra Full Resolution Radar, June to September 1974</gco:CharacterString>
+            <gco:CharacterString>GATE Radar Reflectivity Data from the Canadian Ship Quadra</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
             <gco:CharacterString>ds845.2</gco:CharacterString>
@@ -128,7 +128,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This collection of Ship Quadra radar data from the GATE experiment was received from Canada.</gco:CharacterString>
+        <gco:CharacterString>The C-band radar aboard the Canadian ship C.C.G.S. Quadra collected reflectivity data at 1 degree by 1 km resolution at various antenna tilt angles. A single 360-degree scan at a fixed tilt angle took approximately 20 seconds to complete. A Digital Video Integrator and Processor (DVIP) converted the analog reflectivities to 8-bit digital values. The center of the first gate was 10.5 km from the radar, with equivalent reflectivities recorded for 200 gates in the radial direction.
+
+NCAR received the binary-format Quadra radar data on half-inch magnetic tapes from the Radar Weather Observatory at McGill University in April 1977. The raw reflectivity data were converted to netCDF format in 2024, and additionally, netCDF files containing full scans (sweeps) at each tilt angle were produced, with equivalent reflectivity values converted to dBZ.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
