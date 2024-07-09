@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-07-02T10:05:02-07:00</gco:DateTime>
+    <gco:DateTime>2024-07-08T19:05:01-07:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -89,6 +89,29 @@
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/ds651.2/</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/working-groups/climate/simulations/cesm2-83level</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>CVCWG website with simulation details</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -138,7 +161,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString> Summary: Set of simulations undertaken to see the effects of running CAM with 83 levels.</gco:CharacterString>
+        <gco:CharacterString>In the next generation of the Community Atmosphere Model (CAM7), the model top will be raised and the vertical resolution will be increased. The model top will be approximately 80 km (compared to 40 km in older generations), and the grid spacing in the free troposphere and lower stratosphere will be reduced to about 500 m compared to around 1137m in older generations. In addition to this, extra levels will be added to the boundary layer and the lowest model level will be lowered. Overall, this "mid-top" version of CAM7 will have 93 levels. However, many other changes will also be present in CAM7 such as physics updates and the new spectral element dynamical core, making it challenging to identify the role of this enhanced resolution in changes between CAM7 and CAM6.
+
+This dataset consists of a suite of simulations that use CAM6 physics and the finite volume dynamical core, but with CAM7's grid except for the changes to the levels in the boundary layer i.e., an 83 level model. The boundary layer levels are not changed because once those are changed, some re-tuning of the physical parameterizations is needed precluding a clean comparison and identification of the impact of vertical resolution. Only minimal changes to CAM6 physics have been applied to these simulations; the non-orographic gravity wave drag scheme was turned on, the upper boundary condition was changed such that any remaining gravity wave momentum flux is deposited at the model lid, and some minor tuning of the gravity wave drag settings was also performed to optimize the behavior of the QBO. These simulations can, therefore, be compared with existing CAM6 simulations to identify the impacts of this raising of the model lid and change to the resolution of the free troposphere and lower stratosphere. These simulations have an internally generated QBO and a relatively good representation of the stratospheric polar vortices and can be used to explore climate variability and change in the presence of those features.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -261,6 +286,9 @@
           <gmd:keyword>
             <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
           </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
+          </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
               <gmd:title>
@@ -303,6 +331,9 @@
         <gmd:MD_Keywords>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > BIOSPHERE > VEGETATION > PHOTOSYNTHETICALLY ACTIVE RADIATION > FRACTION OF ABSORBED PHOTOSYNTHETICALLY ACTIVE RADIATION (FAPAR)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
