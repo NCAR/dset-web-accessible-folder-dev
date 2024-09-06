@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-08-04T02:12:14Z</gco:DateTime>
+    <gco:DateTime>2024-09-06T23:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -239,7 +239,11 @@
       <gmd:abstract>
         <gco:CharacterString> This dataset contains Version 07 of the Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG Level 3 "Final Run" precipitation analysis at 0.1 degree, half-hour resolution.
 
- From the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary]: The Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG is a NASA product estimating global surface precipitation rates at a high resolution of 0.1 degree every half-hour beginning 2000. It is part of the joint NASA-JAXA Global Precipitation Measurement (GPM) mission, using the GPM Core Observatory satellite as the standard to combine precipitation observations from an international constellation of satellites using advanced techniques. IMERG can be used for global-scale applications as well as over regions with sparse or no reliable surface observations. The fine spatial and temporal resolution of IMERG data allows them to be accumulated to the scale of the application for increased skill. IMERG has three Runs with varying latencies in response to a range of application needs: rapid-response applications (Early Run, 4-hour latency), same/next-day applications (Late Run, 14-hour latency), and post-real-time research (Final Run, 3.5-month latency). While IMERG strives for consistency and accuracy, satellite estimates of precipitation are expected to have lower skill over frozen surfaces, complex terrain, and coastal zones. As well, the changing GPM satellite constellation over time may introduce artifacts that affect studies focusing on multi-year changes.</gco:CharacterString>
+ From the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary]: The Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG is a NASA product estimating global surface precipitation rates at a high resolution of 0.1 degree every half-hour beginning June 2000. It is part of the joint NASA-JAXA Global Precipitation Measurement (GPM) mission, using the GPM Core Observatory satellite (for June 2014 to the present) and the Tropical Rainfall Measuring Mission (TRMM) satellite (for June 2000 to May 2014) as the standard to combine precipitation observations from an international constellation of satellites using advanced techniques. IMERG can be used for global-scale applications, including over regions with sparse or no reliable surface observations. The fine spatial and temporal resolution of IMERG data allows them to be accumulated to the scale of a user's application for increased skill. IMERG has three Runs with varying latencies in response to a range of application needs: rapid-response applications (Early Run, 4-hour latency), same/next-day applications (Late Run, 14-hour latency), and post-real-time research (Final Run, 3.5-month latency). While IMERG strives for consistency and accuracy, satellite estimates of precipitation are expected to have lower skill over frozen surfaces, complex terrain, and coastal zones. As well, the changing GPM satellite constellation over time may introduce artifacts that affect studies focusing on multi-year changes.
+
+ This dataset is the GPM Level 3 IMERG Final Half-Hourly 0.1 degree x 0.1 degree (GPM_3IMERGHH). The dataset represents the Final Run estimate of the native half-hourly precipitation rate in millimeters per hour. The complete global "precipitation" data field is complete except for a few grid boxes at the poles. However, missing values are very common in the microwave-only "MWprecipitation" data field.
+
+ See the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary] for the complete dataset abstract and more information.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -380,7 +384,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-23</gco:Date>
+                    <gco:Date>2024-08-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -388,7 +392,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.0</gco:CharacterString>
+                <gco:CharacterString>19.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -432,7 +436,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-24</gco:Date>
+                    <gco:Date>2024-08-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -440,7 +444,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.0</gco:CharacterString>
+                <gco:CharacterString>19.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -511,7 +515,7 @@
               <gmd:extent>
                 <gml:TimePeriod gml:id="d731000_time_period">
                   <gml:beginPosition>2000-06-02T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2024-02-01T23:30:00Z</gml:endPosition>
+                  <gml:endPosition>2024-04-01T23:30:00Z</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>

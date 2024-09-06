@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-08-22T22:05:02Z</gco:DateTime>
+    <gco:DateTime>2024-09-06T23:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -239,8 +239,8 @@
       <gmd:abstract>
         <gco:CharacterString> This dataset contains Version 07 of the Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG Level 3 "Final Run" precipitation analysis at 0.1 degree, daily resolution.
 
- From the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary]: The Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG is a NASA product estimating global surface precipitation rates at a high resolution of 0.1 degree every half-hour beginning 2000. It is part of the joint NASA-JAXA Global Precipitation Measurement (GPM) mission, using the GPM Core Observatory satellite as the standard to combine precipitation observations from an international constellation of satellites using advanced techniques. IMERG can be used for global-scale applications as well as over regions with sparse or no reliable surface observations. The fine spatial and temporal resolution of IMERG data allows them to be accumulated to the scale of the application for increased skill. IMERG has three Runs with varying latencies in response to a range of application needs: rapid-response applications (Early Run, 4-hour latency), same/next-day applications (Late Run, 14-hour latency), and post-real-time research (Final Run, 3.5-month latency). While IMERG strives for consistency and accuracy, satellite estimates of precipitation are expected to have lower skill over frozen surfaces, complex terrain, and coastal zones. As well, the changing GPM satellite constellation over time may introduce artifacts that affect studies focusing on multi-year changes. 
- This dataset is the GPM Level 3 IMERG *Final* Daily 10 x 10 km (GPM_3IMERGDF) derived from the half-hourly GPM_3IMERGHH. The derived result represents the Final estimate of the daily mean precipitation rate in mm/day. The dataset is produced by first computing the mean precipitation rate in (mm/hour) in every grid cell, and then multiplying the result by 24. This minimizes the possible dry bias in versions before "07", in the simple daily totals for cells where less than 48 half-hourly observations are valid for the day. The latter under-sampling is very rare in the combined microwave-infrared and rain gauge dataset, variable "precipitation", and appears in higher latitudes. Thus, in most cases users of global "precipitation" data will not notice any difference. This correction, however, is noticeable in the high-quality microwave retrieval, variable "MWprecipitation", where the occurrence of less than 48 valid half-hourly samples per day is very common. The counts of the valid half-hourly samples per day have always been provided as a separate variable, and users of daily data were advised to pay close attention to that variable and use it to calculate the correct precipitation daily rates. Starting with version "07", this is done in production to minimize possible misinterpretations of the data. The counts are still provided in the data, but they are only given to gauge the significance of the daily rates, and reconstruct the simple totals if someone wishes to do so.
+ From the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary]: The Integrated Multi-satellitE Retrievals for GPM (IMERG) IMERG is a NASA product estimating global surface precipitation rates at a high resolution of 0.1 degree every half-hour beginning June 2000. It is part of the joint NASA-JAXA Global Precipitation Measurement (GPM) mission, using the GPM Core Observatory satellite (for June 2014 to present) and the Tropical Rainfall Measuring Mission (TRMM) satellite (for June 2000 to May 2014) as the standard to combine precipitation observations from an international constellation of satellites using advanced techniques. IMERG can be used for global-scale applications, including over regions with sparse or no reliable surface observations. The fine spatial and temporal resolution of IMERG data allows them to be accumulated to the scale of a user's application for increased skill. IMERG has three Runs with varying latencies in response to a range of application needs: rapid-response applications (Early Run, 4-hour latency), same/next-day applications (Late Run, 14-hour latency), and post-real-time research (Final Run, 4-month latency). While IMERG strives for consistency and accuracy, satellite estimates of precipitation are expected to have lower skill over frozen surfaces, complex terrain, and coastal zones. As well, the changing GPM satellite constellation over time may introduce artifacts that affect studies focusing on multi-year changes. 
+ This dataset is the GPM Level 3 IMERG Final Daily 0.1 degree x 0.1 degree (GPM_3IMERGDF) computed from the half-hourly GPM_3IMERGHH. The dataset represents the Final Run estimate of the daily mean precipitation rate in mm/day. The dataset is produced by first computing the mean precipitation rate in (mm/hour) in every non-missing grid cell, and then multiplying the result by 24. This minimizes the possible dry bias in versions before V07, in which the simple daily totals were computed even if the cell had less than 48 non-missing half-hourly observations for the day. This under-sampling is very rare in V07 except directly at the poles. Thus, in most cases users of global "precipitation" data field would not notice any difference. This change, however, is noticeable in the microwave-only data field, variable "MWprecipitation", where less than 48 valid half-hourly samples per day is very common. The counts of the valid half-hourly samples per day have always been provided as a separate variable, and users of daily data were advised to pay close attention to that variable and use it to calculate the correct precipitation daily rates. Starting with V07, this is done in production to minimize possible misinterpretations of the data. The counts are still provided in the data, but they are only given so that users may gauge the significance of the daily rates, and reconstruct the simple totals if someone wishes to do so.
 
  See the official GPM IMERG site at NASA GES DISC [https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary] for the complete dataset abstract and more information.</gco:CharacterString>
       </gmd:abstract>
@@ -383,7 +383,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-26</gco:Date>
+                    <gco:Date>2024-08-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -391,7 +391,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.1</gco:CharacterString>
+                <gco:CharacterString>19.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -426,7 +426,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-29</gco:Date>
+                    <gco:Date>2024-08-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -434,7 +434,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.1</gco:CharacterString>
+                <gco:CharacterString>19.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -486,7 +486,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.1</gco:CharacterString>
+                <gco:CharacterString>19.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
