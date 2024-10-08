@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-10-08T20:05:02Z</gco:DateTime>
+    <gco:DateTime>2024-10-08T22:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -211,9 +211,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Atmospheric river detection tool (ARDT) catalogues, source data, and ocean daily used for Shields, Hui et al., 2024 Communications Earth &amp; Environment) entitled "Response of the upper ocean to northeast Pacific atmospheric rivers under climate change".
+        <gco:CharacterString>Atmospheric river detection tool (ARDT) catalogues, source data, and ocean daily used for Shields, Li et al., 2024 Communications Earth &amp; Environment entitled "Response of the upper ocean to northeast Pacific atmospheric rivers under climate change".
 
-Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalogues. AR detection data includes timestamps and geographic location for AR landfalls where atmospheric rivers intersect the North American coastline. (2) Source AR tracking data from CESM1.3 High Resolution model (25km atmosphere/land, ~0.1 ocean/ice) historical and RCP8.5 simulations 1920-2100, 6 hourly intervals. Note for ARDT catalogues, timestamps and latitude can be matched to the source data for full AR spatial footprints and was originally produced under the iHESP project and now part of MESACLIP. (3) Ocean daily data use for all results in Shields, Hui, et al. 2024. including SST, SSH, HXML, EVAP, SEN, PREC, SSS. Files are NetCDF format.</gco:CharacterString>
+Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalogues. AR detection data includes timestamps and geographic location for AR landfalls where atmospheric rivers intersect the North American coastline (1960-2100). (2) Source AR tracking data from CESM1.3 High Resolution model (25km atmosphere/land, ~0.1 ocean/ice) historical and RCP8.5 simulations 1960-2100, 6 hourly intervals. Note for ARDT catalogues, timestamps and latitude can be matched to the source data for full AR spatial footprints and was originally produced under the iHESP project and now part of MESACLIP. (3) Ocean daily data use for all results in Shields, Hui, et al. 2024. including SST, SSH, HXML, EVAP, SEN, PREC, SSS (1920-2100). Files are NetCDF format.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -377,7 +377,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > TOTAL PRECIPITABLE WATER</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD DYNAMICS > WATER VAPOR TRANSPORT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -442,7 +442,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="d651006_time_period">
-                  <gml:beginPosition>1950-01</gml:beginPosition>
+                  <gml:beginPosition>1920-01</gml:beginPosition>
                   <gml:endPosition>2100-12</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
