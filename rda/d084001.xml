@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-12-16T19:05:01Z</gco:DateTime>
+    <gco:DateTime>2024-12-16T22:05:01Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -94,29 +94,6 @@
       <gmd:extensionOnLineResource>
         <gmd:CI_OnlineResource>
           <gmd:linkage>
-            <gmd:URL>http://www.emc.ncep.noaa.gov/index.php?branch=GFS</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>http</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #1</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>NCEP GFS model description</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
             <gmd:URL>http://www.nco.ncep.noaa.gov/pmb/products/gfs/#GFS</gmd:URL>
           </gmd:linkage>
           <gmd:protocol>
@@ -126,7 +103,7 @@
             <gco:CharacterString>browser</gco:CharacterString>
           </gmd:applicationProfile>
           <gmd:name>
-            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
           <gmd:description>
             <gco:CharacterString>NCEP GFS 'real-time' operational data access</gco:CharacterString>
@@ -149,33 +126,10 @@
             <gco:CharacterString>browser</gco:CharacterString>
           </gmd:applicationProfile>
           <gmd:name>
-            <gco:CharacterString>Related Resource #3</gco:CharacterString>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
           </gmd:name>
           <gmd:description>
             <gco:CharacterString>AWS hosted 4-week rolling archive</gco:CharacterString>
-          </gmd:description>
-        </gmd:CI_OnlineResource>
-      </gmd:extensionOnLineResource>
-    </gmd:MD_MetadataExtensionInformation>
-  </gmd:metadataExtensionInfo>
-  <gmd:metadataExtensionInfo>
-    <gmd:MD_MetadataExtensionInformation>
-      <gmd:extensionOnLineResource>
-        <gmd:CI_OnlineResource>
-          <gmd:linkage>
-            <gmd:URL>https://github.com/creare-com/podpac-examples/blob/master/notebooks/demos/gfs.ipynb</gmd:URL>
-          </gmd:linkage>
-          <gmd:protocol>
-            <gco:CharacterString>https</gco:CharacterString>
-          </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
-          <gmd:name>
-            <gco:CharacterString>Related Resource #4</gco:CharacterString>
-          </gmd:name>
-          <gmd:description>
-            <gco:CharacterString>Example code to access AWS data.</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -195,10 +149,10 @@
             <gco:CharacterString>browser</gco:CharacterString>
           </gmd:applicationProfile>
           <gmd:name>
-            <gco:CharacterString>Related Resource #5</gco:CharacterString>
+            <gco:CharacterString>Related Resource #3</gco:CharacterString>
           </gmd:name>
           <gmd:description>
-            <gco:CharacterString>NOAA GFS data from 2022 to the present on Amazon Web Services</gco:CharacterString>
+            <gco:CharacterString>NOAA GFS data from 2021 to the present on Amazon Web Services</gco:CharacterString>
           </gmd:description>
         </gmd:CI_OnlineResource>
       </gmd:extensionOnLineResource>
@@ -243,7 +197,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The NCEP operational Global Forecast System analysis and forecast grids are on a 0.25 by 0.25 global latitude longitude grid. Grids include analysis and forecast time steps at a 3 hourly interval from 0 to 240, and a 12 hourly interval from 240 to 384. Model forecast runs occur at 00, 06, 12, and 18 UTC daily. For real-time data access please use the NCEP data server [http://www.nco.ncep.noaa.gov/pmb/products/gfs/].</gco:CharacterString>
+        <gco:CharacterString>The NCEP operational Global Forecast System analysis and forecast grids are on a 0.25 by 0.25 global latitude longitude grid. Grids include analysis and forecast time steps at a 3 hourly interval from 0 to 240, and a 12 hourly interval from 240 to 384. Model forecast runs occur at 00, 06, 12, and 18 UTC daily. For real-time data access please use the NCEP data server [http://www.nco.ncep.noaa.gov/pmb/products/gfs/].
+
+NOTE: This dataset now has a direct, continuously updating copy located on AWS (https://noaa-gfs-bdp-pds.s3.amazonaws.com/index.html [https://noaa-gfs-bdp-pds.s3.amazonaws.com/index.html]). Therefore, the RDA will stop updating this dataset in early 2025</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
