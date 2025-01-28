@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-12-31T01:05:01Z</gco:DateTime>
+    <gco:DateTime>2025-01-28T23:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -135,6 +135,29 @@
       </gmd:extensionOnLineResource>
     </gmd:MD_MetadataExtensionInformation>
   </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://github.com/NCAR/era5_to_int</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #3</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Example Code to convert ERA5 NetCDF to WRF Intermediate Format</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -176,11 +199,11 @@
       <gmd:abstract>
         <gco:CharacterString>After many years of research and technical preparation, the production of a new ECMWF climate reanalysis to replace ERA-Interim is in progress. ERA5 is the fifth generation of ECMWF atmospheric reanalyses of the global climate, which started with the FGGE reanalyses produced in the 1980s, followed by ERA-15, ERA-40 and most recently ERA-Interim. ERA5 will cover the period January 1950 to near real time.
 
-ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resolution (one fourth the spatial resolution of the operational model) and a 62 kilometer resolution ten member 4D-Var ensemble of data assimilation (EDA) in CY41r2 of ECMWF's Integrated Forecast System (IFS) with 137 hybrid sigma-pressure (model) levels in the vertical, up to a top level of 0.01 hPa. Atmospheric data on these levels are interpolated to 37 pressure levels (the same levels as in ERA-Interim). Surface or single level data are also available, containing 2D parameters such as precipitation, 2 meter temperature, top of atmosphere radiation and vertical integrals over the entire atmosphere. The IFS is coupled to a soil model, the parameters of which are also designated as surface parameters, and an ocean wave model. Generally, the data is available at an hourly frequency and consists of analyses and short (12 hour) forecasts, initialized twice daily from analyses at 06 and 18 UTC. Most analyses parameters are also available from the forecasts. There are a number of forecast parameters, e.g. mean rates and accumulations, that are not available from the analyses.
+ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resolution (one fourth the spatial resolution of the operational model) and a 62 kilometer resolution ten member 4D-Var ensemble of data assimilation (EDA) in CY41r2 of ECMWF's Integrated Forecast System (IFS) with 137 hybrid sigma-pressure (model) levels in the vertical, up to a top level of 0.01 hPa. Atmospheric data on these levels are interpolated to 37 pressure levels (the same levels as in ERA-Interim). Surface or single level data are also available, containing 2D parameters such as precipitation, 2 meter temperature, top of atmosphere radiation and vertical integrals over the entire atmosphere. The IFS is coupled to a soil model, the parameters of which are also designated as surface parameters, and an ocean wave model. Generally, the data is available at an hourly frequency and consists of analyses and short (12 hour) forecasts, initialized twice daily from analyses at 06 and 18 UTC. Most analyses parameters are also available from the forecasts. There are a number of forecast parameters, for example mean rates and accumulations, that are not available from the analyses.
 
 Improvements to ERA5, compared to ERA-Interim, include use of HadISST.2, reprocessed ECMWF climate data records (CDR), and implementation of RTTOV11 radiative transfer. Variational bias corrections have not only been applied to satellite radiances, but also ozone retrievals, aircraft observations, surface pressure, and radiosonde profiles.
 
-Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for the CISL RDA at NCAR. The netCDF-4/HDF5 version is the de facto RDA ERA5 online data format.</gco:CharacterString>
+Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for the CISL RDA at NCAR. The netCDF-4/HDF5 version is the default RDA ERA5 online data format.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -250,6 +273,13 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -314,7 +344,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-12-17</gco:Date>
+                    <gco:Date>2025-01-22</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -322,7 +352,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>20.2</gco:CharacterString>
+                <gco:CharacterString>20.4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -369,7 +399,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-12-17</gco:Date>
+                    <gco:Date>2025-01-22</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -377,7 +407,7 @@ Please note: DECS is producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>20.2</gco:CharacterString>
+                <gco:CharacterString>20.4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
