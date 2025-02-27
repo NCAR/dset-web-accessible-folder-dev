@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-02-13T01:05:01Z</gco:DateTime>
+    <gco:DateTime>2025-02-27T19:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -112,6 +112,29 @@
       </gmd:extensionOnLineResource>
     </gmd:MD_MetadataExtensionInformation>
   </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/working-groups/climate/simulations/cesm1-single-forcing-le</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>CESM1 Single Forcing Large Ensemble Project</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -124,7 +147,7 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2025-02-12</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2025-01-24</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -162,6 +185,16 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Simpson, I. R.</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
               <gmd:organisationName><gco:CharacterString>Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory</gco:CharacterString></gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
@@ -171,7 +204,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The CESM Large Ensemble Project is a publicly available set of climate model simulations intended for advancing understanding of internal climate variability and climate change. All simulations are performed with the nominal 1-degree latitude/longitude version of the Community Earth System Model version 1 (CESM1) with CAM5.2 as its atmospheric component. The Large Ensemble Project includes a 40-member ensemble of fully-coupled CESM1 simulations for the period 1920-2100. Each member is subject to the same radiative forcing scenario (historical up to 2005 and RCP8.5 thereafter), but begins from a slightly different initial atmospheric state (created by randomly perturbing temperatures at the level of round-off error). The Large Ensemble Project also includes a set of multi-century control simulations with the atmosphere, slab-ocean, and fully-coupled versions of CESM1 under pre-industrial (1850) radiative forcing conditions (2600 years, 900 years and 1800 years in length, respectively). Details of all model simulations may be found in Kay et al. (2015).</gco:CharacterString>
+        <gco:CharacterString>The CESM Large Ensemble Project is a publicly available set of climate model simulations intended for advancing understanding of internal climate variability and climate change. All simulations are performed with the nominal 1-degree latitude/longitude version of the Community Earth System Model version 1 (CESM1) with CAM5.2 as its atmospheric component. The Large Ensemble Project includes a 40-member ensemble of fully-coupled CESM1 simulations for the period 1920-2100. Each member is subject to the same radiative forcing scenario (historical up to 2005 and RCP8.5 thereafter), but begins from a slightly different initial atmospheric state (created by randomly perturbing temperatures at the level of round-off error). The Large Ensemble Project also includes a set of multi-century control simulations with the atmosphere, slab-ocean, and fully-coupled versions of CESM1 under pre-industrial (1850) radiative forcing conditions (2600 years, 900 years and 1800 years in length, respectively). Details of these model simulations may be found in Kay et al. (2015).
+
+In addition to the simulations above the CESM1 Single Forcing experiments are also available in this archive. The CESM1 Single Forcing Large Ensemble Project is a set of climate model simulations that are useful for addressing the individual roles of anthropogenic aerosols, greenhouse gases and land-use / land-cover in historical and future climate change. These simulations use the same model, forcing configuration and initialization protocol as the CESM1 Large Ensemble Project, but keep either industrial aerosols (AER), biomass burning aerosols (BMB), greenhouse gases (GHG) or land-use / land-cover (LULC) conditions fixed at 1920 while all other external anthropogenic and natural forcing factors evolve following historical and future (RCP8.5) scenarios. There are 3 sets of ensembles: XGHG (20 members, 1920-2080), XAER (20 members, 1920-2080), and XBMB (15 members, 1920-2029). All members are branched from the first member of the all forcing CESM1 Large Ensemble on January 1, 1920 by applying a small (order of 10-14 K) random noise perturbation to their initial atmospheric temperature fields. The impact of the withheld forcing factor can be deduced by subtracting the ensemble-mean of each X ensemble from the ensemble-mean of the original all forcing CESM1 Large Ensemble. Details of these three ensembles are provided in Deser et al. (2020). A 3 member ensemble (named AAER) that is complementary to the XAER has also been performed as discussed in Simpson et al. (2023). These simulations begin in 1850 and evolve under ONLY time varying industrial aerosols with the other forcings held fixed at 1850's values.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -312,7 +347,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-01-22</gco:Date>
+                    <gco:Date>2025-02-06</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -320,7 +355,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>20.5</gco:CharacterString>
+                <gco:CharacterString>20.6</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -363,7 +398,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>20.5</gco:CharacterString>
+                <gco:CharacterString>20.6</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
