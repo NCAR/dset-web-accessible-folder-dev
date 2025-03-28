@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-03-20T23:05:02Z</gco:DateTime>
+    <gco:DateTime>2025-03-28T22:05:01Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -89,6 +89,52 @@
   <gmd:dataSetURI>
     <gco:CharacterString>https://rda.ucar.edu/datasets/d651039/</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/community-projects/mmlea/v2</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>MMLEA version 2 community project website</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/community-projects/mmlea/v1</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>MMLEA version 1 community project website</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -128,7 +174,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The Multi-Model Large Ensemble Archive version 2 (MMLEAv2) was compiled as an extension of the original archive. It includes 18 models (12 CMIP6 and 6 CMIP5) and 15 monthly variables. While a consistent RCP8.5 future forcing scenario was available for the CMIP5 class models, the CMIP6 class models use one or both of the historical plus SSP370 or SSP585 scenarios. The data is provided remapped to a common 2.5 x 2.5 degree grid. Observational reference products are included in the archive also remapped to the same common grid. Additionally, the NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v6) run on the model for the time periods 1950-2022 and 2027-2099 is provided for both detrended and non-detrended MMLEAv2 data.</gco:CharacterString>
+        <gco:CharacterString>The Multi-Model Large Ensemble Archive version 2 (MMLEAv2) was compiled as an extension of the original archive. It includes 18 models (12 CMIP6 and 6 CMIP5) and 15 monthly variables. While a consistent RCP8.5 future forcing scenario was available for the CMIP5 class models, the CMIP6 class models use one or both of the historical plus SSP370 or SSP585 scenarios. Observational reference products are also included in this archive. All data is provided remapped to a common 2.5 x 2.5 degree grid.
+
+NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v6) run on the model for the time periods 1950-2022 and 2027-2099 is provided for both detrended and non-detrended MMLEAv2 data. The CVDP output can be found on the MMLEAv2 website [https://www.cesm.ucar.edu/community-projects/mmlea/v2].</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -299,7 +347,31 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > WIND STRESS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > CRYOSPHERE > SEA ICE > SEA ICE CONCENTRATION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN CIRCULATION > OCEAN MIXED LAYER</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > SALINITY/DENSITY > SALINITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA SURFACE TOPOGRAPHY > SEA SURFACE HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
