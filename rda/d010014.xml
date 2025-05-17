@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.rda::d313006</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.rda::d010014</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-05-17T18:05:01Z</gco:DateTime>
+    <gco:DateTime>2025-05-17T18:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,21 +87,21 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://doi.org/10.5065/G643-Z138</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/d010014/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Whole Atmosphere Community Climate Model (WACCM) Model Output</gco:CharacterString>
+            <gco:CharacterString>Columbia River Basin Extremes</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>d313006</gco:CharacterString>
+            <gco:CharacterString>d010014</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2020-04-01</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2025-05-17</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -109,9 +109,9 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName>
-                <gco:CharacterString>Atmospheric Chemistry Observations &amp; Modeling, National Center for Atmospheric Research, University Corporation for Atmospheric Research</gco:CharacterString>
-              </gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Gutmann, Ethan</gco:CharacterString>
+              </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
               </gmd:role>
@@ -128,10 +128,10 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The Whole Atmosphere Community Climate Model (WACCM) is a comprehensive numerical model, spanning the range of altitude from the Earth's surface to about 500 km to 700 km altitude. These model output files are used by the atmospheric chemistry community to create regional forecasts.</gco:CharacterString>
+        <gco:CharacterString>This dataset provides 3-hourly hydrology and meteorological variables (runoff both on a 2D grid along a stream network vector, precipitation, and temperature) for about 4500 years over the Columbia river basin. It is being designed to use a large number of ensembles from the CMIP6 archive to sample unobserved decadal variability to improve our understanding of rare but extreme flood events. The CMIP models will be downscaled using the Intermediate Complexity Atmospheric Research model (ICAR) to a 5 km grid. These data will be bias corrected then used to run the SUMMA or VIC hydrology models to project variability in runoff, and routed with the mizuRoute streamflow model to project river flow volumes along the channel network.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
@@ -191,13 +191,20 @@
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="daily">daily</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:updateScope>
             <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -249,7 +256,7 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
+            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -292,16 +299,19 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AEROSOLS > AEROSOL OPTICAL DEPTH/THICKNESS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > METHANE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > ATMOSPHERIC CARBON DIOXIDE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT > 24 HOUR PRECIPITATION AMOUNT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR IRRADIANCE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF > RUNOFF RATE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -351,16 +361,6 @@
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">1.25</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -372,28 +372,12 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>90</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="d313006_time_period">
-                  <gml:beginPosition>2019-08-20T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2025-05-04T18:00:00Z</gml:endPosition>
+                <gml:TimePeriod gml:id="d010014_time_period">
+                  <gml:beginPosition>1950</gml:beginPosition>
+                  <gml:endPosition>2100</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -452,12 +436,12 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>8042616</gco:Real>
+           <gco:Real>0.00</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/d313006/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/d010014/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -479,7 +463,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/d313006/dataaccess/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/d010014/dataaccess/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
