@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-05-29T15:05:02Z</gco:DateTime>
+    <gco:DateTime>2025-06-05T20:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -148,9 +148,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Bulk turbulent heat and momentum fluxes derived using one-minute interval data collected by the Shipboard Automated Meteorological and Oceanographic System (SAMOS) initiative. The fluxes are provided as three products derived using three widely accepted air-sea flux algorithms (Smith 1988, COARE 3.5, and a variant of Bourassa 2006). Each product is grouped by the years the data are collected. The dataset uses SAMOS data from 19 research vessels with observations spanning 2005-2014. Data coverage is the global oceans, but is concentrated around North America. Data include heat and momentum fluxes along with state variables adjusted to 10 meters.
+        <gco:CharacterString>Along ship track bulk turbulent heat and momentum fluxes derived using one-minute interval data collected by the Shipboard Automated Meteorological and Oceanographic System (SAMOS) initiative. The fluxes are provided as three products derived using three widely accepted air-sea flux algorithms (Smith 1988, COARE 3.6, and a 2023 update of Bourassa 2006). Datasets are organized by ship and flux algorithm. The dataset uses SAMOS data from 47 research vessels with observations spanning 2005-2024. Data include heat and momentum fluxes, state variables adjusted to 10 meters, and multiple inputs and outputs from the flux algorithms. These data have wide use for satellite product and model evaluation; air-sea interaction, marine biology, chemistry and geoscience research activities; climate science, and marine geoinformatics.
 
-The dataset was developed under base support for the SAMOS project which is provided by a grant from the Climate Observing Division of the National Oceanographic and Atmospheric Administration via the Northern Gulf of Mexico Cooperative Institute administered by the Mississippi State University. Additional support for SAMOS is provided by Oceanographic and Technical Services Program of the National Science Foundation (grant OCE #1447797), the Office of Naval Research (via NSF), and the Schmidt Ocean Institute.</gco:CharacterString>
+Data coverage is the global oceans, but is concentrated around North America. Fluxes are derived from along cruise track navigational, meteorological, and oceanographic observations from 47 research vessels. Fluxes are derived at one-minute intervals (the same as the source observations) and take advantage of extensive quality control flags on the source SAMOS data. Additional QC flags are applied to the derived fluxes, height adjusted state variables, and other outputs of the flux algorithms. All data are provided in CF and ACDD compliant netCDF files, with extensive metadata. The data volume is 180 GB.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -299,7 +299,7 @@ The dataset was developed under base support for the SAMOS project which is prov
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-05-09</gco:Date>
+                    <gco:Date>2025-05-29</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -329,10 +329,10 @@ The dataset was developed under base support for the SAMOS project which is prov
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > WIND STRESS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN HEAT BUDGET > HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN HEAT BUDGET > HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WINDS > WIND STRESS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -402,7 +402,7 @@ The dataset was developed under base support for the SAMOS project which is prov
                 <gco:Decimal>179.89</gco:Decimal>
               </gmd:eastBoundLongitude>
               <gmd:southBoundLatitude>
-                <gco:Decimal>-70.0948</gco:Decimal>
+                <gco:Decimal>-77.8331</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
                 <gco:Decimal>88.4577</gco:Decimal>
