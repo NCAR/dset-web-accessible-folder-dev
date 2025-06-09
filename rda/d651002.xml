@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-08-04T02:10:00Z</gco:DateTime>
+    <gco:DateTime>2025-06-09T17:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -163,7 +163,7 @@
       <gmd:abstract>
         <gco:CharacterString>In the next generation of the Community Atmosphere Model (CAM7), the model top will be raised and the vertical resolution will be increased. The model top will be approximately 80 km (compared to 40 km in older generations), and the grid spacing in the free troposphere and lower stratosphere will be reduced to about 500 m compared to around 1137m in older generations. In addition to this, extra levels will be added to the boundary layer and the lowest model level will be lowered. Overall, this "mid-top" version of CAM7 will have 93 levels. However, many other changes will also be present in CAM7 such as physics updates and the new spectral element dynamical core, making it challenging to identify the role of this enhanced resolution in changes between CAM7 and CAM6.
 
-This dataset consists of a suite of simulations that use CAM6 physics and the finite volume dynamical core, but with CAM7's grid except for the changes to the levels in the boundary layer i.e., an 83 level model. The boundary layer levels are not changed because once those are changed, some re-tuning of the physical parameterizations is needed precluding a clean comparison and identification of the impact of vertical resolution. Only minimal changes to CAM6 physics have been applied to these simulations; the non-orographic gravity wave drag scheme was turned on, the upper boundary condition was changed such that any remaining gravity wave momentum flux is deposited at the model lid, and some minor tuning of the gravity wave drag settings was also performed to optimize the behavior of the QBO. These simulations can, therefore, be compared with existing CAM6 simulations to identify the impacts of this raising of the model lid and change to the resolution of the free troposphere and lower stratosphere. These simulations have an internally generated QBO and a relatively good representation of the stratospheric polar vortices and can be used to explore climate variability and change in the presence of those features.</gco:CharacterString>
+This dataset consists of a suite of simulations that use CAM6 physics and the finite volume dynamical core, but with CAM7's grid except for the changes to the levels in the boundary layer i.e., an 83 level model. The boundary layer levels are not changed because once those are changed, some additional tuning of the physical parameterizations is needed precluding a clean comparison and identification of the impact of vertical resolution. Only minimal changes to CAM6 physics have been applied to these simulations; the non-orographic gravity wave drag scheme was turned on, the upper boundary condition was changed such that any remaining gravity wave momentum flux is deposited at the model lid, and some minor tuning of the gravity wave drag settings was also performed to optimize the behavior of the QBO. These simulations can, therefore, be compared with existing CAM6 simulations to identify the impacts of this raising of the model lid and change to the resolution of the free troposphere and lower stratosphere. These simulations have an internally generated QBO and a relatively good representation of the stratospheric polar vortices and can be used to explore climate variability and change in the presence of those features.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -233,6 +233,13 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -284,10 +291,10 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
+            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
+            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -300,7 +307,7 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-23</gco:Date>
+                    <gco:Date>2025-06-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -308,7 +315,7 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.0</gco:CharacterString>
+                <gco:CharacterString>21.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -330,10 +337,28 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > BIOSPHERE > VEGETATION > PHOTOSYNTHETICALLY ACTIVE RADIATION > FRACTION OF ABSORBED PHOTOSYNTHETICALLY ACTIVE RADIATION (FAPAR)</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION PROFILES > LATENT HEAT FLUX</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND COMPONENTS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -346,7 +371,7 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-07-24</gco:Date>
+                    <gco:Date>2025-05-23</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -354,7 +379,7 @@ This dataset consists of a suite of simulations that use CAM6 physics and the fi
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.0</gco:CharacterString>
+                <gco:CharacterString>21.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>

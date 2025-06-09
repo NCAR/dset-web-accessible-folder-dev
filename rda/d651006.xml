@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2024-10-09T16:05:08Z</gco:DateTime>
+    <gco:DateTime>2025-06-09T17:05:03Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -213,7 +213,7 @@
       <gmd:abstract>
         <gco:CharacterString>Atmospheric river detection tool (ARDT) catalogues, source data, and ocean daily used for Shields, Li et al., 2024 Communications Earth and Environment entitled "Response of the upper ocean to northeast Pacific atmospheric rivers under climate change".
 
-Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalogues. AR detection data includes timestamps and geographic location for AR landfalls where atmospheric rivers intersect the North American coastline (1960-2100). (2) Source AR tracking data from CESM1.3 High Resolution model (25km atmosphere/land, ~0.1 ocean/ice) historical and RCP8.5 simulations 1960-2100, 6 hourly intervals. Note for ARDT catalogues, timestamps and latitude can be matched to the source data for full AR spatial footprints and was originally produced under the iHESP project and now part of MESACLIP. (3) Ocean daily data use for all results in Shields, Hui, et al. 2024. including SST, SSH, HXML, EVAP, SEN, PREC, SSS (1920-2100). Files are NetCDF format.</gco:CharacterString>
+Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalogues. AR detection data includes timestamps and geographic location for AR landfalls where atmospheric rivers intersect the North American coastline (1960-2100). (2) Source AR tracking data from CESM1.3 High Resolution model (25km atmosphere/land, roughly 0.1 ocean/ice) historical and RCP8.5 simulations 1960-2100, 6 hourly intervals. Note for ARDT catalogues, timestamps and latitude can be matched to the source data for full AR spatial footprints and was originally produced under the iHESP project and now part of MESACLIP. (3) Ocean daily data use for all results in Shields, Hui, et al. 2024. including SST, SSH, HXML, EVAP, SEN, PREC, SSS (1920-2100). Files are NetCDF format.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -283,6 +283,13 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -347,7 +354,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-09-20</gco:Date>
+                    <gco:Date>2025-06-05</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -355,7 +362,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.5</gco:CharacterString>
+                <gco:CharacterString>21.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -379,6 +386,30 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD DYNAMICS > WATER VAPOR TRANSPORT</gco:CharacterString>
           </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION PROFILES > LATENT HEAT FLUX</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND COMPONENTS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
+          </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
               <gmd:title>
@@ -390,7 +421,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2024-10-04</gco:Date>
+                    <gco:Date>2025-05-23</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -398,7 +429,7 @@ Datasets include: (1) Three ARDTs (Shields/Kiehl, Mundhenk/Nardi, IPART) catalog
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>19.5</gco:CharacterString>
+                <gco:CharacterString>21.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
