@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-06-09T17:05:02Z</gco:DateTime>
+    <gco:DateTime>2025-06-10T16:05:02Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -89,6 +89,29 @@
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/RHVT-YP56</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/working-groups/climate/simulations/cesm1-atlantic-pacemaker</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:applicationProfile>
+            <gco:CharacterString>browser</gco:CharacterString>
+          </gmd:applicationProfile>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>CESM CVCWG CESM1 North Atlantic Pacemaker Ensembles</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -128,9 +151,11 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Atlantic Pacemaker Simulations
+        <gco:CharacterString>A 10-member ensemble of CESM1 (1 degree spatial resolution) simulations in which time-evolving SST anomalies in the North Atlantic (5N-55N, with a linearly tapering buffer zone that extends to EQ and 60N, the Atlantic basin) are nudged to observations (NOAA Extended Reconstruction Sea Surface Temperature version 3: ERSSTv3b) during 1920-2013. In this way, the observed evolution of North Atlantic SSTs are maintained in each simulation, with the rest of the model's coupled climate system free to evolve. Note that only the SST anomalies, not the total SST, are nudged to observations, maintaining the model's mean state, including any model biases. All external forcings are identical to the LENS, aside from stratospheric ozone.
 
-Datasets include: Atlantic Pacemaker Atmosphere Post Processed Monthly Averages, Atlantic Pacemaker Ocean Post Processed Monthly Averages, Atlantic Pacemaker Land Post Processed Monthly Averages, Atlantic Pacemaker Ice Post Processed Monthly Averages, Atlantic Pacemaker River Post Processed Monthly Averages, Atlantic Pacemaker Atmosphere Post Processed Daily Averages, and Atlantic Pacemaker Land Post Processed Daily Averages</gco:CharacterString>
+A second 10-member ensemble, identical to the first but with all forcings fixed at 1920 levels, is also available.
+
+Further details about these simulations can be found on the CESM CVCWG CESM1 North Atlantic Pacemaker Ensembles [https://www.cesm.ucar.edu/working-groups/climate/simulations/cesm1-atlantic-pacemaker] website.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -301,16 +326,7 @@ Datasets include: Atlantic Pacemaker Atmosphere Post Processed Monthly Averages,
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION PROFILES > LATENT HEAT FLUX</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE</gco:CharacterString>
@@ -319,10 +335,19 @@ Datasets include: Atlantic Pacemaker Atmosphere Post Processed Monthly Averages,
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND COMPONENTS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION PROFILES > LATENT HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
