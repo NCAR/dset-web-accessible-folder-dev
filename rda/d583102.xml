@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.rda::d313000</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.rda::d583102</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -87,21 +87,21 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://doi.org/10.5065/QTSA-G775</gco:CharacterString>
+    <gco:CharacterString>https://rda.ucar.edu/datasets/d583102/</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>GEOS5 Global Atmosphere Forcing Data</gco:CharacterString>
+            <gco:CharacterString>CESM2 single forcing large ensemble description paper</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>d313000</gco:CharacterString>
+            <gco:CharacterString>d583102</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2016-11-14</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2025-06-18</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -110,7 +110,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                <gco:CharacterString>Simpson, Isla</gco:CharacterString>
               </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -128,10 +128,10 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>GEOS5 Atmospheric Forcing data, regridded and prepared as meteorological variables to run CESM and WRF simulations.</gco:CharacterString>
+        <gco:CharacterString>This dataset contains processed data from the CESM2 single forcing large ensemble experiments as well as some CESM2 emissions files that are necessary for reproducing the figures in Simpson et al (2023) "The CESM2 Single Forcing Large Ensemble and Comparison to CESM1: Implications for Experimental Design", Journal of Climate.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
@@ -191,25 +191,24 @@
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:updateScope>
             <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://rda.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF (Binary)</gco:CharacterString>
-          </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
-        </gmd:MD_Format>
-      </gmd:resourceFormat>
-      <gmd:resourceFormat>
-        <gmd:MD_Format>
-          <gmd:name>
-            <gco:CharacterString>NetCDF4 (Binary)</gco:CharacterString>
+            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable" />
         </gmd:MD_Format>
@@ -257,7 +256,7 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>OPERATIONAL MODELS</gco:CharacterString>
+            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -300,10 +299,10 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > EMISSIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > CLIMATE INDICATORS > ATMOSPHERIC/OCEAN INDICATORS > TEMPERATURE INDICATORS > TEMPERATURE TRENDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -353,44 +352,6 @@
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">0.312</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">0.625</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">0.667</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">1.25</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
-      <gmd:spatialResolution>
-        <gmd:MD_Resolution>
-          <gmd:distance>
-            <gco:Distance uom="degree">2.5</gco:Distance>
-          </gmd:distance>
-        </gmd:MD_Resolution>
-      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -402,28 +363,12 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>90</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="d313000_time_period">
-                  <gml:beginPosition>2004-01-02T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2025-06-07T21:00:00Z</gml:endPosition>
+                <gml:TimePeriod gml:id="d583102_time_period">
+                  <gml:beginPosition>1850</gml:beginPosition>
+                  <gml:endPosition>2100</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -482,12 +427,12 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
          <gmd:transferSize>
-           <gco:Real>34021958</gco:Real>
+           <gco:Real>0.00</gco:Real>
          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/d313000/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/d583102/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -509,7 +454,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://rda.ucar.edu/datasets/d313000/dataaccess/</gmd:URL>
+                <gmd:URL>https://rda.ucar.edu/datasets/d583102/dataaccess/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
