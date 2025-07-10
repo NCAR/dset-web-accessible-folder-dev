@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.rda::d651039</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-05-30T15:05:02Z</gco:DateTime>
+    <gco:DateTime>2025-07-10T17:05:01Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -174,7 +174,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The Multi-Model Large Ensemble Archive version 2 (MMLEAv2) was compiled as an extension of the original archive. It includes 18 models (12 CMIP6 and 6 CMIP5) and 15 monthly variables. While a consistent RCP8.5 future forcing scenario was available for the CMIP5 class models, the CMIP6 class models use one or both of the historical plus SSP370 or SSP585 scenarios. Observational reference products are also included in this archive. All data is provided remapped to a common 2.5 x 2.5 degree grid.
+        <gco:CharacterString>The Multi-Model Large Ensemble Archive version 2 (MMLEAv2) was compiled as an extension of the original archive. It includes 18 models (12 CMIP6 and 6 CMIP5) and 16 monthly variables. While a consistent RCP8.5 future forcing scenario was available for the CMIP5 class models, the CMIP6 class models use one or both of the historical plus SSP370 or SSP585 scenarios. Observational reference products are also included in this archive. All data is provided remapped to a common 2.5 x 2.5 degree grid.
 
 NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v6) run on the model for the time periods 1950-2022 and 2027-2099 is provided for both detrended and non-detrended MMLEAv2 data. The CVDP output can be found on the MMLEAv2 website [https://www.cesm.ucar.edu/community-projects/mmlea/v2].</gco:CharacterString>
       </gmd:abstract>
@@ -317,7 +317,7 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-05-29</gco:Date>
+                    <gco:Date>2025-06-17</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -325,7 +325,7 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>21.3</gco:CharacterString>
+                <gco:CharacterString>21.5</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -365,6 +365,9 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
             <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > WIND STRESS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > CRYOSPHERE > SEA ICE > SEA ICE CONCENTRATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
@@ -374,13 +377,13 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
             <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > THERMOCLINE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > OCEANS > SALINITY/DENSITY > SALINITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA SURFACE TOPOGRAPHY > SEA SURFACE HEIGHT</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -393,7 +396,7 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-05-22</gco:Date>
+                    <gco:Date>2025-06-09</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -401,7 +404,7 @@ NetCDF output from the Climate Variability Diagnostics Package version 6 (CVDP v
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>21.3</gco:CharacterString>
+                <gco:CharacterString>21.5</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
