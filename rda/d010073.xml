@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.gdex::d010047</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.gdex::d010073</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -78,7 +78,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-02T22:43:14Z</gco:DateTime>
+    <gco:DateTime>2025-10-02T22:43:21Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,21 +87,21 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://gdex.ucar.edu/datasets/d010047/</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.26024/krv2-rt84</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Hourly WRF-Chem simulation with SMAP soil moisture insertion over the Contiguous U.S. for the period 2015 - 2019</gco:CharacterString>
+            <gco:CharacterString>Preindustrial fully coupled CESM2.0.1 (B1850_c201_CTL) for atmospheric river analyses</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>d010047</gco:CharacterString>
+            <gco:CharacterString>d010073</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2024-10-11</gco:Date></gmd:date>
+              <gmd:date><gco:Date>2019-01-01</gco:Date></gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -118,7 +118,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Continuous multi year WRF-Chem simulation (2015 - 2019) over the contiguous U.S. at 9 km grid spacing. Initial and boundary conditions are from the Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2). Aerosol processes are represented with the Goddard Chemistry Aerosol Radiation and Transport (GOCART) model. Atmospheric chemistry is not explicitly resolved. We use gas climatologies to produce sulfate aerosols. Aerosol emissions from fires are represented with the Fire Inventory from NCAR (FINN) version 2.5 whereas anthropogenic emissions are based on the U.S. Environmental Protection Agency National Emissions Inventory (NEI). Sea salt emissions are accounted for by the GOCART emissions. The mineral dust emissions use the GOCART model with the Air Force Weather Agency extensions (GOCART-AFWA). Soil moisture retrievals from the Soil Moisture Active Passive (SMAP) mission were inserted every 12 hours starting on April 1 2015.</gco:CharacterString>
+        <gco:CharacterString>CESM version 2.0.1 (the original public-release version of CESM2, and scientifically identical to public version 2.1.0) was run on a nominal 1-degree finite-volume horizontal grid for 30 years to assess the model's ability to represent atmospheric rivers (extreme precipitation events) and their related weather patterns. The dataset is comprised of global, daily averaged CAM history files for selected single-level and multi-level fields. Data size was minimized by extracting from the native files only fields relevant to extreme precipitation and related weather patterns.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -126,7 +126,7 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName>
-            <gco:CharacterString>Joseph Gum</gco:CharacterString>
+            <gco:CharacterString>Chi-Fan Shih</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
@@ -136,7 +136,7 @@
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString></gco:CharacterString>
+                    <gco:CharacterString>(303)-497-1833</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile>
                     <gco:CharacterString>303-497-1291</gco:CharacterString>
@@ -167,7 +167,7 @@
                     <gco:CharacterString>U.S.A.</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>jgum@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>chifan@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -188,6 +188,13 @@
           </gmd:updateScope>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName><gco:CharacterString>https://gdex.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
+          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
+          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
@@ -239,7 +246,7 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>WRF-Chem > Weather Research and Forecasting Model Coupled to Chemistry</gco:CharacterString>
+            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -282,7 +289,13 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AEROSOLS > SULFATE PARTICLES</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS > U/V WIND COMPONENTS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -332,6 +345,16 @@
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="degree">1.25</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -343,16 +366,22 @@
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:temporalElement>
-            <gmd:EX_TemporalExtent>
-              <gmd:extent>
-                <gml:TimePeriod gml:id="d010047_time_period">
-                  <gml:beginPosition>2015</gml:beginPosition>
-                  <gml:endPosition>2019</gml:endPosition>
-                </gml:TimePeriod>
-              </gmd:extent>
-            </gmd:EX_TemporalExtent>
-          </gmd:temporalElement>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-180</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>180</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-90</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>90</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
         </gmd:EX_Extent>
       </gmd:extent>
     </gmd:MD_DataIdentification>
@@ -412,7 +441,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/datasets/d010047/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu/datasets/d010073/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -434,7 +463,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/datasets/d010047/dataaccess/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu/datasets/d010073/dataaccess/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
