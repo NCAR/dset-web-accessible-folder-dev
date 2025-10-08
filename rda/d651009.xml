@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.gdex::d651009</gco:CharacterString>
@@ -7,7 +6,7 @@
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -19,54 +18,19 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
-          <gmd:phone>
-            <gmd:CI_Telephone>
-              <gmd:facsimile>
-                <gco:CharacterString>303-497-1291</gco:CharacterString>
-              </gmd:facsimile>
-            </gmd:CI_Telephone>
-          </gmd:phone>
-          <gmd:address>
-            <gmd:CI_Address>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>CISL/DECS</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:city>
-                <gco:CharacterString>Boulder</gco:CharacterString>
-              </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>CO</gco:CharacterString>
-              </gmd:administrativeArea>
-              <gmd:postalCode>
-                <gco:CharacterString>80307</gco:CharacterString>
-              </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>U.S.A.</gco:CharacterString>
-              </gmd:country>
-              <gmd:electronicMailAddress>
-                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
-              </gmd:electronicMailAddress>
-            </gmd:CI_Address>
-          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>NSF NCAR Geoscience Data Exchange</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>The NSF NCAR Geoscience Data Exchange - Integrated Research Data Commons (GDEX) contains an extensive collection of meteorological, atmospheric composition, and oceanographic observations and model outputs to support Earth System Science research. GDEX supports &quot;data proximate&quot; computational research through its integration with NSF NCAR High Performance Compute services [https://arc.ucar.edu/resources], which are made accessible to US researchers through a range of allocations opportunities [https://arc.ucar.edu/xras_submit/opportunities].</gco:CharacterString>
+                <gco:CharacterString>The Geoscience Data Exchange (GDEX), managed by the Computational and Information Systems Laboratory (CISL) at NSF NCAR, contains a large collection of meteorological, atmospheric composition, and oceanographic observations, and operational and reanalysis model outputs, integrated with NSF NCAR High Performance Compute services to support atmospheric and geosciences research.</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
@@ -78,7 +42,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-03T01:28:05Z</gco:DateTime>
+    <gco:DateTime>2025-10-08T16:44:23Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -101,7 +65,9 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2024-12-04</gco:Date></gmd:date>
+              <gmd:date>
+                <gco:Date>2024-12-04</gco:Date>
+              </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -109,7 +75,89 @@
           </gmd:date>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName><gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString></gmd:organisationName>
+              <gmd:individualName>
+                <gco:CharacterString>Castruccio, Frederic</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Chang, Ping</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Danabasoglu, Gokhan</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Fu, Dan</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Rosenbloom, Nan</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Zhang, Qiuying</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>King, Teagan</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Liu, Xue</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
               </gmd:role>
@@ -118,64 +166,28 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Climate variations on seasonal-to-decadal (S2D) timescales can have enormous social, economic, and environmental impacts, making skillful predictions on these time scales an invaluable tool for policymakers and stakeholders. Such variations modulate the likelihood and intensity of extreme weather events including, tropical cyclones (TCs), heat waves, winter storms, atmospheric rivers (ARs), and floods, which have all been associated with (1) increases in human morbidity and mortality rates; (2) severe impacts on agriculture, energy use, and industrial activity; and (3) economic costs in the billions of dollars. Changes in prevailing climate patterns are also responsible for prolonged droughts, which can have profoundly negative effects on large segments of the world population. Enhancing our foreknowledge of climate variability on S2D time scales and understanding its influence on extreme weather events could help mitigate negative impacts on human and biological populations, making climate predictions an exceptionally important climate and social science frontier.
-
-Over the past six years, our research team consisting of scientists at Texas A&amp;M University (TAMU) and the U.S. National Science Foundation National Center for Atmospheric Research (NSF NCAR) has made major breakthroughs in advancing high-resolution global climate modeling and prediction. We have completed an unprecedented 10-member ensemble of Community Earth System Model (CESM) historical and future climate simulations at a tropical cyclone-permitting and ocean-eddy-rich resolution (hereafter simply referred to as CESM-HR). This CESM-HR ensemble was completed as part of our NSF-funded project entitled "Understanding the Role of MESoscale Atmosphere-Ocean Interactions in Seasonal-to-Decadal CLImate Prediction (MESACLIP)". This ensemble is particularly timely, following the April 2023 report entitled "Extreme Weather Risk in a Changing Climate: Enhancing Prediction and Protecting Communities" from the U.S. President's Council of Advisors on Science and Technology (PCAST). Indeed, this report made several recommendations on how climate science can support the provision of information about future risks from extreme weather and highlight the urgent need for high-resolution simulations to improve predictions of extreme weather events and guide risk management strategies. More specifically, the report recognized that high-resolution simulations, in the range of 10 to 25 km horizontal resolution, would capture extreme events more accurately than typical low-resolution (approximately 100 km) climate projections, and it goes on to recommend "a focused federal effort to provide estimates of the risk that a weather event of a given severity will occur in any location and year between now and mid-century". Our 10-member CESM-HR ensemble is able to meet some of the key aspects of this PCAST report.
-
-The CESM-HR configuration is based on an earlier CESM version, CESM1.3, with many additional modifications and improvements. CESM-HR uses a 0.25 degree grid in the atmosphere and land components and a 0.1 degree grid in the ocean and sea-ice components. The primary reason for using an older model version, instead of the latest CESM2, is that CESM2 does not support a high-resolution version per the decision by the CESM Scientific Steering Committee. The component models within CESM1.3 are the Community Atmosphere Model version 5 (CAM5; Neale et al., 2012), the Parallel Ocean Program version 2 (POP2; Danabasoglu et al., 2012; Smith et al., 2010), the Community Ice Code version 4 (CICE4; Hunke &amp; Lipscomb, 2008), and the Community Land Model version 4 (CLM4; Lawrence et al., 2011).
-
-The CESM-HR ensemble experimental design follows a similar approach as the CESM LENS1 large ensemble. We started with a 500-year preindustrial control (PI-CTRL) simulation forced by a perpetual climate forcing that corresponds to the year 1850 conditions. The first ensemble member is branched at year 250 of the PI-CTRL simulation and then integrated forward from year 1850 to 2100 (Figure 1 [https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png]). Ensemble members 2-10 are subsequently started from the year 1920 of ensemble member 1 and integrated forward to 2100 (Figure 1 [https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png]). Spread in the ensemble is generated by applying round-off level perturbations in the atmospheric potential temperature initial conditions for members 2-10. All 10 members use the same specified external climate forcing. Following the CMIP5 protocol for the Coupled Model Intercomparison Project phase 5 (CMIP5) experiments, historical forcing is used from 1920 to 2005 followed by the representative concentration pathway 8.5 (RCP 8.5) forcing from 2006 to 2100. RCP 8.5 is a high-emissions scenario and is frequently referred to as the "business as usual" scenario. It refers to the concentration of carbon that delivers global warming at an average of 8.5 W/m^2 across the planet by 2100. All 10 members produce a warming of approximately 4.5K at the end of 2100 in response to the applied historical and RCP 8.5 external forcing (Figure 1 [https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png]). The warming produced by CESM-HR is consistent with the warming from the standard low-resolution (approximately 1 degree) version of the model. The rate of warming simulated by CESM-HR over the observed period agrees very well with the observed rate of warming derived from the Goddard Institute for Space Studies (GISS) Surface Temperature Analysis (Figure 1 [https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png]).
-
-Citation: The two papers linked below are the most appropriate references for the CESM-HR ensemble. To cite the dataset, use Chang et al. (2025). We ask that you also cite the dataset itself using the reference Castruccio et al [https://rda.ucar.edu/datasets/d651009/citation/]. (2024) in any documents or publications using these data. Chang et al. (2020) describes the initial CESM-HR simulations, including the 500-year pre- industrial control simulation and the first 250-year historical and future climate simulation from 1850 to 2100. We would also appreciate receiving a copy of the relevant publications. This will help us to justify keeping the data freely available online in the future. Thank you!</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;Climate variations on seasonal-to-decadal (S2D) timescales can have enormous social, economic, and environmental impacts, making skillful predictions on these time scales an invaluable tool for policymakers and stakeholders. Such variations modulate the likelihood and intensity of extreme weather events including, tropical cyclones (TCs), heat waves, winter storms, atmospheric rivers (ARs), and floods, which have all been associated with (1) increases in human morbidity and mortality rates; (2) severe impacts on agriculture, energy use, and industrial activity; and (3) economic costs in the billions of dollars. Changes in prevailing climate patterns are also responsible for prolonged droughts, which can have profoundly negative effects on large segments of the world population. Enhancing our foreknowledge of climate variability on S2D time scales and understanding its influence on extreme weather events could help mitigate negative impacts on human and biological populations, making climate predictions an exceptionally important climate and social science frontier.&lt;/p&gt;
+&lt;p&gt;Over the past six years, our research team consisting of scientists at Texas A&amp;amp;M University (TAMU) and the U.S. National Science Foundation National Center for Atmospheric Research (NSF NCAR) has made major breakthroughs in advancing high-resolution global climate modeling and prediction. We have completed an unprecedented 10-member ensemble of Community Earth System Model (CESM) historical and future climate simulations at a tropical cyclone-permitting and ocean-eddy-rich resolution (hereafter simply referred to as CESM-HR). This CESM-HR ensemble was completed as part of our NSF-funded project entitled "Understanding the Role of MESoscale Atmosphere-Ocean Interactions in Seasonal-to-Decadal CLImate Prediction (MESACLIP)".   This ensemble is particularly timely, following the April 2023 report entitled "Extreme Weather Risk in a Changing Climate: Enhancing Prediction and Protecting Communities" from the U.S. President's Council of Advisors on Science and Technology (PCAST). Indeed, this report made several recommendations on how climate science can support the provision of information about future risks from extreme weather and highlight the urgent need for high-resolution simulations to improve predictions of extreme weather events and guide risk management strategies. More specifically, the report recognized that high-resolution simulations, in the range of 10 to 25 km horizontal resolution, would capture extreme events more accurately than typical low-resolution (approximately 100 km) climate projections, and it goes on to recommend "a focused federal effort to provide estimates of the risk that a weather event of a given severity will occur in any location and year between now and mid-century". Our 10-member CESM-HR ensemble is able to meet some of the key aspects of this PCAST report.&lt;/p&gt;
+&lt;p&gt;The CESM-HR configuration is based on an earlier CESM version, CESM1.3, with many additional modifications and improvements. CESM-HR uses a 0.25 degree grid in the atmosphere and land components and a 0.1 degree grid in the ocean and sea-ice components. The primary reason for using an older model version, instead of the latest CESM2, is that CESM2 does not support a high-resolution version per the decision by the CESM Scientific Steering Committee. The component models within CESM1.3 are the Community Atmosphere Model version 5 (CAM5; Neale et al., 2012), the Parallel Ocean Program version 2 (POP2; Danabasoglu et al., 2012; Smith et al., 2010), the Community Ice Code version 4 (CICE4; Hunke &amp;amp; Lipscomb, 2008), and the Community Land Model version 4 (CLM4; Lawrence et al., 2011).&lt;/p&gt;
+ &lt;p&gt;The CESM-HR ensemble experimental design follows a similar approach as the CESM LENS1 large ensemble. We started with a 500-year preindustrial control (PI-CTRL) simulation forced by a perpetual climate forcing that corresponds to the year 1850 conditions. The first ensemble member is branched at year 250 of the PI-CTRL simulation and then integrated forward from year 1850 to 2100 (&lt;a href="https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png"&gt;Figure 1&lt;/a&gt;). Ensemble members 2-10 are subsequently started from the year 1920 of ensemble member 1 and integrated forward to 2100 (&lt;a href="https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png"&gt;Figure 1&lt;/a&gt;). Spread in the ensemble is generated by applying round-off level perturbations in the atmospheric potential temperature initial conditions for members 2-10. All 10 members use the same specified external climate forcing. Following the CMIP5 protocol for the Coupled Model Intercomparison Project phase 5 (CMIP5) experiments, historical forcing is used from 1920 to 2005 followed by the representative concentration pathway 8.5 (RCP 8.5) forcing from 2006 to 2100. RCP 8.5 is a high-emissions scenario and is frequently referred to as the "business as usual" scenario. It refers to the concentration of carbon that delivers global warming at an average of 8.5 W/m^2 across the planet by 2100. All 10 members produce a warming of approximately 4.5K at the end of 2100 in response to the applied historical and RCP 8.5 external forcing (&lt;a href="https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png"&gt;Figure 1&lt;/a&gt;). The warming produced by CESM-HR is consistent with the warming from the standard low-resolution (approximately 1 degree) version of the model. The rate of warming simulated by CESM-HR over the observed period agrees very well with the observed rate of warming derived from the Goddard Institute for Space Studies (GISS) Surface Temperature Analysis (&lt;a href="https://rda.ucar.edu/OS/web/datasets/d651009/docs/Figure1_RDA_d651009.png"&gt;Figure 1&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt; The two papers linked below are the most appropriate references for the CESM-HR ensemble.
+To cite the dataset, use Chang et al. (2025). We ask that you also cite the dataset itself
+using the reference &lt;a href="https://rda.ucar.edu/datasets/d651009/citation/"&gt;Castruccio et al&lt;/a&gt;. (2024) in any documents or publications using these data. Chang
+et al. (2020) describes the initial CESM-HR simulations, including the 500-year pre-
+industrial control simulation and the first 250-year historical and future climate simulation from 1850 to 2100. We would also appreciate receiving a copy of the relevant publications. This will help us
+to justify keeping the data freely available online in the future. Thank you! &lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
-          <gmd:individualName>
-            <gco:CharacterString>Teagan King</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
-          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>7605182193</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>303-497-1291</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>CISL/DECS</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>Boulder</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>CO</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>80307</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>U.S.A.</gco:CharacterString>
-                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>tking@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -198,9 +210,15 @@ Citation: The two papers linked below are the most appropriate references for th
       </gmd:resourceMaintenance>
       <gmd:graphicOverview>
         <gmd:MD_BrowseGraphic>
-          <gmd:fileName><gco:CharacterString>https://gdex.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString></gmd:fileName>
-          <gmd:fileDescription><gco:CharacterString>Logo thumbnail from URL</gco:CharacterString></gmd:fileDescription>
-          <gmd:fileType><gco:CharacterString>PNG</gco:CharacterString></gmd:fileType>
+          <gmd:fileName>
+            <gco:CharacterString>https://gdex.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Logo thumbnail from URL</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
         </gmd:MD_BrowseGraphic>
       </gmd:graphicOverview>
       <gmd:resourceFormat>
@@ -208,7 +226,7 @@ Citation: The two papers linked below are the most appropriate references for th
           <gmd:name>
             <gco:CharacterString>NetCDF</gco:CharacterString>
           </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
+          <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
       </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
@@ -224,7 +242,7 @@ Citation: The two papers linked below are the most appropriate references for th
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2014-10-16</gco:Date>
+                    <gco:Date>2021-03-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -232,7 +250,7 @@ Citation: The two papers linked below are the most appropriate references for th
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
+                <gco:CharacterString>4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -240,7 +258,7 @@ Citation: The two papers linked below are the most appropriate references for th
                     <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -254,7 +272,7 @@ Citation: The two papers linked below are the most appropriate references for th
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>CESM > NCAR Community Earth System Model</gco:CharacterString>
+            <gco:CharacterString>CESM &gt; NCAR Community Earth System Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -267,7 +285,7 @@ Citation: The two papers linked below are the most appropriate references for th
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -275,7 +293,7 @@ Citation: The two papers linked below are the most appropriate references for th
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -283,7 +301,7 @@ Citation: The two papers linked below are the most appropriate references for th
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -297,28 +315,28 @@ Citation: The two papers linked below are the most appropriate references for th
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; LIQUID PRECIPITATION &gt; RAIN</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION PROFILES > LATENT HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION PROFILES &gt; LATENT HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SEA LEVEL PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY &gt; SPECIFIC HUMIDITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; UPPER AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND COMPONENTS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; U/V WIND COMPONENTS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -331,7 +349,7 @@ Citation: The two papers linked below are the most appropriate references for th
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -339,7 +357,7 @@ Citation: The two papers linked below are the most appropriate references for th
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -347,7 +365,7 @@ Citation: The two papers linked below are the most appropriate references for th
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -372,7 +390,7 @@ Citation: The two papers linked below are the most appropriate references for th
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
       <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
       </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
@@ -406,21 +424,6 @@ Citation: The two papers linked below are the most appropriate references for th
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>U.S.A.</gco:CharacterString>
-                      </gmd:country>
                       <gmd:electronicMailAddress>
                         <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
@@ -428,7 +431,9 @@ Citation: The two papers linked below are the most appropriate references for th
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
-                      <gmd:linkage><gmd:URL>https://gdex.ucar.edu/</gmd:URL></gmd:linkage>
+                      <gmd:linkage>
+                        <gmd:URL>https://gdex.ucar.edu</gmd:URL>
+                      </gmd:linkage>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
@@ -442,9 +447,9 @@ Citation: The two papers linked below are the most appropriate references for th
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>0.00</gco:Real>
-         </gmd:transferSize>
+          <gmd:transferSize>
+            <gco:Real>706584286.101</gco:Real>
+          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -453,9 +458,6 @@ Citation: The two papers linked below are the most appropriate references for th
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Dataset Description</gco:CharacterString>
               </gmd:name>
@@ -475,9 +477,6 @@ Citation: The two papers linked below are the most appropriate references for th
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Data Access</gco:CharacterString>
               </gmd:name>
@@ -508,4 +507,3 @@ Citation: The two papers linked below are the most appropriate references for th
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-
