@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:46:50Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:57:57Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -139,7 +146,7 @@
         <gco:CharacterString>&lt;p&gt;This dataset contains quasi-dynamically downscaled climate data from 8 global climate models from the CMIP5 archive. The data were downscaled using the Intermediate Complexity Atmospheric Research (ICAR Gutmann et al., 2016) model after bias correcting the GCM three dimensional atmospheric data to match the ERA-interim reanalysis climatology (Dee et al., 2011). ICAR was configured with the Thompson microphysics, a simple PBL parameterization based on YSU, the RRTMG longwave radiation and an empirical shortwave radiation scheme, the Noah-MP land surface model, the WRF-Lake model, the BMJ cumulus parameterization, and used linear mountain wave theory for upper level wind structures combined with an iterative scheme to remove vertical motion at the model top. The output from ICAR was adjusted to match the climatological statistics of the Livneh et al. (2015) observational dataset.&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

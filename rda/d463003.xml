@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.gdex::d463003</gco:CharacterString>
@@ -7,7 +6,7 @@
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -19,36 +18,8 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
-          <gmd:phone>
-            <gmd:CI_Telephone>
-              <gmd:facsimile>
-                <gco:CharacterString>303-497-1291</gco:CharacterString>
-              </gmd:facsimile>
-            </gmd:CI_Telephone>
-          </gmd:phone>
           <gmd:address>
             <gmd:CI_Address>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>CISL/DECS</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:city>
-                <gco:CharacterString>Boulder</gco:CharacterString>
-              </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>CO</gco:CharacterString>
-              </gmd:administrativeArea>
-              <gmd:postalCode>
-                <gco:CharacterString>80307</gco:CharacterString>
-              </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>U.S.A.</gco:CharacterString>
-              </gmd:country>
               <gmd:electronicMailAddress>
                 <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
@@ -57,16 +28,16 @@
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>NSF NCAR Geoscience Data Exchange</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>The NSF NCAR Geoscience Data Exchange - Integrated Research Data Commons (GDEX) contains an extensive collection of meteorological, atmospheric composition, and oceanographic observations and model outputs to support Earth System Science research. GDEX supports &quot;data proximate&quot; computational research through its integration with NSF NCAR High Performance Compute services [https://arc.ucar.edu/resources], which are made accessible to US researchers through a range of allocations opportunities [https://arc.ucar.edu/xras_submit/opportunities].</gco:CharacterString>
+                <gco:CharacterString>The Geoscience Data Exchange (GDEX), managed by the Computational and Information Systems Laboratory (CISL) at NSF NCAR, contains a large collection of meteorological, atmospheric composition, and oceanographic observations, and operational and reanalysis model outputs, integrated with NSF NCAR High Performance Compute services to support atmospheric and geosciences research.</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
@@ -78,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-03T00:36:52Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:51:45Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -87,7 +58,7 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://gdex.ucar.edu/datasets/d463003/</gco:CharacterString>
+    <gco:CharacterString>https://gdex.ucar.edu/datasets/d463003</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
@@ -101,7 +72,9 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2005-01-05</gco:Date></gmd:date>
+              <gmd:date>
+                <gco:Date>2005-01-05</gco:Date>
+              </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -139,7 +112,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName><gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString></gmd:organisationName>
+              <gmd:organisationName>
+                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
               </gmd:role>
@@ -148,60 +123,30 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This worldwide collection of surface weather observations is produced at the National Climatic Data Center (NCDC) from NCDC Surface Airway Hourly Observations (TD3280 [http://rda.ucar.edu/datasets/ds470.0/]), U.S.A.F. DATSAV3 Surface Hourly Observations (TD9956 [http://rda.ucar.edu/datasets/ds463.2/]), and NCDC Cooperative Hourly Precipitation (TD3240 [http://rda.ucar.edu/datasets/ds505.0/]). Observations are all in the same ASCII format.
-
-Mandatory data includes pressure, temperature, dew-point, visibility, sky condition, and wind observation, but there may also be additional data, data remarks, or data element quality sections.
-
-The earliest data is for 1901. The earliest years have the least volume of data, a few hundred megabytes; the volume in the 1950s-early 1960s increased by a factor of 10-20; 1965-1972 shows a decrease because of a loss of data; beginning in 1973 with about 5 gigabytes of data, volume has gradually increased to about 20 gigabytes per year. There are now about 10,000 active stations.</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;This worldwide collection of surface weather observations is produced at the National Climatic Data Center (NCDC) from
+    NCDC Surface Airway Hourly Observations (&lt;a href="http://rda.ucar.edu/datasets/ds470.0/"&gt;TD3280&lt;/a&gt;),
+    U.S.A.F. DATSAV3 Surface Hourly Observations (&lt;a href="http://rda.ucar.edu/datasets/ds463.2/"&gt;TD9956&lt;/a&gt;), and
+    NCDC Cooperative Hourly Precipitation (&lt;a href="http://rda.ucar.edu/datasets/ds505.0/"&gt;TD3240&lt;/a&gt;). Observations are all in the same ASCII format.
+    &lt;/p&gt;
+    &lt;p&gt;Mandatory data includes pressure, temperature, dew-point, visibility, sky condition,
+    and wind observation, but there may also be additional data,
+    data remarks, or data element quality sections.&lt;/p&gt;
+    &lt;p&gt;The earliest data is for 1901.  The earliest years have the least volume of data, a few hundred megabytes;
+    the volume in the 1950s-early 1960s increased by a factor of 10-20; 1965-1972 shows a decrease because of a loss of data;
+    beginning in 1973 with about 5 gigabytes of data, volume has gradually increased to about 20 gigabytes per year.
+    There are now about 10,000 active stations.&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
-          <gmd:individualName>
-            <gco:CharacterString>Bob Dattore</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
-          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>(303)-497-1825</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>303-497-1291</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>CISL/DECS</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>Boulder</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>CO</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>80307</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>U.S.A.</gco:CharacterString>
-                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>dattore@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -225,9 +170,9 @@ The earliest data is for 1901. The earliest years have the least volume of data,
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NCDC_ISD</gco:CharacterString>
+            <gco:CharacterString>NCDC ISD</gco:CharacterString>
           </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
+          <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
       </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
@@ -243,7 +188,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2014-10-16</gco:Date>
+                    <gco:Date>2021-03-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -251,7 +196,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
+                <gco:CharacterString>4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -259,7 +204,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                     <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -273,16 +218,16 @@ The earliest data is for 1901. The earliest years have the least volume of data,
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>WEATHER STATIONS > WEATHER STATIONS</gco:CharacterString>
+            <gco:CharacterString>WEATHER STATIONS &gt; WEATHER STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>GROUND STATIONS > GROUND STATIONS</gco:CharacterString>
+            <gco:CharacterString>FIXED OBSERVATION STATIONS &gt; FIXED OBSERVATION STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>METEOROLOGICAL STATIONS > METEOROLOGICAL STATIONS</gco:CharacterString>
+            <gco:CharacterString>GROUND STATIONS &gt; GROUND STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>FIXED OBSERVATION STATIONS > FIXED OBSERVATION STATIONS</gco:CharacterString>
+            <gco:CharacterString>METEOROLOGICAL STATIONS &gt; METEOROLOGICAL STATIONS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -295,7 +240,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -303,7 +248,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -311,7 +256,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -325,10 +270,10 @@ The earliest data is for 1901. The earliest years have the least volume of data,
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>AWDN > Automated Weather Data Network</gco:CharacterString>
+            <gco:CharacterString>AWDN &gt; Automated Weather Data Network</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>GTS > Global Telecommunications System</gco:CharacterString>
+            <gco:CharacterString>GTS &gt; Global Telecommunications System</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -341,7 +286,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -349,7 +294,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -357,7 +302,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -371,91 +316,91 @@ The earliest data is for 1901. The earliest years have the least volume of data,
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SEA LEVEL PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WAVES > WAVE HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN WAVES &gt; WAVE HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > ICEBERGS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; SEA ICE &gt; ICEBERGS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD TYPES</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD TYPES</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > SKIN TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SURFACE THERMAL PROPERTIES &gt; SKIN TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW WATER EQUIVALENT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SNOW/ICE &gt; SNOW WATER EQUIVALENT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WAVES > SWELLS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN WAVES &gt; SWELLS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > SOLID PRECIPITATION > HAIL</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; SOLID PRECIPITATION &gt; HAIL</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > DEW POINT TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; DEW POINT TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > ICE GROWTH/MELT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SNOW/ICE &gt; ICE GROWTH/MELT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SUNSHINE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SUNSHINE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD CEILING</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD CEILING</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > ICE GROWTH/MELT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; SEA ICE &gt; ICE GROWTH/MELT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > VISIBILITY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AIR QUALITY &gt; VISIBILITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SNOW/ICE &gt; SNOW DEPTH</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN WAVES > WAVE PERIOD</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN WAVES &gt; WAVE PERIOD</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD FREQUENCY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD FREQUENCY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > SOLID PRECIPITATION > SNOW</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; SOLID PRECIPITATION &gt; SNOW</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SURFACE PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > SEA ICE AGE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; SEA ICE &gt; SEA ICE AGE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > SEA ICE > SEA ICE CONCENTRATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; SEA ICE &gt; SEA ICE CONCENTRATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ALTITUDE &gt; GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > PRESSURE TENDENCY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; PRESSURE TENDENCY</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -468,7 +413,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -476,7 +421,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -484,7 +429,7 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -509,29 +454,13 @@ The earliest data is for 1901. The earliest years have the least volume of data,
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
       <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
       </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-179.983</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>179.75</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-90</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>89.9</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
@@ -559,21 +488,6 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>U.S.A.</gco:CharacterString>
-                      </gmd:country>
                       <gmd:electronicMailAddress>
                         <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
@@ -581,7 +495,9 @@ The earliest data is for 1901. The earliest years have the least volume of data,
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
-                      <gmd:linkage><gmd:URL>https://gdex.ucar.edu/</gmd:URL></gmd:linkage>
+                      <gmd:linkage>
+                        <gmd:URL>https://gdex.ucar.edu</gmd:URL>
+                      </gmd:linkage>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
@@ -595,9 +511,9 @@ The earliest data is for 1901. The earliest years have the least volume of data,
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>503571</gco:Real>
-         </gmd:transferSize>
+          <gmd:transferSize>
+            <gco:Real>503594.614</gco:Real>
+          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -606,9 +522,6 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Dataset Description</gco:CharacterString>
               </gmd:name>
@@ -628,9 +541,6 @@ The earliest data is for 1901. The earliest years have the least volume of data,
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Data Access</gco:CharacterString>
               </gmd:name>
@@ -661,4 +571,3 @@ The earliest data is for 1901. The earliest years have the least volume of data,
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-

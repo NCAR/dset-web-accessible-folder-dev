@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:47:21Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:59:53Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -109,7 +116,7 @@
         <gco:CharacterString>&lt;p&gt;The CESM1-CAM5 fixed ozone runs are eight CESM simulations that use the Large Ensemble (LENS) code base and were initialized in 1955 with Large Ensemble members. The runs use the same external forcings as those in the 20th Century CESM LENS except for ozone. Instead of prescribing a time-varying ozone concentration as in LENS, ozone is kept at constant 1955 concentrations. (The ozone file is available under the Data Access tab.) Note that the global ozone concentrations are fixed, including both stratospheric and tropospheric concentrations. The runs go from 1955-2005 and are labeled "b.e11..B20LE_fixedO3_xxx" where "xxx" corresponds to the Large Ensemble member that it branched from (e.g. 001, 010, etc). These runs were supported with resources from NSF FESD (#1338814).&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

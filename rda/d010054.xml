@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:46:45Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:57:48Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -109,7 +116,7 @@
         <gco:CharacterString>&lt;p&gt;Daily precipitation and temperature data from 18 Global Climate Models (GCM) in the Fifth Phase of the Coupled Model Intercomparison Project (CMIP5) that were downscaled using an analog regression approach in En-GARD (Gutmann et al. 2022) over the Colorado River Basin from 1950-2099. En-GARD is a statistical downscaling method designed to use information about upper level atmospheric processes (e.g. 500 mb winds) in addition to processes observed at the surface (e.g. precipitation and temperature). Each GCM was downscaled using training data from ERA-Interim reanalysis (Dee et al. 2011) and observations from the Livneh meteorological dataset (Livneh et al. 2015). Daily GCM precipitation and temperature were downscaled independently for each monthly basis (+/- 15 days for training) and on a grid-cell by grid cell basis. The GCM and ERA-Interim data were bilinearly interpolated to the Livneh 1/16 degree grid for input. Input data (Precipitation/Temperature, 500 mb zonal and meridional wind speeds) were quantile mapped to the corresponding ERA-Interim data and the closest 200 analog days, or days in which the input data matched the large-scale surface and upper atmospheric features, were selected independently for each day to be downscaled and used to train a multivariate linear regression to predict the Livneh data from those analog days. For precipitation, occurrence is modeled separately from magnitude by using a logistic regression with the same analog days to predict the probability of precipitation. To preserve realistic spatiotemporal variability, the residual term from the regression model is saved, and this residual is used to condition a stochastic sampling of the probability distribution for the prediction. Each output variable from En-GARD was quantile mapped to the Livneh meteorological data on a monthly basis to be used as input for a hydrological model that was calibrated using the Livneh meteorological data. More description of the En-GARD methodology can be found in Gutmann et al. (2022).&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

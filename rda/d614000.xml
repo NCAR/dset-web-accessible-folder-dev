@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:48:47Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T01:07:21Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -129,7 +136,7 @@
         <gco:CharacterString>&lt;p&gt;Hydroclimate and terrestrial hydrology greatly influence the local communities, ecosystems, and economies across Alaska and Yukon River Basin. Therefore, we utilized the Regional Arctic Systems Model (RASM) to model the coupled land-atmosphere, and generated a climate and hydrology dataset at 4-km grid spacing to improve our understanding of the regional hydroclimate and terrestrial hydrology. Our model domain encompasses all of the U.S. State of Alaska, the entire Yukon River Basin, part of Western Canada, and the eastern coastal region of Russia. This dataset includes 1) one simulation of the historical climate (Water Years 1991-2021), which serves as a benchmark for climate change studies, and 2) two future simulations (Equivalent Water Years 2035-2065) using the Pseudo-Global Warming method under future greenhouse gas emission scenario SSP2-4.5. The two future scenarios represent median and high changes derived from ensemble means across different Global Climate Models in the Coupled Model Intercomparison Project Phase 6 within SSP2-4.5 respectively. The microphysics schemes in the Weather Research and Forecast (WRF) atmospheric model were manually tuned for optimal model performance. The land component in RASM was replaced using the Community Terrestrial Systems Model (CTSM) given its comprehensive process representations for cold regions. We conducted optimization for uncoupled CTSM to improve its performance in terrestrial hydrologic simulations, especially streamflow and snow (Cheng et al., 2023). In order to maintain the quality for both hydroclimate and terrestrial hydrologic simulation, we implemented a strategy of iterative testing and re-optimization of CTSM. This dataset was then generated using RASM with optimized CTSM parameters and manually tuned WRF microphysics. The historical simulation was evaluated against multiple observational datasets for five key weather variables and hydrologic fluxes, including precipitation, air temperature, snow fraction, evaporation-to-precipitation ratios, and streamflow. The evaluation details can be found in Cheng et al. (2024).&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

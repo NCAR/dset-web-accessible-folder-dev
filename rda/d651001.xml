@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:48:15Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T01:06:43Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -109,7 +116,7 @@
         <gco:CharacterString>&lt;p&gt;This dataset includes ensemble prediction experiments using the CESM2 model. These are "perfect model prediction experiments" in which the simulations are initialized with nearly identical conditions from CESM2 historical simulations in the year 2010 and then integrated forward for two years. Ensemble prediction sets are initialized on January 1, March 1, May 1, July 1, September 1, and November 1. Five different initial conditions, taken from five different CESM2 historical simulations, are used are each initialization timing and 15 members are simulated for each of the five initial states. These 15 members differ with a micro-perturbation to the initial atmospheric temperature. Thus, for each initialization timing set (i.e. January 1, 2010) there are 75 total ensemble members (15 members for 5 initial states). These experiments can be used to assess the inherent initial-value predictability characteristics of the earth system as simulated by CESM2. &lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

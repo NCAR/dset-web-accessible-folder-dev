@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.gdex::d127000</gco:CharacterString>
@@ -7,7 +6,7 @@
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -19,36 +18,8 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
-          <gmd:phone>
-            <gmd:CI_Telephone>
-              <gmd:facsimile>
-                <gco:CharacterString>303-497-1291</gco:CharacterString>
-              </gmd:facsimile>
-            </gmd:CI_Telephone>
-          </gmd:phone>
           <gmd:address>
             <gmd:CI_Address>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>CISL/DECS</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:city>
-                <gco:CharacterString>Boulder</gco:CharacterString>
-              </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>CO</gco:CharacterString>
-              </gmd:administrativeArea>
-              <gmd:postalCode>
-                <gco:CharacterString>80307</gco:CharacterString>
-              </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>U.S.A.</gco:CharacterString>
-              </gmd:country>
               <gmd:electronicMailAddress>
                 <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
@@ -57,16 +28,16 @@
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>NSF NCAR Geoscience Data Exchange</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>The NSF NCAR Geoscience Data Exchange - Integrated Research Data Commons (GDEX) contains an extensive collection of meteorological, atmospheric composition, and oceanographic observations and model outputs to support Earth System Science research. GDEX supports &quot;data proximate&quot; computational research through its integration with NSF NCAR High Performance Compute services [https://arc.ucar.edu/resources], which are made accessible to US researchers through a range of allocations opportunities [https://arc.ucar.edu/xras_submit/opportunities].</gco:CharacterString>
+                <gco:CharacterString>The Geoscience Data Exchange (GDEX), managed by the Computational and Information Systems Laboratory (CISL) at NSF NCAR, contains a large collection of meteorological, atmospheric composition, and oceanographic observations, and operational and reanalysis model outputs, integrated with NSF NCAR High Performance Compute services to support atmospheric and geosciences research.</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
@@ -78,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-03T00:01:44Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:47:48Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -99,9 +70,6 @@
           <gmd:protocol>
             <gco:CharacterString>https</gco:CharacterString>
           </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
           <gmd:name>
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
@@ -124,7 +92,9 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2005-08-04</gco:Date></gmd:date>
+              <gmd:date>
+                <gco:Date>2005-08-04</gco:Date>
+              </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -152,7 +122,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName><gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString></gmd:organisationName>
+              <gmd:organisationName>
+                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
               </gmd:role>
@@ -161,62 +133,41 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>DS127.0 represents a dataset implemented and computed by NCAR's Data Support Section, and forms an essential part of efforts undertaken in late 2004, early 2005, to produce an archive of selected segments of ERA-40 on standard transformation grids.
-
- In this case, forty six ERA-40 6-hourly surface and single level analysis variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. All fields were transformed using routines from the ECMWF EMOS library, including 10 meter winds which were treated as scalars because of a lack of 10 meter spectral vorticity and divergence. A missing value occurs in the sea surface temperature and sea ice fields to mask grid points occurring over land. Fields formerly archived as whole integers, such as vegetation indices and cloud cover, occur as integers plus a fractional part in the T106 version due to interpolation.
-
- In addition, twenty seven ERA-40 6-hourly surface and single level 6-hour forecast variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. (These are designated as OTHER, or other, variables below.) All variables are valid 6 hours after the forecast was initiated. Thus, 00Z 6-hour forecast evaporation is valid at 06Z. Four of the variables are instantaneous variables, and the remaining twenty three variables are accumulated over the 6-hour forecast time. Divide the accumulated variables by 21600 seconds to obtain instantaneous values. (Multiplication by minus one may also be necessary to match the sign convention one is accustomed to.) All fields were transformed using routines from the ECMWF EMOS library, including three pairs of stresses which were treated as scalars because of a lack of spectral precursors.
-
-The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Interim data starts in 1989 and has a higher horizontal resolution (T255, N128 nominally 0.703125 degrees) than the ERA-40 data (T159, N80 nominally 1.125 degrees). ERA-Interim is based on a more current model than ERA-40 and uses 4DVAR (as opposed to 3DVAR in ERA-40). ECMWF will continue to run the ERA-Interim model in near real time through at least 2010, and possibly longer. This data is available in ds627.0 [https://rda.ucar.edu/datasets/ds627.0/].</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;DS127.0 represents a dataset implemented and computed by NCAR's Data Support Section, and forms an essential
+    part of efforts undertaken in late 2004, early 2005, to produce an archive of selected segments of ERA-40 on
+    standard transformation grids.&lt;/p&gt;
+    &lt;p&gt;
+    In this case, forty six ERA-40 6-hourly surface and single level analysis
+    variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. All fields were
+    transformed using routines from the ECMWF EMOS library, including 10 meter winds which were treated as scalars
+    because of a lack of 10 meter spectral vorticity and divergence. A missing value occurs in the sea
+    surface temperature and sea ice fields to mask grid points occurring over land. Fields formerly
+    archived as whole integers, such as vegetation indices and cloud cover, occur as integers plus a fractional part
+    in the T106 version due to interpolation.&lt;/p&gt;
+    &lt;p&gt;
+    In addition, twenty seven ERA-40 6-hourly surface and single level 6-hour forecast
+    variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid.
+    (These are designated as OTHER, or other, variables below.)
+    All variables are valid 6 hours after the forecast was initiated. Thus, 00Z 6-hour forecast evaporation
+    is valid at 06Z. Four of the variables are instantaneous variables, and the remaining twenty three variables
+    are accumulated over the 6-hour forecast time. Divide the accumulated variables by 21600 seconds to obtain
+    instantaneous values. (Multiplication by minus one may also be necessary to match the sign convention one is
+    accustomed to.)  All fields were transformed using routines from the ECMWF EMOS library, including three
+    pairs of stresses which were treated as scalars because of a lack of spectral precursors.&lt;/p&gt;
+    
+    &lt;p&gt;The ERA-Interim data from ECMWF is an update to the ERA-40 project.  The ERA-Interim data starts in 1989 and has a higher horizontal resolution (T255, N128 nominally 0.703125 degrees) than the ERA-40 data (T159, N80 nominally  1.125 degrees).  ERA-Interim is based on a more current model than ERA-40 and uses 4DVAR (as opposed to 3DVAR in ERA-40).  ECMWF will continue to run the ERA-Interim model in near real time through at least 2010, and possibly longer.  This data is available in &lt;a href="https://rda.ucar.edu/datasets/ds627.0/"&gt;ds627.0&lt;/a&gt;. &lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
-          <gmd:individualName>
-            <gco:CharacterString>Dave Stepaniak</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
-          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>(303)-497-1343</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>303-497-1291</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>CISL/DECS</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>Boulder</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>CO</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>80307</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>U.S.A.</gco:CharacterString>
-                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>davestep@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -240,9 +191,9 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>WMO_GRIB1</gco:CharacterString>
+            <gco:CharacterString>WMO GRIB1</gco:CharacterString>
           </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
+          <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
       </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
@@ -258,7 +209,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2014-10-16</gco:Date>
+                    <gco:Date>2021-03-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -266,7 +217,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
+                <gco:CharacterString>4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -274,7 +225,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                     <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -288,10 +239,10 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>ERA40DAS > ERA40 Data Assimilation System</gco:CharacterString>
+            <gco:CharacterString>ERA40DAS &gt; ERA40 Data Assimilation System</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
+            <gco:CharacterString>MODELS &gt; MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -304,7 +255,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -312,7 +263,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -320,7 +271,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -334,43 +285,43 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > OUTGOING LONGWAVE RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; OUTGOING LONGWAVE RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > LONGWAVE RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; LONGWAVE RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > PLANETARY BOUNDARY LAYER HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ALTITUDE &gt; PLANETARY BOUNDARY LAYER HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > GRAVITY WAVE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; GRAVITY WAVE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; INCOMING SOLAR RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SHORTWAVE RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SHORTWAVE RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > SOLID PRECIPITATION > SNOW</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; SOLID PRECIPITATION &gt; SNOW</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPORATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR PROCESSES &gt; EVAPORATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW MELT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SNOW/ICE &gt; SNOW MELT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > WIND STRESS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; WIND STRESS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; SURFACE WATER PROCESSES/MEASUREMENTS &gt; RUNOFF</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -383,7 +334,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -391,7 +342,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -399,7 +350,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -424,7 +375,7 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
       <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
       </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
@@ -435,8 +386,8 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="d127000_time_period">
-                  <gml:beginPosition>1957-09-01T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2002-08-31T18:00:00Z</gml:endPosition>
+                  <gml:beginPosition>1957-09-01T0000+00</gml:beginPosition>
+                  <gml:endPosition>2002-08-31T1800+00</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -458,21 +409,6 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>U.S.A.</gco:CharacterString>
-                      </gmd:country>
                       <gmd:electronicMailAddress>
                         <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
@@ -480,7 +416,9 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
-                      <gmd:linkage><gmd:URL>https://gdex.ucar.edu/</gmd:URL></gmd:linkage>
+                      <gmd:linkage>
+                        <gmd:URL>https://gdex.ucar.edu</gmd:URL>
+                      </gmd:linkage>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
@@ -494,9 +432,9 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>495296</gco:Real>
-         </gmd:transferSize>
+          <gmd:transferSize>
+            <gco:Real>495296.487</gco:Real>
+          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -505,9 +443,6 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Dataset Description</gco:CharacterString>
               </gmd:name>
@@ -527,9 +462,6 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Data Access</gco:CharacterString>
               </gmd:name>
@@ -560,4 +492,3 @@ The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Inte
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-

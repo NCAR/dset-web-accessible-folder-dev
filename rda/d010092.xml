@@ -18,6 +18,13 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -42,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-08T16:50:03Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T01:14:55Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -119,7 +126,7 @@
         <gco:CharacterString>&lt;p&gt;The US National Center for Atmospheric Research partnered with the IBS Center for Climate Physics in South Korea to generate the CESM2 Large Ensemble which consists of 100 ensemble members at 1 degree spatial resolution covering the period 1850-2100 under CMIP6 historical and SSP370 future radiative forcing scenarios. Data sets from this ensemble were made downloadable via the Climate Data Gateway on June 14, 2021. NCAR has copied a subset (currently ~500 TB) of CESM2 LENS data to Amazon S3 as part of the AWS Public Datasets Program. To optimize for large-scale analytics we have represented the data as ~275 Zarr stores format accessible through the Python Xarray library. Each Zarr store contains a single physical variable for a given model run type and temporal frequency (monthly, daily).&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="N">N</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>

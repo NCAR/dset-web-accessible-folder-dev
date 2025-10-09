@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.gdex::d502000</gco:CharacterString>
@@ -7,7 +6,7 @@
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -19,36 +18,8 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
-          <gmd:phone>
-            <gmd:CI_Telephone>
-              <gmd:facsimile>
-                <gco:CharacterString>303-497-1291</gco:CharacterString>
-              </gmd:facsimile>
-            </gmd:CI_Telephone>
-          </gmd:phone>
           <gmd:address>
             <gmd:CI_Address>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>CISL/DECS</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:city>
-                <gco:CharacterString>Boulder</gco:CharacterString>
-              </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>CO</gco:CharacterString>
-              </gmd:administrativeArea>
-              <gmd:postalCode>
-                <gco:CharacterString>80307</gco:CharacterString>
-              </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>U.S.A.</gco:CharacterString>
-              </gmd:country>
               <gmd:electronicMailAddress>
                 <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
@@ -57,16 +28,16 @@
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>NSF NCAR Geoscience Data Exchange</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>The NSF NCAR Geoscience Data Exchange - Integrated Research Data Commons (GDEX) contains an extensive collection of meteorological, atmospheric composition, and oceanographic observations and model outputs to support Earth System Science research. GDEX supports &quot;data proximate&quot; computational research through its integration with NSF NCAR High Performance Compute services [https://arc.ucar.edu/resources], which are made accessible to US researchers through a range of allocations opportunities [https://arc.ucar.edu/xras_submit/opportunities].</gco:CharacterString>
+                <gco:CharacterString>The Geoscience Data Exchange (GDEX), managed by the Computational and Information Systems Laboratory (CISL) at NSF NCAR, contains a large collection of meteorological, atmospheric composition, and oceanographic observations, and operational and reanalysis model outputs, integrated with NSF NCAR High Performance Compute services to support atmospheric and geosciences research.</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
@@ -78,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-03T01:01:54Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:52:19Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -99,9 +70,6 @@
           <gmd:protocol>
             <gco:CharacterString>http</gco:CharacterString>
           </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
           <gmd:name>
             <gco:CharacterString>Related Resource #1</gco:CharacterString>
           </gmd:name>
@@ -122,9 +90,6 @@
           <gmd:protocol>
             <gco:CharacterString>http</gco:CharacterString>
           </gmd:protocol>
-          <gmd:applicationProfile>
-            <gco:CharacterString>browser</gco:CharacterString>
-          </gmd:applicationProfile>
           <gmd:name>
             <gco:CharacterString>Related Resource #2</gco:CharacterString>
           </gmd:name>
@@ -147,7 +112,9 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>2011-09-16</gco:Date></gmd:date>
+              <gmd:date>
+                <gco:Date>2011-09-16</gco:Date>
+              </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -165,7 +132,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName><gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString></gmd:organisationName>
+              <gmd:organisationName>
+                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
               </gmd:role>
@@ -174,58 +143,21 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>NOTE: This dataset has been superseded by CMORPH version 1.0, which is available in RDA dataset ds502.2 [https://rda.ucar.edu/datasets/ds502.2/]. Users are advised to transition to this updated dataset.
-
-CMORPH (CPC MORPHing technique) produces global precipitation analyses at very high spatial and temporal resolution. This technique uses precipitation estimates that have been derived from low orbiter satellite microwave observations exclusively, and whose features are transported via spatial propagation information that is obtained entirely from geostationary satellite infrared data. Precipitation estimates are derived from the passive microwaves aboard the DMSP 13, 14 and 15 (SSM/I), the NOAA-15, 16, 17 and 18 (AMSU-B), and AMSR-E and TMI aboard NASA's Aqua and TRMM spacecraft, respectively. These estimates are generated by algorithms of Ferraro (1997) for SSM/I, Ferraro et al. (2000) for AMSU-B and Kummerow et al. (2001) for TMI. Note that this technique is not a precipitation estimation algorithm but a means by which estimates from existing microwave rainfall algorithms can be combined. Therefore, this method is extremely flexible such that any precipitation estimates from any microwave satellite source can be incorporated.</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;&lt;span style="color:red;"&gt;&lt;span style="font-weight:bold"&gt;NOTE:&lt;/span&gt; This dataset has been superseded by CMORPH version 1.0, which is available in RDA dataset &lt;a href="https://rda.ucar.edu/datasets/ds502.2/"&gt;ds502.2&lt;/a&gt;. Users are advised to transition to this updated dataset.&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;CMORPH (CPC MORPHing technique) produces global precipitation analyses at very high spatial and temporal resolution. This technique uses precipitation estimates that have been derived from low orbiter satellite microwave observations exclusively, and whose features are transported via spatial propagation information that is obtained entirely from geostationary satellite infrared data. Precipitation estimates are derived from the passive microwaves aboard the DMSP 13, 14 and 15 (SSM/I), the NOAA-15, 16, 17 and 18 (AMSU-B), and AMSR-E and TMI aboard NASA's Aqua and TRMM spacecraft, respectively. These estimates are generated by algorithms of Ferraro (1997) for SSM/I, Ferraro et al. (2000) for AMSU-B and Kummerow et al. (2001) for TMI. Note that this technique is not a precipitation estimation algorithm but a means by which estimates from existing microwave rainfall algorithms can be combined. Therefore, this method is extremely flexible such that any precipitation estimates from any microwave satellite source can be incorporated.&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
-          <gmd:individualName>
-            <gco:CharacterString>Thomas Cram</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
-          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>(303)-497-1217</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>303-497-1291</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>CISL/DECS</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>Boulder</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>CO</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>80307</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>U.S.A.</gco:CharacterString>
-                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>tcram@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -259,7 +191,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2014-10-16</gco:Date>
+                    <gco:Date>2021-03-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -267,7 +199,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
+                <gco:CharacterString>4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -275,7 +207,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                     <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -289,19 +221,19 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>NOAA-18 > National Oceanic &amp; Atmospheric Administration-18</gco:CharacterString>
+            <gco:CharacterString>NOAA-18 &gt; National Oceanic &amp; Atmospheric Administration-18</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>NOAA-16 > National Oceanic &amp; Atmospheric Administration-16</gco:CharacterString>
+            <gco:CharacterString>NOAA-16 &gt; National Oceanic &amp; Atmospheric Administration-16</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>DMSP > Defense Meteorological Satellite Program</gco:CharacterString>
+            <gco:CharacterString>DMSP &gt; Defense Meteorological Satellite Program</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>NOAA-15 > National Oceanic &amp; Atmospheric Administration-15</gco:CharacterString>
+            <gco:CharacterString>NOAA-15 &gt; National Oceanic &amp; Atmospheric Administration-15</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>NOAA-17 > National Oceanic &amp; Atmospheric Administration-17</gco:CharacterString>
+            <gco:CharacterString>NOAA-17 &gt; National Oceanic &amp; Atmospheric Administration-17</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -314,7 +246,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -322,7 +254,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -330,7 +262,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -344,13 +276,13 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>TMI > TRMM Microwave Imager</gco:CharacterString>
+            <gco:CharacterString>TMI &gt; TRMM Microwave Imager</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>AMSR-E > Advanced Microwave Scanning Radiometer-EOS</gco:CharacterString>
+            <gco:CharacterString>AMSR-E &gt; Advanced Microwave Scanning Radiometer-EOS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>AMSU-B > Advanced Microwave Sounding Unit-B</gco:CharacterString>
+            <gco:CharacterString>AMSU-B &gt; Advanced Microwave Sounding Unit-B</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -363,7 +295,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -371,7 +303,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -379,7 +311,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -393,7 +325,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION RATE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION RATE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -406,7 +338,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -414,7 +346,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -422,7 +354,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -447,7 +379,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
       <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
       </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
@@ -458,8 +390,8 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="d502000_time_period">
-                  <gml:beginPosition>2002-12-07T00:00:00Z</gml:beginPosition>
-                  <gml:endPosition>2017-10-02T21:00:00Z</gml:endPosition>
+                  <gml:beginPosition>2002-12-07T0000+00</gml:beginPosition>
+                  <gml:endPosition>2017-10-02T2100+00</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -481,21 +413,6 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>U.S.A.</gco:CharacterString>
-                      </gmd:country>
                       <gmd:electronicMailAddress>
                         <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
@@ -503,7 +420,9 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
-                      <gmd:linkage><gmd:URL>https://gdex.ucar.edu/</gmd:URL></gmd:linkage>
+                      <gmd:linkage>
+                        <gmd:URL>https://gdex.ucar.edu</gmd:URL>
+                      </gmd:linkage>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
@@ -517,9 +436,9 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>231579</gco:Real>
-         </gmd:transferSize>
+          <gmd:transferSize>
+            <gco:Real>0</gco:Real>
+          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -528,9 +447,6 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Dataset Description</gco:CharacterString>
               </gmd:name>
@@ -550,9 +466,6 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Data Access</gco:CharacterString>
               </gmd:name>
@@ -583,4 +496,3 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-

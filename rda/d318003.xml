@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>edu.ucar.gdex::d318003</gco:CharacterString>
@@ -7,7 +6,7 @@
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
   </gmd:language>
   <gmd:characterSet>
-    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
   </gmd:characterSet>
   <gmd:hierarchyLevel>
     <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -19,36 +18,8 @@
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
-          <gmd:phone>
-            <gmd:CI_Telephone>
-              <gmd:facsimile>
-                <gco:CharacterString>303-497-1291</gco:CharacterString>
-              </gmd:facsimile>
-            </gmd:CI_Telephone>
-          </gmd:phone>
           <gmd:address>
             <gmd:CI_Address>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>CISL/DECS</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:deliveryPoint>
-                <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-              </gmd:deliveryPoint>
-              <gmd:city>
-                <gco:CharacterString>Boulder</gco:CharacterString>
-              </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>CO</gco:CharacterString>
-              </gmd:administrativeArea>
-              <gmd:postalCode>
-                <gco:CharacterString>80307</gco:CharacterString>
-              </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>U.S.A.</gco:CharacterString>
-              </gmd:country>
               <gmd:electronicMailAddress>
                 <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
               </gmd:electronicMailAddress>
@@ -57,16 +28,16 @@
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu</gmd:URL>
               </gmd:linkage>
               <gmd:name>
                 <gco:CharacterString>NSF NCAR Geoscience Data Exchange</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>The NSF NCAR Geoscience Data Exchange - Integrated Research Data Commons (GDEX) contains an extensive collection of meteorological, atmospheric composition, and oceanographic observations and model outputs to support Earth System Science research. GDEX supports &quot;data proximate&quot; computational research through its integration with NSF NCAR High Performance Compute services [https://arc.ucar.edu/resources], which are made accessible to US researchers through a range of allocations opportunities [https://arc.ucar.edu/xras_submit/opportunities].</gco:CharacterString>
+                <gco:CharacterString>The Geoscience Data Exchange (GDEX), managed by the Computational and Information Systems Laboratory (CISL) at NSF NCAR, contains a large collection of meteorological, atmospheric composition, and oceanographic observations, and operational and reanalysis model outputs, integrated with NSF NCAR High Performance Compute services to support atmospheric and geosciences research.</gco:CharacterString>
               </gmd:description>
               <gmd:function>
-                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="downlaod">download</gmd:CI_OnLineFunctionCode>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
               </gmd:function>
             </gmd:CI_OnlineResource>
           </gmd:onlineResource>
@@ -78,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-03T00:25:23Z</gco:DateTime>
+    <gco:DateTime>2025-10-09T00:47:52Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -101,7 +72,9 @@
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
-              <gmd:date><gco:Date>1994-08-26</gco:Date></gmd:date>
+              <gmd:date>
+                <gco:Date>1994-08-26</gco:Date>
+              </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
@@ -119,7 +92,9 @@
           </gmd:citedResponsibleParty>
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
-              <gmd:organisationName><gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString></gmd:organisationName>
+              <gmd:organisationName>
+                <gco:CharacterString>NSF National Center for Atmospheric Research</gco:CharacterString>
+              </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
               </gmd:role>
@@ -128,58 +103,20 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The second generation General Circulation Model (GCMII) at the Canadian Climate Centre was used to run a CO2 experiment in which the current climate (1xCO2) was compared with a new equilibrium climate obtained with twice the amount of atmospheric CO2 (2xCO2). The model was run around November 1989 at T32 resolution, and several surface parameters and 500mb heights were output on a 3.75-degree resolution grid.
-
-For the globe, DSS has monthly 20-year climatologies of some surface parameters. For a North American window (30 by 19), DSS has 12-hourly data of several surface parameters and 500mb heights and monthly 10-year climatologies created from the aforementioned data.</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;The second generation General Circulation Model (GCMII) at the Canadian Climate Centre was used to run a CO2 experiment in which the current climate (1xCO2) was compared with a new equilibrium climate obtained with twice the amount of atmospheric CO2 (2xCO2).  The model was run around November 1989 at T32 resolution, and several surface parameters and 500mb heights were output on a 3.75-degree resolution grid.&lt;/p&gt;
+    &lt;p&gt;For the globe, DSS has monthly 20-year climatologies of some surface parameters.  For a North American window (30 by 19), DSS has 12-hourly data of several surface parameters and 500mb heights and monthly 10-year climatologies created from the aforementioned data.&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
-          <gmd:individualName>
-            <gco:CharacterString>Bob Dattore</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>NSF NCAR - Geoscience Data Exchange</gco:CharacterString>
-          </gmd:organisationName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>(303)-497-1825</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>303-497-1291</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
               <gmd:address>
                 <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>CISL/DECS</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>Boulder</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>CO</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>80307</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>U.S.A.</gco:CharacterString>
-                  </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>dattore@ucar.edu</gco:CharacterString>
+                    <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -205,7 +142,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
           <gmd:name>
             <gco:CharacterString>ASCII</gco:CharacterString>
           </gmd:name>
-          <gmd:version gco:nilReason="inapplicable" />
+          <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
       </gmd:resourceFormat>
       <gmd:descriptiveKeywords>
@@ -221,7 +158,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2014-10-16</gco:Date>
+                    <gco:Date>2021-03-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -229,7 +166,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
+                <gco:CharacterString>4.4</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -237,7 +174,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                     <gco:CharacterString>DataCite Metadata Working Group</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -251,10 +188,10 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>MODELS > MODELS</gco:CharacterString>
+            <gco:CharacterString>MODELS &gt; MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>CLIMATE MODELS > CLIMATE MODELS</gco:CharacterString>
+            <gco:CharacterString>CLIMATE MODELS &gt; CLIMATE MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -267,7 +204,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -275,7 +212,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -283,7 +220,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -297,7 +234,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>USCSP > U.S. Country Studies Program</gco:CharacterString>
+            <gco:CharacterString>USCSP &gt; U.S. Country Studies Program</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -310,7 +247,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -318,7 +255,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -326,7 +263,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -340,64 +277,64 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SEA LEVEL PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SEA LEVEL PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > ALBEDO</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SURFACE RADIATIVE PROPERTIES &gt; ALBEDO</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > SKIN TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SURFACE THERMAL PROPERTIES &gt; SKIN TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > NET RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; NET RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; MAXIMUM/MINIMUM TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW COVER</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SNOW/ICE &gt; SNOW COVER</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; INCOMING SOLAR RADIATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > CRYOSPHERE > SEA ICE > SEA ICE CONCENTRATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; CRYOSPHERE &gt; SEA ICE &gt; SEA ICE CONCENTRATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION RATE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION RATE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > CLOUDS > CLOUD PROPERTIES > CLOUD FREQUENCY</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES &gt; CLOUD FREQUENCY</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SURFACE PRESSURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPORATION</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR PROCESSES &gt; EVAPORATION</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SOILS &gt; SOIL MOISTURE/WATER CONTENT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ALTITUDE &gt; GEOPOTENTIAL HEIGHT</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > OCEANS > OCEAN HEAT BUDGET > HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN HEAT BUDGET &gt; HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -410,7 +347,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-09-19</gco:Date>
+                    <gco:Date>2025-10-03</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -418,7 +355,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.1.1</gco:CharacterString>
+                <gco:CharacterString>22.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -426,7 +363,7 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                     <gco:CharacterString>NASA Global Change Master Directory</gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">orginator</gmd:CI_RoleCode>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -447,36 +384,17 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:spatialRepresentationType>
-        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
-      </gmd:spatialRepresentationType>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
       <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf-8</gmd:MD_CharacterSetCode>
       </gmd:characterSet>
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
-          <gmd:geographicElement>
-            <gmd:EX_GeographicBoundingBox>
-              <gmd:westBoundLongitude>
-                <gco:Decimal>-180</gco:Decimal>
-              </gmd:westBoundLongitude>
-              <gmd:eastBoundLongitude>
-                <gco:Decimal>180</gco:Decimal>
-              </gmd:eastBoundLongitude>
-              <gmd:southBoundLatitude>
-                <gco:Decimal>-87.16</gco:Decimal>
-              </gmd:southBoundLatitude>
-              <gmd:northBoundLatitude>
-                <gco:Decimal>87.16</gco:Decimal>
-              </gmd:northBoundLatitude>
-            </gmd:EX_GeographicBoundingBox>
-          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
@@ -504,21 +422,6 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                 <gmd:CI_Contact>
                   <gmd:address>
                     <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>P.O. Box 3000</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>Boulder</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>CO</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>80307</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>U.S.A.</gco:CharacterString>
-                      </gmd:country>
                       <gmd:electronicMailAddress>
                         <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
                       </gmd:electronicMailAddress>
@@ -526,7 +429,9 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
-                      <gmd:linkage><gmd:URL>https://gdex.ucar.edu/</gmd:URL></gmd:linkage>
+                      <gmd:linkage>
+                        <gmd:URL>https://gdex.ucar.edu</gmd:URL>
+                      </gmd:linkage>
                     </gmd:CI_OnlineResource>
                   </gmd:onlineResource>
                 </gmd:CI_Contact>
@@ -540,9 +445,9 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
       </gmd:distributor>
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
-         <gmd:transferSize>
-           <gco:Real>2980</gco:Real>
-         </gmd:transferSize>
+          <gmd:transferSize>
+            <gco:Real>2980.628</gco:Real>
+          </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
@@ -551,9 +456,6 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Dataset Description</gco:CharacterString>
               </gmd:name>
@@ -573,9 +475,6 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
               </gmd:protocol>
-              <gmd:applicationProfile>
-                <gco:CharacterString>browser</gco:CharacterString>
-              </gmd:applicationProfile>
               <gmd:name>
                 <gco:CharacterString>Data Access</gco:CharacterString>
               </gmd:name>
@@ -606,4 +505,3 @@ For the globe, DSS has monthly 20-year climatologies of some surface parameters.
     </gmd:MD_MaintenanceInformation>
   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-
