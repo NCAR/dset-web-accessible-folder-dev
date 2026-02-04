@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-10-09T01:31:09Z</gco:DateTime>
+    <gco:DateTime>2026-02-04T13:11:11Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -103,7 +103,19 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;This dataset contains Idealized Interdecadal Pacific Oscillation (IPO) pacemaker NetCDF data.&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>&lt;p&gt;This archive contains data from the CESM1 Idealized Interdecadal Pacific Oscillation (IPO) pacemaker ensemble. Three sets of idealized Pacific pacemaker simulations were performed.  One standard deviation
+of SST anomalies was added to the model simulated SST in the Pacific between 40S-60N: positive
+IPO, negative IPO, neutral IPO. For each set, ten starting years were chosen with different
+states of the IPO from the CESM1 large-ensemble preindustrial control run: negative IPO (years 926,
+1331, 1366); positive IPO (years 606, 1011, 1251); Neutral IPO, but trending towards negative
+(year 1321, 1356); and Neutral IPO, but trending towards positive (year 1001, 1241). For each of
+these starting years, the simulations started on January 1 and the model simulations were run for 10 years.&lt;/p&gt;
+&lt;p&gt;The experiments were named by the IPO phase, pre-industrial control start year, and sign of the added SST anomaly. For example, simulations with "IPO_p2p.syr1251" in the name, translates as follows: "_p2p" refers to a positive IPO initial state ("_p") , with an added positive SST anomaly (denoted by "2p"), and a starting year from the CESM1 Large Ensemble pre-industrial control of 1251.&lt;/p&gt;
+&lt;p&gt;In the filenames, "p2p", "n2p", "2p2p" and "2n2p" represent idealized positive IPO experiments (denoted by the last letter being "p" or the last two letters being "2p") where positive IPO SST anomalies are added onto the model simulated SSTs. The first letters "p", "n", "2p" or "2n" represent the initial IPO states,  such as "p" representing positive IPO initial states, "n" representing negative IPO initial states, and "2p" ("2n") representing neutral IPO states trending towards positive (negative).&lt;/p&gt;
+&lt;p&gt;Simulations with "p2n", "n2n","2p2n" or "2n2n" in their filenames are negative IPO experiments where negative IPO SST anomalies are added onto the model simulated SSTs. The first one (or two) letter(s) represent the initial state of the IPO.&lt;/p&gt;
+&lt;p&gt;Similarly, simulations with "p2c","n2c","2p2c","2n2c" in their filenames are neutral IPO experiments where neutral IPO SST anomalies are added onto the model simulated SSTs.&lt;/p&gt;
+&lt;p&gt;The purpose for these different starting states of the IPO is to test whether the influence of the IPO on other parts of the globe depends on the initial states of the IPO. An example would be whether the climate response would be larger in an idealized positive IPO experiments with an initial state of positive IPO rather than initial state of a negative IPO.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Note: Beyond the simulations documented above, there are additional simulations in this archive. All simulations with "1pct.syr", "2pct.syr", "IPOm_rstr2","IPOp_rstr2" in their filenames should not be used.&lt;/b&gt;&lt;/p&gt;</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -213,7 +225,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-10-03</gco:Date>
+                    <gco:Date>2026-01-27</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -221,7 +233,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.2</gco:CharacterString>
+                <gco:CharacterString>23.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -277,7 +289,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2025-10-03</gco:Date>
+                    <gco:Date>2026-01-27</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -285,7 +297,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>22.2</gco:CharacterString>
+                <gco:CharacterString>23.2</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
