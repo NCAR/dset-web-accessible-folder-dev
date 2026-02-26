@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T17:06:42Z</gco:DateTime>
+    <gco:DateTime>2025-07-02T20:04:19Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -283,19 +283,29 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;Atmospheric River Tracking Method Intercomparison Project (ARTMIP) Tier 2 Reanalysis developer catalogues and source data. Each ARTMIP method/algorithm (named by developer) submits a catalogue comprised of 0's (no AR exists) or 1's (yes AR exists) for each time slice, for each grid point, using reanalysis data from MERRA-2, ERA5, JRA-55 and JRA-55C. Quantities required for algorithms, such as IVT or IWV, were provided directly from the reanalysis output to avoid differences due to vertical resolution of the lowest model level in the reanalyses.&lt;/p&gt;
-    
-&lt;p&gt;Required catalogs for each ARTMIP method/algorithm included hourly binary AR tags in MERRA-2 for the period of January 1980 through December 2019 and hourly binary AR tags in ERA5 for the period of January 2000 through December 2019. Participants also had the option to submit hourly catalogs for January 1980 through December 1999 in ERA5 and six-hourly catalogs for January 1980 through December 2019 in JRA-55 and JRA-55C.&lt;/p&gt;
-&lt;p&gt;Dataset information:&lt;/p&gt;
-&lt;p&gt;Each tar file contains monthly files with hourly data from ERA5 at the native resolution of ERA5 (0.25 degrees latitude x 0.25 degrees longitude). This dataset is large, taking up over 4Tb when compressed.&lt;/p&gt;
-&lt;p&gt;ERA5_slvsubset_*.tar.gz contains column water, the U and V components of the moisture flux, and precipitation. Note that these files are compressed using a scale factor and offset for the data.&lt;/p&gt;
-&lt;p&gt;ERA5_IWV contains column water vapor&lt;/p&gt;
-&lt;p&gt;ERA5_hourlyIVT_*.tar.gz contains IVT computed from the U and V components of the moisture flux in ERA5_slvsubser_*.tar.gz. Note: for ERA5_hourlyIVT files, the latitude metadata is incorrect, values follow ERA5 convection (90 to -90) and NOT -90 to 90 as written.&lt;/p&gt;
-&lt;p&gt;ERA5_850hpawinds contain u850 and v850 millibar winds&lt;/p&gt;
-&lt;p&gt;Errata:&lt;/p&gt;
-&lt;p&gt;For ERA5_hourlyIVT files, the latitude metadata is incorrect, values follow ERA5 convection (90 to -90) and NOT -90 to 90 as written. Note: slvsubset includes U IVT and V IVT. If possible, we encourage using data from slvsubset instead of IVT due to the aforementioned errata.&lt;/p&gt;
-&lt;p&gt;Reid500 has a discontinuity bug at the wrapping point between -180 and 180 degrees&lt;/p&gt;
-&lt;p&gt;TempestLR inadvertently contains missing data for the latitude and longitude variables. However these can be acquired from the ERA5 source data itself.&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>Atmospheric River Tracking Method Intercomparison Project (ARTMIP) Tier 2 Reanalysis developer catalogues and source data. Each ARTMIP method/algorithm (named by developer) submits a catalogue comprised of 0's (no AR exists) or 1's (yes AR exists) for each time slice, for each grid point, using reanalysis data from MERRA-2, ERA5, JRA-55 and JRA-55C. Quantities required for algorithms, such as IVT or IWV, were provided directly from the reanalysis output to avoid differences due to vertical resolution of the lowest model level in the reanalyses.
+
+Required catalogs for each ARTMIP method/algorithm included hourly binary AR tags in MERRA-2 for the period of January 1980 through December 2019 and hourly binary AR tags in ERA5 for the period of January 2000 through December 2019. Participants also had the option to submit hourly catalogs for January 1980 through December 1999 in ERA5 and six-hourly catalogs for January 1980 through December 2019 in JRA-55 and JRA-55C.
+
+Dataset information:
+
+Each tar file contains monthly files with hourly data from ERA5 at the native resolution of ERA5 (0.25 degrees latitude x 0.25 degrees longitude). This dataset is large, taking up over 4Tb when compressed.
+
+ERA5_slvsubset_*.tar.gz contains column water, the U and V components of the moisture flux, and precipitation. Note that these files are compressed using a scale factor and offset for the data.
+
+ERA5_IWV contains column water vapor
+
+ERA5_hourlyIVT_*.tar.gz contains IVT computed from the U and V components of the moisture flux in ERA5_slvsubser_*.tar.gz. Note: for ERA5_hourlyIVT files, the latitude metadata is incorrect, values follow ERA5 convection (90 to -90) and NOT -90 to 90 as written.
+
+ERA5_850hpawinds contain u850 and v850 millibar winds
+
+Errata:
+
+For ERA5_hourlyIVT files, the latitude metadata is incorrect, values follow ERA5 convection (90 to -90) and NOT -90 to 90 as written. Note: slvsubset includes U IVT and V IVT. If possible, we encourage using data from slvsubset instead of IVT due to the aforementioned errata.
+
+Reid500 has a discontinuity bug at the wrapping point between -180 and 180 degrees
+
+TempestLR inadvertently contains missing data for the latitude and longitude variables. However these can be acquired from the ERA5 source data itself.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
