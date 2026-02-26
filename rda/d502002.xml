@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T13:13:39Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T00:08:53Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -183,62 +183,21 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;
-    This dataset contains the bias-corrected CPC MORPHing technique (CMORPH) global precipitation 
-    analyses, version 1, and is obtained from the 
-    &lt;a href="https://www.ncei.noaa.gov/products/climate-data-records/precipitation-cmorph"&gt;NOAA Climate Data Record&lt;/a&gt;. 
-    &lt;/p&gt;
-    &lt;p&gt;
-    The following description is from the NOAA Climate Data Record CMORPH dataset page:
-    &lt;/p&gt;
-    &lt;p&gt;
-    This data set is for the bias-corrected, reprocessed CPC Morphing technique (CMORPH) 
-    high-resolution global satellite precipitation estimates. The CMORPH satellite precipitation 
-    estimates are created in two steps. First, the purely satellite-based global fields of 
-    precipitation are constructed through integrating Level 2 retrievals of instantaneous 
-    precipitation rates from all available passive microwave measurements aboard low earth 
-    orbiting platforms. Bias in these integrated satellite precipitation estimates is 
-    then removed through comparison against CPC daily gauge analysis over land and adjustment 
-    against the Global Precipitation Climatology Project (GPCP) merged analysis of pentad 
-    precipitation over ocean. The bias corrected CMORPH satellite precipitation estimates are 
-    created on an 8 km by 8 km grid over the global domain from 60 degrees S to 60 degrees N 
-    and in a 30-minute interval from January 1, 1998. Due to the delay of some input data sets, 
-    this formal version (Version 1) bias corrected CMORPH is produced manually once a month at a 
-    latency of 3-4 months.
-    &lt;/p&gt;
-    &lt;p&gt;
-    For the CDR production, the bias corrected CMORPH generated at its native resolution of 
-    8 km by 8 km / 30-minute is upscaled to form THREE sets of data files of different 
-    time/space resolution for improved user experience:
-    &lt;/p&gt;
-    &lt;p&gt;
-    a) the full-resolution CMORPH data&lt;br /&gt;
-    Output variable: precipitation rate in mm/hour&lt;br /&gt;
-    spatial resolution: 8 km by 8km (at equator)&lt;br /&gt;
-    spatial coverage: global (60S-60N)&lt;br /&gt;
-    temporal resolution: 30min&lt;br /&gt;
-    data period: January 1, 1998 to the present
-    &lt;/p&gt;
-    &lt;p&gt;
-    b) Hourly CMORPH&lt;br /&gt;
-    Output variable: precipitation rate in mm/hour&lt;br /&gt;
-    spatial resolution: 0.25 degrees latitude/longitude&lt;br /&gt;
-    spatial coverage: global (60S-60N)&lt;br /&gt;
-    temporal resolution: hourly&lt;br /&gt;
-    data period: January 1, 1998 to the present
-    &lt;/p&gt;
-    &lt;p&gt;
-    c) Daily CMORPH&lt;br /&gt;
-    Output variable: daily precipitation in mm/day&lt;br /&gt;
-    spatial resolution: 0.25 degrees latitude/longitude&lt;br /&gt;
-    spatial coverage: global (60S-60N)&lt;br /&gt;
-    temporal resolution: hourly&lt;br /&gt;
-    data period: January 1, 1998 to the present
-    &lt;/p&gt;
-    &lt;p&gt;
-    (b) and (c) are derived from and quantitatively consistent with the CMORPH at its 
-    original resolution (a).
-    &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString> This dataset contains the bias-corrected CPC MORPHing technique (CMORPH) global precipitation analyses, version 1, and is obtained from the NOAA Climate Data Record [https://www.ncei.noaa.gov/products/climate-data-records/precipitation-cmorph].
+
+ The following description is from the NOAA Climate Data Record CMORPH dataset page: 
+
+ This data set is for the bias-corrected, reprocessed CPC Morphing technique (CMORPH) high-resolution global satellite precipitation estimates. The CMORPH satellite precipitation estimates are created in two steps. First, the purely satellite-based global fields of precipitation are constructed through integrating Level 2 retrievals of instantaneous precipitation rates from all available passive microwave measurements aboard low earth orbiting platforms. Bias in these integrated satellite precipitation estimates is then removed through comparison against CPC daily gauge analysis over land and adjustment against the Global Precipitation Climatology Project (GPCP) merged analysis of pentad precipitation over ocean. The bias corrected CMORPH satellite precipitation estimates are created on an 8 km by 8 km grid over the global domain from 60 degrees S to 60 degrees N and in a 30-minute interval from January 1, 1998. Due to the delay of some input data sets, this formal version (Version 1) bias corrected CMORPH is produced manually once a month at a latency of 3-4 months.
+
+ For the CDR production, the bias corrected CMORPH generated at its native resolution of 8 km by 8 km / 30-minute is upscaled to form THREE sets of data files of different time/space resolution for improved user experience: 
+
+ a) the full-resolution CMORPH data Output variable: precipitation rate in mm/hour spatial resolution: 8 km by 8km (at equator) spatial coverage: global (60S-60N) temporal resolution: 30min data period: January 1, 1998 to the present 
+
+ b) Hourly CMORPH Output variable: precipitation rate in mm/hour spatial resolution: 0.25 degrees latitude/longitude spatial coverage: global (60S-60N) temporal resolution: hourly data period: January 1, 1998 to the present 
+
+ c) Daily CMORPH Output variable: daily precipitation in mm/day spatial resolution: 0.25 degrees latitude/longitude spatial coverage: global (60S-60N) temporal resolution: hourly data period: January 1, 1998 to the present 
+
+ (b) and (c) are derived from and quantitatively consistent with the CMORPH at its original resolution (a).</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>

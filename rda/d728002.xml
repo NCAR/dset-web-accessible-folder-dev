@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T15:06:09Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T00:06:07Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -153,34 +153,22 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;
-    &lt;font color="red"&gt;
-    &lt;b&gt;NOTE:&lt;/b&gt; This dataset has been superseded by GPCP Version 2.3, which is available in RDA dataset &lt;a href="https://rda.ucar.edu/datasets/ds728.6/"&gt;ds728.6&lt;/a&gt;.  Users are advised to transition to this updated dataset.
-    &lt;/font&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    This dataset contains Version 2.2 of the Global Precipitation Climatology Project (GPCP) combined satellite-gauge precipitation estimate and combined satellite-gauge error estimate.  The data are monthly analyses defined on a global 2.5 degree by 2.5 degree longitude/latitude grid and cover the period January 1979 to (delayed) present. A monthly climatology (1979-2011) is also available.
-    &lt;/p&gt;
-    &lt;p&gt;
-    Please note that the original binary data were written using the big endian representation of unformatted binary words. Users reading this data on little endian platforms, therefore, will need to byte swap the data.
-    &lt;/p&gt;
-    &lt;p&gt;
-    The GPCP was established by the World Climate Research Program (WCRP) and subsequently attached to the Global Energy and Water Exchange program (GEWEX) to address the problem of quantifying the distribution of precipitation around the globe over many years. The general approach is to combine the precipitation information available from each of several sources into a final merged product, taking advantage of the strengths of each data type. The passive microwave estimates are based on Special Sensor Microwave/Imager (SSM/I) and Special Sensor Microwave Imager/Sounder (SSMIS) data from the series of Defense Meteorological Satellite Program (DMSP, United States) satellites that fly in sun-synchronous low-earth orbits at 6am / 6pm. The infrared precipitation estimates are computed primarily from geostationary satellites (United States, Europe, Japan), and secondarily from NOAA series polar-orbiting satellites (United States). Additional low-Earth orbit estimates include Atmospheric Infrared Sounder (AIRS) data from the NASA Aqua, and Television Infrared Observation Satellite Program (TIROS) Operational Vertical Sounder (TOVS) and Outgoing Longwave Radiation Precipitation Index (OPI) data from the NOAA series satellites. The precipitation gauge data are assembled and analyzed by the Global Precipitation Climatology Centre (GPCC) of the Deutscher Wetterdienst.
-    &lt;/p&gt;
-    &lt;p&gt;
-    The Version 2.2 Data Set contains data from the following contributing centers:
-    &lt;ul&gt;
-    &lt;li&gt;GPCP Polar Satellite Precipitation Data Centre - Emission (SSM/I and SSMIS emission estimates)&lt;/li&gt;
-    &lt;li&gt;GPCP Polar Satellite Precipitation Data Centre - Scattering (SSM/I and SSMIS scattering estimates)&lt;/li&gt;
-    &lt;li&gt; GPCP Geostationary Satellite Precipitation Data Centre (GPI and OPI estimates)&lt;/li&gt;
-    &lt;li&gt; NASA/GSFC Sounder Research Team (TOVS and AIRS estimates)&lt;/li&gt;
-    &lt;li&gt; GPCP Global Precipitation Climatology Centre (precipitation gauge analyses)&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;b&gt;&lt;i&gt;Request to users from the data authors:&lt;/i&gt;&lt;/b&gt; 
-    The GPCP datasets are developed and maintained with international cooperation and are used by the worldwide scientific community. To better understand the evolving requirements across the GPCP user community and to increase the utility of the GPCP product suite, the dataset authors request that a citation be provided for each publication that uses the GPCP products. Please email the citation to george.j.huffman@nasa.gov or david.t.bolvin@nasa.gov. Your help and cooperation will provide valuable information for making future enhancements to the GPCP product suite.
-    &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>NOTE: This dataset has been superseded by GPCP Version 2.3, which is available in RDA dataset ds728.6 [https://rda.ucar.edu/datasets/ds728.6/]. Users are advised to transition to this updated dataset.
+
+ This dataset contains Version 2.2 of the Global Precipitation Climatology Project (GPCP) combined satellite-gauge precipitation estimate and combined satellite-gauge error estimate. The data are monthly analyses defined on a global 2.5 degree by 2.5 degree longitude/latitude grid and cover the period January 1979 to (delayed) present. A monthly climatology (1979-2011) is also available.
+
+ Please note that the original binary data were written using the big endian representation of unformatted binary words. Users reading this data on little endian platforms, therefore, will need to byte swap the data.
+
+ The GPCP was established by the World Climate Research Program (WCRP) and subsequently attached to the Global Energy and Water Exchange program (GEWEX) to address the problem of quantifying the distribution of precipitation around the globe over many years. The general approach is to combine the precipitation information available from each of several sources into a final merged product, taking advantage of the strengths of each data type. The passive microwave estimates are based on Special Sensor Microwave/Imager (SSM/I) and Special Sensor Microwave Imager/Sounder (SSMIS) data from the series of Defense Meteorological Satellite Program (DMSP, United States) satellites that fly in sun-synchronous low-earth orbits at 6am / 6pm. The infrared precipitation estimates are computed primarily from geostationary satellites (United States, Europe, Japan), and secondarily from NOAA series polar-orbiting satellites (United States). Additional low-Earth orbit estimates include Atmospheric Infrared Sounder (AIRS) data from the NASA Aqua, and Television Infrared Observation Satellite Program (TIROS) Operational Vertical Sounder (TOVS) and Outgoing Longwave Radiation Precipitation Index (OPI) data from the NOAA series satellites. The precipitation gauge data are assembled and analyzed by the Global Precipitation Climatology Centre (GPCC) of the Deutscher Wetterdienst.
+
+ The Version 2.2 Data Set contains data from the following contributing centers: 
+       * GPCP Polar Satellite Precipitation Data Centre - Emission (SSM/I and SSMIS emission estimates)
+       * GPCP Polar Satellite Precipitation Data Centre - Scattering (SSM/I and SSMIS scattering estimates)
+       *  GPCP Geostationary Satellite Precipitation Data Centre (GPI and OPI estimates)
+       *  NASA/GSFC Sounder Research Team (TOVS and AIRS estimates)
+       *  GPCP Global Precipitation Climatology Centre (precipitation gauge analyses)
+
+Request to users from the data authors: The GPCP datasets are developed and maintained with international cooperation and are used by the worldwide scientific community. To better understand the evolving requirements across the GPCP user community and to increase the utility of the GPCP product suite, the dataset authors request that a citation be provided for each publication that uses the GPCP products. Please email the citation to george.j.huffman@nasa.gov or david.t.bolvin@nasa.gov. Your help and cooperation will provide valuable information for making future enhancements to the GPCP product suite.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
