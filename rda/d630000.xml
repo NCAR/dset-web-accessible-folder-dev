@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-24T14:09:56Z</gco:DateTime>
+    <gco:DateTime>2020-10-05T17:27:41Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -143,19 +143,17 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;&lt;font color="red"&gt;Please note:&lt;/font&gt; Please use ds633.0 to access RDA maintained ERA-5 data, see
-    &lt;a href="https://rda.ucar.edu/datasets/ds633.0"&gt;ERA5 Reanalysis (0.25 Degree Latitude-Longitude Grid)&lt;/a&gt;, RDA dataset ds633.0.  This dataset is no longer being updated, and web access has been removed.&lt;/p&gt;
-    
-    &lt;p&gt;After many years of research and technical preparation, the production of a new ECMWF climate  reanalysis to replace ERA-Interim is in progress. ERA5 is the fifth generation of ECMWF atmospheric reanalyses of the global climate, which started with the FGGE reanalyses produced in the 1980s, followed by ERA-15, ERA-40 and most recently ERA-Interim. ERA5 will cover the period January 1950 to near real time, though the first segment of data to be released will span the period 2010-2016.&lt;/p&gt;
-    
-    &lt;p&gt;ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resolution (one fourth the spatial resolution of the operational model) and a 62 kilometer resolution ten member 4D-Var ensemble of data assimilation (EDA) in CY41r2 of ECMWF's Integrated Forecast System (IFS) with 137 hybrid sigma-pressure (model) levels in the vertical, up to a top level of 0.01 hPa. Atmospheric data on these levels are interpolated to 37 pressure levels (the same levels as in ERA-Interim). Surface or single level data are also available, containing 2D parameters such as precipitation, 2 meter temperature, top of atmosphere radiation and vertical integrals over the entire atmosphere. The IFS is coupled to a soil model, the parameters of which are also designated as surface parameters, and an ocean wave model. Generally, the data is available at an hourly frequency and consists of analyses and short (18 hour) forecasts, initialized twice daily from analyses at 06 and 18 UTC. Most analyses parameters are also available from the forecasts. There are a number of forecast parameters, e.g. mean rates and accumulations, that are not available from the analyses.&lt;/p&gt;
-    
-    &lt;p&gt;Improvements to ERA5, compared to ERA-Interim, include use of HadISST.2, reprocessed
-    ECMWF climate data records (CDR), and implementation of RTTOV11 radiative transfer. Variational bias corrections have not only been applied to satellite radiances, but also ozone retrievals,  aircraft observations, surface pressure, and radiosonde profiles.&lt;/p&gt;  
-    
-    &lt;p&gt;NCAR's Data Support Section (DSS) is performing and supplying a grid transformed version of ERA5, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 1280 longitude by 640 latitude N320 Gaussian grid. In addition, DSS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available. Finally, the data is reprocessed into single parameter time series.&lt;/p&gt;
-    
-    &lt;p&gt;&lt;font color="red"&gt;Please note:&lt;/font&gt; As of November 2017, DSS is also producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for CISL RDA at NCAR. The netCDF-4/HDF5 version is the &lt;i&gt;de facto&lt;/i&gt; RDA ERA5 &lt;i&gt;online&lt;/i&gt; data  format. The GRIB1 data format is only available via NCAR's High Performance Storage System (HPSS). We encourage users to evaluate the netCDF-4/HDF5 version   for their work, and to use the currently existing GRIB1 files as a reference and basis of comparison. To ease this transition, there is a one-to-one correspondence between the netCDF-4/HDF5 and GRIB1 files, with as much GRIB1 metadata as possible incorporated into the attributes of the netCDF-4/HDF5 counterpart.&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>Please note: Please use ds633.0 to access RDA maintained ERA-5 data, see ERA5 Reanalysis (0.25 Degree Latitude-Longitude Grid) [https://rda.ucar.edu/datasets/ds633.0], RDA dataset ds633.0. This dataset is no longer being updated, and web access has been removed.
+
+After many years of research and technical preparation, the production of a new ECMWF climate reanalysis to replace ERA-Interim is in progress. ERA5 is the fifth generation of ECMWF atmospheric reanalyses of the global climate, which started with the FGGE reanalyses produced in the 1980s, followed by ERA-15, ERA-40 and most recently ERA-Interim. ERA5 will cover the period January 1950 to near real time, though the first segment of data to be released will span the period 2010-2016.
+
+ERA5 is produced using high-resolution forecasts (HRES) at 31 kilometer resolution (one fourth the spatial resolution of the operational model) and a 62 kilometer resolution ten member 4D-Var ensemble of data assimilation (EDA) in CY41r2 of ECMWF's Integrated Forecast System (IFS) with 137 hybrid sigma-pressure (model) levels in the vertical, up to a top level of 0.01 hPa. Atmospheric data on these levels are interpolated to 37 pressure levels (the same levels as in ERA-Interim). Surface or single level data are also available, containing 2D parameters such as precipitation, 2 meter temperature, top of atmosphere radiation and vertical integrals over the entire atmosphere. The IFS is coupled to a soil model, the parameters of which are also designated as surface parameters, and an ocean wave model. Generally, the data is available at an hourly frequency and consists of analyses and short (18 hour) forecasts, initialized twice daily from analyses at 06 and 18 UTC. Most analyses parameters are also available from the forecasts. There are a number of forecast parameters, e.g. mean rates and accumulations, that are not available from the analyses.
+
+Improvements to ERA5, compared to ERA-Interim, include use of HadISST.2, reprocessed ECMWF climate data records (CDR), and implementation of RTTOV11 radiative transfer. Variational bias corrections have not only been applied to satellite radiances, but also ozone retrievals, aircraft observations, surface pressure, and radiosonde profiles.
+
+NCAR's Data Support Section (DSS) is performing and supplying a grid transformed version of ERA5, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 1280 longitude by 640 latitude N320 Gaussian grid. In addition, DSS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available. Finally, the data is reprocessed into single parameter time series.
+
+Please note: As of November 2017, DSS is also producing a CF 1.6 compliant netCDF-4/HDF5 version of ERA5 for CISL RDA at NCAR. The netCDF-4/HDF5 version is the de facto RDA ERA5 online data format. The GRIB1 data format is only available via NCAR's High Performance Storage System (HPSS). We encourage users to evaluate the netCDF-4/HDF5 version for their work, and to use the currently existing GRIB1 files as a reference and basis of comparison. To ease this transition, there is a one-to-one correspondence between the netCDF-4/HDF5 and GRIB1 files, with as much GRIB1 metadata as possible incorporated into the attributes of the netCDF-4/HDF5 counterpart.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
