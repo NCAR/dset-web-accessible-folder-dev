@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T17:05:09Z</gco:DateTime>
+    <gco:DateTime>2020-08-24T17:23:36Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -133,29 +133,13 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;DS127.0 represents a dataset implemented and computed by NCAR's Data Support Section, and forms an essential
-    part of efforts undertaken in late 2004, early 2005, to produce an archive of selected segments of ERA-40 on
-    standard transformation grids.&lt;/p&gt;
-    &lt;p&gt;
-    In this case, forty six ERA-40 6-hourly surface and single level analysis
-    variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. All fields were
-    transformed using routines from the ECMWF EMOS library, including 10 meter winds which were treated as scalars
-    because of a lack of 10 meter spectral vorticity and divergence. A missing value occurs in the sea
-    surface temperature and sea ice fields to mask grid points occurring over land. Fields formerly
-    archived as whole integers, such as vegetation indices and cloud cover, occur as integers plus a fractional part
-    in the T106 version due to interpolation.&lt;/p&gt;
-    &lt;p&gt;
-    In addition, twenty seven ERA-40 6-hourly surface and single level 6-hour forecast
-    variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid.
-    (These are designated as OTHER, or other, variables below.)
-    All variables are valid 6 hours after the forecast was initiated. Thus, 00Z 6-hour forecast evaporation
-    is valid at 06Z. Four of the variables are instantaneous variables, and the remaining twenty three variables
-    are accumulated over the 6-hour forecast time. Divide the accumulated variables by 21600 seconds to obtain
-    instantaneous values. (Multiplication by minus one may also be necessary to match the sign convention one is
-    accustomed to.)  All fields were transformed using routines from the ECMWF EMOS library, including three
-    pairs of stresses which were treated as scalars because of a lack of spectral precursors.&lt;/p&gt;
-    
-    &lt;p&gt;The ERA-Interim data from ECMWF is an update to the ERA-40 project.  The ERA-Interim data starts in 1989 and has a higher horizontal resolution (T255, N128 nominally 0.703125 degrees) than the ERA-40 data (T159, N80 nominally  1.125 degrees).  ERA-Interim is based on a more current model than ERA-40 and uses 4DVAR (as opposed to 3DVAR in ERA-40).  ECMWF will continue to run the ERA-Interim model in near real time through at least 2010, and possibly longer.  This data is available in &lt;a href="https://rda.ucar.edu/datasets/ds627.0/"&gt;ds627.0&lt;/a&gt;. &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>DS127.0 represents a dataset implemented and computed by NCAR's Data Support Section, and forms an essential part of efforts undertaken in late 2004, early 2005, to produce an archive of selected segments of ERA-40 on standard transformation grids.
+
+ In this case, forty six ERA-40 6-hourly surface and single level analysis variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. All fields were transformed using routines from the ECMWF EMOS library, including 10 meter winds which were treated as scalars because of a lack of 10 meter spectral vorticity and divergence. A missing value occurs in the sea surface temperature and sea ice fields to mask grid points occurring over land. Fields formerly archived as whole integers, such as vegetation indices and cloud cover, occur as integers plus a fractional part in the T106 version due to interpolation.
+
+ In addition, twenty seven ERA-40 6-hourly surface and single level 6-hour forecast variables were transformed from a reduced N80 Gaussian grid to a 320 by 160 regular Gaussian grid. (These are designated as OTHER, or other, variables below.) All variables are valid 6 hours after the forecast was initiated. Thus, 00Z 6-hour forecast evaporation is valid at 06Z. Four of the variables are instantaneous variables, and the remaining twenty three variables are accumulated over the 6-hour forecast time. Divide the accumulated variables by 21600 seconds to obtain instantaneous values. (Multiplication by minus one may also be necessary to match the sign convention one is accustomed to.) All fields were transformed using routines from the ECMWF EMOS library, including three pairs of stresses which were treated as scalars because of a lack of spectral precursors.
+
+The ERA-Interim data from ECMWF is an update to the ERA-40 project. The ERA-Interim data starts in 1989 and has a higher horizontal resolution (T255, N128 nominally 0.703125 degrees) than the ERA-40 data (T159, N80 nominally 1.125 degrees). ERA-Interim is based on a more current model than ERA-40 and uses 4DVAR (as opposed to 3DVAR in ERA-40). ECMWF will continue to run the ERA-Interim model in near real time through at least 2010, and possibly longer. This data is available in ds627.0 [https://rda.ucar.edu/datasets/ds627.0/].</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
