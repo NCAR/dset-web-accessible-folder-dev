@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T19:05:33Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T01:05:54Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -103,26 +103,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;This dataset contains climate model output from Deutches
-    Klimarechenzentrum (DKRZ) in Germany.  The model output consists
-    of monthly mean grids for several variables from three runs of
-    the ECHAM4 model.  The three runs are a &lt;i&gt;control&lt;/i&gt; (constant
-    atmospheric forcing) run, a &lt;i&gt;greenhouse gas&lt;/i&gt; run which
-    assumes a compounded 1% per year increase in CO&lt;sub&gt;2&lt;/sub&gt;, and
-    an &lt;i&gt;aerosol&lt;/i&gt; run which combines CO&lt;sub&gt;2&lt;/sub&gt; and
-    sulphate aerosol concentrations.  The model is run at T42
-    resolution, resulting in a 128 by 64 latitude/longitude gaussian
-    output grid (approximately 2.8-degree by 2.8-degree
-    resolution).  The grids are in GRIB format (Edition 1).&lt;/p&gt;
-    &lt;p&gt;DSS has computed decadal means for each decade-month from the
-    monthly mean grids.  The decade means are computed from years 0
-    through 9 of each decade.  We also computed smoothed decadal
-    means by computing 30-year running means of the decadal mean
-    grids.  Because of the large variability in the decadal means of
-    variables such as precipitation, we recommend using the 30-year
-    (smoothed decadal) means and applying them to the year at the
-    middle of the 30-year period (i.e. - the 30-year mean for
-    2070-2099 should be applied at year 2085).&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>This dataset contains climate model output from Deutches Klimarechenzentrum (DKRZ) in Germany. The model output consists of monthly mean grids for several variables from three runs of the ECHAM4 model. The three runs are a control (constant atmospheric forcing) run, a greenhouse gas run which assumes a compounded 1% per year increase in CO2, and an aerosol run which combines CO2 and sulphate aerosol concentrations. The model is run at T42 resolution, resulting in a 128 by 64 latitude/longitude gaussian output grid (approximately 2.8-degree by 2.8-degree resolution). The grids are in GRIB format (Edition 1).
+
+DSS has computed decadal means for each decade-month from the monthly mean grids. The decade means are computed from years 0 through 9 of each decade. We also computed smoothed decadal means by computing 30-year running means of the decadal mean grids. Because of the large variability in the decadal means of variables such as precipitation, we recommend using the 30-year (smoothed decadal) means and applying them to the year at the middle of the 30-year period (i.e. - the 30-year mean for 2070-2099 should be applied at year 2085).</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>

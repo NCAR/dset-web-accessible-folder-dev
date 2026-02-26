@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T19:07:21Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T01:07:43Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -123,31 +123,9 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;
-    ECMWF has implemented a significant resolution upgrade and methodology for high-resolution forecasts
-    (HRES) and ensemble forecasts (ENS) beginning January of 2016. HRES is now performed via a transform
-    grid with a nominal grid point spacing of 9 kilometers (0.08 degrees), and is carried out with IFS
-    (Integrated Forecast System). Improvements in computational efficiency and
-    effective resolution have been brought about by implementing a triangular cubic octahedral
-    reduced Gaussian grid in which the shortest spatial wavelength is represented by at least four
-    grid points anywhere on the globe, as opposed to the former linear arrangement whereby the
-    shortest wavelength was represented by two grid points, while at the same time retaining the same number
-    of spherical harmonics and triangular truncation. (The term "cubic" is due to the ability of the grid to
-    represent cubic products in the dynamical equations.) In addition, the reduction of grid points along latitude
-    circles as one approaches the poles is achieved using a triangular to octahedral mapping which
-    corresponds to a poleward reduction of four points per latitude circle and an optimization of the
-    total number of grid points and their local mesh resolution.  ECMWF has
-    documented superior filtering properties at higher resolution, an improved representation of orography,
-    improved global mass conservation properties, substantial efficiency gains, and more scalable locally
-    compact computations of derivatives and other properties that depend on nearest-neighbor information only.
-    More details may be found in the publications cited below.&lt;/p&gt;
-    &lt;p&gt;
-    NCAR's DECS is performing and supplying a grid transformed version of HRES IFS,
-    in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid
-    are transformed to a regular 5120 longitude by 2560 latitude N1280 Gaussian grid. In addition, DECS is also
-    computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these
-    are available.
-    &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString> ECMWF has implemented a significant resolution upgrade and methodology for high-resolution forecasts (HRES) and ensemble forecasts (ENS) beginning January of 2016. HRES is now performed via a transform grid with a nominal grid point spacing of 9 kilometers (0.08 degrees), and is carried out with IFS (Integrated Forecast System). Improvements in computational efficiency and effective resolution have been brought about by implementing a triangular cubic octahedral reduced Gaussian grid in which the shortest spatial wavelength is represented by at least four grid points anywhere on the globe, as opposed to the former linear arrangement whereby the shortest wavelength was represented by two grid points, while at the same time retaining the same number of spherical harmonics and triangular truncation. (The term "cubic" is due to the ability of the grid to represent cubic products in the dynamical equations.) In addition, the reduction of grid points along latitude circles as one approaches the poles is achieved using a triangular to octahedral mapping which corresponds to a poleward reduction of four points per latitude circle and an optimization of the total number of grid points and their local mesh resolution. ECMWF has documented superior filtering properties at higher resolution, an improved representation of orography, improved global mass conservation properties, substantial efficiency gains, and more scalable locally compact computations of derivatives and other properties that depend on nearest-neighbor information only. More details may be found in the publications cited below.
+
+ NCAR's DECS is performing and supplying a grid transformed version of HRES IFS, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 5120 longitude by 2560 latitude N1280 Gaussian grid. In addition, DECS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>

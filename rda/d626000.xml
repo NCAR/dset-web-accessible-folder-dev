@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T17:06:05Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T01:06:29Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -163,14 +163,19 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;ERA-20C is ECMWF's first atmospheric reanalysis of the 20th century, from 1900-2010. It assimilates observations of surface pressure and surface marine winds only. It is an outcome of the ERA-CLIM project.&lt;/p&gt;
-    &lt;p&gt;ERA-20C was produced with IFS version CY38r1 and the same surface and atmospheric forcings as the final version of the atmospheric model integration ERA-20CM. A coupled atmosphere land surface and ocean wave model is used to reanalyze the weather, by assimilating surface observations. The ERA-20C products describe the spatial-temporal evolution of the atmosphere (on 91 vertical levels, between the surface and 0.01 hPa), the land-surface (on 4 soil layers), and the ocean waves (on 25 frequencies and 12 directions).&lt;/p&gt;
-    &lt;p&gt;The horizontal resolution is approximately 125 km (spectral truncation T159). Note that atmospheric data are not only available on the native 91 model levels, but also on 37 pressure levels (as in ERA-Interim), 16 potential temperature levels, and the 2 potential vorticity unit level. &lt;i&gt;NCAR's Data Support Section (DSS) is performing and supplying a grid transformed version of ERA-20C, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 320 longitude by 160 latitude N80 Gaussian grid. In addition, DSS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available. The data is being organized into single parameter time series.&lt;/i&gt;&lt;/p&gt;
-    &lt;p&gt;The assimilation methodology is 24-hour 4D-Var analysis, with variational bias correction of surface pressure observations. Analysis increments are at T95 horizontal resolution (approximately 210 km). The analyses provide the initial conditions for subsequent forecasts that serve as backgrounds to the next analyses. The spatial temporal evolution of background errors was provided by a 10-member ensemble produced a priori.&lt;/p&gt;
-    &lt;p&gt;The observations assimilated in ERA-20C include surface and mean sea level pressures from ISPD v3.2.6 and ICOADS v2.5.1, and surface marine winds from ICOADS v2.5.1. The observation feedback from ERA-20C, including, for example, departures before and after assimilation and usage flags, will be released at a later stage.&lt;/p&gt;
-    &lt;p&gt;ERA-20C was produced in 2014 in about 6 weeks on ECMWF's IBM POWER7 high-performance computer. This production employed 22 parallel streams: January 1899-December 1904, January 1904-December 1909, etc. The first year of each stream was only used for spin-up and discarded; the final product is made of the last years of each stream.&lt;/p&gt;
-    &lt;p&gt;The temporal resolution of the daily products is usually 3-hourly.
-    Exceptions are in the analysis products, where the following surface parameters are only available 6-hourly: Sea-ice cover, Snow density, Sea surface temperature, Volumetric soil water layer 1, Volumetric soil water layer 2, Volumetric soil water layer 3, Volumetric soil water layer 4, Soil temperature level 1, Snow depth, 2 meter temperature, 2 meter dew point temperature, Soil temperature level 2, Soil temperature level 3, Temperature of snow layer.&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>ERA-20C is ECMWF's first atmospheric reanalysis of the 20th century, from 1900-2010. It assimilates observations of surface pressure and surface marine winds only. It is an outcome of the ERA-CLIM project.
+
+ERA-20C was produced with IFS version CY38r1 and the same surface and atmospheric forcings as the final version of the atmospheric model integration ERA-20CM. A coupled atmosphere land surface and ocean wave model is used to reanalyze the weather, by assimilating surface observations. The ERA-20C products describe the spatial-temporal evolution of the atmosphere (on 91 vertical levels, between the surface and 0.01 hPa), the land-surface (on 4 soil layers), and the ocean waves (on 25 frequencies and 12 directions).
+
+The horizontal resolution is approximately 125 km (spectral truncation T159). Note that atmospheric data are not only available on the native 91 model levels, but also on 37 pressure levels (as in ERA-Interim), 16 potential temperature levels, and the 2 potential vorticity unit level. NCAR's Data Support Section (DSS) is performing and supplying a grid transformed version of ERA-20C, in which variables originally represented as spectral coefficients or archived on a reduced Gaussian grid are transformed to a regular 320 longitude by 160 latitude N80 Gaussian grid. In addition, DSS is also computing horizontal winds (u-component, v-component) from spectral vorticity and divergence where these are available. The data is being organized into single parameter time series.
+
+The assimilation methodology is 24-hour 4D-Var analysis, with variational bias correction of surface pressure observations. Analysis increments are at T95 horizontal resolution (approximately 210 km). The analyses provide the initial conditions for subsequent forecasts that serve as backgrounds to the next analyses. The spatial temporal evolution of background errors was provided by a 10-member ensemble produced a priori.
+
+The observations assimilated in ERA-20C include surface and mean sea level pressures from ISPD v3.2.6 and ICOADS v2.5.1, and surface marine winds from ICOADS v2.5.1. The observation feedback from ERA-20C, including, for example, departures before and after assimilation and usage flags, will be released at a later stage.
+
+ERA-20C was produced in 2014 in about 6 weeks on ECMWF's IBM POWER7 high-performance computer. This production employed 22 parallel streams: January 1899-December 1904, January 1904-December 1909, etc. The first year of each stream was only used for spin-up and discarded; the final product is made of the last years of each stream.
+
+The temporal resolution of the daily products is usually 3-hourly. Exceptions are in the analysis products, where the following surface parameters are only available 6-hourly: Sea-ice cover, Snow density, Sea surface temperature, Volumetric soil water layer 1, Volumetric soil water layer 2, Volumetric soil water layer 3, Volumetric soil water layer 4, Soil temperature level 1, Snow depth, 2 meter temperature, 2 meter dew point temperature, Soil temperature level 2, Soil temperature level 3, Temperature of snow layer.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>

@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T19:05:31Z</gco:DateTime>
+    <gco:DateTime>2026-02-26T01:05:48Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -133,11 +133,15 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;This past2k simulation spanning the last 2 millennia, described in the &lt;a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL079447"&gt;reference paper&lt;/a&gt;, uses the fully coupled CESM1.1 at 1 degree resolution in the ocean and sea ice model model and 2 degree resolution in the atmosphere and land model, the same configuration used for the &lt;a href="https://doi.org/10.1175/BAMS-D-14-00233.1"&gt; CESM Last Millennium Ensemble&lt;/a&gt;. &lt;/p&gt; 
-&lt;p&gt;The past2k simulation was forced using data compiled for &lt;a href="https://gmd.copernicus.org/articles/10/4005/2017/"&gt;PMIP4&lt;/a&gt;. As there was no land-cover forcing available prior to 850 CE when the past2k simulation was started, a superposition of HYDE3.1 crop land changes onto the LME land cover for 850 CE was applied between 1 CE to 849 CE, followed by the land cover forcing from the Last Millennium Ensemble between 850 and 20005 CE. A volcanic aerosol forcing file for CESM1 for the last 2000 years was generated using  &lt;a href="https://gmd.copernicus.org/articles/9/4049/2016/"&gt;PMIP4 Easy Volcanic Aerosol data&lt;/a&gt;. The land cover and volcanic forcing data used for past2k is  &lt;a href="https://openpolar.no/Record/ftzenodo:oai:zenodo.org:1304427"&gt;published&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Monthly and daily outputs spanning the last 2000 years are saved and archived as single variable timeseries for the atmosphere, ocean, sea ice, and land model. (Note: In the daily ice data, the file trans1-850AD.cice.h1.FYarea_d.18000101-18991231.nc was corrupted and is not available.) Restart files from the transient simulation are available every 10 years for the first 1000 years and every five years for the second 1000 years of past2k.&lt;/p&gt;
-&lt;p&gt;In addition to the transient past2k output, restart files from the 520 year long CE control simulation are available every 10 years. Note that the past2k simulation was started from year 203 of this control run. See the &lt;a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL079447"&gt;reference paper&lt;/a&gt; for more details on the model spin-up.&lt;/p&gt;
-&lt;p&gt;The past2k simulation was enabled by a Grant of Excellence (141573-053) from the Icelandic Research Center (RANNIS) and the National Science Foundation (ARC 1204096). The model simulation was conducted with high performance computing support from Yellowstone provided by NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation. &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>This past2k simulation spanning the last 2 millennia, described in the reference paper [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL079447], uses the fully coupled CESM1.1 at 1 degree resolution in the ocean and sea ice model model and 2 degree resolution in the atmosphere and land model, the same configuration used for the  CESM Last Millennium Ensemble [https://doi.org/10.1175/BAMS-D-14-00233.1].
+
+The past2k simulation was forced using data compiled for PMIP4 [https://gmd.copernicus.org/articles/10/4005/2017/]. As there was no land-cover forcing available prior to 850 CE when the past2k simulation was started, a superposition of HYDE3.1 crop land changes onto the LME land cover for 850 CE was applied between 1 CE to 849 CE, followed by the land cover forcing from the Last Millennium Ensemble between 850 and 20005 CE. A volcanic aerosol forcing file for CESM1 for the last 2000 years was generated using PMIP4 Easy Volcanic Aerosol data [https://gmd.copernicus.org/articles/9/4049/2016/]. The land cover and volcanic forcing data used for past2k is published [https://openpolar.no/Record/ftzenodo:oai:zenodo.org:1304427].
+
+Monthly and daily outputs spanning the last 2000 years are saved and archived as single variable timeseries for the atmosphere, ocean, sea ice, and land model. (Note: In the daily ice data, the file trans1-850AD.cice.h1.FYarea_d.18000101-18991231.nc was corrupted and is not available.) Restart files from the transient simulation are available every 10 years for the first 1000 years and every five years for the second 1000 years of past2k.
+
+In addition to the transient past2k output, restart files from the 520 year long CE control simulation are available every 10 years. Note that the past2k simulation was started from year 203 of this control run. See the reference paper [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL079447] for more details on the model spin-up.
+
+The past2k simulation was enabled by a Grant of Excellence (141573-053) from the Icelandic Research Center (RANNIS) and the National Science Foundation (ARC 1204096). The model simulation was conducted with high performance computing support from Yellowstone provided by NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
