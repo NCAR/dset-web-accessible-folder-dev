@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T13:14:58Z</gco:DateTime>
+    <gco:DateTime>2026-02-09T15:54:55Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -163,37 +163,13 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;Products from NCEP/NCAR Reanalysis Project (NNRP or R1) are archived
-    in this dataset.  The resolution of the global Reanalysis
-    Model is T62 (209 km) with 28 vertical sigma levels.
-    Results are available at 6 hour intervals. Although the initial plan
-    is to reanalyze the data for a 40-year period (1957-1996),
-    production has gone back to 1948 and going forward continuously.
-    Future plans call for rerunning the entire period as next
-    generation models are ready.&lt;/p&gt;
-    &lt;p&gt;There are over 80 different variables, (including geopotential height,
-    temperature, relative humidity, u- and v- wind components, etc.) in
-    several different coordinate systems, such as 17 pressure level
-    stack on 2.5 by 2.5 degree grids, 28 sigma level stack on 192 by 94
-    Gaussian grids, and 11 isentropic level stack on 2.5 by 2.5 degree
-    grid. They are organized as different subgroups in the archive.
-    In addition to analyses, diagnostic terms (for example: radiative heating,
-    convective heating) and accumulative variables (like precipitation rate)
-    are present. The input observations are archived with quality and usage flags
-    in WMO BUFR format. Most of the project outputs are stored in
-    WMO GRIB format. Other files, such as restart files and zonal statistics,
-    are saved in IEEE format.&lt;/p&gt;
-    &lt;p&gt;Some special periods are analyzed more than once
-    to provide data for special research studies.  For
-    example, a special run of 1979 was made excluding
-    most satellite inputs.  This run could be used for
-    evaluating the impact of satellite data on the
-    analysis.  During the TOGA COARE experiment period, special
-    runs of reanalysis model without experimental
-    data are archived under the NO TOGA COARE directory.&lt;/p&gt;
-    &lt;p&gt;Monthly means are on line at &lt;a href="https://gdex.ucar.edu/datasets/ds090.2/"&gt;ds090.2&lt;/a&gt;.
-    The R1 forecasts are in &lt;a href="https://gdex.ucar.edu/datasets/ds090.1/"&gt;ds090.1&lt;/a&gt; dataset.
-    &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>Products from NCEP/NCAR Reanalysis Project (NNRP or R1) are archived in this dataset. The resolution of the global Reanalysis Model is T62 (209 km) with 28 vertical sigma levels. Results are available at 6 hour intervals. Although the initial plan is to reanalyze the data for a 40-year period (1957-1996), production has gone back to 1948 and going forward continuously. Future plans call for rerunning the entire period as next generation models are ready.
+
+There are over 80 different variables, (including geopotential height, temperature, relative humidity, u- and v- wind components, etc.) in several different coordinate systems, such as 17 pressure level stack on 2.5 by 2.5 degree grids, 28 sigma level stack on 192 by 94 Gaussian grids, and 11 isentropic level stack on 2.5 by 2.5 degree grid. They are organized as different subgroups in the archive. In addition to analyses, diagnostic terms (for example: radiative heating, convective heating) and accumulative variables (like precipitation rate) are present. The input observations are archived with quality and usage flags in WMO BUFR format. Most of the project outputs are stored in WMO GRIB format. Other files, such as restart files and zonal statistics, are saved in IEEE format.
+
+Some special periods are analyzed more than once to provide data for special research studies. For example, a special run of 1979 was made excluding most satellite inputs. This run could be used for evaluating the impact of satellite data on the analysis. During the TOGA COARE experiment period, special runs of reanalysis model without experimental data are archived under the NO TOGA COARE directory.
+
+Monthly means are on line at ds090.2 [https://gdex.ucar.edu/datasets/ds090.2/]. The R1 forecasts are in ds090.1 [https://gdex.ucar.edu/datasets/ds090.1/] dataset.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -578,14 +554,14 @@
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="degree">2.5</gco:Distance>
+            <gco:Distance uom="degree">1.875</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="degree">1.875</gco:Distance>
+            <gco:Distance uom="degree">2.5</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
