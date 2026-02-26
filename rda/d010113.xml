@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-24T14:19:14Z</gco:DateTime>
+    <gco:DateTime>2025-09-24T15:39:11Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -103,10 +103,11 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;This dataset provides retrospective runoff risk forecasts and supporting data for the Great Lakes region. 
-It includes retrospective simulations from the NOAA National Water Model (NWM) configuration of WRF-Hydro. These simulations were executed to produce approximately 25 additional land surface grid variables, along with surface and subsurface runoff outputs, identified as crucial for predicting runoff initiation at the edge of field.&lt;/p&gt;
-&lt;p&gt;Two distinct processing workflows were used to generate the final forecast products. The first workflow employs a statistical post-processing approach, including quantile mapping bias correction, which adjusts NWM surface runoff predictions based on edge-of-field observations and USGS streamflow data. This workflow also incorporates a regionalization of the statistical model and bias correction using a Hydrologic Unit Code 10 (HUC10) level cluster analysis. The second, more streamlined workflow, consists solely of the bias correction of NWM output.&lt;/p&gt;
-&lt;p&gt;This collection contains the raw WRF-Hydro outputs and the outputs from both retrospective forecast workflows. The data can be used to assess the skill of NWM-based runoff risk predictions and to compare the performance of the two different post-processing strategies. The primary goal of this dataset is to support the transition of these improved runoff risk tools into an operational environment at the NOAA Office of Water Prediction, ultimately aiding farmers in optimizing manure application timing to reduce nutrient runoff into the Great Lakes.&lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>This dataset provides retrospective runoff risk forecasts and supporting data for the Great Lakes region. It includes retrospective simulations from the NOAA National Water Model (NWM) configuration of WRF-Hydro. These simulations were executed to produce approximately 25 additional land surface grid variables, along with surface and subsurface runoff outputs, identified as crucial for predicting runoff initiation at the edge of field.
+
+Two distinct processing workflows were used to generate the final forecast products. The first workflow employs a statistical post-processing approach, including quantile mapping bias correction, which adjusts NWM surface runoff predictions based on edge-of-field observations and USGS streamflow data. This workflow also incorporates a regionalization of the statistical model and bias correction using a Hydrologic Unit Code 10 (HUC10) level cluster analysis. The second, more streamlined workflow, consists solely of the bias correction of NWM output.
+
+This collection contains the raw WRF-Hydro outputs and the outputs from both retrospective forecast workflows. The data can be used to assess the skill of NWM-based runoff risk predictions and to compare the performance of the two different post-processing strategies. The primary goal of this dataset is to support the transition of these improved runoff risk tools into an operational environment at the NOAA Office of Water Prediction, ultimately aiding farmers in optimizing manure application timing to reduce nutrient runoff into the Great Lakes.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
