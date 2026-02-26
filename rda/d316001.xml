@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-02-25T13:09:15Z</gco:DateTime>
+    <gco:DateTime>2025-05-21T15:05:43Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -133,15 +133,11 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>&lt;p&gt;This dataset includes global bias-corrected climate model output data from version 1 of NCAR's Community Earth System Model (CESM1) that participated in phase 5 of the Coupled Model Intercomparison Experiment (CMIP5), which supported the Intergovernmental Panel on Climate Change Fifth Assessment Report (IPCC AR5). The dataset contains all the variables needed for the initial and boundary conditions for simulations with the Weather Research and Forecasting model (WRF) or the Model for Prediction Across Scales (MPAS), provided in the Intermediate File Format specific to WRF and MPAS. The data are interpolated to 26 pressure levels and are provided in files at six hourly intervals. The variables have been bias-corrected using the European Centre for Medium-Range Weather Forecasts (ECMWF) Interim Reanalysis (ERA-Interim) fields for 1981-2005, following the method in &lt;a href="http://dx.doi.org/10.1007/s00382-013-2011-6"&gt;Bruyere et al. (2014)&lt;/a&gt;. Files are available for a 20th Century simulation (1951-2005) and three concomitant Representative Concentration Pathway (RCP) future scenarios (RCP4.5, RCP6.0 and RCP8.5) spanning 2006-2100.&lt;/p&gt;
-    &lt;p&gt;
-    &lt;font color="red"&gt;
-    &lt;b&gt;NOTE: There are no bias-corrected data for RCP2.6, due to corrupted data caused by a model bug in CESM. &lt;/b&gt;
-    &lt;/font&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;b&gt;Note to Microsoft Windows users:&lt;/b&gt; The executable metgrid.exe, which is required to ingest this data into WPS/WRF, is not compatible with Windows and can only be run in a Linux environment.  It is recommended, therefore, that this dataset be used in Linux environments only. 
-    &lt;/p&gt;</gco:CharacterString>
+        <gco:CharacterString>This dataset includes global bias-corrected climate model output data from version 1 of NCAR's Community Earth System Model (CESM1) that participated in phase 5 of the Coupled Model Intercomparison Experiment (CMIP5), which supported the Intergovernmental Panel on Climate Change Fifth Assessment Report (IPCC AR5). The dataset contains all the variables needed for the initial and boundary conditions for simulations with the Weather Research and Forecasting model (WRF) or the Model for Prediction Across Scales (MPAS), provided in the Intermediate File Format specific to WRF and MPAS. The data are interpolated to 26 pressure levels and are provided in files at six hourly intervals. The variables have been bias-corrected using the European Centre for Medium-Range Weather Forecasts (ECMWF) Interim Reanalysis (ERA-Interim) fields for 1981-2005, following the method in Bruyere et al. (2014) [http://dx.doi.org/10.1007/s00382-013-2011-6]. Files are available for a 20th Century simulation (1951-2005) and three concomitant Representative Concentration Pathway (RCP) future scenarios (RCP4.5, RCP6.0 and RCP8.5) spanning 2006-2100.
+
+NOTE: There are no bias-corrected data for RCP2.6, due to corrupted data caused by a model bug in CESM.
+
+Note to Microsoft Windows users: The executable metgrid.exe, which is required to ingest this data into WPS/WRF, is not compatible with Windows and can only be run in a Linux environment. It is recommended, therefore, that this dataset be used in Linux environments only.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
