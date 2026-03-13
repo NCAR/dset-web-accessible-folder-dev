@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2025-09-22T22:36:24Z</gco:DateTime>
+    <gco:DateTime>2026-03-13T16:50:53Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -123,9 +123,16 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The CESM2 Mechanically Decoupled Model (MDM) is designed to simulate buoyancy coupled climate variability. The MDM consists of the same model components, including the dynamic ocean model POP2, as the CESM2 fully coupled model (FCM), but lacks anomalous wind stress driven ocean dynamics. Ocean variability in the MDM is therefore primarily buoyancy driven. Different from a slab ocean model (SOM) with a time invariant mixed layer depth, the MDM includes a freely evolving seasonally varying mixed layer depth, seasonally varying mean ocean circulation, and time varying buoyancy driven ocean circulation variability like the AMOC. Key sources of ocean damping are present in the MDM, including vertical mixing, entrainment, and advection by the mean ocean circulation, whereas many dynamical sources of ocean variability, as facilitated through anomalous wind stress driven ocean dynamics, are absent. Comparing the SOM and MDM can uncover the collective role of mixed layer depth variability, buoyancy coupled ocean circulation variability, and ocean damping on climate variations, whereas comparing the MDM and FCM can uncover the role of anomalous wind driven ocean dynamics on climate variability.
+        <gco:CharacterString>The CESM2 Mechanically Decoupled (MDM) model is designed to simulate buoyancy coupled climate variability. The MDM consists of the same model components, including the dynamic ocean model POP2, as the CESM2 fully coupled model (FCM), but lacks anomalous wind stress (momentum) driven ocean dynamics. Ocean variability in the MDM is therefore primarily buoyancy driven. Different from a slab ocean model (SOM) with a time invariant mixed layer depth, the MDM includes a freely evolving seasonally varying mixed layer depth, seasonally varying mean ocean circulation, and time varying buoyancy driven ocean circulation variability like the Atlantic meridional overturning circulation (AMOC). Key sources of ocean damping are present in the MDM, including vertical mixing, entrainment, and advection by the mean ocean circulation, whereas many dynamical sources of ocean variability, as facilitated through anomalous wind stress driven ocean dynamics, are absent. Comparing a SOM and the MDM can uncover the collective role of mixed layer depth variability, buoyancy coupled ocean circulation variability, and ocean damping on climate variations, whereas comparing the MDM and FCM can uncover the role of anomalous wind driven ocean dynamics on climate variability.
 
-The CESM2 MDM is implemented using the CESM2 B1850 configuration (i.e., pre-industrial radiative forcing) with 1 degree horizontal resolution. To mechanically decouple POP2 from the CAM6, the wind stress forcing on the ocean is prescribed as the 6-hourly climatology. The climatology is computed from hourly wind stress CIME output from a 50 year CESM2 FCM pre-industrial control simulation. The 6-hourly climatology is linearly interpolated to the hourly coupling frequency between CAM6 and POP2. Wind variability still is applied to the bulk formula for turbulent heat fluxes, thus the MDM remains thermodynamically coupled.</gco:CharacterString>
+When run under historical or future climate scenario forcings, the CESM2 MDM version does not allow anomalous wind stress driven changes to ocean circulation deriving from either internal variability or external forcing. The ocean in the MDM historical and future ensembles can warm via changes in buoyancy forcing only. See the Documentation tab for important details about each set of simulations.
+
+Data included in this entry are: 
+    * CESM2-MDM-PI: A pre-industrial control version of the MDM.
+    * CESM2-MDM-historical: a 20-member MDM historical ensemble with CMIP6 forcings and smoothed biomass burning run from 1850-2014.
+    * CESM2-MDM-historical-to-SSP370: a 5-member MDM historical ensemble with CMIP6 forcings and smoothed biomass burning run from 1850-2014. These 5 members are used to branch a 10-member future ensemble run under SSP370 out to 2100.
+
+Further information about these simulations is available under the documentation tab.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -265,13 +272,10 @@ The CESM2 MDM is implemented using the CESM2 B1850 configuration (i.e., pre-indu
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION PROFILES &gt; LATENT HEAT FLUX</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; LIQUID PRECIPITATION &gt; RAIN</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SEA LEVEL PRESSURE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; UPPER AIR TEMPERATURE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY &gt; SPECIFIC HUMIDITY</gco:CharacterString>
@@ -280,10 +284,13 @@ The CESM2 MDM is implemented using the CESM2 B1850 configuration (i.e., pre-indu
             <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; U/V WIND COMPONENTS</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; UPPER AIR TEMPERATURE</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; LIQUID PRECIPITATION &gt; RAIN</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION PROFILES &gt; LATENT HEAT FLUX</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -349,7 +356,7 @@ The CESM2 MDM is implemented using the CESM2 B1850 configuration (i.e., pre-indu
               <gmd:extent>
                 <gml:TimePeriod gml:id="d651079_time_period">
                   <gml:beginPosition>1051</gml:beginPosition>
-                  <gml:endPosition>1799</gml:endPosition>
+                  <gml:endPosition>2101</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -395,7 +402,7 @@ The CESM2 MDM is implemented using the CESM2 B1850 configuration (i.e., pre-indu
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
           <gmd:transferSize>
-            <gco:Real>2983674.769</gco:Real>
+            <gco:Real>35251904.593</gco:Real>
           </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
