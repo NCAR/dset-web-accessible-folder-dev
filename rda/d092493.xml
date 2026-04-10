@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-04-08T21:06:08Z</gco:DateTime>
+    <gco:DateTime>2026-04-10T15:54:42Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -60,6 +60,46 @@
   <gmd:dataSetURI>
     <gco:CharacterString>https://gdex.ucar.edu/datasets/d092493</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://project.cgd.ucar.edu/projects/CATALYST/E3SM/E3SMv2-LE/</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Energy Exascale Earth System Model version 2 (E3SMv2) Large Ensemble</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://www.cesm.ucar.edu/community-projects/lens2</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #2</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>CESM2 Large Ensemble Community Project (LENS2)</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -123,7 +163,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This dataset provides a global collection of hydroclimatic stress and climate extreme indices derived from large ensemble simulations of two Earth system models: the Community Earth System Model Large Ensemble version 2 (LENS2) and the Energy Exascale Earth System Model version 2 (E3SMv2). The dataset includes daily vapor pressure deficit (VPD) and Keetch-Byram Drought Index (KBDI), as well as the Standardized Precipitation Evapotranspiration Index (SPEI) at 1-, 3-, and 12-month accumulation timescales. Together, these indices characterize atmospheric moisture demand, drought variability, and hydroclimatic stress relevant to ecosystem impacts, wildfire risk, and climate extremes. The indices are derived from the 100-member LENS2 ensemble and the 21-member E3SMv2 ensemble, spanning 1850-2100 and covering both the historical period (1850-2014) and the SSP3-7.0 scenario (2015-2100). Both ensembles provide global coverage at approximately 1 x 1.25 horizontal resolution in the atmosphere and land components, enabling consistent analysis of hydroclimatic extremes and internal climate variability across past and projected climates. In addition to these process-based stress metrics, the dataset also includes a suite of standard Expert Team on Climate Change Detection and Indices (ETCCDI) threshold- and duration-based extreme indices derived from temperature and precipitation.</gco:CharacterString>
+        <gco:CharacterString>This dataset provides a global collection of hydroclimatic stress and climate extreme indices derived from large ensemble simulations of two Earth system models: the Community Earth System Model Large Ensemble version 2 (LENS2) and the Energy Exascale Earth System Model version 2 (E3SMv2). The dataset includes daily vapor pressure deficit (VPD) and Keetch-Byram Drought Index (KBDI), as well as the Standardized Precipitation Evapotranspiration Index (SPEI) at 1-, 3-, and 12-month accumulation timescales. Together, these indices characterize atmospheric moisture demand, drought variability, and hydroclimatic stress relevant to ecosystem impacts, wildfire risk, and climate extremes. In addition to these process-based stress metrics, the dataset also includes a suite of standard ETCCDI (Expert Team on Climate Change Detection and Indices) threshold- and duration-based extreme indices derived from temperature and precipitation. The indices are derived from the 100-member LENS2 ensemble and the 21-member E3SMv2 ensemble, spanning 1850-2100 and covering both the historical period (1850-2014) and the SSP3-7.0 scenario (2015-2100). Both ensembles provide global coverage at approximately 1 x 1.25 degree horizontal resolution in the atmosphere and land components, enabling consistent analysis of hydroclimatic extremes and internal climate variability across past and projected climates.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -351,6 +391,20 @@
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d092493_time_period">
+                  <gml:beginPosition>1850-01-01</gml:beginPosition>
+                  <gml:endPosition>2100-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo>
