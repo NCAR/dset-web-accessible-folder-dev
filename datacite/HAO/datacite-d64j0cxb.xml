@@ -46,7 +46,7 @@
     </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-04-23T15:13:02.070665</gco:DateTime>
+        <gco:DateTime>2026-04-24T11:28:00.322914</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -1079,7 +1079,17 @@
                     <gmd:description>
                         <gco:CharacterString/>
                     </gmd:description>
-                    </gmd:EX_Extent>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="timePeriodDate">
+                                    <gml:beginPosition>1980-03-02</gml:beginPosition>
+                                    <gml:endPosition>1989-11-17</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
             </gmd:extent>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
