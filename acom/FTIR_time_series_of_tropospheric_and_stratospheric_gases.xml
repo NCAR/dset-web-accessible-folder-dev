@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-10-30T12:46:14</gco:DateTime>
+        <gco:DateTime>2026-05-19T12:45:00</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -54,7 +54,7 @@
         <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
     </gmd:metadataStandardVersion>
     <gmd:dataSetURI>
-        <gco:CharacterString>http://www.ndsc.ncep.noaa.gov/data/</gco:CharacterString>
+        <gco:CharacterString>http://www.ndacc.org/ </gco:CharacterString>
     </gmd:dataSetURI>
     <gmd:metadataExtensionInfo>
         <gmd:MD_MetadataExtensionInformation>
@@ -100,8 +100,8 @@
                     </gmd:date>
                     <gmd:citedResponsibleParty>
                         <gmd:CI_ResponsibleParty>
-                            <gmd:individualName>
-                                <gco:CharacterString>James Hannigan</gco:CharacterString>
+                           <gmd:individualName>
+                                <gmx:Anchor xlink:href="http://orcid.org/0000-0002-4269-1677" xlink:title="James Hannigan" xlink:actuate="onRequest">Hannigan, James</gmx:Anchor>
                             </gmd:individualName>
                             <gmd:organisationName>
                                 <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
@@ -152,16 +152,29 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>James Hannigan</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>High spectral resolution infrared Fourier-transform spectrometers are used to retrieve long-term key atmospheric compounds and evaluate their spatial and temporal variability at Mauna Loa, Hawaii, and at Thule, Greenland as part of the Infrared Working Group (IRWG) of the Network for the Detection of Atmospheric Composition Change (NDACC) and in Boulder, CO.
-  
-  The geographic bounding box information associated with this dataset are:
-  Mauna Loa: 19.54N, 155.57W; Thule: 76.53N, 68.74W; Boulder: 40.04N, 105.24W
-  
-  The temporal information related to this dataset are:
-  Mauna Loa: 1995-08-25 12:00:00-present; Thule: 1999-10-10 12:00:00 - present; Boulder: 2010-01-08 12:00:00-present</gco:CharacterString>
+              
+The geographic bounding box information associated with this dataset are: Mauna Loa: 19.54N, 155.57W; Thule: 76.53N, 68.74W; Boulder: 40.04N, 105.24W
+              
+The temporal information related to this dataset are: Mauna Loa: 1995-08-25 12:00:00-present; Thule: 1999-10-10 12:00:00 - present; Boulder: 2010-01-08 12:00:00-present</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Ivan Ortega, NCAR, Co-PI</gco:CharacterString>
@@ -170,6 +183,32 @@
                 <gmd:MD_ProgressCode
                     codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
             </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>James Hannigan</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jamesw@ucar.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
                     <gmd:individualName>
@@ -193,32 +232,6 @@
                     <gmd:role>
                         <gmd:CI_RoleCode
                             codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-                    </gmd:role>
-                </gmd:CI_ResponsibleParty>
-            </gmd:pointOfContact>
-            <gmd:pointOfContact>
-                <gmd:CI_ResponsibleParty>
-                    <gmd:individualName>
-                        <gco:CharacterString>James Hannigan</gco:CharacterString>
-                    </gmd:individualName>
-                    <gmd:organisationName>
-                        <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
-                    </gmd:organisationName>
-                    <gmd:positionName gco:nilReason="missing"/>
-                    <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                            <gmd:address>
-                                <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>jamesw@ucar.edu</gco:CharacterString>
-                                    </gmd:electronicMailAddress>
-                                </gmd:CI_Address>
-                            </gmd:address>
-                        </gmd:CI_Contact>
-                    </gmd:contactInfo>
-                    <gmd:role>
-                        <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -299,7 +312,7 @@
                             <gmd:extent>
                                 <gml:TimePeriod gml:id="boundingTemporalExtent">
                                     <gml:beginPosition>1995</gml:beginPosition>
-                                    <gml:endPosition indeterminatePosition="now">now</gml:endPosition>
+                                    <gml:endPosition indeterminatePosition="now"/>
                                 </gml:TimePeriod>
                             </gmd:extent>
                         </gmd:EX_TemporalExtent>
