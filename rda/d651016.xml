@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-04-21T18:07:43Z</gco:DateTime>
+    <gco:DateTime>2026-05-29T18:24:23Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -195,7 +195,9 @@
       <gmd:abstract>
         <gco:CharacterString>Atmospheric River Tracking Method Intercomparison Project (ARTMIP) Tier 2 CMIP5/6 developer catalogues and source data. Each ARTMIP method/algorithm (named by developer) submits a catalogue comprised of 0's (no AR exists) or 1's (yes AR exists) for each time slice, for each grid point, using a curated set of output from the Coupled Model Intercomparison Project 5 and 6 multi-model ensembles (see Table 1). Catalogues are created for single ensemble members from historical simulations and for RCP8.5 (CMIP5) and SSP5-8.5 (CMIP6) future simulations, for the 1950-2099 time period. Ensemble member r1i1p1f1 or r1i1p1f1 is used for each input, with the exception of the CMIP5 CCSM4 run, which uses ensemble member r6i1p1. Derived CMIP5/6 quantities required for algorithms, such as IVT or IWV, were computed by the ARTMIP project so that all methods use the exact same data.
 
-There are some exceptions to the time period noted above: output from the CMIP6 IPSL-CM6A-LR SSP5-8.5 simulation are only available through 2049, there are data corruption issues for the year 2006 in the CMIP5 CSIRO-Mk3-6-0 simulation, and there are data corruption issues for the year 2095-2099 for the TECA_BARD_v1.0 output applied to the CMIP5 IPSL-CM5B-LR simulation. The Guan_Waliser_v2 algorithm did not supply ARDT catalogues for the NorESM1-M and BCC-CSM2-MR simulations.</gco:CharacterString>
+There are some exceptions to the time period noted above: output from the CMIP6 IPSL-CM6A-LR SSP5-8.5 simulation are only available through 2049, there are data corruption issues for the year 2006 in the CMIP5 CSIRO-Mk3-6-0 simulation, and there are data corruption issues for the year 2095-2099 for the TECA_BARD_v1.0 output applied to the CMIP5 IPSL-CM5B-LR simulation. The Guan_Waliser_v2 algorithm did not supply ARDT catalogues for the NorESM1-M and BCC-CSM2-MR simulations.
+
+When citing this dataset, please include the reference paper and the dataset DOI.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -305,7 +307,7 @@ There are some exceptions to the time period noted above: output from the CMIP6 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-04-15</gco:Date>
+                    <gco:Date>2026-05-27</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -313,7 +315,7 @@ There are some exceptions to the time period noted above: output from the CMIP6 
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>23.7</gco:CharacterString>
+                <gco:CharacterString>24.0</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -335,7 +337,16 @@ There are some exceptions to the time period noted above: output from the CMIP6 
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; LIQUID PRECIPITATION &gt; RAIN</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; ATMOSPHERIC RIVER</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; TOTAL PRECIPITABLE WATER</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; LAND USE/LAND COVER &gt; LAND/OCEAN/ICE FRACTION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD DYNAMICS &gt; WATER VAPOR TRANSPORT</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -348,7 +359,7 @@ There are some exceptions to the time period noted above: output from the CMIP6 
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-04-15</gco:Date>
+                    <gco:Date>2026-05-27</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -356,7 +367,7 @@ There are some exceptions to the time period noted above: output from the CMIP6 
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>23.7</gco:CharacterString>
+                <gco:CharacterString>24.0</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
