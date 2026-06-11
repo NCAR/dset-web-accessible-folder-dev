@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-05-14T18:03:30Z</gco:DateTime>
+    <gco:DateTime>2026-06-11T18:48:15Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -60,6 +60,26 @@
   <gmd:dataSetURI>
     <gco:CharacterString>https://doi.org/10.5065/GNGZ-2510</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://doi.org/10.5281/zenodo.20600581</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>Zenodo link to software that can produce the publication figures and preprocessing the data.</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -153,7 +173,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>With over 80% of the United States' population living in urban areas, it is critical to advance our understanding and near-/real-time observational capabilities of the environments where most humans live. Recent advances in artificial intelligence present new opportunities to leverage the extensive and disparate amounts of data available to model urban heat. Our dataset leverages remotely sensed images, which provide the benefit of extensive spatial coverage. There are two modalities in the dataset, of varying resolution. The first modality contains observations at an 8-day temporal resolution and at a 30 m spatial resolution, as modulated by the Landsat 8 and 9 satellites. Landsat data included in these files consist of land surface temperature, visible and near-infrared surface reflectances for land surface characterization, and the pixel quality mask for cloud detection. Also included in these files are Sentinel-1 SAR backscatter values to quantify surface roughness. Sentinel-1 observations are resampled to Landsat resolution for inclusion in the dataset. The second modality contains observations at a 10-minute temporal resolution and at a 2 km spatial resolution, as modulated by the GOES-16, 17, and 18 satellites. GOES longwave infrared brightness temperatures are provided to measure the thermal environment of the surface over time. Also included in these files is a microwave land surface temperature product to provide temperature observations amidst cloudy weather.</gco:CharacterString>
+        <gco:CharacterString>With over 80% of the United States' population living in urban areas, it is critical to advance our understanding and real-time / near-real-time observational capabilities of the environments where most humans live. Recent advances in artificial intelligence present new opportunities to leverage the extensive and disparate amounts of data available to model urban heat. Our dataset leverages remotely sensed images, which provide the benefit of extensive spatial coverage. There are two modalities in the dataset, of varying resolution. The first modality contains observations at an 8-day temporal resolution and at a 30 m spatial resolution, as modulated by the Landsat 8 and 9 satellites. Landsat data included in these files consist of land surface temperature, visible and near-infrared surface reflectances for land surface characterization, and the pixel quality mask for cloud detection. Also included in these files are Sentinel-1 SAR backscatter values to quantify surface roughness. Sentinel-1 observations are resampled to Landsat resolution for inclusion in the dataset. The second modality contains observations at a 10-minute temporal resolution and at a 2 km spatial resolution, as modulated by the GOES-16, 17, and 18 satellites. GOES longwave infrared brightness temperatures are provided to measure the thermal environment of the surface over time. Also included in these files is a microwave land surface temperature product to provide temperature observations amidst cloudy weather.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -296,7 +316,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-05-13</gco:Date>
+                    <gco:Date>2026-06-10</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -304,7 +324,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>23.9</gco:CharacterString>
+                <gco:CharacterString>24.1</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -354,7 +374,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-05-13</gco:Date>
+                    <gco:Date>2026-06-10</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -362,7 +382,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>23.9</gco:CharacterString>
+                <gco:CharacterString>24.1</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -400,6 +420,20 @@
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d539393_time_period">
+                  <gml:beginPosition>2022-01-01</gml:beginPosition>
+                  <gml:endPosition>2023-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo>
@@ -439,7 +473,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
           <gmd:transferSize>
-            <gco:Real>3847793.335</gco:Real>
+            <gco:Real>4255126.25</gco:Real>
           </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
