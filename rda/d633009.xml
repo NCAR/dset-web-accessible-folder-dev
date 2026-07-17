@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>edu.ucar.gdex::d651085</gco:CharacterString>
+    <gco:CharacterString>edu.ucar.gdex::d633009</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng; USA">eng; USA</gmd:LanguageCode>
@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-07-17T17:09:10Z</gco:DateTime>
+    <gco:DateTime>2026-07-17T16:47:20Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -58,22 +58,42 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://gdex.ucar.edu/datasets/d651085</gco:CharacterString>
+    <gco:CharacterString>https://gdex.ucar.edu/datasets/d633009</gco:CharacterString>
   </gmd:dataSetURI>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>https://data.tpdc.ac.cn/en/data/b747a341-461d-4d1b-8209-f79dc964baaf</gmd:URL>
+          </gmd:linkage>
+          <gmd:protocol>
+            <gco:CharacterString>https</gco:CharacterString>
+          </gmd:protocol>
+          <gmd:name>
+            <gco:CharacterString>Related Resource #1</gco:CharacterString>
+          </gmd:name>
+          <gmd:description>
+            <gco:CharacterString>GMCP: A fully Global Multi-Source Merging-and-Calibration Precipitation Dataset</gco:CharacterString>
+          </gmd:description>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>CESM2 2 degree SSP2-4.5 and SSP5-8.5 Experiments</gco:CharacterString>
+            <gco:CharacterString>GMCP: A fully Global Multi-Source Merging-and-Calibration Precipitation Dataset</gco:CharacterString>
           </gmd:title>
           <gmd:alternateTitle>
-            <gco:CharacterString>d651085</gco:CharacterString>
+            <gco:CharacterString>d633009</gco:CharacterString>
           </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2026-07-16</gco:Date>
+                <gco:Date>2026-07-17</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -83,7 +103,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName>
-                <gmx:Anchor xlink:href="http://orcid.org/0000-0002-9963-8076" xlink:title="Gunter R. Leguy" xlink:actuate="onRequest">Leguy, Gunter R.</gmx:Anchor>
+                <gmx:Anchor xlink:href="http://orcid.org/0000-0002-1497-8427" xlink:title="ziqiang Ma" xlink:actuate="onRequest">Ma, ziqiang</gmx:Anchor>
               </gmd:individualName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -103,22 +123,12 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This dataset runs the 2 degree CESM2 SSP2-4.5 and SSP5-8.5 experiments following the protocol described in: Meinshausen, M., Nicholls, Z. R., Lewis, J., Gidden, M. J., Vogel, E., Freund, M., ... &amp;amp; Wang, R. H. (2020). The shared socioeconomic pathway (SSP) greenhouse gas concentrations and their extensions to 2500. Geoscientific Model Development, 13 (8), 3571-3605, https://doi.org/10.5194/gmd-13-3571-2020, 2020.
+        <gco:CharacterString>Current global multi-source merged precipitation datasets can facilitate better utilization of the complementary nature of gauge-, satellite-, and reanalysis-based precipitation estimates, particularly for capturing precipitation variability. However, merging these datasets at high resolutions of 1-hourly and 0.1 degree on a full global scale remains a substantial challenge for the scientific community due to high spatiotemporal heterogeneities. This study proposed a merging-and-calibration framework to optimally integrate the advantages of gauge-, satellite-, and model-based precipitation estimates, focusing on precipitation occurrences and providing a new fully Global multi-source Merging-and-Calibration Precipitation dataset (GMCP: 1-hourly, 0.1 degree, global, 2000-Present).
 
-Each SSP scenario runs is comprised of 4 experiments: 
-    * One simulation spanning 2015-2100 using the SSP protocol which restarted using data from the historical run b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001 at year 2015.
-    * One simulation spanning 2100-2130 which cycles through the forcing of the year 2100 for 30 years. This experiment is meant to create a short climate variability dataset.
-    * One simulation spanning 2100-2300 extending the SSP simulation from the end of 2100.
-    * One simulation spanning 2250-2280 which cycles through the forcing from year 2250.
-
-These simulations can be directly compared to their 1 degree CESM2 counterparts.
-
-See the Documentation tab for a complete list of available variables.
-
-These runs were supported with resources from NSF OPP (#2045075 and #2044965).</gco:CharacterString>
+The main conclusions included: (1) GMCP generally outperformed the input datasets, ERA5-Land, GSMaP-MVK, and IMERG-Late, across various spatiotemporal scales, both in regional statistics and extreme precipitation systems; (2) GMCP significantly outperformed IMERG-Final, calibrated by gauge analysis at the monthly scale, with the improvements in correlation coefficient (CC), root mean square error (RMSE), and Heidke skill score (HSS) by approximately 66.67%, 39.25%, and 26.83%, respectively, from 2016 to 2020 over the Continental United States (CONUS); (3) compared to the state-of-the-art multi-source merged product with a daily gauge correction scheme, MSWEP V2 (3-hourly and 0.1 degree), GMCP demonstrated the notable improvements with an approximately 20% enhancement in accurately capturing the precipitation occurrences against approximately 67,000 rain gauges over Mainland China in 2016; (4) in comparison to another well-known multi-source merged quasi-global daily and 0.05 degree precipitation product, CHIPRS integrating the gauge-, satellite-, and reanalysis-based precipitation estimates, GMCP also demonstrated the notable improvements at the daily scale, achieving the increases in CC, RMSE, and HSS by around 57.45%, 38.18%, and 75.76%, respectively, against approximately 67,000 rain gauges over Mainland China in 2016; and (5) this framework was suitable for generating the fully global precipitation datasets at 1-hourly and 0.1 degree scales, significantly mitigating the inherent drawbacks of each input dataset, with GMCP demonstrating the great potential as a valuable resource for worldwide scientific research and societal applications.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
@@ -141,7 +151,7 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
           <gmd:updateScope>
             <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
@@ -151,20 +161,20 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
       <gmd:graphicOverview>
         <gmd:MD_BrowseGraphic>
           <gmd:fileName>
-            <gco:CharacterString>https://gdex.ucar.edu/images/ds_logos/default_200_200.png</gco:CharacterString>
+            <gco:CharacterString>https://gdex.ucar.edu/images/ds_logos/tpdc.resize2_488_70.png</gco:CharacterString>
           </gmd:fileName>
           <gmd:fileDescription>
             <gco:CharacterString>Logo thumbnail from URL</gco:CharacterString>
           </gmd:fileDescription>
           <gmd:fileType>
-            <gco:CharacterString>png</gco:CharacterString>
+            <gco:CharacterString>resize2_488_70.png</gco:CharacterString>
           </gmd:fileType>
         </gmd:MD_BrowseGraphic>
       </gmd:graphicOverview>
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>NetCDF</gco:CharacterString>
+            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
@@ -212,7 +222,10 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>CESM &gt; NCAR Community Earth System Model</gco:CharacterString>
+            <gco:CharacterString>Data Analysis</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Data Collections</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -255,28 +268,7 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SEA LEVEL PRESSURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; UPPER AIR TEMPERATURE</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY &gt; SPECIFIC HUMIDITY</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; U/V WIND COMPONENTS</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; VERTICAL WIND VELOCITY/SPEED</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; LIQUID PRECIPITATION &gt; RAIN</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION PROFILES &gt; LATENT HEAT FLUX</gco:CharacterString>
+            <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION RATE</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -340,9 +332,9 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
-                <gml:TimePeriod gml:id="d651085_time_period">
-                  <gml:beginPosition>2015</gml:beginPosition>
-                  <gml:endPosition>2300</gml:endPosition>
+                <gml:TimePeriod gml:id="d633009_time_period">
+                  <gml:beginPosition>2000-01-01T000000+00</gml:beginPosition>
+                  <gml:endPosition>2024-09-30T230000+00</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -388,12 +380,12 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
           <gmd:transferSize>
-            <gco:Real>5656363.322</gco:Real>
+            <gco:Real>0</gco:Real>
           </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/datasets/d651085/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu/datasets/d633009/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
@@ -412,7 +404,7 @@ These runs were supported with resources from NSF OPP (#2045075 and #2044965).</
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>https://gdex.ucar.edu/datasets/d651085/dataaccess/</gmd:URL>
+                <gmd:URL>https://gdex.ucar.edu/datasets/d633009/dataaccess/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>https</gco:CharacterString>
