@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-07-17T16:47:20Z</gco:DateTime>
+    <gco:DateTime>2026-07-20T15:58:48Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -58,7 +58,7 @@
     <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
   </gmd:metadataStandardVersion>
   <gmd:dataSetURI>
-    <gco:CharacterString>https://gdex.ucar.edu/datasets/d633009</gco:CharacterString>
+    <gco:CharacterString>https://doi.org/10.5065/W8PZ-2P07</gco:CharacterString>
   </gmd:dataSetURI>
   <gmd:metadataExtensionInfo>
     <gmd:MD_MetadataExtensionInformation>
@@ -174,7 +174,7 @@ The main conclusions included: (1) GMCP generally outperformed the input dataset
       <gmd:resourceFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>HDF5/NetCDF4</gco:CharacterString>
+            <gco:CharacterString>NetCDF4</gco:CharacterString>
           </gmd:name>
           <gmd:version gco:nilReason="inapplicable"/>
         </gmd:MD_Format>
@@ -318,6 +318,16 @@ The main conclusions included: (1) GMCP generally outperformed the input dataset
           </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="degree">0.1</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
       <gmd:language>
         <gco:CharacterString>eng</gco:CharacterString>
       </gmd:language>
@@ -329,12 +339,28 @@ The main conclusions included: (1) GMCP generally outperformed the input dataset
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-180.0</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>180.0</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-90.0</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>90.0</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
           <gmd:temporalElement>
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="d633009_time_period">
-                  <gml:beginPosition>2000-01-01T000000+00</gml:beginPosition>
-                  <gml:endPosition>2024-09-30T230000+00</gml:endPosition>
+                  <gml:beginPosition>2000-01-01T0000+00</gml:beginPosition>
+                  <gml:endPosition>2000-01-31T2300+00</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -380,7 +406,7 @@ The main conclusions included: (1) GMCP generally outperformed the input dataset
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
           <gmd:transferSize>
-            <gco:Real>0</gco:Real>
+            <gco:Real>19287.446</gco:Real>
           </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
