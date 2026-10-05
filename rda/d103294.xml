@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-09-14T15:17:26Z</gco:DateTime>
+    <gco:DateTime>2026-10-05T19:20:13Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -199,9 +199,11 @@
 
  Detail: NA-CORDEX is the North American contribution to the international CORDEX (COordinated Regional Downscaling EXperiment) program, which is sponsored by WCRP (the World Climate Research Program), to provide coordinated regional climate downscaling for improved regional climate change adaptation and impact assessment. NA-CORDEX-CMIP6 advances the resolution of the NA-CORDEX archive from 25-50 km CMIP5-era simulations to 12 km downscaling of CMIP6-era GCMs. Historical simulations span 1953-2014 (beginning in 1953 to allow adequate land-surface spin-up), and future simulations run 2015-2099. An evaluation run driven by the ERA5 reanalysis running 1980-2023 is also available.
 
- Model configuration: Simulations use the WRF regional atmospheric model over a 708 by 674 gridpoint domain with 38 vertical levels and a 50 hPa model top. Greenhouse gases and aerosols are prescribed according to SSP2-4.5 and SSP3-7.0. The land surface model is Noah-MP, using four vertical soil levels and USGS land-use categorization. The configuration also includes a single-level urban canopy model and a 1-dimensional lake model. Full configuration details and the software suite used for post-processing are available at https://github.com/NCAR/NA-CORDEX-CMIP6.
+ Model configuration: Simulations use the WRF regional atmospheric model over a 708 by 674 gridpoint domain with 38 vertical levels and a 50 hPa model top. Greenhouse gases and aerosols are prescribed according to SSP2-4.5 and SSP3-7.0. The land surface model is Noah-MP, using four vertical soil levels and USGS land-use categorization. The configuration also includes a single-level urban canopy model and a 1-dimensional lake model. Full configuration details and the software suite used for post-processing are available at https://github.com/NCAR/NA-CORDEX-CMIP6 [https://github.com/NCAR/NA-CORDEX-CMIP6].
 
- Diagnostics and derived indices: Most extreme-weather diagnostics are computed online during the WRF simulations using the built-in AFWA diagnostics package. Additional heat indices (UTCI and WBGT) were calculated during post-processing using the Python package "thermofeel". For wind-energy applications, zonal and meridional wind components are provided at 50, 100, and 150 m above ground level. Variables are supplied at hourly frequency where possible, and 6-hourly otherwise.</gco:CharacterString>
+ Diagnostics and derived indices: Most extreme-weather diagnostics are computed online during the WRF simulations using the built-in AFWA diagnostics package. Additional heat indices (UTCI and WBGT) were calculated during post-processing using the Python package "thermofeel". For wind-energy applications, zonal and meridional wind components are provided at 50, 100, and 150 m above ground level. Variables are supplied at hourly frequency where possible, and 6-hourly otherwise.
+
+ Known issues: a list of known problems with and caveats about the data can be found on the project's GitHub repository: https://github.com/NCAR/NA-CORDEX-CMIP6/blob/main/KNOWN_ISSUES.md [https://github.com/NCAR/NA-CORDEX-CMIP6/blob/main/KNOWN_ISSUES.md]</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -298,13 +300,13 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
+            <gco:CharacterString>DYNAMICAL DOWNSCALING MODELS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
             <gco:CharacterString>RCM &gt; Regional Climate Model / Limited Area Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
             <gco:CharacterString>WRF &gt; Weather Research and Forecasting (WRF) Model</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>DYNAMICAL DOWNSCALING MODELS</gco:CharacterString>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
@@ -317,7 +319,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-09-02</gco:Date>
+                    <gco:Date>2026-09-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -325,7 +327,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>24.7</gco:CharacterString>
+                <gco:CharacterString>24.9</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -372,7 +374,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-09-02</gco:Date>
+                    <gco:Date>2026-09-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -380,7 +382,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>24.7</gco:CharacterString>
+                <gco:CharacterString>24.9</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
@@ -505,7 +507,7 @@
               <gmd:date>
                 <gmd:CI_Date>
                   <gmd:date>
-                    <gco:Date>2026-09-02</gco:Date>
+                    <gco:Date>2026-09-30</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
                     <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -513,7 +515,7 @@
                 </gmd:CI_Date>
               </gmd:date>
               <gmd:edition>
-                <gco:CharacterString>24.7</gco:CharacterString>
+                <gco:CharacterString>24.9</gco:CharacterString>
               </gmd:edition>
               <gmd:citedResponsibleParty>
                 <gmd:CI_ResponsibleParty>
