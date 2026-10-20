@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-10-19T19:24:13Z</gco:DateTime>
+    <gco:DateTime>2026-10-20T15:57:17Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -145,7 +145,7 @@
       <gmd:abstract>
         <gco:CharacterString>SMYLE (Seasonal-to-MultiYear Large Ensemble) is an initialized prediction system using CESM2. It consists of fully coupled initialized hindcast simulations using CESM2 component models at nominal 1 degree horizontal resolution. Hindcasts are initialized from historical reconstructions (SMYLE-FOSI for ocean and sea-ice; SMYLE-landonly for land; and JRA55 reanalysis for atmosphere) and then integrated forward 24-months. Initialization occurs quarterly (1st of each month of February, May, August, and November) for each year between 1970-2019. The ensemble size is 20 for each start date, with ensemble spread introduced through a random field perturbation applied to the atmospheric initial conditions. The SMYLE data release also includes the historical reconstructions used to initialize the ocean, sea ice, ocean biogeochemistry, and land components (SMYLE-FOSI and SMYLE-landonly).
 
-Note for 2020-2022 hindcasts: These cases are labeled "BSMYLE-XT" and their corresponding initial conditions under Data Access [https://gdex.ucar.edu/datasets/d651065/dataaccess/] contain the "SMYLE_IC.XT" label.</gco:CharacterString>
+Note for 2020-2022 hindcasts: These cases are labeled "BSMYLE-XT" and their corresponding initial conditions (ICs) under Data Access [https://gdex.ucar.edu/datasets/d651065/dataaccess/] contain the "SMYLE_IC.XT" label. These are experimental extensions of the original dataset, using a modified method for creation of land ICs, and therefore should be interpreted with caution.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
