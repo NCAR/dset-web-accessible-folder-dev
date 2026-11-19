@@ -49,7 +49,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:DateTime>2026-11-19T04:00:31Z</gco:DateTime>
+    <gco:DateTime>2026-11-19T22:41:40Z</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
@@ -247,9 +247,7 @@
 
  These data are the output from the PREPBUFR processing performed at NCEP, which is the final step in preparing the majority of conventional observational data for assimilation into the various NCEP analyses including the North American Model (NAM) and NAM Data Assimilation System (NDAS) unified grid-point statistical interpolation (GSI) analysis (the "NAM" and "NDAS" networks), the Global Forecast System (GFS) and Global Data Assimilation System (GDAS) unified grid-point statistical interpolation (GSI) analysis (the "GFS" and "GDAS" networks), the Rapid Refresh (RAP) unified grid-point statistical interpolation (GSI) analysis (the "RAP" network), the Real Time Mesoscale Analysis (RTMA) unified grid-point statistical interpolation (GSI) analysis (the "RTMA" network), and the Climate Data Assimilation System (CDAS) spectral statistical interpolation (SSI) analysis (the "CDAS" network).
 
- This step involves the execution of series of programs designed to assemble observations dumped from a number of on-line decoder databases, encode information about the observational error for each data type as well the background (first guess) interpolated to each data location, perform both rudimentary multi-platform quality control and more complex platform-specific quality control, and store the output in a monolithic BUFR file, known as PREPBUFR. The background guess information is used by certain quality control programs while the observation error is used by the analysis to weigh the observations. The structure of the BUFR file is such that each PREPBUFR processing step which changes a datum (either the observation itself, or its quality marker) records the change as an "event" with a program code and a reason code. Each time an event is stored, the previous events for the datum are "pushed down" in the stack. In this way, the PREPBUFR file contains a complete history of changes to the data throughout all of the PREPBUFR processing. The most recent changes are always at the top of the stack and are thus read first by any subsequent data decoder routine. It is expected that the data at the top of the stack are of the highest quality.
-
- The data provided here are also available in NetCDF and ASCII formats, which can be accessed by following the "Get a subset" link on the ds337.0 data access page [https://rda.ucar.edu/datasets/ds337.0/#!access]. The NetCDF datafiles are converted from PREPBUFR format using the pb2nc utility in the Model Evaluation Tools (MET) software package.</gco:CharacterString>
+ This step involves the execution of series of programs designed to assemble observations dumped from a number of on-line decoder databases, encode information about the observational error for each data type as well the background (first guess) interpolated to each data location, perform both rudimentary multi-platform quality control and more complex platform-specific quality control, and store the output in a monolithic BUFR file, known as PREPBUFR. The background guess information is used by certain quality control programs while the observation error is used by the analysis to weigh the observations. The structure of the BUFR file is such that each PREPBUFR processing step which changes a datum (either the observation itself, or its quality marker) records the change as an "event" with a program code and a reason code. Each time an event is stored, the previous events for the datum are "pushed down" in the stack. In this way, the PREPBUFR file contains a complete history of changes to the data throughout all of the PREPBUFR processing. The most recent changes are always at the top of the stack and are thus read first by any subsequent data decoder routine. It is expected that the data at the top of the stack are of the highest quality.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -656,7 +654,7 @@
       <gmd:transferOptions>
         <gmd:MD_DigitalTransferOptions>
           <gmd:transferSize>
-            <gco:Real>3741793.67</gco:Real>
+            <gco:Real>3742347.27</gco:Real>
           </gmd:transferSize>
           <gmd:onLine>
             <gmd:CI_OnlineResource>
