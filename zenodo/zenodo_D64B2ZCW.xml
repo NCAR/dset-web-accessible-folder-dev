@@ -18,10 +18,35 @@
     </gmd:hierarchyLevel>
 
     <gmd:contact>
-        </gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString/>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString/>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString/>
+            </gmd:positionName>
+            <gmd:contactInfo>
+               <gmd:CI_Contact>
+                   <gmd:address>
+                       <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                               <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                       </gmd:CI_Address>
+                   </gmd:address>
+               </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-11-18T14:16:12.843814</gco:DateTime>
+        <gco:DateTime>2026-11-25T16:54:58.633973</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -189,6 +214,34 @@
                 <gco:CharacterString>A new Geoengineering Model Intercomparison Project (GeoMIP) experiment "G4 specified stratospheric aerosols" (short name: G4SSA) is proposed to investigate the impact of stratospheric aerosol geoengineering on atmosphere, chemistry, dynamics, climate, and the environment. In contrast to the earlier G4 GeoMIP experiment, which requires an emission of sulfur dioxide (SO2) into the model, a prescribed aerosol forcing file is provided to the community, to be consistently applied to future model experiments between 2020 and 2100. This stratospheric aerosol distribution, with a total burden of about 2 Tg S has been derived using the ECHAM5-HAM microphysical model, based on a continuous annual tropical emission of 8 Tg SO2 yr−1. A ramp-up of geoengineering in 2020 and a ramp-down in 2070 over a period of 2 years are included in the distribution, while a background aerosol burden should be used for the last 3 decades of the experiment. The performance of this experiment using climate and chemistry models in a multi-model comparison framework will allow us to better understand the impact of geoengineering and its abrupt termination after 50 years in a changing environment.</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString/>
+                        <gmx:Anchor xlink:href="empty" xlink:title="empty" xlink:actuate="onRequest"/>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString/>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString/>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -249,10 +302,10 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode ) (See also info:eu-repo/semantics/openAccess )</gco:CharacterString>
+                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode )</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing">
-                        <gco:CharacterString></gco:CharacterString>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Default Zenodo Access Constraints</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>

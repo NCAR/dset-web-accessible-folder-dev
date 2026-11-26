@@ -18,10 +18,35 @@
     </gmd:hierarchyLevel>
 
     <gmd:contact>
-        </gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString/>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString/>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString/>
+            </gmd:positionName>
+            <gmd:contactInfo>
+               <gmd:CI_Contact>
+                   <gmd:address>
+                       <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                               <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                       </gmd:CI_Address>
+                   </gmd:address>
+               </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-11-18T14:17:59.619724</gco:DateTime>
+        <gco:DateTime>2026-11-25T16:58:40.664398</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -378,6 +403,34 @@
                 <gco:CharacterString>This study investigates the sources and regional attributions of nitrogen oxides (NOx) in the upper troposphere (UT) during the Asian Summer Monsoon (ASM). The importance of South Asia (SA) and East Asia (EA) contributions are the subject of debate. Using artificial tracers in a chemistry-climate model, simulations with tracers from surface anthropogenic and lightning sources in SA and EA are conducted. Model results are validated with airborne observations from the Asian Summer Monsoon Chemical and Climate Impact Project (ACCLIP) campaign in 2022 over the West Pacific. Good agreement between modeled and observed NOx is found in the UT. The results indicate that within the ASM anticyclone, both SA and EA sources significantly contribute to the UT NOx, with contributions of 41% and 36%, respectively. While in the ACCLIP region during 2022, EA sources play a more important role, accounting for 50% compared to 19% from SA sources.</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString/>
+                        <gmx:Anchor xlink:href="empty" xlink:title="empty" xlink:actuate="onRequest"/>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString/>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString/>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -438,10 +491,10 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode ) (See also info:eu-repo/semantics/openAccess )</gco:CharacterString>
+                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode )</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing">
-                        <gco:CharacterString></gco:CharacterString>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Default Zenodo Access Constraints</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>

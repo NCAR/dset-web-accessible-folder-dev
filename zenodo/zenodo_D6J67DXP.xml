@@ -18,10 +18,35 @@
     </gmd:hierarchyLevel>
 
     <gmd:contact>
-        </gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString/>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString/>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString/>
+            </gmd:positionName>
+            <gmd:contactInfo>
+               <gmd:CI_Contact>
+                   <gmd:address>
+                       <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                               <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                       </gmd:CI_Address>
+                   </gmd:address>
+               </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-11-18T14:18:46.569105</gco:DateTime>
+        <gco:DateTime>2026-11-25T16:57:51.128258</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -162,6 +187,34 @@
                 <gco:CharacterString>The mosquito virus vector Aedes (Ae.) aegypti exploits a wide range of containers as sites for egg laying and development of the immature life stages, yet the approaches for modeling meteorologically sensitive container water dynamics have been limited. This study introduces the Water Height and Temperature in Container Habitats Energy Model (WHATCH'EM), a state-of-the-science, physically based energy balance model of water height and temperature in containers that may serve as development sites for mosquitoes. The authors employ WHATCH'EM to model container water dynamics in three cities along a climatic gradient in México ranging from sea level, where Ae. aegypti is highly abundant, to ~2100 m, where Ae. aegypti is rarely found. When compared with measurements from a 1-month field experiment in two of these cities during summer 2013, WHATCH'EM realistically simulates the daily mean and range of water temperature for a variety of containers. To examine container dynamics for an entire season, WHATCH'EM is also driven with field-derived meteorological data from May to September 2011 and evaluated for three commonly encountered container types. WHATCH'EM simulates the highly nonlinear manner in which air temperature, humidity, rainfall, clouds, and container characteristics (shape, size, and color) determine water temperature and height. Sunlight exposure, modulated by clouds and shading from nearby objects, plays a first-order role. In general, simulated water temperatures are higher for containers that are larger, darker, and receive more sunlight. WHATCH'EM simulations will be helpful in understanding the limiting meteorological and container-related factors for proliferation of Ae. aegypti and may be useful for informing weather-driven early warning systems for viruses transmitted by Ae. aegypti.</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString/>
+                        <gmx:Anchor xlink:href="empty" xlink:title="empty" xlink:actuate="onRequest"/>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString/>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString/>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -222,10 +275,10 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode ) (See also info:eu-repo/semantics/openAccess )</gco:CharacterString>
+                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode )</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing">
-                        <gco:CharacterString></gco:CharacterString>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Default Zenodo Access Constraints</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>

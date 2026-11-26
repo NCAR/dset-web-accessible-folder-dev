@@ -18,10 +18,35 @@
     </gmd:hierarchyLevel>
 
     <gmd:contact>
-        </gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString/>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString/>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString/>
+            </gmd:positionName>
+            <gmd:contactInfo>
+               <gmd:CI_Contact>
+                   <gmd:address>
+                       <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                               <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                       </gmd:CI_Address>
+                   </gmd:address>
+               </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-11-18T14:13:47.192998</gco:DateTime>
+        <gco:DateTime>2026-11-25T16:53:07.045464</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -216,6 +241,34 @@
                 <gco:CharacterString>Extreme heat events in the United States are projected to become more frequent and intense as a result of climate change. We investigated the individual and combined effects of land use and warming on the spatial and temporal distribution of daily minimum temperature (Tmin) and daily maximum heat index (HImax) during summer in Houston, Texas. Present-day (2010) and near-future (2040) parcel-level land use scenarios were embedded within 1-km resolution land surface model (LSM) simulations. For each land use scenario, LSM simulations were conducted for climatic scenarios representative of both the present-day and near-future periods. LSM simulations assuming present-day climate but 2040 land use patterns led to spatially heterogeneous temperature changes characterized by warmer conditions over most areas, with summer average increases of up to 1.5°C (Tmin) and 7.3°C (HImax) in some newly developed suburban areas compared to simulations using 2010 land use patterns. LSM simulations assuming present-day land use but a 1°C temperature increase above the urban canopy (consistent with warming projections for 2040) yielded more spatially homogeneous metropolitan-wide average increases of about 1°C (Tmin) and 2.5°C (HImax), respectively. LSM simulations assuming both land use and warming for 2040 led to summer average increases of up to 2.5°C (Tmin) and 8.3°C (HImax), with the largest increases in areas projected to be converted to residential, industrial and mixed-use types. Our results suggest that urbanization and climate change may significantly increase the average number of summer days that exceed current threshold temperatures for initiating a heat advisory for metropolitan Houston, potentially increasing population exposure to extreme heat.</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString/>
+                        <gmx:Anchor xlink:href="empty" xlink:title="empty" xlink:actuate="onRequest"/>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString/>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString/>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -341,10 +394,10 @@
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode ) (See also info:eu-repo/semantics/openAccess )</gco:CharacterString>
+                        <gco:CharacterString>Creative Commons Attribution 4.0 International (See also https://creativecommons.org/licenses/by/4.0/legalcode )</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing">
-                        <gco:CharacterString></gco:CharacterString>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Default Zenodo Access Constraints</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>

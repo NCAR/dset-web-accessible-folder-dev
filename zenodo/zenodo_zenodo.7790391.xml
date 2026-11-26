@@ -18,10 +18,35 @@
     </gmd:hierarchyLevel>
 
     <gmd:contact>
-        </gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString/>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString/>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString/>
+            </gmd:positionName>
+            <gmd:contactInfo>
+               <gmd:CI_Contact>
+                   <gmd:address>
+                       <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                               <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                       </gmd:CI_Address>
+                   </gmd:address>
+               </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
 
     <gmd:dateStamp>
-        <gco:DateTime>2026-11-18T14:17:23.781128</gco:DateTime>
+        <gco:DateTime>2026-11-25T16:56:47.224486</gco:DateTime>
     </gmd:dateStamp>
 
     <gmd:metadataStandardName>
@@ -179,6 +204,34 @@ Update release-notes.rst by @hCraker in https://github.com/NCAR/geocat-comp/pull
 Full Changelog: https://github.com/NCAR/geocat-comp/compare/v2023.03.1...v2023.03.2</gco:CharacterString>
             </gmd:abstract>
 
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString/>
+                        <gmx:Anchor xlink:href="empty" xlink:title="empty" xlink:actuate="onRequest"/>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString/>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString/>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                            <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                            <gco:CharacterString>datahelp@ucar.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                            </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue=""/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
             <gmd:descriptiveKeywords>
                 <gmd:MD_Keywords>
                     <gmd:keyword>
@@ -239,10 +292,10 @@ Full Changelog: https://github.com/NCAR/geocat-comp/compare/v2023.03.1...v2023.0
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Other (Open) (See also info:eu-repo/semantics/openAccess )</gco:CharacterString>
+                        <gco:CharacterString>Other (Open)</gco:CharacterString>
                     </gmd:useLimitation>
-                    <gmd:otherConstraints gco:nilReason="missing">
-                        <gco:CharacterString></gco:CharacterString>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Default Zenodo Access Constraints</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
